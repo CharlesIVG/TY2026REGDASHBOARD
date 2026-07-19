@@ -34,7 +34,11 @@ jobs:
         run: |
           git config user.name "yamathon-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest.json data/history.csv data/feed.json data/daily.json data/weekly.json data/roster.json
+          # Stage the whole data directory rather than naming files: `git add`
+          # aborts the entire command (exit 128) if any single pathspec is
+          # missing, so one not-yet-created file would silently block every
+          # other update. Only this job writes to data/.
+          git add -A data/
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
