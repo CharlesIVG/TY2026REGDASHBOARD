@@ -6,10 +6,10 @@
     { "channel": "general", "raceId": "432537", "label": "General entry" },
     { "channel": "sponsor", "raceId": "434355", "label": "Sponsor / supporter" }
   ],
-  "countMode": "auto",
-  "_countMode": "How to turn registration rows into a team count. 'rows' = one row per team. 'distinctTeam' = count unique values of the team field (use when each row is an individual racer). 'auto' = pick whichever lands closer to the Wix counts endpoint on the first run, and report the choice in the probe output.",
+  "countMode": "rows",
+  "_countMode": "CONFIRMED by the probe run of 19 July 2026: the registration lists expose only Distance, Email, Name and Wave - there is no team field, and one row is one team entry (108 rows matched the 108 teams reported at the time). So 'rows' is correct. 'distinctTeam' would only apply if each row were an individual racer.",
   "teamField": null,
-  "_teamField": "Field name holding the team name, e.g. 'Team' or 'TeamName'. Leave null to auto-detect from the first response. Only used when countMode resolves to 'distinctTeam'.",
+  "_teamField": "Not present in these lists - the probe found no Team/TeamName field, so 'Name' is the team's own name. This also means team SIZE (members per team) is not available from this API.",
   "distanceField": "Distance",
   "_distanceField": "Field name holding the course. Falls back to 'Category' if 'Distance' is absent.",
   "courseMap": {
