@@ -1,0 +1,29 @@
+{
+  "_source": "Webscorer registration export, 19 July 2026. Counts only - no personal data. Team size is NOT available from the JSON API, so this is a point-in-time snapshot that only refreshes when a new export is processed.",
+  "asOf": "2026-07-19",
+  "teams": 109,
+  "people": 368,
+  "avgTeamSize": 3.38,
+  "distribution": {
+    "2": 27,
+    "3": 14,
+    "4": 68
+  },
+  "byCourse": {
+    "half": {
+      "2": 6,
+      "3": 6,
+      "4": 29
+    },
+    "full": {
+      "2": 14,
+      "3": 7,
+      "4": 30
+    },
+    "quarter": {
+      "2": 7,
+      "3": 1,
+      "4": 9
+    }
+  }
+}
