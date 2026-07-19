@@ -408,6 +408,7 @@ const CONFIG = {
           now:"now", ago:(n,u)=>n+u+" ago", sysLive:"System Live", recon:"Reconnecting…",
           ofGoal:"of "+CONFIG.EVENT_GOAL+" goal", tag:"Team Registration Dashboard", noActivity:"No registration activity yet",
           repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today", repCum:"Cumulative total",
+          repNoData:"Not measured yet - tracking starts from first full day",
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
           dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day",
           campTitle:"Week on", campTitle2:"Week",
@@ -440,6 +441,7 @@ const CONFIG = {
           tag:"チーム登録ダッシュボード",
           noActivity:"まだ登録アクティビティはありません",
           repTitle:"デイリー", repTitle2:"レポート", repLab:"本日の登録チーム数",
+          repNoData:"未計測 - 計測は初日の翌日から",
           repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
           wkNote:(n)=>"7日間で "+n+" チーム",
           dows:["日","月","火","水","木","金","土"], noSnap:"この日のデータなし",
@@ -606,8 +608,15 @@ const CONFIG = {
     try {
       set("rep-date", now.toLocaleDateString(LANG === "ja" ? "ja-JP" : "en-US", dateFmt) + " · JST");
     } catch (e) { set("rep-date", todayStr + " · JST"); }
-    set("rep-total", today.total);
-    for (const k of ORDER) set("rep-" + k, today[k] || 0);
+
+    // A null total means the day was never measured (no snapshot today, or
+    // none yesterday to compare against). Show a dash - never a number that
+    // would actually be the backlog from an unsampled gap.
+    const unmeasured = today.total == null;
+    set("rep-total", unmeasured ? "–" : today.total);
+    ROOT.querySelector("#rep-total").style.color = unmeasured ? "var(--muted)" : CY;
+    ROOT.querySelector("#rep-lab").textContent = unmeasured ? t("repNoData") : t("repLab");
+    for (const k of ORDER) set("rep-" + k, unmeasured ? "–" : (today[k] == null ? "–" : today[k]));
     // cumulative: today's figure if present, else the most recent day that has one
     let cum = today.cumulative || 0;
     if (!cum) { for (let i = days.length - 1; i >= 0; i--) { if (days[i].cumulative) { cum = days[i].cumulative; break; } } }
@@ -626,18 +635,19 @@ const CONFIG = {
         date: key,
         dow: d.getDay(),
         label: d.getDate(),
-        total: rec ? rec.total : 0,
+        total: rec ? rec.total : null,
         isToday: key === todayStr,
         isFuture: false,
-        // the day is only a confirmed zero if a record exists AND it was
-        // actually sampled that day (rec.hasData); a missing record or a
-        // carried-forward one means we simply don't know
-        hasData: !!rec && rec.hasData !== false
+        // A day counts as known only if it was actually measured: sampled on
+        // the day AND on the day before. Anything else is a gap, and its
+        // apparent "total" would really be the backlog swept up from the
+        // unsampled days.
+        hasData: !!rec && rec.measured === true && rec.total != null
       });
     }
 
-    const weekTotal = week.reduce((a, w) => a + w.total, 0);
-    const peak = Math.max(0, ...week.map(w => w.total));
+    const weekTotal = week.reduce((a, w) => a + (w.hasData ? w.total : 0), 0);
+    const peak = Math.max(0, ...week.map(w => (w.hasData ? w.total : 0)));
     // Fixed 100-team scale as requested; grows in 50s only if a day actually exceeds it,
     // so a big day is never silently clipped off the top of the chart.
     const scale = peak > CONFIG.CHART_SCALE ? Math.ceil(peak / 50) * 50 : CONFIG.CHART_SCALE;
