@@ -37,7 +37,24 @@ jobs:
           git add data/latest.json data/history.csv data/feed.json data/daily.json data/weekly.json data/roster.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "Update team counts $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            exit 0
           fi
+          git commit -m "Update team counts $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+          # If anything landed on main since checkout, a plain push is
+          # rejected and the whole run fails. Rebase onto whatever is there
+          # and retry - the data files are only ever written by this job, so
+          # a rebase can't conflict with human edits to code.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) - rebasing onto latest main."
+            git pull --rebase --autostash origin main || {
+              echo "::error::Rebase failed; leaving main untouched."
+              exit 1
+            }
+          done
+          echo "::error::Could not push after 3 attempts."
+          exit 1
