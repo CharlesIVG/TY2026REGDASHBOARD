@@ -1,0 +1,38 @@
+name: Webscorer probe (run this first)
+
+# Manual-only. Run this once after adding the secrets to confirm the
+# connection works and to see how Webscorer labels the courses, before
+# letting the scheduled collector switch over to it.
+#
+# Prints structure only - field NAMES, course labels, and row counts.
+# Never prints participant names, emails, or any other personal data,
+# and never prints the API token.
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_total:
+        description: "Current total from the Wix endpoint, to cross-check the counting mode against"
+        required: false
+        default: "108"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Probe Webscorer API
+        env:
+          WEBSCORER_API_ID: ${{ secrets.WEBSCORER_API_ID }}
+          WEBSCORER_API_TOKEN: ${{ secrets.WEBSCORER_API_TOKEN }}
+        run: |
+          if [ -z "$WEBSCORER_API_ID" ] || [ -z "$WEBSCORER_API_TOKEN" ]; then
+            echo "::error::WEBSCORER_API_ID / WEBSCORER_API_TOKEN are not set."
+            echo "Add them under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+          python3 scripts/webscorer.py --probe --expect "${{ inputs.expected_total }}"
