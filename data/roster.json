@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T22:29:41.701789+09:00",
+  "updated": "2026-07-20T00:34:50.247963+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -654,6 +654,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|transglobal adventurers": {
+      "team": "Transglobal Adventurers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-20T00:34:50.247963+09:00"
     }
   }
 }
