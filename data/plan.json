@@ -1,0 +1,51 @@
+{
+  "_source": "Tokyo Yamathon 2026 Registration Outlook and Weekly Plan to 1,100 Teams, 19 July 2026 (section 3, weekly operating plan)",
+  "goal": 1100,
+  "opened": "2026-07-12",
+  "closes": "2026-09-14",
+  "baseline": {
+    "date": "2026-07-19",
+    "teams": 108,
+    "note": "Opening-week actual, per report section 1"
+  },
+  "thresholds": {
+    "_rule": "Report section 6. Green: at or above cumulative target. Amber: below target by up to 10%, or one week under 90% of weekly plan. Red: more than 10% below target, or two weak weeks in a row. NOTE: the report defines amber as '5-10% below' and green as 'at or above target', leaving 0-5% below undefined; that gap is folded into amber here (conservative reading - a shortfall is never shown as green).",
+    "amberMaxShortfallPct": 10,
+    "weakWeekPct": 90,
+    "weakWeeksForRed": 2
+  },
+  "weeks": [
+    {
+      "n": 0,
+      "label": "Open",
+      "start": "2026-07-12",
+      "end": "2026-07-19",
+      "newTeams": 108,
+      "cumulative": 108,
+      "general": null,
+      "sponsor": null,
+      "pattern2025": null,
+      "baseline": true,
+      "note": "Opening week - actual result, not a plan target. Report: 108 teams vs ~17 expected on the normalized 2025 curve."
+    },
+    { "n": 1, "label": "W1", "start": "2026-07-20", "end": "2026-07-26", "newTeams": 50,  "cumulative": 158,  "general": 39,  "sponsor": 11, "pattern2025": 120 },
+    { "n": 2, "label": "W2", "start": "2026-07-27", "end": "2026-08-02", "newTeams": 70,  "cumulative": 228,  "general": 54,  "sponsor": 16, "pattern2025": 184 },
+    { "n": 3, "label": "W3", "start": "2026-08-03", "end": "2026-08-09", "newTeams": 90,  "cumulative": 318,  "general": 70,  "sponsor": 20, "pattern2025": 271 },
+    { "n": 4, "label": "W4", "start": "2026-08-10", "end": "2026-08-16", "newTeams": 105, "cumulative": 423,  "general": 82,  "sponsor": 23, "pattern2025": 362 },
+    { "n": 5, "label": "W5", "start": "2026-08-17", "end": "2026-08-23", "newTeams": 120, "cumulative": 543,  "general": 93,  "sponsor": 27, "pattern2025": 463 },
+    { "n": 6, "label": "W6", "start": "2026-08-24", "end": "2026-08-30", "newTeams": 140, "cumulative": 683,  "general": 109, "sponsor": 31, "pattern2025": 574 },
+    { "n": 7, "label": "W7", "start": "2026-08-31", "end": "2026-09-06", "newTeams": 165, "cumulative": 848,  "general": 128, "sponsor": 37, "pattern2025": 718 },
+    { "n": 8, "label": "W8", "start": "2026-09-07", "end": "2026-09-14", "newTeams": 252, "cumulative": 1100, "general": 196, "sponsor": 56, "pattern2025": 1100, "note": "8 days - registration closes Monday 14 September" }
+  ],
+  "scenarios": {
+    "actual2025": 857,
+    "conservative2026": 952,
+    "target2026": 1100,
+    "momentum2026": 1191
+  },
+  "channelMix2025": {
+    "generalPct": 77.8,
+    "sponsorPct": 22.2,
+    "_note": "Planning split only. The live counts endpoint does not expose a general-vs-sponsor breakdown, so these are not tracked actuals. If the Wix counts function is extended to return `general` and `sponsor` fields, the dashboard will pick them up automatically."
+  }
+}

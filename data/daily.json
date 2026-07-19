@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-07-19T19:30:18.521467+09:00",
+  "days": [
+    {
+      "date": "2026-07-12",
+      "dow": 0,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
+      "cumulative": 15,
+      "hasData": true
+    },
+    {
+      "date": "2026-07-13",
+      "dow": 1,
+      "full": 12,
+      "half": 9,
+      "quarter": 5,
+      "total": 26,
+      "cumulative": 41,
+      "hasData": true
+    },
+    {
+      "date": "2026-07-14",
+      "dow": 2,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
+      "cumulative": 41,
+      "hasData": false
+    },
+    {
+      "date": "2026-07-15",
+      "dow": 3,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
+      "cumulative": 41,
+      "hasData": false
+    },
+    {
+      "date": "2026-07-16",
+      "dow": 4,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
+      "cumulative": 41,
+      "hasData": false
+    },
+    {
+      "date": "2026-07-17",
+      "dow": 5,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
+      "cumulative": 41,
+      "hasData": false
+    },
+    {
+      "date": "2026-07-18",
+      "dow": 6,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
+      "cumulative": 41,
+      "hasData": false
+    },
+    {
+      "date": "2026-07-19",
+      "dow": 0,
+      "full": 32,
+      "half": 26,
+      "quarter": 9,
+      "total": 67,
+      "cumulative": 108,
+      "hasData": true
+    }
+  ]
+}

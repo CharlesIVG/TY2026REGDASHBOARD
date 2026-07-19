@@ -1,0 +1,21 @@
+{
+  "_note": "Webscorer JSON API settings. Credentials are NOT stored here - they come from GitHub Secrets (WEBSCORER_API_ID / WEBSCORER_API_TOKEN) at runtime. This file is safe to commit.",
+  "enabled": true,
+  "baseUrl": "https://www.webscorer.com/json",
+  "lists": [
+    { "channel": "general", "raceId": "432537", "label": "General entry" },
+    { "channel": "sponsor", "raceId": "434355", "label": "Sponsor / supporter" }
+  ],
+  "countMode": "auto",
+  "_countMode": "How to turn registration rows into a team count. 'rows' = one row per team. 'distinctTeam' = count unique values of the team field (use when each row is an individual racer). 'auto' = pick whichever lands closer to the Wix counts endpoint on the first run, and report the choice in the probe output.",
+  "teamField": null,
+  "_teamField": "Field name holding the team name, e.g. 'Team' or 'TeamName'. Leave null to auto-detect from the first response. Only used when countMode resolves to 'distinctTeam'.",
+  "distanceField": "Distance",
+  "_distanceField": "Field name holding the course. Falls back to 'Category' if 'Distance' is absent.",
+  "courseMap": {
+    "_note": "Matched case-insensitively against the distance/category value, IN THIS ORDER. Order matters: 'half-a-half' must be tested before 'half', or every Half-a-Half entry would be miscounted as Half.",
+    "quarter": ["half-a-half", "half a half", "halfahalf", "quarter", "10k", "10 km", "ハーフ・ア・ハーフ"],
+    "half": ["half", "21k", "21 km", "ハーフ"],
+    "full": ["full", "42k", "42 km", "フル"]
+  }
+}
