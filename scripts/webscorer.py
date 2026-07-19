@@ -55,6 +55,12 @@ API_TOKEN = os.environ.get("WEBSCORER_API_TOKEN", "").strip()
 TIMEOUT = 30
 USER_AGENT = "yamathon-tracker-bot/1.0"
 
+# Webscorer rate limit: "There is a limit of 1 call every 5 seconds."
+# The deep probe tripped this. Space every request out rather than relying on
+# a retry, so the 15-minute collector can never trigger it either.
+MIN_CALL_INTERVAL = 5.5
+_last_call = [0.0]
+
 # Fields we refuse to copy out of a response under any circumstances, even
 # into diagnostics. Matched case-insensitively as substrings.
 PERSONAL_FIELD_HINTS = (
@@ -82,6 +88,13 @@ def configured() -> bool:
 
 
 def _get(base_url: str, path: str, params: dict) -> dict:
+    # honour the documented 1-call-per-5-seconds limit
+    import time
+    wait = MIN_CALL_INTERVAL - (time.monotonic() - _last_call[0])
+    if wait > 0:
+        time.sleep(wait)
+    _last_call[0] = time.monotonic()
+
     q = dict(params)
     q["apiid"] = API_ID
     q["apipriv"] = API_TOKEN
@@ -333,6 +346,38 @@ def deep_probe(cfg: dict) -> int:
                     print(f"    * COUNT-LIKE {k!r}: {filled} | {rng} | distinct={len(set(map(str,vals)))}")
                 else:
                     print(f"      {k!r}: {filled} | distinct={len(set(map(str, vals)))}")
+
+            # --- Can team SIZE be derived from the Email/Name fields? ---
+            # If registration captured every member, a row's Email might hold
+            # several addresses (and Name several people). Measure the
+            # structure - number of '@' signs, separator characters, word
+            # counts - which tells us whether a roster is in there WITHOUT
+            # printing a single address or name.
+            import re as _re2
+            for fname in ("Email", "Name"):
+                vals = [str(v) for v in all_fields.get(fname, []) if v not in (None, "")]
+                if not vals:
+                    continue
+                ats = [v.count("@") for v in vals]
+                seps = [len(_re2.findall(r"[;,/|]", v)) for v in vals]
+                words = [len(v.split()) for v in vals]
+                lens = [len(v) for v in vals]
+                multi = sum(1 for a in ats if a > 1) if fname == "Email" else sum(1 for s in seps if s > 0)
+                print(f"    ~ {fname} STRUCTURE:")
+                if fname == "Email":
+                    print(f"        '@' per value : min={min(ats)} max={max(ats)} "
+                          f"| values with >1 address: {multi}/{len(vals)}")
+                print(f"        separators (;,/|) per value : min={min(seps)} max={max(seps)} "
+                      f"| values containing any: {sum(1 for s in seps if s>0)}/{len(vals)}")
+                print(f"        word count    : min={min(words)} max={max(words)} "
+                      f"avg={sum(words)/len(words):.1f}")
+                print(f"        length        : min={min(lens)} max={max(lens)} "
+                      f"avg={sum(lens)/len(lens):.0f}")
+                if fname == "Email":
+                    verdict = ("MULTIPLE addresses per row -> member count IS derivable"
+                               if max(ats) > 1 else
+                               "ONE address per row -> this is a contact, NOT a roster")
+                    print(f"        => {verdict}")
 
     print("\n" + "=" * 68)
     print("READ THIS: if any field is marked DATE-LIKE with a real timestamp")
