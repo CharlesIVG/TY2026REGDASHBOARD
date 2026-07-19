@@ -184,6 +184,22 @@ def fetch_list(base_url: str, race_id: str, cfg: dict) -> dict:
             if t:
                 teams.add(str(t).strip().lower())
 
+    # Roster of team names + course. The API has no registration timestamp, so
+    # the only way to know WHEN a team joined is to diff this roster against
+    # the previous run and note when a new name first appears. Team names are
+    # already public on Webscorer (both lists are public=True); the contact
+    # email is deliberately NOT carried out of this function.
+    roster = []
+    name_field = "Name"
+    for r in rows:
+        if not isinstance(r, dict):
+            continue
+        nm = str(r.get(name_field) or "").strip()
+        if not nm:
+            continue
+        raw = r.get(dist_field) or r.get("Category") or ""
+        roster.append({"team": nm, "course": classify_course(raw, course_map)})
+
     info = payload.get("RaceInfo") or {}
     return {
         "raceId": race_id,
@@ -193,6 +209,7 @@ def fetch_list(base_url: str, race_id: str, cfg: dict) -> dict:
         "teamField": team_field,
         "counts": counts,
         "unmappedDistances": unmapped,
+        "roster": roster,
         # field NAMES only - never values - so we can debug shape safely
         "fieldsSeen": sorted({k for r in rows[:50] if isinstance(r, dict) for k in r.keys()}),
     }
@@ -205,10 +222,13 @@ def fetch_all(cfg: dict) -> dict:
     per_channel = {}
     combined = {"full": 0, "half": 0, "quarter": 0}
     diagnostics = []
+    roster = []
 
     for entry in cfg.get("lists", []):
         res = fetch_list(base, str(entry["raceId"]), cfg)
         channel = entry.get("channel", "general")
+        for t in res.get("roster", []):
+            roster.append({**t, "channel": channel})
 
         mode = cfg.get("countMode", "auto")
         if mode == "distinctTeam" and res["distinctTeams"] is not None:
@@ -246,6 +266,7 @@ def fetch_all(cfg: dict) -> dict:
         "general": per_channel.get("general", {}).get("total", 0),
         "sponsor": per_channel.get("sponsor", {}).get("total", 0),
         "byChannel": per_channel,
+        "_roster": roster,          # team names only - consumed, never written wholesale
         "_diagnostics": diagnostics,
     }
     return out

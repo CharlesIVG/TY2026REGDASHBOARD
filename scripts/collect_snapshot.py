@@ -49,6 +49,7 @@ FEED_PATH = os.path.join(DATA_DIR, "feed.json")
 DAILY_PATH = os.path.join(DATA_DIR, "daily.json")
 PLAN_PATH = os.path.join(DATA_DIR, "plan.json")
 WEEKLY_PATH = os.path.join(DATA_DIR, "weekly.json")
+ROSTER_PATH = os.path.join(DATA_DIR, "roster.json")
 DAILY_DAYS = 21  # days of history to keep in daily.json (chart shows the last 7)
 
 HISTORY_FIELDS = [
@@ -148,6 +149,75 @@ def load_previous_counts() -> dict:
             return json.load(f)
     except (json.JSONDecodeError, OSError):
         return {}
+
+
+def update_feed_from_roster(roster: list, now_ms: int, now_jst: datetime) -> int:
+    """Log teams that appeared since the last run.
+
+    The Webscorer API carries no registration timestamp, so "when did this
+    team sign up" is unanswerable directly. What we CAN do is remember which
+    team names we've already seen and record the moment a new one shows up.
+    With the collector running every 15 minutes, detection time is within a
+    quarter-hour of the real thing - and unlike a total-diff it can never
+    smear a backlog across the wrong day.
+
+    Writes data/roster.json (the seen-set) and prepends to data/feed.json.
+    Only team names and courses are stored; contact emails never leave
+    webscorer.py.
+    """
+    seen = {}
+    if os.path.exists(ROSTER_PATH):
+        try:
+            with open(ROSTER_PATH, encoding="utf-8") as f:
+                seen = json.load(f).get("teams", {})
+        except (json.JSONDecodeError, OSError):
+            seen = {}
+
+    first_run = not seen
+    new_entries = []
+    for t in roster:
+        key = f"{t.get('channel','')}|{t['team'].strip().lower()}"
+        if key in seen:
+            continue
+        seen[key] = {
+            "team": t["team"],
+            "course": t.get("course"),
+            "channel": t.get("channel"),
+            "firstSeen": now_jst.isoformat(),
+        }
+        # On the very first run every team looks "new" - that's a backfill of
+        # the existing field, not 108 fresh registrations, so don't announce it.
+        if not first_run:
+            new_entries.append(
+                {
+                    "ts": now_ms,
+                    "team": t["team"],
+                    "course": t.get("course"),
+                    "channel": t.get("channel"),
+                }
+            )
+
+    with open(ROSTER_PATH, "w", encoding="utf-8") as f:
+        json.dump({"updated": now_jst.isoformat(), "teams": seen}, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+    if new_entries:
+        feed = []
+        if os.path.exists(FEED_PATH):
+            try:
+                with open(FEED_PATH, encoding="utf-8") as f:
+                    feed = json.load(f)
+                if not isinstance(feed, list):
+                    feed = []
+            except (json.JSONDecodeError, OSError):
+                feed = []
+        feed = new_entries + feed
+        feed = feed[:FEED_MAX]
+        with open(FEED_PATH, "w", encoding="utf-8") as f:
+            json.dump(feed, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+
+    return len(new_entries)
 
 
 def update_feed(prev: dict, full: int, half: int, quarter: int, now_ms: int) -> None:
@@ -531,7 +601,14 @@ def main() -> int:
     now_jst = now_utc.astimezone(JST)
 
     os.makedirs(DATA_DIR, exist_ok=True)
-    update_feed(prev, full, half, quarter, int(now_utc.timestamp() * 1000))
+    roster = data.get("_roster") or []
+    if roster:
+        # named-team feed: knows exactly which team appeared and when
+        new_count = update_feed_from_roster(roster, int(now_utc.timestamp() * 1000), now_jst)
+    else:
+        # no roster (Wix fallback): fall back to anonymous count deltas
+        new_count = None
+        update_feed(prev, full, half, quarter, int(now_utc.timestamp() * 1000))
 
     latest = {
         "full": full,
@@ -546,6 +623,7 @@ def main() -> int:
         latest["general"] = int(general)
     if sponsor is not None:
         latest["sponsor"] = int(sponsor)
+    data.pop("_roster", None)
     if data.get("byChannel"):
         latest["byChannel"] = data["byChannel"]
     with open(LATEST_PATH, "w", encoding="utf-8") as f:
@@ -582,6 +660,8 @@ def main() -> int:
     chan = ""
     if general is not None or sponsor is not None:
         chan = f" general={general} sponsor={sponsor}"
+    if roster:
+        chan += f" | roster={len(roster)} newTeams={new_count}"
     print(
         f"OK [{source}]: {now_jst.isoformat()} "
         f"full={full} half={half} quarter={quarter} total={total}{chan}"
