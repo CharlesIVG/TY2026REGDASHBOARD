@@ -148,6 +148,17 @@ def load_plan():
         return None
 
 
+def load_teamsize():
+    path = os.path.join(REPO_ROOT, "data", "teamsize.json")
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
 def render_text(summary) -> str:
     """Plain numbers. No graphics, no tables, no decoration - a straight
     status read for the team, short enough to take in on a phone."""
@@ -201,6 +212,14 @@ def render_text(summary) -> str:
             L.append("BY CHANNEL")
             L.append(f"  General      {gen}")
             L.append(f"  Sponsor      {spo}")
+    # --- participants (from periodic export; API has no roster) ---
+    ts = load_teamsize()
+    if ts and ts.get("people"):
+        L.append("")
+        L.append("PARTICIPANTS")
+        L.append(f"  People       {ts['people']}")
+        L.append(f"  Avg per team {ts['avgTeamSize']}")
+        L.append(f"  (from registration export {ts['asOf']} - not live)")
     L.append("")
 
     # --- this week vs plan ---
@@ -271,7 +290,7 @@ def send_email(subject: str, text_body: str, html_body: str) -> None:
     user = os.environ.get("SMTP_USER")
     password = os.environ.get("SMTP_PASS")
     mail_from = os.environ.get("MAIL_FROM", user or "")
-    mail_to = os.environ.get("MAIL_TO", "info@ivgjapan.org")
+    mail_to = os.environ.get("MAIL_TO", "all@ivgjapan.org")
 
     if not host or not user or not password:
         print("SMTP_HOST/SMTP_USER/SMTP_PASS not set - printing report instead of sending.\n")

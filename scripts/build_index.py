@@ -68,6 +68,7 @@ const CONFIG = {
   FEED_URL:   "data/feed.json",     // same-origin file, appended to whenever counts increase
   DAILY_URL:  "data/daily.json",    // per-day registration totals (JST), rebuilt every run
   WEEKLY_URL: "data/weekly.json",   // weekly actuals vs plan + green/amber/red status
+  TEAMSIZE_URL: "data/teamsize.json", // member counts (from periodic export - API has none)
   REFRESH_SECONDS: 60,
   FEED_MAX: 150,
   EVENT_GOAL: 1100,
@@ -190,6 +191,7 @@ const CONFIG = {
   .oc-repcell .l{font-family:'IBM Plex Mono','Noto Sans JP',monospace;font-size:8px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:4px;
     overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .oc-reptot{margin-top:11px;padding-top:9px;border-top:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;}
+  .oc-repnote{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);opacity:.75;margin-top:5px;line-height:1.4;}
   .oc-reptot .l{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;}
   #yama-reg .oc-reptot .v{font-family:var(--numfont);font-weight:600;font-size:20px;}
 
@@ -260,13 +262,14 @@ const CONFIG = {
   .oc-feednote{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);}
   .oc-feed{height:220px;overflow-y:auto;scroll-behavior:smooth;padding:4px 0;}
   .oc-feed::-webkit-scrollbar{width:8px;}.oc-feed::-webkit-scrollbar-thumb{background:var(--line2);border-radius:8px;}
-  .oc-fr{display:grid;grid-template-columns:80px minmax(0,1fr) 90px 60px;align-items:center;gap:10px;
+  .oc-fr{display:grid;grid-template-columns:92px minmax(0,1fr) 110px 70px;align-items:center;gap:10px;
     padding:7px 14px;border-bottom:1px solid var(--line);font-size:12px;transition:background .4s;}
   .oc-fr:last-child{border-bottom:0;}
   .oc-fr.flash{background:linear-gradient(90deg,${CY}22,transparent);}
   .oc-chip{justify-self:start;font-family:'IBM Plex Mono','Noto Sans JP',monospace;font-size:10px;font-weight:600;
     padding:2px 8px;border-radius:20px;border:1px solid;}
-  .oc-fdelta{font-family:'IBM Plex Mono',monospace;font-weight:600;text-align:right;}
+  .oc-fteam{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .oc-fchan{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);text-align:right;text-transform:uppercase;letter-spacing:.06em;}
   .oc-ftotal{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);text-align:right;}
   .oc-fago{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);}
   .oc-fempty{color:var(--muted);font-size:11px;font-family:'IBM Plex Mono',monospace;padding:16px;text-align:center;}
@@ -321,6 +324,10 @@ const CONFIG = {
       <div class="oc-reptot">
         <span class="l" id="rep-cum-l">Cumulative</span><span class="v mono" id="rep-cum">0</span>
       </div>
+      <div class="oc-reptot" id="rep-people-row" style="display:none">
+        <span class="l" id="rep-people-l">Participants</span><span class="v mono" id="rep-people">0</span>
+      </div>
+      <div class="oc-repnote" id="rep-people-note"></div>
     </div>
 
     <div class="oc-card">
@@ -427,8 +434,10 @@ const CONFIG = {
           ofGoal:"of "+CONFIG.EVENT_GOAL+" goal", tag:"Team Registration Dashboard", noActivity:"No registration activity yet",
           repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today", repCum:"Cumulative total",
           repNoData:"Not measured yet - tracking starts from first full day",
+          repPeople:"Participants",
+          peopleNote:(avg,teams,asOf)=>"avg "+avg+" per team across "+teams+" teams \u00b7 from registration export "+asOf,
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
-          dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day",
+          dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day", chGeneral:"General", chSponsor:"Sponsor",
           campTitle:"Week on", campTitle2:"Week",
           st_green:"On track", st_amber:"Watch", st_red:"Behind", st_pending:"Not started",
           campCum:(c,g)=>"<em>"+c+"</em> of "+g+" teams",
@@ -460,9 +469,11 @@ const CONFIG = {
           noActivity:"まだ登録アクティビティはありません",
           repTitle:"デイリー", repTitle2:"レポート", repLab:"本日の登録チーム数",
           repNoData:"未計測 - 計測は初日の翌日から",
+          repPeople:"参加者数",
+          peopleNote:(avg,teams,asOf)=>"1チーム平均 "+avg+"名 / "+teams+"チーム \u00b7 登録エクスポート "+asOf,
           repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
           wkNote:(n)=>"7日間で "+n+" チーム",
-          dows:["日","月","火","水","木","金","土"], noSnap:"この日のデータなし",
+          dows:["日","月","火","水","木","金","土"], noSnap:"この日のデータなし", chGeneral:"一般", chSponsor:"スポンサー",
           campTitle:"週次", campTitle2:"進捗",
           st_green:"順調", st_amber:"要注意", st_red:"遅れ", st_pending:"未開始",
           campCum:(c,g)=>"<em>"+c+"</em> / "+g+" チーム",
@@ -516,6 +527,7 @@ const CONFIG = {
     ROOT.querySelector("#wk-title").innerHTML = t("wkTitle") + ' <span>' + t("wkTitle2") + '</span>';
     ROOT.querySelector("#rep-lab").textContent = t("repLab");
     ROOT.querySelector("#rep-cum-l").textContent = t("repCum");
+    ROOT.querySelector("#rep-people-l").textContent = t("repPeople");
     for (const key of ORDER) ROOT.querySelector("#rep-" + key + "-l").textContent = legLabel(key);
     // campaign tracker
     ROOT.querySelector("#camp-title").innerHTML = t("campTitle") + ' <span>' + t("campTitle2") + '</span>';
@@ -589,12 +601,23 @@ const CONFIG = {
         if (activeFilter !== "all" && activeFilter !== row.course) div.style.display = "none";
         const d = new Date(row.ts);
         const jst = new Date(d.getTime() + (d.getTimezoneOffset() + 540) * 60000);
+        const dateStr = (jst.getMonth() + 1) + "/" + jst.getDate();
         const timeStr = pad(jst.getHours()) + ":" + pad(jst.getMinutes());
-        div.innerHTML = `
-          <div class="oc-fago">${timeStr}</div>
-          <div class="oc-chip" data-leg="${row.course}" style="color:${L.color};border-color:${L.color}55;background:${L.color}14">${esc(legLabel(row.course))}</div>
-          <div class="oc-fdelta" style="color:${L.color}">+${row.delta}</div>
-          <div class="oc-ftotal">${row.totalAfter}</div>`;
+        // Two shapes: named-team entries (from the Webscorer roster diff) and
+        // older anonymous count-delta entries. Render whichever we're given.
+        if (row.team) {
+          div.innerHTML = `
+            <div class="oc-fago">${dateStr} ${timeStr}</div>
+            <div class="oc-fteam" title="${esc(row.team)}">${esc(row.team)}</div>
+            <div class="oc-chip" data-leg="${row.course}" style="color:${L.color};border-color:${L.color}55;background:${L.color}14">${esc(legLabel(row.course))}</div>
+            <div class="oc-fchan">${row.channel === "sponsor" ? t("chSponsor") : t("chGeneral")}</div>`;
+        } else {
+          div.innerHTML = `
+            <div class="oc-fago">${dateStr} ${timeStr}</div>
+            <div class="oc-fteam">&mdash;</div>
+            <div class="oc-chip" data-leg="${row.course}" style="color:${L.color};border-color:${L.color}55;background:${L.color}14">${esc(legLabel(row.course))}</div>
+            <div class="oc-fchan" style="color:${L.color}">+${row.delta}</div>`;
+        }
         feedEl.appendChild(div);
       }
     }
@@ -787,11 +810,12 @@ const CONFIG = {
   /* ---------------- live polling ---------------- */
   async function poll() {
     try {
-      const [counts, feed, daily, weekly] = await Promise.all([
+      const [counts, feed, daily, weekly, teamsize] = await Promise.all([
         fetch(CONFIG.COUNTS_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).catch(() => null),
         fetch(CONFIG.FEED_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).catch(() => []),
         fetch(CONFIG.DAILY_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).catch(() => null),
-        fetch(CONFIG.WEEKLY_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).catch(() => null)
+        fetch(CONFIG.WEEKLY_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).catch(() => null),
+        fetch(CONFIG.TEAMSIZE_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).catch(() => null)
       ]);
       if (counts) {
         for (const k of ORDER) if (counts[k] != null) legState[k].registered = +counts[k] || 0;
@@ -799,6 +823,14 @@ const CONFIG = {
       }
       if (daily && Array.isArray(daily.days)) dailyData = daily;
       if (weekly && Array.isArray(weekly.weeks)) weeklyData = weekly;
+      if (teamsize && teamsize.people) {
+        // Member counts come from a manual Webscorer export - the JSON API has
+        // no roster - so label the date it was taken rather than implying live.
+        ROOT.querySelector("#rep-people-row").style.display = "";
+        set("rep-people", teamsize.people.toLocaleString());
+        ROOT.querySelector("#rep-people-note").textContent =
+          t("peopleNote")(teamsize.avgTeamSize, teamsize.teams, teamsize.asOf);
+      }
       paint();
       renderDaily();
       renderWeekly();
