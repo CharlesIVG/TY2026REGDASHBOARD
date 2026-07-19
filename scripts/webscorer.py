@@ -238,6 +238,110 @@ def fetch_all(cfg: dict) -> dict:
     return out
 
 
+def deep_probe(cfg: dict) -> int:
+    """Exhaustive field discovery across every endpoint Webscorer offers.
+
+    The first probe sampled 50 rows of one endpoint and found no registration
+    date, which is not enough to conclude one isn't available. Per-day figures
+    are visible in the Webscorer UI, so a date exists somewhere. This walks
+    every endpoint and every row looking for it, plus anything that could
+    carry a team size.
+
+    Still prints field NAMES only, never values - with one deliberate
+    exception: for fields whose name looks date-like or count-like, it prints
+    a redacted shape (e.g. "2026-07-19T..." -> "DATE-LIKE: YYYY-MM-DDT...")
+    so we can tell a real timestamp from a start-wave label. No participant
+    names, emails or phone numbers are ever printed.
+    """
+    if not configured():
+        print("WEBSCORER_API_ID / WEBSCORER_API_TOKEN not set.", file=sys.stderr)
+        return 2
+
+    base = cfg.get("baseUrl", "https://www.webscorer.com/json")
+
+    DATE_HINTS = ("date", "time", "stamp", "created", "registered", "signup",
+                  "entered", "when", "submit")
+    COUNT_HINTS = ("count", "size", "members", "qty", "quantity", "number",
+                   "participants", "racers", "people", "team")
+
+    def shape(v):
+        """Describe a value without revealing it."""
+        s = str(v)
+        if not s:
+            return "(empty)"
+        import re as _re
+        masked = _re.sub(r"\d", "N", s)
+        masked = _re.sub(r"[A-Za-z]", "a", masked)
+        return f"{masked[:32]!r} (len {len(s)})"
+
+    print("=" * 68)
+    print("WEBSCORER DEEP PROBE - hunting for registration date / team size")
+    print("=" * 68)
+
+    # 1. what lists exist on the account
+    print("\n--- /json/mystartlists (all registration lists) ---")
+    try:
+        ml = _get(base, "mystartlists", {"filt": "R"})
+        for sl in (ml.get("StartLists") or []):
+            print(f"  raceid={sl.get('RaceId')}  type={sl.get('Type')}  "
+                  f"public={sl.get('Public')}  name={sl.get('Name')}")
+        if not ml.get("StartLists"):
+            print(f"  (no StartLists key; top-level keys: {sorted(ml.keys())})")
+    except RuntimeError as exc:
+        print(f"  ERROR: {_redact(exc)}")
+
+    # 2. every endpoint that might carry per-entry detail
+    for entry in cfg.get("lists", []):
+        rid = str(entry["raceId"])
+        ch = entry.get("channel")
+        for endpoint in ("registerlist", "startlist"):
+            print(f"\n--- /json/{endpoint}?raceid={rid}  [{ch}] ---")
+            try:
+                payload = _get(base, endpoint, {"raceid": rid})
+            except RuntimeError as exc:
+                print(f"  ERROR: {_redact(exc)}")
+                continue
+
+            print(f"  top-level keys : {sorted(payload.keys())}")
+            info = payload.get("RaceInfo") or {}
+            if info:
+                print(f"  RaceInfo keys  : {sorted(info.keys())}")
+
+            rows = _rows(payload)
+            print(f"  rows           : {len(rows)}")
+            if not rows:
+                continue
+
+            # scan EVERY row, not a sample
+            all_fields = {}
+            for r in rows:
+                if isinstance(r, dict):
+                    for k, v in r.items():
+                        all_fields.setdefault(k, []).append(v)
+            print(f"  ALL fields     : {sorted(all_fields)}")
+
+            for k in sorted(all_fields):
+                kl = k.lower()
+                vals = [v for v in all_fields[k] if v not in (None, "")]
+                filled = f"{len(vals)}/{len(all_fields[k])} filled"
+                if any(h in kl for h in DATE_HINTS):
+                    samples = {shape(v) for v in vals[:5]}
+                    print(f"    * DATE-LIKE  {k!r}: {filled} | shapes: {samples}")
+                elif any(h in kl for h in COUNT_HINTS):
+                    nums = [v for v in vals if str(v).strip().isdigit()]
+                    rng = f"range {min(map(int,nums))}-{max(map(int,nums))}" if nums else "non-numeric"
+                    print(f"    * COUNT-LIKE {k!r}: {filled} | {rng} | distinct={len(set(map(str,vals)))}")
+                else:
+                    print(f"      {k!r}: {filled} | distinct={len(set(map(str, vals)))}")
+
+    print("\n" + "=" * 68)
+    print("READ THIS: if any field is marked DATE-LIKE with a real timestamp")
+    print("shape, we can rebuild true per-day history and the daily numbers")
+    print("become accurate retroactively. If none appears, per-day figures can")
+    print("only be measured from the day collection started - never backdated.")
+    return 0
+
+
 def probe(cfg: dict, expected_total: int | None = None) -> int:
     """Structure-only report: what the API returns, without exposing anyone.
 
@@ -292,6 +396,9 @@ def main() -> int:
     cfg_path = os.path.join(here, "data", "webscorer_config.json")
     with open(cfg_path, encoding="utf-8") as f:
         cfg = json.load(f)
+
+    if "--deep" in sys.argv:
+        return deep_probe(cfg)
 
     if "--probe" in sys.argv:
         expected = None

@@ -29,6 +29,7 @@ limit is stated explicitly in the email rather than silently omitted.
 Run via .github/workflows/daily-report.yml, scheduled for 00:05 JST.
 """
 import csv
+import json
 import os
 import smtplib
 import sys
@@ -48,6 +49,7 @@ QUARTER_SLOTS = 150
 EVENT_GOAL = 1100
 
 CATEGORY_LABELS = {"full": "Full Course", "half": "Half Course", "quarter": "Half-a-Half"}
+DASHBOARD_URL = "https://charlesivg.github.io/TY2026REGDASHBOARD/"
 
 
 def load_history():
@@ -82,12 +84,23 @@ def build_summary(rows, date_str):
     closing = day_rows[-1] if day_rows else (later_rows[0] if later_rows else baseline)
     latest_overall = rows[-1] if rows else None
 
-    deltas = {}
-    if baseline and closing:
-        for k in ("full", "half", "quarter", "total"):
-            deltas[k] = max(0, closing[k] - baseline[k])
+    # Only report a daily figure when the day AND the day before it were both
+    # actually sampled. Without that, the subtraction sweeps up every
+    # registration since the last snapshot and reports it as one day's work -
+    # which is how "68 teams today" was produced from a six-day gap.
+    prev_day = (
+        datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=1)
+    ).strftime("%Y-%m-%d")
+    sampled_dates = {r["date_jst"] for r in rows}
+    measured = date_str in sampled_dates and prev_day in sampled_dates
+
+    if measured and baseline and closing:
+        deltas = {
+            k: max(0, closing[k] - baseline[k])
+            for k in ("full", "half", "quarter", "total")
+        }
     else:
-        deltas = {"full": 0, "half": 0, "quarter": 0, "total": 0}
+        deltas = {"full": None, "half": None, "quarter": None, "total": None}
 
     # Hourly pattern: last snapshot per hour bucket on this date, diffed
     # against the previous bucket (or baseline for the first bucket).
@@ -124,59 +137,85 @@ def pct(n, d):
     return f"{(n / d * 100):.1f}%" if d else "n/a"
 
 
+def load_plan():
+    path = os.path.join(REPO_ROOT, "data", "weekly.json")
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
 def render_text(summary) -> str:
+    """Plain numbers. No graphics, no tables, no decoration - a straight
+    status read for the team, short enough to take in on a phone."""
     d = summary["deltas"]
     latest = summary["latest_overall"]
-    lines = []
-    lines.append(f"Tokyo Yamathon - Daily Registration Report ({summary['date']}, JST)")
-    lines.append("=" * 60)
-    if not summary["have_data"]:
-        lines.append("")
-        lines.append("No snapshots were recorded for this date yet - the tracking")
-        lines.append("workflow may have just started, or ran into an error today.")
+    wk = load_plan()
+
+    L = []
+    L.append(f"TOKYO YAMATHON - REGISTRATION REPORT")
+    L.append(f"{summary['date']} (JST)")
+    L.append("")
+
+    # --- are we on target ---
+    if wk:
+        status = (wk.get("status") or "pending").upper()
+        cum = wk.get("cumulative", 0)
+        target = wk.get("targetNow")
+        goal = wk.get("goal", EVENT_GOAL)
+        days = wk.get("daysRemaining")
+        L.append(f"STATUS: {status}")
+        if target:
+            diff = round(cum - target)
+            word = "ahead of" if diff >= 0 else "behind"
+            L.append(f"  {cum} teams vs {round(target)} planned by now ({abs(diff)} {word} plan)")
+        L.append(f"  {cum} of {goal} goal ({pct(cum, goal)})")
+        if days is not None:
+            L.append(f"  {days} days until registration closes")
+        L.append("")
+
+    # --- yesterday ---
+    if d.get("total") is None:
+        L.append("NEW TEAMS YESTERDAY: not measured")
+        L.append("  (needs a full day of tracking either side to be accurate)")
     else:
-        lines.append("")
-        lines.append(f"New teams registered on {summary['date']}:")
-        lines.append(f"  Full Course   : +{d['full']}")
-        lines.append(f"  Half Course   : +{d['half']}")
-        lines.append(f"  Half-a-Half   : +{d['quarter']}")
-        lines.append(f"  TOTAL         : +{d['total']}")
-        lines.append(f"  (based on {summary['snapshot_count']} snapshots taken that day)")
+        L.append(f"NEW TEAMS YESTERDAY: {d['total']}")
+        L.append(f"  Full         {d['full']}")
+        L.append(f"  Half         {d['half']}")
+        L.append(f"  Half-a-Half  {d['quarter']}")
+    L.append("")
 
-        if summary["hourly"]:
-            lines.append("")
-            lines.append("Registrations by time of day:")
-            for hour, added in summary["hourly"]:
-                lines.append(f"  {hour}  +{added} teams")
-
+    # --- totals ---
     if latest:
-        lines.append("")
-        lines.append(f"Cumulative totals as of {latest['fetched_at_jst']}:")
-        lines.append(
-            f"  Full Course   : {latest['full']:>4} / {FULL_SLOTS} ({pct(latest['full'], FULL_SLOTS)} full)"
-        )
-        lines.append(
-            f"  Half Course   : {latest['half']:>4} / {HALF_SLOTS} ({pct(latest['half'], HALF_SLOTS)} full)"
-        )
-        lines.append(
-            f"  Half-a-Half   : {latest['quarter']:>4} / {QUARTER_SLOTS} ({pct(latest['quarter'], QUARTER_SLOTS)} full)"
-        )
-        lines.append(
-            f"  TOTAL TEAMS   : {latest['total']:>4} / {EVENT_GOAL} ({pct(latest['total'], EVENT_GOAL)} full)"
-        )
+        L.append("RUNNING TOTALS")
+        L.append(f"  Full         {latest['full']:>4} / {FULL_SLOTS}   {pct(latest['full'], FULL_SLOTS)}")
+        L.append(f"  Half         {latest['half']:>4} / {HALF_SLOTS}   {pct(latest['half'], HALF_SLOTS)}")
+        L.append(f"  Half-a-Half  {latest['quarter']:>4} / {QUARTER_SLOTS}   {pct(latest['quarter'], QUARTER_SLOTS)}")
+        L.append(f"  TOTAL        {latest['total']:>4} / {EVENT_GOAL}  {pct(latest['total'], EVENT_GOAL)}")
+        gen, spo = latest.get("general"), latest.get("sponsor")
+        if gen not in (None, "") or spo not in (None, ""):
+            L.append("")
+            L.append("BY CHANNEL")
+            L.append(f"  General      {gen}")
+            L.append(f"  Sponsor      {spo}")
+    L.append("")
 
-    lines.append("")
-    lines.append("-" * 60)
-    lines.append(
-        "Note: the current data source (Wix counts endpoint, backed by "
-        "Webscorer) only exposes aggregate team counts. Members-per-team "
-        "and individual team detail are not available from this API, so "
-        "they cannot be included here. If a Webscorer API key or a "
-        "richer endpoint becomes available, this report can be extended."
-    )
-    lines.append("")
-    lines.append("Dashboard: (your GitHub Pages URL here)")
-    return "\n".join(lines)
+    # --- this week vs plan ---
+    if wk:
+        cur = [w for w in wk.get("weeks", []) if w.get("started") and not w.get("baseline")]
+        if cur:
+            w = cur[-1]
+            L.append(f"THIS WEEK ({w['label']}, {w['start']} to {w['end']})")
+            L.append(f"  Target this week   {w['targetNew']}")
+            L.append(f"  Actual so far      {w['actualNew'] if w['actualNew'] is not None else '-'}")
+            L.append(f"  Cumulative target  {w['targetCum']}")
+            L.append("")
+
+    L.append(f"Dashboard: {DASHBOARD_URL}")
+    return "\n".join(L)
 
 
 def render_html(summary) -> str:
@@ -239,12 +278,11 @@ def send_email(subject: str, text_body: str, html_body: str) -> None:
         print(text_body)
         return
 
-    msg = MIMEMultipart("alternative")
+    # Plain text only - the team asked for straight numbers, no graphics.
+    msg = MIMEText(text_body, "plain", "utf-8")
     msg["Subject"] = subject
     msg["From"] = mail_from
     msg["To"] = mail_to
-    msg.attach(MIMEText(text_body, "plain"))
-    msg.attach(MIMEText(html_body, "html"))
 
     with smtplib.SMTP(host, port, timeout=30) as server:
         server.ehlo()
@@ -261,7 +299,7 @@ def main() -> int:
     date_str = report_date_jst()
     summary = build_summary(rows, date_str)
     text_body = render_text(summary)
-    html_body = render_html(summary)
+    html_body = ""  # unused: plain-text report only
     subject = f"Tokyo Yamathon - Daily Registration Report ({date_str})"
     try:
         send_email(subject, text_body, html_body)

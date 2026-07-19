@@ -240,8 +240,17 @@ def rebuild_daily(now_jst: datetime) -> None:
             carried = closing[key]
         cur_close = carried
 
-        if prev_close is None or cur_close is None:
-            deltas = {"full": 0, "half": 0, "quarter": 0, "total": 0}
+        # A day's figure is only MEASURED if we sampled both that day and the
+        # day before it. Otherwise the subtraction silently sweeps up every
+        # registration from the unsampled gap and dumps it on this day - which
+        # is exactly how "68 teams today" appeared when collection had only
+        # just started and the previous snapshot was six days old. An
+        # unmeasured day reports null, and the UI shows "-", never a number.
+        prev_key = (day - timedelta(days=1)).strftime("%Y-%m-%d")
+        measured = (key in closing) and (prev_key in closing)
+
+        if not measured or prev_close is None or cur_close is None:
+            deltas = {"full": None, "half": None, "quarter": None, "total": None}
         else:
             deltas = {
                 k: max(0, cur_close[k] - prev_close[k])
@@ -259,6 +268,7 @@ def rebuild_daily(now_jst: datetime) -> None:
                     "total": deltas["total"],
                     "cumulative": cur_close["total"] if cur_close else 0,
                     "hasData": key in closing,
+                    "measured": measured,
                 }
             )
         day += timedelta(days=1)
