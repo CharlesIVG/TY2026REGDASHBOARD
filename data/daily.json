@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-07-19T21:26:10.853729+09:00",
+  "generated_at": "2026-07-19T22:29:41.701789+09:00",
   "days": [
     {
       "date": "2026-07-12",
       "dow": 0,
-      "full": 0,
-      "half": 0,
-      "quarter": 0,
-      "total": 0,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 15,
-      "hasData": true
+      "hasData": true,
+      "measured": false
     },
     {
       "date": "2026-07-13",
@@ -19,67 +20,74 @@
       "quarter": 5,
       "total": 26,
       "cumulative": 41,
-      "hasData": true
+      "hasData": true,
+      "measured": true
     },
     {
       "date": "2026-07-14",
       "dow": 2,
-      "full": 0,
-      "half": 0,
-      "quarter": 0,
-      "total": 0,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 41,
-      "hasData": false
+      "hasData": false,
+      "measured": false
     },
     {
       "date": "2026-07-15",
       "dow": 3,
-      "full": 0,
-      "half": 0,
-      "quarter": 0,
-      "total": 0,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 41,
-      "hasData": false
+      "hasData": false,
+      "measured": false
     },
     {
       "date": "2026-07-16",
       "dow": 4,
-      "full": 0,
-      "half": 0,
-      "quarter": 0,
-      "total": 0,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 41,
-      "hasData": false
+      "hasData": false,
+      "measured": false
     },
     {
       "date": "2026-07-17",
       "dow": 5,
-      "full": 0,
-      "half": 0,
-      "quarter": 0,
-      "total": 0,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 41,
-      "hasData": false
+      "hasData": false,
+      "measured": false
     },
     {
       "date": "2026-07-18",
       "dow": 6,
-      "full": 0,
-      "half": 0,
-      "quarter": 0,
-      "total": 0,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 41,
-      "hasData": false
+      "hasData": false,
+      "measured": false
     },
     {
       "date": "2026-07-19",
       "dow": 0,
-      "full": 32,
-      "half": 27,
-      "quarter": 9,
-      "total": 68,
+      "full": null,
+      "half": null,
+      "quarter": null,
+      "total": null,
       "cumulative": 109,
-      "hasData": true
+      "hasData": true,
+      "measured": false
     }
   ]
 }

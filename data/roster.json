@@ -1,0 +1,659 @@
+{
+  "updated": "2026-07-19T22:29:41.701789+09:00",
+  "teams": {
+    "general|130　鉄道部①": {
+      "team": "130　鉄道部①",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|130鉄2": {
+      "team": "130鉄2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|130鉄道部①": {
+      "team": "130鉄道部①",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|50%ers": {
+      "team": "50%Ers",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|amhi chalu sanghatana": {
+      "team": "Amhi Chalu Sanghatana",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|aon japan": {
+      "team": "Aon Japan",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|aws-cejm": {
+      "team": "Aws-Cejm",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bat ops rg": {
+      "team": "Bat Ops Rg",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bat ops team a": {
+      "team": "Bat Ops Team A",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bat ops team b": {
+      "team": "Bat Ops Team B",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bbhcarestokyo half": {
+      "team": "Bbhcarestokyo Half",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bd skkm": {
+      "team": "BD SKKM",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bd_ネコまみれ": {
+      "team": "BD_ネコまみれ",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bd3b": {
+      "team": "Bd3b",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bdボルダーベース": {
+      "team": "Bdボルダーベース",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|beast club!!": {
+      "team": "Beast Club!!",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|blessed and distressed": {
+      "team": "Blessed And Distressed",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|bollywood bubbles": {
+      "team": "Bollywood Bubbles",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|business operations": {
+      "team": "Business Operations",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|coakley-wilson": {
+      "team": "Coakley-Wilson",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|eset japan": {
+      "team": "Eset Japan",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|fantastic 4": {
+      "team": "Fantastic 4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|french touche": {
+      "team": "French Touche",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|gaijin walker's": {
+      "team": "Gaijin Walker's",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|go": {
+      "team": "Go",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|haha family": {
+      "team": "Haha Family",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|hawaii 50": {
+      "team": "Hawaii 50",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|hyre #1": {
+      "team": "Hyre #1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|icopa": {
+      "team": "Icopa",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|icopa2": {
+      "team": "Icopa2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|jewel and gem": {
+      "team": "Jewel And Gem",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|k&m": {
+      "team": "K&M",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|kpmg": {
+      "team": "Kpmg",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|m4junction": {
+      "team": "M4junction",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|mjpm①": {
+      "team": "Mjpm①",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|mol crew": {
+      "team": "Mol Crew",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|mol on track": {
+      "team": "Mol On Track",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|mol spirit": {
+      "team": "Mol Spirit",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|mol stride": {
+      "team": "Mol Stride",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|mol walkers": {
+      "team": "Mol Walkers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|natari": {
+      "team": "Natari",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|nexgen kizuna walkers": {
+      "team": "Nexgen Kizuna Walkers",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|nexgen walkaholics": {
+      "team": "Nexgen Walkaholics",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|nika": {
+      "team": "Nika",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|no f in running": {
+      "team": "No F In Running",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|npo法人トチギ環境未来基地ヤングきこり隊": {
+      "team": "Npo法人トチギ環境未来基地ヤングきこり隊",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|ny": {
+      "team": "NY",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|ny part2": {
+      "team": "Ny Part2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|one hbk team 1": {
+      "team": "One Hbk Team 1",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|one hbk team 2": {
+      "team": "One Hbk Team 2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|opus9": {
+      "team": "Opus9",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|osoba": {
+      "team": "Osoba",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|outdoor-fun": {
+      "team": "Outdoor-Fun",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|pam": {
+      "team": "Pam",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|sato": {
+      "team": "Sato",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|shining hope": {
+      "team": "Shining Hope",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|snb": {
+      "team": "Snb",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|sthree 1": {
+      "team": "Sthree 1",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|sumida striders": {
+      "team": "Sumida Striders",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|sup buddies": {
+      "team": "Sup Buddies",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|swiss japan charity run": {
+      "team": "Swiss Japan Charity Run",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|swiss runners": {
+      "team": "Swiss Runners",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|swiss-japan faces of hope": {
+      "team": "Swiss-Japan Faces Of Hope",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|swisson": {
+      "team": "Swisson",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team ab": {
+      "team": "Team Ab",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team f": {
+      "team": "Team F",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team kaz": {
+      "team": "Team Kaz",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team lakota": {
+      "team": "Team Lakota",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team santos": {
+      "team": "Team Santos",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team tamachi": {
+      "team": "Team Tamachi",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team usa-nyanz": {
+      "team": "Team Usa-Nyanz",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team yellow a": {
+      "team": "Team Yellow A",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team yellow b": {
+      "team": "Team Yellow B",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|team yellow junior": {
+      "team": "Team Yellow Junior",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|the clovers": {
+      "team": "The Clovers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|the crawlers": {
+      "team": "The Crawlers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|the goofs": {
+      "team": "The Goofs",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|the sleeveless": {
+      "team": "The Sleeveless",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|the walking crooners": {
+      "team": "The Walking Crooners",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|tron-go-lo the distance": {
+      "team": "Tron-Go-Lo The Distance",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|turtle power": {
+      "team": "Turtle Power",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|twin peaks": {
+      "team": "Twin Peaks",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|urban pilgrim: family edition": {
+      "team": "Urban Pilgrim: Family Edition",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|vietnam 001": {
+      "team": "Vietnam 001",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|wilson-coakley": {
+      "team": "Wilson-Coakley",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|yamalamadingdong": {
+      "team": "Yamalamadingdong",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|zurich japan": {
+      "team": "Zurich Japan",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|zurich team": {
+      "team": "Zurich Team",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|お散歩部": {
+      "team": "お散歩部",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|ちーむりーまん": {
+      "team": "ちーむりーまん",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|ちはやふる bd walkers": {
+      "team": "ちはやふる Bd Walkers",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|テニス部sunny☆スマイル": {
+      "team": "テニス部sunny☆スマイル",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|とんとん歩く2026": {
+      "team": "とんとん歩く2026",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|にゃん伊藤": {
+      "team": "にゃん伊藤",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|プラスチック３兄弟": {
+      "team": "プラスチック３兄弟",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|まぁ、よゆう2026": {
+      "team": "まぁ、よゆう2026",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|ヤマソナーズ4人旅": {
+      "team": "ヤマソナーズ4人旅",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|仲通り44": {
+      "team": "仲通り44",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|御雑煮軍団": {
+      "team": "御雑煮軍団",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|御雑煮軍団 team 2": {
+      "team": "御雑煮軍団 Team 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|御雑煮軍団 team 3": {
+      "team": "御雑煮軍団 Team 3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|御雑煮軍団 team 4": {
+      "team": "御雑煮軍団 Team 4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|御雑煮軍団 team 5": {
+      "team": "御雑煮軍団 Team 5",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|日本bd 血流向上委員会": {
+      "team": "日本bd 血流向上委員会",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|未来徒歩会full1": {
+      "team": "未来徒歩会full1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|未来徒歩会half 1": {
+      "team": "未来徒歩会half 1",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|未来徒歩会half2": {
+      "team": "未来徒歩会half2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "general|熱海again": {
+      "team": "熱海again",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    },
+    "sponsor|decathlon kiprun club": {
+      "team": "Decathlon Kiprun Club",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-19T22:29:41.701789+09:00"
+    }
+  }
+}
