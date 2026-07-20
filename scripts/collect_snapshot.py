@@ -138,19 +138,6 @@ def migrate_history_header() -> None:
     print(f"Migrated history.csv header: {existing} -> {HISTORY_FIELDS}", file=sys.stderr)
 
 
-def load_previous_counts() -> dict:
-    """Best-effort read of the counts written by the last run, so we can
-    detect increases and log them to the feed. Missing/corrupt file just
-    means no feed entries get generated this run (nothing to diff against)."""
-    if not os.path.exists(LATEST_PATH):
-        return {}
-    try:
-        with open(LATEST_PATH, encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError):
-        return {}
-
-
 def update_feed_from_roster(roster: list, now_ms: int, now_jst: datetime) -> int:
     """Log teams that appeared since the last run.
 
@@ -220,36 +207,10 @@ def update_feed_from_roster(roster: list, now_ms: int, now_jst: datetime) -> int
     return len(new_entries)
 
 
-def update_feed(prev: dict, full: int, half: int, quarter: int, now_ms: int) -> None:
-    feed = []
-    if os.path.exists(FEED_PATH):
-        try:
-            with open(FEED_PATH, encoding="utf-8") as f:
-                feed = json.load(f)
-            if not isinstance(feed, list):
-                feed = []
-        except (json.JSONDecodeError, OSError):
-            feed = []
-
-    new_entries = []
-    for course, new_val in (("full", full), ("half", half), ("quarter", quarter)):
-        old_val = int(prev.get(course, 0) or 0) if prev else None
-        if old_val is None:
-            continue  # first run ever - nothing to diff against
-        delta = new_val - old_val
-        if delta > 0:
-            new_entries.append(
-                {"ts": now_ms, "course": course, "delta": delta, "totalAfter": new_val}
-            )
-
-    if new_entries:
-        feed = new_entries + feed  # newest first
-        feed = feed[:FEED_MAX]
-        with open(FEED_PATH, "w", encoding="utf-8") as f:
-            json.dump(feed, f, indent=2)
-            f.write("\n")
-    elif not os.path.exists(FEED_PATH):
-        # seed an empty file so the dashboard's fetch() doesn't 404 on first run
+def seed_feed_file() -> None:
+    """Make sure data/feed.json exists so the dashboard's fetch() doesn't 404
+    on a first run."""
+    if not os.path.exists(FEED_PATH):
         with open(FEED_PATH, "w", encoding="utf-8") as f:
             json.dump([], f)
 
@@ -580,8 +541,6 @@ def opening_target(plan, week):
 
 
 def main() -> int:
-    prev = load_previous_counts()
-
     try:
         data, source = fetch_source()
     except Exception as exc:  # noqa: BLE001
@@ -606,9 +565,14 @@ def main() -> int:
         # named-team feed: knows exactly which team appeared and when
         new_count = update_feed_from_roster(roster, int(now_utc.timestamp() * 1000), now_jst)
     else:
-        # no roster (Wix fallback): fall back to anonymous count deltas
+        # No roster - this is the Wix fallback, which returns counts only.
+        # We deliberately do NOT log anonymous count deltas here. Doing so
+        # double-logged every registration: once as an unnamed "+3 Half" when
+        # Wix answered, then again by name when the next Webscorer poll
+        # succeeded. Counts still update from this run; the feed simply waits
+        # for the next roster and names the teams properly.
         new_count = None
-        update_feed(prev, full, half, quarter, int(now_utc.timestamp() * 1000))
+        seed_feed_file()
 
     latest = {
         "full": full,

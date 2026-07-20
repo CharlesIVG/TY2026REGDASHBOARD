@@ -34,7 +34,6 @@ import os
 import smtplib
 import sys
 from datetime import datetime, timezone, timedelta
-from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 JST = timezone(timedelta(hours=9))
@@ -273,54 +272,7 @@ def render_text(summary) -> str:
     return "\n".join(L)
 
 
-def render_html(summary) -> str:
-    d = summary["deltas"]
-    latest = summary["latest_overall"]
-    rows_html = ""
-    for hour, added in summary["hourly"]:
-        rows_html += f"<tr><td style='padding:4px 12px'>{hour}</td><td style='padding:4px 12px'>+{added}</td></tr>"
-
-    cumulative_html = ""
-    if latest:
-        cumulative_html = f"""
-        <table style="border-collapse:collapse;margin-top:8px;">
-          <tr style="background:#f2f2f2;"><th style="text-align:left;padding:6px 12px;">Course</th><th style="text-align:left;padding:6px 12px;">Teams</th><th style="text-align:left;padding:6px 12px;">Capacity</th><th style="text-align:left;padding:6px 12px;">% Full</th></tr>
-          <tr><td style="padding:6px 12px;">Full Course</td><td style="padding:6px 12px;">{latest['full']}</td><td style="padding:6px 12px;">{FULL_SLOTS}</td><td style="padding:6px 12px;">{pct(latest['full'], FULL_SLOTS)}</td></tr>
-          <tr><td style="padding:6px 12px;">Half Course</td><td style="padding:6px 12px;">{latest['half']}</td><td style="padding:6px 12px;">{HALF_SLOTS}</td><td style="padding:6px 12px;">{pct(latest['half'], HALF_SLOTS)}</td></tr>
-          <tr><td style="padding:6px 12px;">Half-a-Half</td><td style="padding:6px 12px;">{latest['quarter']}</td><td style="padding:6px 12px;">{QUARTER_SLOTS}</td><td style="padding:6px 12px;">{pct(latest['quarter'], QUARTER_SLOTS)}</td></tr>
-          <tr style="font-weight:bold;"><td style="padding:6px 12px;">TOTAL</td><td style="padding:6px 12px;">{latest['total']}</td><td style="padding:6px 12px;">{EVENT_GOAL}</td><td style="padding:6px 12px;">{pct(latest['total'], EVENT_GOAL)}</td></tr>
-        </table>
-        """
-
-    return f"""
-    <div style="font-family:Arial,Helvetica,sans-serif;color:#222;max-width:600px;">
-      <h2 style="margin-bottom:4px;">Tokyo Yamathon &mdash; Daily Registration Report</h2>
-      <p style="color:#888;margin-top:0;">{summary['date']} (JST)</p>
-
-      <h3>New teams registered</h3>
-      <table style="border-collapse:collapse;">
-        <tr><td style="padding:4px 12px;">Full Course</td><td style="padding:4px 12px;">+{d['full']}</td></tr>
-        <tr><td style="padding:4px 12px;">Half Course</td><td style="padding:4px 12px;">+{d['half']}</td></tr>
-        <tr><td style="padding:4px 12px;">Half-a-Half</td><td style="padding:4px 12px;">+{d['quarter']}</td></tr>
-        <tr style="font-weight:bold;"><td style="padding:4px 12px;">TOTAL</td><td style="padding:4px 12px;">+{d['total']}</td></tr>
-      </table>
-
-      {"<h3>Registrations by time of day</h3><table style='border-collapse:collapse;'>" + rows_html + "</table>" if rows_html else ""}
-
-      <h3>Cumulative totals</h3>
-      {cumulative_html}
-
-      <p style="margin-top:20px;font-size:12px;color:#999;">
-        Note: the current data source (Wix counts endpoint, backed by Webscorer) only
-        exposes aggregate team counts. Members-per-team and individual team detail are
-        not available from this API, so they cannot be included here. If a Webscorer
-        API key or a richer endpoint becomes available, this report can be extended.
-      </p>
-    </div>
-    """
-
-
-def send_email(subject: str, text_body: str, html_body: str) -> None:
+def send_email(subject: str, text_body: str) -> None:
     host = os.environ.get("SMTP_HOST")
     port = int(os.environ.get("SMTP_PORT", "587"))
     user = os.environ.get("SMTP_USER")
@@ -354,10 +306,9 @@ def main() -> int:
     date_str = report_date_jst()
     summary = build_summary(rows, date_str)
     text_body = render_text(summary)
-    html_body = ""  # unused: plain-text report only
     subject = f"Tokyo Yamathon - Daily Registration Report ({date_str})"
     try:
-        send_email(subject, text_body, html_body)
+        send_email(subject, text_body)
     except Exception as exc:  # noqa: BLE001
         print(f"ERROR sending email: {exc}", file=sys.stderr)
         print(text_body)
