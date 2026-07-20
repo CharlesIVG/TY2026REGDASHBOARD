@@ -76,7 +76,9 @@ const CONFIG = {
   const ROOT = document.getElementById("yama-reg");
   const ORDER = ["full", "half", "quarter"];
   const CY = "#35D0D6";
-  const RAG = { green: "#3DD68C", amber: "#F0B429", red: "#E5484D", pending: "#2A3A4D" };
+  const RAG = { green: "#3DD68C", yellow: "#F0B429", red: "#E5484D", pending: "#2A3A4D" };
+  // weekly.json still stores "amber" as its status value; map it for display.
+  RAG.amber = RAG.yellow;
   const R = 42, C = 2 * Math.PI * R;
 
   const css = document.createElement("style");
@@ -118,7 +120,7 @@ const CONFIG = {
     font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;cursor:pointer;}
   .oc-toggle button.on{background:${CY};color:#03272a;font-weight:600;}
 
-  .oc-kpis{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:10px;margin-top:12px;}
+  .oc-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px;}
   @media(max-width:700px){.oc-kpis{grid-template-columns:1fr;}}
   .oc-funds{--kc:${CY};}
   .fundshead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;}
@@ -289,12 +291,13 @@ const CONFIG = {
   </div>
 
   <div class="oc-kpis">
-    <div class="oc-kpi k-all" style="--kc:${CY}">
+    <div class="oc-kpi oc-funds" id="teams-tile">
       <div class="fundshead">
         <div class="lab" id="lab-all">Total Teams</div>
-        <div class="fundspct mono" id="teams-pct" style="color:${CY}">0%</div>
+        <div class="fundspct mono" id="teams-pct">0%</div>
       </div>
       <div class="num mono" id="k-all">0</div>
+      <div class="fundsbar"><div class="fundsfill" id="teams-fill"></div></div>
       <div class="sub" id="k-all-sub">of ${CONFIG.EVENT_GOAL} goal</div>
     </div>
     <div class="oc-kpi oc-funds" id="funds-tile">
@@ -435,14 +438,14 @@ const CONFIG = {
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
           dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day", chGeneral:"General", chSponsor:"Sponsor",
           campTitle:"Week on", campTitle2:"Week",
-          st_green:"On track", st_amber:"Watch", st_red:"Behind", st_pending:"Not started",
+          st_green:"On track", st_amber:"Yellow", st_red:"Behind", st_pending:"Not started",
           campCum:(c,g)=>"<em>"+c+"</em> of "+g+" teams",
           campAhead:(d,t)=>"<em>"+d+" ahead</em> of plan ("+t+")",
           campBehind:(d,t)=>"<em>"+d+" behind</em> plan ("+t+")",
           campDays:(d)=>d+" days to close",
           campTwoWeak:"two weak weeks in a row",
-          lgGreen:"On or above target", lgAmber:"Up to 10% short",
-          lgRed:"Over 10% short, or 2 weak weeks", lgPending:"Not started", lgTick:"Weekly target",
+          lgGreen:"Green: on or above target", lgYellow:"Yellow: up to 10% short",
+          lgRed:"Red: over 10% short, or 2 weak weeks", lgPending:"Not started", lgTick:"Weekly target",
           tgtOpen:"opening", tipBaseline:"Opening week (baseline, no plan target)",
           tipTarget:(n,c)=>"Target: +"+n+" teams (cumulative "+c+")",
           tipActual:(n,c)=>"Actual: +"+n+" teams (cumulative "+c+")",
@@ -451,7 +454,7 @@ const CONFIG = {
           tipAhead:(p)=>p+"% above cumulative target",
           why_at_or_above_target:"Green: at or above cumulative target",
           why_below_target:"Measured against cumulative target",
-          why_weak_week:"Amber: week came in under 90% of plan",
+          why_weak_week:"Yellow: week came in under 90% of plan",
           why_two_weak_weeks:"Red: two weak weeks in a row (report §6)",
           why_baseline:"Opening week actual" },
     ja: { dark:"ダーク", light:"ライト", totalTeams:"合計チーム数",
@@ -480,8 +483,8 @@ const CONFIG = {
           campBehind:(d,t)=>"計画より <em>"+d+" 不足</em> ("+t+")",
           campDays:(d)=>"締切まで "+d+" 日",
           campTwoWeak:"2週連続で目標未達",
-          lgGreen:"目標達成", lgAmber:"10%以内の不足",
-          lgRed:"10%以上の不足、または2週連続未達", lgPending:"未開始", lgTick:"週次目標",
+          lgGreen:"緑: 目標達成", lgYellow:"黄: 10%以内の不足",
+          lgRed:"赤: 10%以上の不足、または2週連続未達", lgPending:"未開始", lgTick:"週次目標",
           tgtOpen:"開始週", tipBaseline:"開始週（基準値・目標なし）",
           tipTarget:(n,c)=>"目標: +"+n+" チーム（累計 "+c+"）",
           tipActual:(n,c)=>"実績: +"+n+" チーム（累計 "+c+"）",
@@ -527,7 +530,7 @@ const CONFIG = {
     // campaign tracker
     ROOT.querySelector("#camp-title").innerHTML = t("campTitle") + ' <span>' + t("campTitle2") + '</span>';
     ROOT.querySelector("#lg-green").textContent = t("lgGreen");
-    ROOT.querySelector("#lg-amber").textContent = t("lgAmber");
+    ROOT.querySelector("#lg-amber").textContent = t("lgYellow");
     ROOT.querySelector("#lg-red").textContent = t("lgRed");
     ROOT.querySelector("#lg-pending").textContent = t("lgPending");
     ROOT.querySelector("#lg-tick").textContent = t("lgTick");
@@ -566,9 +569,24 @@ const CONFIG = {
       set("s-" + key + "-rem", Math.max(0, s.slots - s.registered));
       set("s-" + key + "-pct", Math.round(pct * 100) + "%");
     }
+    // --- progress bars: teams and funds share one red/yellow/green rule ---
+    const ragFor = p => p >= CONFIG.FUNDS_GREEN_AT ? RAG.green
+                      : p >= CONFIG.FUNDS_AMBER_AT ? RAG.yellow
+                      : RAG.red;
+    function bar(tileId, fillId, pctId, pct) {
+      const col = ragFor(pct);
+      const fill = ROOT.querySelector("#" + fillId);
+      if (fill) { fill.style.width = Math.min(100, pct) + "%"; fill.style.background = col; }
+      const tile = ROOT.querySelector("#" + tileId);
+      if (tile) tile.style.setProperty("--kc", col);
+      const pe = ROOT.querySelector("#" + pctId);
+      if (pe) { pe.textContent = pct.toFixed(1) + "%"; pe.style.color = col; }
+      return col;
+    }
+
     set("k-all", total);
-    const teamPct = CONFIG.EVENT_GOAL ? (total / CONFIG.EVENT_GOAL) * 100 : 0;
-    set("teams-pct", teamPct.toFixed(1) + "%");
+    bar("teams-tile", "teams-fill", "teams-pct",
+        CONFIG.EVENT_GOAL ? (total / CONFIG.EVENT_GOAL) * 100 : 0);
 
     // --- funds raised ---
     // Straight calculation: every registered team = one entry fee. There is
@@ -576,21 +594,9 @@ const CONFIG = {
     // at all), so this is derived, not reported. Labelled as such in the UI.
     const raised = total * CONFIG.FEE_PER_TEAM;
     const pct = CONFIG.FUNDS_GOAL ? (raised / CONFIG.FUNDS_GOAL) * 100 : 0;
-    const col = pct >= CONFIG.FUNDS_GREEN_AT ? RAG.green
-              : pct >= CONFIG.FUNDS_AMBER_AT ? RAG.amber
-              : RAG.red;
     set("funds-amt", "\u00a5" + raised.toLocaleString());
-    set("funds-pct", pct.toFixed(1) + "%");
     set("funds-sub", t("fundsOf")(CONFIG.FUNDS_GOAL.toLocaleString()));
-    const fill = ROOT.querySelector("#funds-fill");
-    if (fill) {
-      fill.style.width = Math.min(100, pct) + "%";
-      fill.style.background = col;
-    }
-    const tile = ROOT.querySelector("#funds-tile");
-    if (tile) tile.style.setProperty("--kc", col);
-    const pctEl = ROOT.querySelector("#funds-pct");
-    if (pctEl) pctEl.style.color = col;
+    bar("funds-tile", "funds-fill", "funds-pct", pct);
   }
 
   /* ---------------- feed ---------------- */
@@ -890,7 +896,7 @@ const CONFIG = {
   Data refreshed automatically from Webscorer count by a GitHub Actions workflow.
   Updated in 30-minute intervals.
   <div class="foot-ip">
-    <img id="sxs-logo" class="foot-logo" alt="SxS Partners" src="assets/sxs-logo.png"
+    <img id="sxs-logo" class="foot-logo" alt="SxS Partners" src="sxs-logo.png"
          onerror="this.style.display='none'">
     <span>
       Design and creative engineering by <strong>SxS Partners株式会社</strong> for the
