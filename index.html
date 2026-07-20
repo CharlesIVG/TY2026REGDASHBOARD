@@ -23,9 +23,11 @@
   .page{max-width:1200px;margin:0 auto;}
   .foot{max-width:1200px;margin:10px auto 0;font-family:system-ui,sans-serif;font-size:11px;color:#7D8CA0;}
   .foot a{color:#7D8CA0;}
-  .foot-ip{margin-top:8px;padding-top:8px;border-top:1px solid rgba(125,140,160,.25);
-    font-size:10px;color:#5F6B7A;line-height:1.5;}
+  .foot-ip{margin-top:8px;padding-top:10px;border-top:1px solid rgba(125,140,160,.25);
+    font-size:10px;color:#5F6B7A;line-height:1.5;
+    display:flex;align-items:flex-start;gap:10px;}
   .foot-ip strong{color:#7D8CA0;}
+  .foot-logo{width:34px;height:34px;flex:none;opacity:.9;object-fit:contain;}
 </style>
 </head>
 <body>
@@ -54,6 +56,13 @@ const CONFIG = {
   REFRESH_SECONDS: 60,
   FEED_MAX: 150,
   EVENT_GOAL: 1100,
+  // Fundraising: entry fee counted at the event fee only (excludes the
+  // Y560 processing fee, which goes to the payment processor, not the cause).
+  FEE_PER_TEAM: 16000,
+  FUNDS_GOAL: 17600000,        // = 1,100 teams x Y16,000
+  FUNDS_AMBER_AT: 50,          // % of goal - below this is red
+  FUNDS_GREEN_AT: 85,          // % of goal - at/above this is green
+  UPDATE_MINUTES: 30,          // collector cadence, shown in the UI
   CHART_SCALE: 100,                 // bar chart tops out at 100 teams/day; auto-grows if a day exceeds it
   LEGS: {
     full:    { label: "Full",        labelJa: "フル",              sub: "≈ 42 km", subJa: "約42km",   color: "#9ACD32", slots: 700 },
@@ -109,7 +118,14 @@ const CONFIG = {
     font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;cursor:pointer;}
   .oc-toggle button.on{background:${CY};color:#03272a;font-weight:600;}
 
-  .oc-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;}
+  .oc-kpis{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:10px;margin-top:12px;}
+  @media(max-width:700px){.oc-kpis{grid-template-columns:1fr;}}
+  .oc-funds{--kc:${CY};}
+  .fundshead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;}
+  #yama-reg .fundspct{font-family:var(--numfont);font-weight:600;font-size:19px;line-height:1;}
+  .fundsbar{margin-top:9px;height:12px;border-radius:7px;background:var(--track);
+    border:1px solid var(--line);overflow:hidden;}
+  .fundsfill{height:100%;width:0;border-radius:6px;transition:width .7s cubic-bezier(.22,1,.36,1),background .4s;}
   .oc-kpi{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:12px 14px;position:relative;overflow:hidden;}
   .oc-kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--kc,var(--muted));}
   .oc-kpi .lab{color:var(--muted);font-size:10px;letter-spacing:.14em;text-transform:uppercase;}
@@ -142,9 +158,8 @@ const CONFIG = {
   .oc-cross::before,.oc-cross::after{content:"";position:absolute;background:var(--guide);}
   .oc-cross::before{left:50%;top:0;bottom:0;width:1px;transform:translateX(-.5px);}
   .oc-cross::after{top:50%;left:0;right:0;height:1px;transform:translateY(-.5px);}
-  .oc-radar{position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;}
-  .oc-sweep{position:absolute;inset:0;border-radius:50%;animation:oc-spin 3.6s linear infinite;}
-  @keyframes oc-spin{to{transform:rotate(360deg);}}
+  /* radar sweep removed - too busy for an internal dashboard. The coloured
+     progress arc and static crosshair guides are retained. */
   .oc-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
   #yama-reg .oc-cnum{font-family:var(--numfont);font-weight:600;font-size:38px;line-height:1;}
   .oc-csub{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.08em;margin-top:3px;}
@@ -255,7 +270,7 @@ const CONFIG = {
   .oc-ftotal{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);text-align:right;}
   .oc-fago{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);}
   .oc-fempty{color:var(--muted);font-size:11px;font-family:'IBM Plex Mono',monospace;padding:16px;text-align:center;}
-  @media (prefers-reduced-motion:reduce){.oc-fr,.oc-live b,.oc-sweep{animation:none!important;}.oc-feed{scroll-behavior:auto;}}
+  @media (prefers-reduced-motion:reduce){.oc-fr,.oc-live b{animation:none!important;}.oc-feed{scroll-behavior:auto;}}
   `;
   document.head.appendChild(css);
 
@@ -281,10 +296,20 @@ const CONFIG = {
   </div>
 
   <div class="oc-kpis">
-    <div class="oc-kpi k-all" style="--kc:${CY}"><div class="lab" id="lab-all">Total Teams</div><div class="num mono" id="k-all">0</div><div class="sub" id="k-all-sub">of ${CONFIG.EVENT_GOAL} goal</div></div>
-    <div class="oc-kpi" style="--kc:${CONFIG.LEGS.full.color}"><div class="lab" id="lab-full">Full</div><div class="num mono" id="k-full">0</div><div class="sub" id="k-full-sub">of ${CONFIG.LEGS.full.slots}</div></div>
-    <div class="oc-kpi" style="--kc:${CONFIG.LEGS.half.color}"><div class="lab" id="lab-half">Half</div><div class="num mono" id="k-half">0</div><div class="sub" id="k-half-sub">of ${CONFIG.LEGS.half.slots}</div></div>
-    <div class="oc-kpi" style="--kc:${CONFIG.LEGS.quarter.color}"><div class="lab" id="lab-quarter">Half-a-Half</div><div class="num mono" id="k-quarter">0</div><div class="sub" id="k-quarter-sub">of ${CONFIG.LEGS.quarter.slots}</div></div>
+    <div class="oc-kpi k-all" style="--kc:${CY}">
+      <div class="lab" id="lab-all">Total Teams</div>
+      <div class="num mono" id="k-all">0</div>
+      <div class="sub" id="k-all-sub">of ${CONFIG.EVENT_GOAL} goal</div>
+    </div>
+    <div class="oc-kpi oc-funds" id="funds-tile">
+      <div class="fundshead">
+        <div class="lab" id="lab-funds">Funds Raised</div>
+        <div class="fundspct mono" id="funds-pct">0%</div>
+      </div>
+      <div class="num mono" id="funds-amt">&yen;0</div>
+      <div class="fundsbar"><div class="fundsfill" id="funds-fill"></div></div>
+      <div class="sub" id="funds-sub">of &yen;0 goal</div>
+    </div>
   </div>
 
   <div class="oc-filter" id="oc-filter"><span class="vw" id="oc-viewlab">View ▸</span></div>
@@ -386,7 +411,6 @@ const CONFIG = {
           <circle class="oc-arc" id="arc-${key}" cx="50" cy="50" r="${R}" stroke="${L.color}"
             stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${C.toFixed(1)}"></circle></svg>
         <div class="oc-guides"></div><div class="oc-cross"></div>
-        <div class="oc-radar"><div class="oc-sweep" style="background:conic-gradient(from 0deg, ${L.color}00 0deg, ${L.color}00 300deg, ${L.color}66 350deg, ${L.color}cc 360deg)"></div></div>
         <div class="oc-center">
           <div class="oc-cnum" id="cnum-${key}">0</div>
           <div class="oc-csub" id="csub-${key}">of ${L.slots} slots</div>
@@ -417,6 +441,8 @@ const CONFIG = {
           ofGoal:"of "+CONFIG.EVENT_GOAL+" goal", tag:"Team Registration Dashboard", noActivity:"No registration activity yet",
           repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today", repCum:"Cumulative total",
           repNoData:"Not measured yet - tracking starts from first full day",
+          fundsRaised:"Funds Raised", fundsOf:(g)=>"of \u00a5"+g+" goal",
+          every:(m)=>"updates every "+m+" min",
           repPeople:"Participants",
           peopleNote:(avg,teams,asOf)=>"avg "+avg+" per team across "+teams+" teams \u00b7 from registration export "+asOf,
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
@@ -453,6 +479,8 @@ const CONFIG = {
           noActivity:"まだ登録アクティビティはありません",
           repTitle:"デイリー", repTitle2:"レポート", repLab:"本日の登録チーム数",
           repNoData:"未計測 - 計測は初日の翌日から",
+          fundsRaised:"募金額", fundsOf:(g)=>"目標 \u00a5"+g,
+          every:(m)=>m+"分ごとに更新",
           repPeople:"参加者数",
           peopleNote:(avg,teams,asOf)=>"1チーム平均 "+avg+"名 / "+teams+"チーム \u00b7 登録エクスポート "+asOf,
           repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
@@ -491,8 +519,8 @@ const CONFIG = {
     ROOT.querySelector("#oc-viewlab").textContent = t("view");
     ROOT.querySelector("#lab-all").textContent = t("totalTeams");
     ROOT.querySelector("#k-all-sub").textContent = t("ofGoal");
+    ROOT.querySelector("#lab-funds").textContent = t("fundsRaised");
     for (const key of ORDER) {
-      ROOT.querySelector("#lab-" + key).textContent = legLabel(key);
       const sl = ROOT.querySelector("#sl-" + key); if (sl) sl.textContent = legLabel(key);
       const ss = ROOT.querySelector("#ss-" + key); if (ss) ss.textContent = legSub(key);
       ROOT.querySelector("#l-" + key + "-reg").textContent = t("registered");
@@ -554,9 +582,30 @@ const CONFIG = {
       set("s-" + key + "-reg", s.registered);
       set("s-" + key + "-rem", Math.max(0, s.slots - s.registered));
       set("s-" + key + "-pct", Math.round(pct * 100) + "%");
-      set("k-" + key, s.registered);
     }
     set("k-all", total);
+
+    // --- funds raised ---
+    // Straight calculation: every registered team = one entry fee. There is
+    // no donation field in Webscorer (checked - the API returns no money data
+    // at all), so this is derived, not reported. Labelled as such in the UI.
+    const raised = total * CONFIG.FEE_PER_TEAM;
+    const pct = CONFIG.FUNDS_GOAL ? (raised / CONFIG.FUNDS_GOAL) * 100 : 0;
+    const col = pct >= CONFIG.FUNDS_GREEN_AT ? RAG.green
+              : pct >= CONFIG.FUNDS_AMBER_AT ? RAG.amber
+              : RAG.red;
+    set("funds-amt", "\u00a5" + raised.toLocaleString());
+    set("funds-pct", pct.toFixed(1) + "%");
+    set("funds-sub", t("fundsOf")(CONFIG.FUNDS_GOAL.toLocaleString()));
+    const fill = ROOT.querySelector("#funds-fill");
+    if (fill) {
+      fill.style.width = Math.min(100, pct) + "%";
+      fill.style.background = col;
+    }
+    const tile = ROOT.querySelector("#funds-tile");
+    if (tile) tile.style.setProperty("--kc", col);
+    const pctEl = ROOT.querySelector("#funds-pct");
+    if (pctEl) pctEl.style.color = col;
   }
 
   function setFilter(f) {
@@ -856,6 +905,9 @@ const CONFIG = {
     }
   }
 
+  const cad = ROOT.ownerDocument.getElementById("foot-cadence");
+  if (cad) cad.textContent = "Updated in " + CONFIG.UPDATE_MINUTES + "-minute intervals.";
+
   paint();
   applyLang();
   poll();
@@ -864,11 +916,18 @@ const CONFIG = {
 </script>
 
 <div class="foot">
-  Data refreshed automatically from <a href="https://www.tokyo-yamathon.com" target="_blank" rel="noopener">tokyo-yamathon.com</a> (via Webscorer) by a GitHub Actions workflow. Same visual system as the race-day command center — swaps in registration progress until results go live on race day.
+  Data refreshed automatically from Webscorer count by a GitHub Actions workflow.
+  <span id="foot-cadence"></span>
   <div class="foot-ip">
-    Developed by <strong>SxS Partners</strong> for the International Volunteer Group-Japan and Tokyo Yamathon.
-    This code is the intellectual property of SxS Partners. All rights remain the property of SxS Partners
-    and the project developer, C. Stewart. &copy; SxS Partners — All rights reserved.
+    <img id="sxs-logo" class="foot-logo" alt="SxS Partners" src="assets/sxs-logo.png"
+         onerror="this.style.display='none'">
+    <span>
+      Design and creative engineering by <strong>SxS Partners株式会社</strong> for the
+      International Volunteer Group-Japan to be utilized for the Tokyo Yamathon 2026.
+      This code is the intellectual property of SxS Partners株式会社. All rights remain
+      the property of SxS Partners株式会社 and the project developer, C. Stewart.
+      &copy; SxS Partners株式会社 — All rights reserved.
+    </span>
   </div>
 </div>
 </body>
