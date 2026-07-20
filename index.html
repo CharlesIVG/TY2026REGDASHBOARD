@@ -109,12 +109,24 @@ const CONFIG = {
   .oc-tag{color:var(--muted);font-size:11px;letter-spacing:.16em;text-transform:uppercase;}
   .oc-ctrls{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
   .oc-live{display:flex;align-items:center;gap:7px;padding:4px 10px;border:1px solid ${CY};border-radius:20px;
-    color:${CY};font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+    color:${CY};font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    font-variant-numeric:tabular-nums;}
+  /* Same reason as the clock: the age text grows and shrinks as it ticks
+     from "(45M AGO)" to "(2H 15M AGO)". Reserve the width up front. */
+  #oc-livetxt{display:inline-block;min-width:25ch;}
   .oc-live b{width:8px;height:8px;border-radius:50%;background:${CY};animation:oc-blink 1.6s infinite;}
   @keyframes oc-blink{0%,100%{opacity:1}50%{opacity:.25}}
   .oc-clock{text-align:right;}
   .oc-clock .k{display:block;color:var(--muted);font-size:9px;letter-spacing:.16em;text-transform:uppercase;}
-  #yama-reg .oc-clock .v{font-family:var(--numfont);font-weight:600;font-size:23px;letter-spacing:.02em;}
+  #yama-reg .oc-clock .v{font-family:var(--numfont);font-weight:600;font-size:23px;letter-spacing:.02em;
+    /* The header controls sit in a right-aligned flex row, so anything
+       whose width changes drags its neighbours sideways. The clock
+       repaints every second and its glyphs are not all the same width,
+       which made the theme and language buttons jitter once a second.
+       tabular-nums fixes it where the font supports it; the fixed
+       min-width guarantees it even where it does not. */
+    display:inline-block;min-width:8ch;text-align:right;
+    font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1,"lnum" 1;}
   .oc-toggle{display:flex;border:1px solid var(--line2);border-radius:20px;overflow:hidden;cursor:pointer;}
   .oc-toggle button{border:0;background:transparent;color:var(--muted);font-family:'IBM Plex Mono',monospace;
     font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;cursor:pointer;}
