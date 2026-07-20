@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# Webscorer registration exports contain names, emails, phone numbers and
+# home addresses. This repo is public - APPI and GDPR both apply. Never
+# commit an export; scripts/import_teamsize.py reads it in place and
+# writes only aggregate counts to data/teamsize.json.
+*.xlsx
+*.xls
+*.xlsm
+registrations*.csv
