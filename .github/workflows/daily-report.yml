@@ -1,20 +1,22 @@
 name: Daily registration report
 
 on:
-  # GitHub throttles scheduled workflows hard on free public repos. This
-  # cron is nominally 00:05 JST but was observed firing at 03:12 JST - a
-  # briefing that lands at an unpredictable hour is not a daily briefing.
-  # Real delivery comes from an external scheduler posting a
-  # repository_dispatch of type `daily-report` at 15:05 UTC. See SETUP.md.
+  # NO `schedule:` TRIGGER HERE - THIS IS DELIBERATE.
   #
-  # NOTE: while BOTH triggers are active you may get two emails on days
-  # when the throttled cron eventually fires as well. Runs are ~10s so
-  # they never overlap, which means a `concurrency` group cannot dedupe
-  # them. Once the dispatch has proven reliable for a few days, delete
-  # the `schedule:` block below and the duplicate disappears.
-  schedule:
-    # 00:05 JST = 15:05 UTC the previous day
-    - cron: "5 15 * * *"
+  # GitHub throttles scheduled workflows hard on free public repos. This
+  # workflow's cron was nominally 00:05 JST; in practice it fired at 03:12
+  # one day, skipped the next entirely, then turned up at 05:14 - hours
+  # after the external scheduler had already delivered, producing a
+  # duplicate email. A briefing that arrives at an unpredictable hour is
+  # not a daily briefing.
+  #
+  # Delivery is now driven by an external scheduler (cron-job.org) posting
+  # a repository_dispatch of type `daily-report` at 00:05 Asia/Tokyo. See
+  # SETUP.md for the token scope and job configuration.
+  #
+  # If that scheduler is ever retired, either restore a `schedule:` block
+  # here and accept the timing drift, or point a replacement scheduler at
+  # the same dispatch endpoint.
   repository_dispatch:
     types: [daily-report]
   workflow_dispatch: {}
