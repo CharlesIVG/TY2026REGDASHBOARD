@@ -56,6 +56,15 @@ FUNDS_GOAL = 17600000        # = 1,100 teams x Y16,000
 CATEGORY_LABELS = {"full": "Full Course", "half": "Half Course", "quarter": "Half-a-Half"}
 DASHBOARD_URL = "https://charlesivg.github.io/TY2026REGDASHBOARD/"
 
+# Fixed wording that opens and closes every report. Edit the strings here -
+# nothing else in the file needs to change. Blank strings produce blank lines.
+GREETING = "Good Morning Rockstars - I've got your daily progress report for the teams in for 2026!"
+SIGNOFF = [
+    "Have a great day and - keep on truckin!",
+    "Let's Go!",
+    "YamaGo",
+]
+
 
 def load_history():
     if not os.path.exists(HISTORY_PATH):
@@ -175,6 +184,9 @@ def render_text(summary) -> str:
     L.append(f"TOKYO YAMATHON - REGISTRATION REPORT")
     L.append(f"{summary['date']} (JST)")
     L.append("")
+    if GREETING:
+        L.append(GREETING)
+        L.append("")
 
     # --- are we on target ---
     if wk:
@@ -255,6 +267,9 @@ def render_text(summary) -> str:
             L.append("")
 
     L.append(f"Dashboard: {DASHBOARD_URL}")
+    if SIGNOFF:
+        L.append("")
+        L.extend(SIGNOFF)
     return "\n".join(L)
 
 
