@@ -24,27 +24,9 @@
     "channel": "general"
   },
   {
-    "ts": 1784511597593,
-    "course": "full",
-    "delta": 1,
-    "totalAfter": 53
-  },
-  {
-    "ts": 1784511597593,
-    "course": "half",
-    "delta": 3,
-    "totalAfter": 44
-  },
-  {
     "ts": 1784475290247,
     "team": "Transglobal Adventurers",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1784463970853,
-    "course": "half",
-    "delta": 1,
-    "totalAfter": 41
   }
 ]
