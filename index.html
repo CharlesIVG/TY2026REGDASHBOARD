@@ -905,9 +905,6 @@ const CONFIG = {
     }
   }
 
-  const cad = ROOT.ownerDocument.getElementById("foot-cadence");
-  if (cad) cad.textContent = "Updated in " + CONFIG.UPDATE_MINUTES + "-minute intervals.";
-
   paint();
   applyLang();
   poll();
@@ -917,7 +914,7 @@ const CONFIG = {
 
 <div class="foot">
   Data refreshed automatically from Webscorer count by a GitHub Actions workflow.
-  <span id="foot-cadence"></span>
+  Updated in 30-minute intervals.
   <div class="foot-ip">
     <img id="sxs-logo" class="foot-logo" alt="SxS Partners" src="assets/sxs-logo.png"
          onerror="this.style.display='none'">
