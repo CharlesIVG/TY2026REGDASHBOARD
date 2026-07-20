@@ -71,7 +71,7 @@ the Wix endpoint — you just won't get the general/sponsor split.
 
 ## 6. Add the email secrets (daily report)
 
-Same secrets screen, for the 00:05 JST report to **info@ivgjapan.org**:
+Same secrets screen, for the 00:05 JST report to **allivg@ivgjapan.org**:
 
 | Secret | Value |
 |---|---|
@@ -91,7 +91,7 @@ check the content first.
 
 | Workflow | Schedule | Does |
 |---|---|---|
-| Collect team count snapshot | every 15 min | Fetch counts → update `data/*.json` → commit |
+| Collect team count snapshot | every 30 min (see below) | Fetch counts → update `data/*.json` → commit |
 | Daily registration report | 00:05 JST | Email the previous day's summary |
 | Webscorer probe | manual only | Connection/diagnostics check |
 
@@ -124,7 +124,7 @@ numbers (showing 110 when the real figure was 114). All runs *succeeded* —
 GitHub simply skipped most of them. This is documented, expected behaviour
 on free/public repos and cannot be fixed from inside GitHub.
 
-**The fix:** have an external scheduler ping GitHub every 15 minutes. The
+**The fix:** have an external scheduler ping GitHub every 30 minutes. The
 collector now also listens for a `repository_dispatch` event of type
 `collect`.
 
@@ -137,7 +137,7 @@ tokens** → Generate new token:
 |---|---|
 | Repository access | **Only select repositories** → `TY2026REGDASHBOARD` |
 | Permissions | **Contents: Read and write** *(nothing else)* |
-| Expiration | 90 days (diarise the renewal) |
+| Expiration | Set it past **14 September 2026** (recruiting close), then diarise the renewal. If the token expires mid-campaign the pings silently stop and the dashboard goes stale with no error anywhere. |
 
 Do **not** use a classic token — those grant access to every repo you own.
 
@@ -148,14 +148,31 @@ Configure a job:
 
 - **URL:** `https://api.github.com/repos/CharlesIVG/TY2026REGDASHBOARD/dispatches`
 - **Method:** `POST`
-- **Schedule:** every 15 minutes
+- **Schedule:** every 30 minutes
 - **Headers:**
   - `Accept: application/vnd.github+json`
   - `Authorization: Bearer YOUR_TOKEN`
   - `Content-Type: application/json`
 - **Body:** `{"event_type":"collect"}`
 
-A successful ping returns **HTTP 204 No Content**.
+A successful ping returns **HTTP 204 No Content**. Anything else means it
+didn't work:
+
+| Response | Meaning |
+|---|---|
+| **204** | Working. A run appears in Actions within seconds. |
+| **401 Bad credentials** | Token wrong, expired, or `Bearer ` prefix missing. |
+| **403** | Token lacks **Contents: write**, or is a classic token without `repo`. |
+| **404 Not Found** | Repo path wrong, or the token isn't scoped to this repo. GitHub returns 404 rather than 403 to avoid confirming a private repo exists. |
+| **422** | Body malformed — it must be exactly `{"event_type":"collect"}`. |
+
+### 3. Confirm it is actually firing
+
+An hour after setup, check **Actions → Collect team count snapshot**. Runs
+triggered this way are labelled **`repository_dispatch`**, not `Scheduled`
+or `Manually run by`. If you see only `Scheduled` entries several hours
+apart, the ping isn't landing — check the scheduler's own execution log
+for the HTTP status it received.
 
 ### Security tradeoff — read before doing this
 
@@ -173,3 +190,9 @@ token can commit to this repository. Mitigations, all worth doing:
 If that tradeoff isn't acceptable, the alternative is to accept multi-hour
 refresh lag. The dashboard now shows the true data age, so stale numbers are
 at least visible rather than silently wrong.
+
+**A note if this repo ever goes private:** GitHub Actions minutes are free
+on public repos but metered on private ones. Dispatch-driven collection at
+30-minute intervals is roughly 48 short runs a day; short jobs typically
+bill at a one-minute minimum, so budget around 1,500 minutes a month
+against your plan's allowance. Worth checking before flipping visibility.
