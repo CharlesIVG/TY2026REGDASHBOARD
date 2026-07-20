@@ -249,8 +249,17 @@ def render_text(summary) -> str:
     if ts and ts.get("people"):
         L.append("")
         L.append("PARTICIPANTS")
-        L.append(f"  People       {ts['people']}")
-        L.append(f"  Avg per team {ts['avgTeamSize']}")
+        L.append(f"  {'People':<12} {ts['people']}")
+        # A mean team size is meaningless here - you cannot have a third of
+        # a person, and nobody can act on "3.38". The actual tally of team
+        # sizes is what you'd use to order bibs, shirts or bus seats.
+        # Largest teams first; sizes come from the data rather than being
+        # hardcoded, so a 5-person team would appear on its own if allowed.
+        dist = ts.get("distribution") or {}
+        for size in sorted(dist, key=lambda s: int(s), reverse=True):
+            count = dist[size]
+            if count:
+                L.append(f"  {size + '-person':<12} {count} teams")
         L.append(f"  (from registration export {ts['asOf']} - not live)")
     L.append("")
 

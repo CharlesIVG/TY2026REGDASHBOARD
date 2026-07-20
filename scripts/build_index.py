@@ -464,7 +464,7 @@ const CONFIG = {
           fundsRaised:"Funds Raised", fundsOf:(g)=>"of \u00a5"+g+" goal",
           every:(m)=>"updates every "+m+" min",
           repPeople:"Participants",
-          peopleNote:(avg,teams,asOf)=>"avg "+avg+" per team across "+teams+" teams \u00b7 from registration export "+asOf,
+          peopleNote:(dist,teams,asOf)=>dist+" \u00b7 "+teams+" teams \u00b7 from registration export "+asOf,
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
           dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day", chGeneral:"General", chSponsor:"Sponsor",
           campTitle:"Week on", campTitle2:"Week",
@@ -502,7 +502,7 @@ const CONFIG = {
           fundsRaised:"募金額", fundsOf:(g)=>"目標 \u00a5"+g,
           every:(m)=>m+"分ごとに更新",
           repPeople:"参加者数",
-          peopleNote:(avg,teams,asOf)=>"1チーム平均 "+avg+"名 / "+teams+"チーム \u00b7 登録エクスポート "+asOf,
+          peopleNote:(dist,teams,asOf)=>dist+" \u00b7 "+teams+"チーム \u00b7 登録エクスポート "+asOf,
           repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
           wkNote:(n)=>"7日間で "+n+" チーム",
           dows:["日","月","火","水","木","金","土"], noSnap:"この日のデータなし", chGeneral:"一般", chSponsor:"スポンサー",
@@ -898,13 +898,21 @@ const CONFIG = {
       renderFreshness();
       if (daily && Array.isArray(daily.days)) dailyData = daily;
       if (weekly && Array.isArray(weekly.weeks)) weeklyData = weekly;
+      /* A mean team size is not actionable - you cannot have a third of a
+         person. Show the actual tally instead: "76x4  20x3  29x2". Sizes
+         are read from the data, not hardcoded. */
+      const teamSizeTally = d => !d ? "" : Object.keys(d)
+        .sort((a, b) => Number(b) - Number(a))
+        .filter(k => d[k])
+        .map(k => d[k] + "\u00d7" + k)
+        .join("  ");
       if (teamsize && teamsize.people) {
         // Member counts come from a manual Webscorer export - the JSON API has
         // no roster - so label the date it was taken rather than implying live.
         ROOT.querySelector("#rep-people-row").style.display = "";
         set("rep-people", teamsize.people.toLocaleString());
         ROOT.querySelector("#rep-people-note").textContent =
-          t("peopleNote")(teamsize.avgTeamSize, teamsize.teams, teamsize.asOf);
+          t("peopleNote")(teamSizeTally(teamsize.distribution), teamsize.teams, teamsize.asOf);
       }
       paint();
       renderDaily();
