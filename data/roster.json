@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T16:34:06.550649+09:00",
+  "updated": "2026-07-20T21:03:10.195736+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -702,6 +702,54 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-20T16:34:06.550649+09:00"
+    },
+    "general|adient a": {
+      "team": "Adient A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|adient b": {
+      "team": "Adient B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|adient c": {
+      "team": "Adient C",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|adient d": {
+      "team": "Adient D",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|adient e": {
+      "team": "Adient E",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|adient f": {
+      "team": "Adient F",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|adient g": {
+      "team": "Adient G",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|千山": {
+      "team": "千山",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T21:03:10.195736+09:00"
     }
   }
 }

@@ -1,5 +1,53 @@
 [
   {
+    "ts": 1784548990195,
+    "team": "Adient A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "Adient B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "Adient C",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "Adient D",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "Adient E",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "Adient F",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "Adient G",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784548990195,
+    "team": "千山",
+    "course": "half",
+    "channel": "general"
+  },
+  {
     "ts": 1784532846550,
     "team": "Team Moric",
     "course": "half",
