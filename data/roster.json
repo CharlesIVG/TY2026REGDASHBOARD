@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T06:37:17.646619+09:00",
+  "updated": "2026-07-20T10:46:58.739172+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -660,6 +660,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-20T00:34:50.247963+09:00"
+    },
+    "general|doom strolling": {
+      "team": "Doom Strolling",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-20T10:46:58.739172+09:00"
+    },
+    "general|the jolly walkers": {
+      "team": "The Jolly Walkers",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T10:46:58.739172+09:00"
+    },
+    "general|ピンクエンジェルス1": {
+      "team": "ピンクエンジェルス1",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T10:46:58.739172+09:00"
+    },
+    "general|ピンクエンジェルス2": {
+      "team": "ピンクエンジェルス2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T10:46:58.739172+09:00"
     }
   }
 }

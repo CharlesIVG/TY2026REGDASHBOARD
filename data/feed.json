@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1784512018739,
+    "team": "Doom Strolling",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784512018739,
+    "team": "The Jolly Walkers",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784512018739,
+    "team": "ピンクエンジェルス1",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784512018739,
+    "team": "ピンクエンジェルス2",
+    "course": "half",
+    "channel": "general"
+  },
+  {
     "ts": 1784511597593,
     "course": "full",
     "delta": 1,
