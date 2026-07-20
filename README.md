@@ -1,13 +1,18 @@
 # Tokyo Yamathon — Registration Dashboard
 
-> **Developed by SxS Partners** for the International Volunteer
-> Group-Japan and Tokyo Yamathon.
->
-> This code is the intellectual property of SxS Partners. All rights
-> remain the property of SxS Partners and the project developer,
+> **Developed by SxS Partners株式会社** and the project developer
 > **C. Stewart**.
 >
-> © SxS Partners — All rights reserved.
+> **Provided to the International Volunteer Group-Japan on loan, for
+> the Tokyo Yamathon 2026 event only.** Not a work made for hire, not a
+> transferred deliverable. No ownership passes to IVG-Japan or Tokyo
+> Yamathon, and no right to use it in later years arises from this
+> arrangement. See [`NOTICE.md`](NOTICE.md).
+>
+> This code is the intellectual property of SxS Partners株式会社. All
+> rights remain the property of SxS Partners株式会社 and C. Stewart.
+>
+> © SxS Partners株式会社 — All rights reserved.
 
 ---
 
