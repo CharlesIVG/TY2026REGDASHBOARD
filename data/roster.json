@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T10:46:58.739172+09:00",
+  "updated": "2026-07-20T16:34:06.550649+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -684,6 +684,24 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-20T10:46:58.739172+09:00"
+    },
+    "general|team moric": {
+      "team": "Team Moric",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T16:34:06.550649+09:00"
+    },
+    "general|チェルteam": {
+      "team": "チェルteam",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T16:34:06.550649+09:00"
+    },
+    "general|ピンクエンジェルス3": {
+      "team": "ピンクエンジェルス3",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-20T16:34:06.550649+09:00"
     }
   }
 }
