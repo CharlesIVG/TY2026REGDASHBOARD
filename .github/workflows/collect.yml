@@ -1,9 +1,14 @@
 name: Collect team count snapshot
 
 on:
+  # GitHub throttles scheduled workflows hard - "*/15" was firing roughly
+  # every 3 hours in practice, not every 15 minutes. The schedule is kept as
+  # a safety net, but real freshness comes from repository_dispatch, pinged
+  # by an external scheduler (see SETUP.md).
   schedule:
-    # every 15 minutes
     - cron: "*/15 * * * *"
+  repository_dispatch:
+    types: [collect]
   workflow_dispatch: {}
 
 permissions:
