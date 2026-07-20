@@ -4,9 +4,11 @@ on:
   # GitHub throttles scheduled workflows hard - "*/15" was firing roughly
   # every 3 hours in practice, not every 15 minutes. The schedule is kept as
   # a safety net, but real freshness comes from repository_dispatch, pinged
-  # by an external scheduler (see SETUP.md).
+  # by an external scheduler every 30 min (see SETUP.md). 30 minutes is a
+  # deliberate choice: it keeps well clear of both GitHub schedule throttling
+  # and the Webscorer 1-call-per-5-seconds limit.
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/30 * * * *"
   repository_dispatch:
     types: [collect]
   workflow_dispatch: {}
