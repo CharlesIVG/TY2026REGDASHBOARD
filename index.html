@@ -132,14 +132,7 @@ const CONFIG = {
   #yama-reg .oc-kpi .num{font-family:var(--numfont);font-weight:600;font-size:36px;line-height:1.05;margin-top:2px;}
   .oc-kpi .sub{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-top:2px;}
 
-  .oc-filter{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;}
-  .oc-filter .vw{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-right:2px;}
-  .oc-fbtn{border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:20px;cursor:pointer;
-    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;padding:5px 12px;}
-  .oc-fbtn:hover{color:var(--ink);border-color:var(--muted);}
-  .oc-fbtn.on{color:#fff;border-color:transparent;}
-
-  .oc-segs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px;}
+  .oc-segs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;}
   @media(max-width:860px){.oc-segs{grid-template-columns:1fr;}.oc-kpis{grid-template-columns:repeat(2,1fr);}.oc-ctrls{gap:10px;}}
   .oc-seg{border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:14px;transition:opacity .25s;}
   .oc-seg.dim{opacity:.32;}
@@ -297,7 +290,10 @@ const CONFIG = {
 
   <div class="oc-kpis">
     <div class="oc-kpi k-all" style="--kc:${CY}">
-      <div class="lab" id="lab-all">Total Teams</div>
+      <div class="fundshead">
+        <div class="lab" id="lab-all">Total Teams</div>
+        <div class="fundspct mono" id="teams-pct" style="color:${CY}">0%</div>
+      </div>
       <div class="num mono" id="k-all">0</div>
       <div class="sub" id="k-all-sub">of ${CONFIG.EVENT_GOAL} goal</div>
     </div>
@@ -312,7 +308,6 @@ const CONFIG = {
     </div>
   </div>
 
-  <div class="oc-filter" id="oc-filter"><span class="vw" id="oc-viewlab">View ▸</span></div>
   <div class="oc-segs" id="oc-segs"></div>
 
   <div class="oc-rep">
@@ -382,19 +377,10 @@ const CONFIG = {
     <div class="oc-feed" id="oc-feed"></div>
   </div>`;
 
-  // filter buttons
-  const filterEl = ROOT.querySelector("#oc-filter");
-  const filters = [{ f: "all", label: "All", color: CY }].concat(
-    ORDER.map(k => ({ f: k, label: CONFIG.LEGS[k].label, color: CONFIG.LEGS[k].color })));
-  for (const b of filters) {
-    const btn = document.createElement("button");
-    btn.className = "oc-fbtn" + (b.f === "all" ? " on" : "");
-    btn.dataset.f = b.f; btn.dataset.color = b.color; btn.textContent = b.label;
-    if (b.f === "all") btn.style.cssText = `background:${b.color};color:#03272a;`;
-    btn.onclick = () => setFilter(b.f);
-    filterEl.appendChild(btn);
-  }
-
+  // The View filter (All / Full / Half / Half-a-Half) was removed: this is an
+  // internal dashboard where the useful reading is always all three courses at
+  // once. activeFilter stays pinned to "all" so the feed and gauges render
+  // unfiltered without needing the control.
   // segment gauges
   const segsEl = ROOT.querySelector("#oc-segs");
   for (const key of ORDER) {
@@ -429,7 +415,8 @@ const CONFIG = {
   const legState = {};
   for (const key of ORDER) legState[key] = { registered: 0, slots: CONFIG.LEGS[key].slots };
   const feedEl = ROOT.querySelector("#oc-feed");
-  let feedCount = 0, activeFilter = "all", lastFeedTs = 0;
+  let feedCount = 0, lastFeedTs = 0;
+  const activeFilter = "all";   // filter UI removed - always show every course
 
   /* ---------------- language ---------------- */
   const I18N = {
@@ -516,7 +503,6 @@ const CONFIG = {
     ROOT.querySelectorAll("#oc-lang button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     ROOT.querySelector("#oc-tagtxt").textContent = t("tag");
     ROOT.querySelector("#oc-clocklab").textContent = t("localJst");
-    ROOT.querySelector("#oc-viewlab").textContent = t("view");
     ROOT.querySelector("#lab-all").textContent = t("totalTeams");
     ROOT.querySelector("#k-all-sub").textContent = t("ofGoal");
     ROOT.querySelector("#lab-funds").textContent = t("fundsRaised");
@@ -527,9 +513,6 @@ const CONFIG = {
       ROOT.querySelector("#l-" + key + "-rem").textContent = t("remaining");
       ROOT.querySelector("#l-" + key + "-pct").textContent = t("full");
     }
-    ROOT.querySelectorAll("#oc-filter .oc-fbtn").forEach(b => {
-      b.textContent = b.dataset.f === "all" ? t("all") : legLabel(b.dataset.f);
-    });
     ROOT.querySelector("#oc-feedtitle").innerHTML = t("feedTitle") + ' <span>' + t("feedTitle2") + '</span>';
     ROOT.querySelector("#oc-feednote").textContent = feedCount ? feedCount + " " + t("logged") : t("standby");
     feedEl.querySelectorAll(".oc-chip").forEach(c => { c.textContent = legLabel(c.dataset.leg); });
@@ -584,6 +567,8 @@ const CONFIG = {
       set("s-" + key + "-pct", Math.round(pct * 100) + "%");
     }
     set("k-all", total);
+    const teamPct = CONFIG.EVENT_GOAL ? (total / CONFIG.EVENT_GOAL) * 100 : 0;
+    set("teams-pct", teamPct.toFixed(1) + "%");
 
     // --- funds raised ---
     // Straight calculation: every registered team = one entry fee. There is
@@ -606,17 +591,6 @@ const CONFIG = {
     if (tile) tile.style.setProperty("--kc", col);
     const pctEl = ROOT.querySelector("#funds-pct");
     if (pctEl) pctEl.style.color = col;
-  }
-
-  function setFilter(f) {
-    activeFilter = f;
-    filterEl.querySelectorAll(".oc-fbtn").forEach(btn => {
-      const on = btn.dataset.f === f;
-      btn.classList.toggle("on", on);
-      btn.style.cssText = on ? `background:${btn.dataset.color};color:#08211f;` : "";
-    });
-    segsEl.querySelectorAll(".oc-seg").forEach(seg => seg.classList.toggle("dim", f !== "all" && seg.dataset.seg !== f));
-    feedEl.querySelectorAll(".oc-fr").forEach(row => { row.style.display = (f === "all" || row.dataset.leg === f) ? "" : "none"; });
   }
 
   /* ---------------- feed ---------------- */
