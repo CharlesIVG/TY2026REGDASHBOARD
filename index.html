@@ -275,7 +275,7 @@ const CONFIG = {
       <div class="oc-toggle" id="oc-theme">
         <button data-t="dark">Dark</button><button data-t="light">Light</button>
       </div>
-      <div class="oc-live"><b></b><span id="oc-livetxt">System Live</span></div>
+      <div class="oc-live" id="oc-live"><b id="oc-livedot"></b><span id="oc-livetxt">—</span></div>
       <div class="oc-clock"><span class="k" id="oc-clocklab">Local (JST)</span><span class="v" id="oc-local">--:--:--</span></div>
     </div>
   </div>
@@ -413,6 +413,7 @@ const CONFIG = {
           localJst:"Local (JST)", registered:"Registered", remaining:"Remaining", full:"Full",
           feedTitle:"Registration", feedTitle2:"Activity", logged:"logged", standby:"standing by…",
           now:"now", ago:(n,u)=>n+u+" ago", sysLive:"System Live", recon:"Reconnecting…",
+          noData:"No data", updatedAt:(hhmm,mins)=>"Updated "+hhmm+(mins<2?" (just now)":mins<60?" ("+mins+"m ago)":" ("+Math.floor(mins/60)+"h "+(mins%60)+"m ago)"),
           ofGoal:"of "+CONFIG.EVENT_GOAL+" goal", tag:"Team Registration Dashboard", noActivity:"No registration activity yet",
           repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today", repCum:"Cumulative total",
           repNoData:"Not measured yet - tracking starts from first full day",
@@ -447,6 +448,7 @@ const CONFIG = {
           standby:"待機中…", now:"たった今",
           ago:(n,u)=>n+(u==="s"?"秒":"分")+"前", sysLive:"システム稼働中",
           recon:"再接続中…", ofGoal:"目標 "+CONFIG.EVENT_GOAL+" 中",
+          noData:"データなし", updatedAt:(hhmm,mins)=>hhmm+" 更新"+(mins<2?"（たった今）":mins<60?"（"+mins+"分前）":"（"+Math.floor(mins/60)+"時間"+(mins%60)+"分前）"),
           tag:"チーム登録ダッシュボード",
           noActivity:"まだ登録アクティビティはありません",
           repTitle:"デイリー", repTitle2:"レポート", repLab:"本日の登録チーム数",
@@ -701,6 +703,36 @@ const CONFIG = {
     ROOT.querySelector("#wk-note").textContent = t("wkNote")(weekTotal);
   }
 
+  /* ---------------- data freshness ----------------
+     This is a static site: the page can only ever be as fresh as the last
+     collector run, and GitHub throttles scheduled workflows unpredictably.
+     Showing a permanent "SYSTEM LIVE" badge therefore lies. Show the real
+     age of the data and colour it, so a stalled collector is obvious at a
+     glance instead of quietly serving old numbers.                        */
+  let lastFetchedAt = null;
+
+  function renderFreshness() {
+    const el = ROOT.querySelector("#oc-livetxt");
+    const dot = ROOT.querySelector("#oc-livedot");
+    const wrap = ROOT.querySelector("#oc-live");
+    if (!lastFetchedAt) { if (el) el.textContent = t("noData"); return; }
+
+    const then = new Date(lastFetchedAt);
+    const mins = Math.max(0, Math.round((Date.now() - then.getTime()) / 60000));
+    const jst = new Date(then.getTime() + (then.getTimezoneOffset() + 540) * 60000);
+    const hhmm = pad(jst.getHours()) + ":" + pad(jst.getMinutes());
+
+    let col;
+    if (mins <= 30)       col = "#3DD68C";   // fresh
+    else if (mins <= 90)  col = CY;          // normal
+    else if (mins <= 240) col = "#F0B429";   // getting stale
+    else                  col = "#E5484D";   // stalled
+
+    el.textContent = t("updatedAt")(hhmm, mins);
+    if (dot) dot.style.background = col;
+    if (wrap) { wrap.style.color = col; wrap.style.borderColor = col; }
+  }
+
   /* ---------------- campaign tracker (week on week vs plan) ---------------- */
   let weeklyData = null;
 
@@ -787,6 +819,7 @@ const CONFIG = {
   setInterval(() => {
     const jst = new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000);
     set("oc-local", pad(jst.getHours()) + ":" + pad(jst.getMinutes()) + ":" + pad(jst.getSeconds()));
+    if (jst.getSeconds() === 0) renderFreshness();   // re-age once a minute
   }, 1000);
 
   /* ---------------- live polling ---------------- */
@@ -801,8 +834,9 @@ const CONFIG = {
       ]);
       if (counts) {
         for (const k of ORDER) if (counts[k] != null) legState[k].registered = +counts[k] || 0;
-        set("oc-livetxt", t("sysLive"));
+        lastFetchedAt = counts.fetched_at || null;
       }
+      renderFreshness();
       if (daily && Array.isArray(daily.days)) dailyData = daily;
       if (weekly && Array.isArray(weekly.weeks)) weeklyData = weekly;
       if (teamsize && teamsize.people) {

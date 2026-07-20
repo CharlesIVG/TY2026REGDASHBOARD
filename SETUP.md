@@ -113,3 +113,63 @@ there, no code changes needed. Slot capacities appear in
 | Probe: "PRO Results subscription required" | That subscription is inactive/expired. |
 | A course reads 0 but shouldn't | Unmapped course label — probe lists it, add to `courseMap`. |
 | Scheduled runs stopped | GitHub disables schedules after 60 days idle. Any manual run re-enables them. |
+
+---
+
+## Keeping the dashboard fresh (external trigger)
+
+**The problem:** GitHub throttles scheduled workflows. A `*/15` cron was
+observed firing roughly **every 3 hours**, so the dashboard sat on stale
+numbers (showing 110 when the real figure was 114). All runs *succeeded* —
+GitHub simply skipped most of them. This is documented, expected behaviour
+on free/public repos and cannot be fixed from inside GitHub.
+
+**The fix:** have an external scheduler ping GitHub every 15 minutes. The
+collector now also listens for a `repository_dispatch` event of type
+`collect`.
+
+### 1. Create a fine-grained token (minimum possible scope)
+
+GitHub → Settings → Developer settings → **Fine-grained personal access
+tokens** → Generate new token:
+
+| Setting | Value |
+|---|---|
+| Repository access | **Only select repositories** → `TY2026REGDASHBOARD` |
+| Permissions | **Contents: Read and write** *(nothing else)* |
+| Expiration | 90 days (diarise the renewal) |
+
+Do **not** use a classic token — those grant access to every repo you own.
+
+### 2. Point a scheduler at it
+
+Any free cron service works ([cron-job.org](https://cron-job.org) is one).
+Configure a job:
+
+- **URL:** `https://api.github.com/repos/CharlesIVG/TY2026REGDASHBOARD/dispatches`
+- **Method:** `POST`
+- **Schedule:** every 15 minutes
+- **Headers:**
+  - `Accept: application/vnd.github+json`
+  - `Authorization: Bearer YOUR_TOKEN`
+  - `Content-Type: application/json`
+- **Body:** `{"event_type":"collect"}`
+
+A successful ping returns **HTTP 204 No Content**.
+
+### Security tradeoff — read before doing this
+
+This places a GitHub token in a **third-party service**. Anyone with that
+token can commit to this repository. Mitigations, all worth doing:
+
+- Scope it to this one repo with Contents-only permission (above)
+- Set an expiry and actually rotate it
+- If the scheduler is ever breached, revoke immediately at GitHub →
+  Settings → Developer settings → Fine-grained tokens
+- The blast radius is limited to this dashboard repo — it cannot touch your
+  other repositories, the Webscorer token, or the SMTP credentials, which
+  stay in GitHub Secrets and are never exposed to the scheduler
+
+If that tradeoff isn't acceptable, the alternative is to accept multi-hour
+refresh lag. The dashboard now shows the true data age, so stale numbers are
+at least visible rather than silently wrong.
