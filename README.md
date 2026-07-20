@@ -53,7 +53,7 @@ Above the activity feed sit two panels:
   week renders almost empty, with all the recent data stranded in the
   previous week.
 
-### Week-on-week campaign tracker (green / amber / red)
+### Week-on-week campaign tracker (green / yellow / red)
 
 Below those, a full-width panel tracks the campaign against the weekly
 operating plan from the *2026 Registration Outlook* (§3). One bar per
@@ -70,7 +70,7 @@ boundaries are all editable there without touching any code.
 | Status | Trigger |
 |---|---|
 | 🟢 Green | Cumulative at or above the week's cumulative target |
-| 🟡 Amber | Cumulative below target by up to 10%, **or** a week under 90% of its plan |
+| 🟡 Yellow | Cumulative below target by up to 10%, **or** a week under 90% of its plan |
 | 🔴 Red | Cumulative more than 10% below target, **or** two weak weeks in a row |
 
 Cumulative (not weekly) is the basis because a single soft week is
@@ -82,9 +82,9 @@ in the status line so it isn't mistaken for a target miss.
 
 Two judgment calls worth knowing:
 
-- The report defines green as "at or above target" and amber as "5–10%
+- The report defines green as "at or above target" and yellow as "5–10%
   below," leaving **0–5% below undefined**. That gap is folded into
-  amber, so a shortfall is never painted green.
+  yellow, so a shortfall is never painted green.
 - The in-flight week is **pro-rated by days elapsed** (day 3 of 7 is
   judged against 3/7 of the week's target), and the weak-week flag is
   suppressed for the first 2 days, so a quiet Monday doesn't raise a
@@ -158,36 +158,116 @@ both apply to that roster. The API token is likewise scrubbed from every
 error message and log line, since it travels as a URL query parameter
 and would otherwise surface in Actions logs on any failure.
 
-### Known data limits
+## Data accuracy and collection timing
 
-- **Cancellations and duplicates.** Per report §6, counts are raw
-  registrations — not adjusted for cancellations, duplicates,
-  transfers, or unpaid entries.
-- **Seeded opening-week rows.** `history.csv` includes three rows
-  marked `source=report` (12 Jul = 15, 13 Jul = 41, 19 Jul = 108) taken
-  from the report so the opening week appears on the chart. Their
-  *totals* are from the report; their course split is inferred from the
-  current ratio and should not be treated as real. Only the totals feed
-  the campaign tracker, so this doesn't affect any RAG status.
-- **No cancellation/duplicate handling.** Per report §6, the counts are
-  raw registrations — not adjusted for cancellations, duplicates,
-  transfers, or unpaid entries.
-- **`.github/workflows/collect.yml`** — runs every 15 minutes. Polls
-  `https://www.tokyo-yamathon.com/_functions/counts` from GitHub's
-  servers (no CORS issue there), writes `data/latest.json`, appends a
-  row to `data/history.csv`, rebuilds `data/daily.json` (per-day
-  totals, derived by diffing each day's closing total against the
-  previous day's) and `data/weekly.json` (weekly actuals vs
-  `data/plan.json`, with a green/amber/red status per week), and —
-  whenever a course's count went up since the last run — logs an entry
-  to `data/feed.json` (course, delta, new total, timestamp). This is
-  what makes "registrations per day / per hour," the activity feed, and
-  the campaign tracker possible, since the live endpoint itself only
-  ever reports current totals, not history.
+**Read this before quoting any number from the dashboard.**
+
+This system is a *sampler*, not a ledger. It polls Webscorer on a
+schedule and reconstructs history from those samples. Everything below
+follows from that one fact.
+
+### What is reliable
+
+- **Cumulative total, course split, general-vs-sponsor split.** Taken
+  directly from Webscorer at poll time. These are accurate as of the
+  "UPDATED hh:mm" stamp in the dashboard header — not before it. The
+  campaign RAG status is built on the cumulative figure, so the
+  red/yellow/green call is as sound as the source data.
+
+### What is approximate, and why
+
+- **Daily counts depend on sampling cadence.** A day's total is
+  computed by diffing that day's *closing* snapshot against the
+  previous day's closing snapshot. If the last snapshot of a day lands
+  at, say, 21:00, any team registering between 21:00 and midnight is
+  attributed to the *following* day. Expect ±1–2 teams on any given
+  day. The error is self-correcting — it never accumulates, because
+  the cumulative total is always read fresh from the source.
+
+  This is not hypothetical. On 20 July the dashboard reported 5 teams
+  for the day when Webscorer showed 4: the 19 July seed row was stamped
+  `23:59:59` but the underlying export had been taken earlier that
+  evening, so a team registering at 23:01 fell outside the 19 July
+  baseline and was swept into the 20th. **Any backfilled row must carry
+  the timestamp of the moment its data was actually true, not a
+  cosmetic end-of-day time.**
+
+- **The tighter the polling, the smaller the boundary error.** GitHub's
+  `schedule` trigger is heavily throttled in practice (a `*/15` cron
+  was observed firing roughly every 3 hours). The `repository_dispatch`
+  hook driven by an external scheduler every 30 minutes is what keeps
+  the cadence honest — see `SETUP.md`. Without it, multi-hour gaps
+  appear and day-boundary attribution degrades accordingly.
+
+- **Activity-feed timestamps are detection times, not registration
+  times.** The feed records when the collector *first saw* a team, not
+  when that team signed up. A team registering at 23:01 and first seen
+  at 00:34 shows 00:34. The Webscorer API exposes no registration
+  timestamp, so polling time is the closest available proxy. Do not
+  read those times as exact.
+
+- **Collection outages are shown, not hidden.** A day with no snapshots
+  on both sides renders as a hatched bar with `·` rather than `0`, and
+  the daily email prints "not measured" rather than a fabricated
+  figure. An outage must never be readable as "nobody registered."
+
+- **Participant counts are a stale snapshot.** People (368) and average
+  team size (3.38) come from a manually uploaded registration export,
+  not the API — Webscorer's JSON returns no roster or team-size field.
+  Both the dashboard and the email label this with its `asOf` date.
+  It drifts further from truth every day until the export is refreshed.
+
+### What the numbers deliberately exclude
+
+- **Cancellations, duplicates, transfers, unpaid entries.** Per report
+  §6, these are raw registration counts with no adjustment.
+- **Payment processing fees.** FUNDS RAISED is `teams × ¥16,000`, and
+  ¥16,000 is the net figure by design — Webscorer lists a ¥16,560 gross
+  entry fee, and the processing margin is deliberately not counted as
+  funds raised. The ¥17,600,000 goal is set on the same net basis
+  (1,100 × ¥16,000), so target and actual are consistent.
+- **Money actually received.** FUNDS RAISED is registrations converted
+  to yen — a fundraising thermometer, not an accounting record. It will
+  not reconcile against a bank statement.
+- **Seeded opening-week rows.** `history.csv` contains rows marked
+  `source=export` / `source=report` covering 12–19 July, backfilled so
+  the opening week appears on the chart. Their totals are real; where a
+  course split was inferred rather than measured it should not be
+  treated as exact. Only totals feed the campaign tracker, so no RAG
+  status depends on the inferred splits.
+
+### Bottom line
+
+Sound for: *are we on pace, which course is lagging, was this week
+weak, how close are we to goal.* Not sound for: exact daily figures
+quoted to an outside party, live participant headcount, or anything
+requiring financial reconciliation.
+
+## Components
+
+- **`.github/workflows/collect.yml`** — runs every 30 minutes (cron as
+  a safety net, `repository_dispatch` from an external scheduler for
+  real cadence). Fetches from Webscorer (falling back to the Wix counts
+  endpoint), writes `data/latest.json`, appends a row to
+  `data/history.csv`, rebuilds `data/daily.json` (per-day totals,
+  derived by diffing each day's closing total against the previous
+  day's) and `data/weekly.json` (weekly actuals vs `data/plan.json`,
+  with a green/yellow/red status per week), and logs newly seen teams
+  by name to `data/feed.json`.
+
+  The feed is written **only** from a Webscorer roster. When the
+  collector falls back to Wix — which returns counts without names —
+  it deliberately writes nothing to the feed. An earlier version logged
+  anonymous count deltas in that case, which double-logged every
+  registration: once as an unnamed "+3 Half" when Wix answered, then
+  again by name at the next successful Webscorer poll. Counts still
+  update from the fallback; only the feed waits.
+
 - **`.github/workflows/daily-report.yml`** — runs at 00:05 JST every
-  day. Reads `data/history.csv`, summarizes the day that just ended
-  (new teams per course, roughly when they came in, and cumulative
-  totals/% filled), and emails it to **info@ivgjapan.org**.
+  day. Reads `data/history.csv`, summarizes the day that just ended,
+  and emails it to **allivg@ivgjapan.org**. Fixed opening and closing
+  lines live in `GREETING` / `SIGNOFF` at the top of
+  `scripts/send_daily_report.py`.
 - **`scripts/collect_snapshot.py`** / **`scripts/send_daily_report.py`**
   — the two Python scripts behind the workflows above. Pure standard
   library, no dependencies to install.
@@ -196,22 +276,44 @@ and would otherwise surface in Actions logs on any failure.
   `index.html`. Re-run it (`python3 scripts/build_index.py`) if you
   ever swap the font file or want to regenerate `index.html` from the
   template inside that script.
+- **`.nojekyll`** — disables Jekyll processing on GitHub Pages. This
+  site is hand-written static HTML and needs no build step; leaving
+  Jekyll on caused Pages deploys to fail outright when a stray file
+  collided with a directory Jekyll wanted to create.
 
-## One known data limit
+## What the live API actually returns
 
-The only API available right now is the Wix counts endpoint, which
-returns aggregate numbers only:
+Confirmed by the probe run on 19 July 2026 against the real Webscorer
+lists:
 
-```json
-{"full":51,"half":40,"quarter":17,"total":108,"updated":"2026-07-19T07:58:55.505Z"}
-```
+| | General (432537) | Sponsor (434355) |
+|---|---|---|
+| Rows | 108 | 1 |
+| Fields | `Distance`, `Email`, `Name`, `Wave` | same |
+| Team field | none | none |
 
-There's no per-team or per-member data in it, so **"team members per
-team" cannot be included in the report** — the email says so explicitly
-rather than silently omitting it. If a Webscorer API key or a richer
-endpoint becomes available later, extend `fetch_counts()` in
-`scripts/collect_snapshot.py` and both the dashboard and report can
-grow to use it.
+Three things this settles:
+
+- **One row = one team.** There's no team field; `Name` is the team's
+  own name. `countMode` is therefore `rows`.
+- **Course labels map cleanly.** The probe reported no unmapped
+  `Distance` values, so `courseMap` needs no adjustment.
+- **Team size is genuinely unavailable.** No roster or member-count
+  field exists, so "members per team" cannot be computed. The daily
+  email states this rather than silently omitting it.
+
+### The Wix endpoint is stale
+
+At the time of the probe, Webscorer reported **109** teams
+(108 general + 1 sponsor) while `/_functions/counts` still returned
+**108** with an `updated` timestamp of `07:58:55Z` — hours old and not
+advancing. The Wix figure also splits differently (`full:51, half:40`
+vs Webscorer's `full:50, half:41` for general).
+
+This is the reason to prefer Webscorer as the source. It also means any
+display still driven by the Wix endpoint — including the tracker
+embedded on tokyo-yamathon.com — may be showing stale numbers. Worth
+checking whoever maintains that Velo function.
 
 ## Setup
 
