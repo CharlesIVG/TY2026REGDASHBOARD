@@ -56,9 +56,19 @@ TIMEOUT = 30
 USER_AGENT = "yamathon-tracker-bot/1.0"
 
 # Webscorer rate limit: "There is a limit of 1 call every 5 seconds."
-# The deep probe tripped this. Space every request out rather than relying on
-# a retry, so the 15-minute collector can never trigger it either.
-MIN_CALL_INTERVAL = 5.5
+#
+# Spacing calls 5.5s apart was NOT sufficient in practice - the collector
+# still got throttled and silently fell back to Wix, losing the
+# general/sponsor split and the team-name feed. The limit appears to be
+# stricter than documented, or is applied per source IP (GitHub Actions
+# runners share IP ranges with every other GitHub user hitting Webscorer,
+# so our budget can be consumed by strangers).
+#
+# So: wider spacing AND an explicit retry with backoff on the throttle
+# response, because no fixed interval can defend against a shared-IP limit.
+MIN_CALL_INTERVAL = 8.0
+RATE_LIMIT_RETRIES = 3
+RATE_LIMIT_BACKOFF = [10, 20, 35]   # seconds to wait before each retry
 _last_call = [0.0]
 
 # Fields we refuse to copy out of a response under any circumstances, even
@@ -87,14 +97,41 @@ def configured() -> bool:
     return bool(API_ID and API_TOKEN)
 
 
-def _get(base_url: str, path: str, params: dict) -> dict:
-    # honour the documented 1-call-per-5-seconds limit
-    import time
-    wait = MIN_CALL_INTERVAL - (time.monotonic() - _last_call[0])
-    if wait > 0:
-        time.sleep(wait)
-    _last_call[0] = time.monotonic()
+def _is_rate_limited(exc) -> bool:
+    return "too many calls" in str(exc).lower()
 
+
+def _get(base_url: str, path: str, params: dict) -> dict:
+    """Fetch with pacing plus retry-on-throttle.
+
+    Falling straight back to Wix on a throttle response was the wrong
+    behaviour: it costs the general/sponsor split and the team-name feed for
+    that whole cycle, for what is usually a few seconds of contention.
+    """
+    import time
+    last_exc = None
+    for attempt in range(RATE_LIMIT_RETRIES + 1):
+        wait = MIN_CALL_INTERVAL - (time.monotonic() - _last_call[0])
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[0] = time.monotonic()
+        try:
+            return _get_once(base_url, path, params)
+        except RuntimeError as exc:
+            last_exc = exc
+            if not _is_rate_limited(exc) or attempt >= RATE_LIMIT_RETRIES:
+                raise
+            backoff = RATE_LIMIT_BACKOFF[min(attempt, len(RATE_LIMIT_BACKOFF) - 1)]
+            print(
+                f"Webscorer throttled (attempt {attempt + 1}/{RATE_LIMIT_RETRIES + 1}) "
+                f"- retrying in {backoff}s",
+                file=sys.stderr,
+            )
+            time.sleep(backoff)
+    raise last_exc
+
+
+def _get_once(base_url: str, path: str, params: dict) -> dict:
     q = dict(params)
     q["apiid"] = API_ID
     q["apipriv"] = API_TOKEN
