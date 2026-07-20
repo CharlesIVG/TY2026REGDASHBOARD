@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T23:30:39.231658+09:00",
+  "updated": "2026-07-21T00:00:47.462153+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -750,6 +750,12 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-20T21:03:10.195736+09:00"
+    },
+    "general|picklegang": {
+      "team": "Picklegang",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-21T00:00:47.462153+09:00"
     }
   }
 }
