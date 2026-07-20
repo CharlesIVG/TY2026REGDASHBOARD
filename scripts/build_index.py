@@ -41,9 +41,11 @@ TEMPLATE = r"""<!DOCTYPE html>
   .page{max-width:1200px;margin:0 auto;}
   .foot{max-width:1200px;margin:10px auto 0;font-family:system-ui,sans-serif;font-size:11px;color:#7D8CA0;}
   .foot a{color:#7D8CA0;}
-  .foot-ip{margin-top:8px;padding-top:8px;border-top:1px solid rgba(125,140,160,.25);
-    font-size:10px;color:#5F6B7A;line-height:1.5;}
+  .foot-ip{margin-top:8px;padding-top:10px;border-top:1px solid rgba(125,140,160,.25);
+    font-size:10px;color:#5F6B7A;line-height:1.5;
+    display:flex;align-items:flex-start;gap:10px;}
   .foot-ip strong{color:#7D8CA0;}
+  .foot-logo{width:34px;height:34px;flex:none;opacity:.9;object-fit:contain;}
 </style>
 </head>
 <body>
@@ -72,6 +74,13 @@ const CONFIG = {
   REFRESH_SECONDS: 60,
   FEED_MAX: 150,
   EVENT_GOAL: 1100,
+  // Fundraising: entry fee counted at the event fee only (excludes the
+  // Y560 processing fee, which goes to the payment processor, not the cause).
+  FEE_PER_TEAM: 16000,
+  FUNDS_GOAL: 17600000,        // = 1,100 teams x Y16,000
+  FUNDS_AMBER_AT: 50,          // % of goal - below this is red
+  FUNDS_GREEN_AT: 85,          // % of goal - at/above this is green
+  UPDATE_MINUTES: 30,          // collector cadence, shown in the UI
   CHART_SCALE: 100,                 // bar chart tops out at 100 teams/day; auto-grows if a day exceeds it
   LEGS: {
     full:    { label: "Full",        labelJa: "フル",              sub: "≈ 42 km", subJa: "約42km",   color: "#9ACD32", slots: 700 },
@@ -85,7 +94,9 @@ const CONFIG = {
   const ROOT = document.getElementById("yama-reg");
   const ORDER = ["full", "half", "quarter"];
   const CY = "#35D0D6";
-  const RAG = { green: "#3DD68C", amber: "#F0B429", red: "#E5484D", pending: "#2A3A4D" };
+  const RAG = { green: "#3DD68C", yellow: "#F0B429", red: "#E5484D", pending: "#2A3A4D" };
+  // weekly.json still stores "amber" as its status value; map it for display.
+  RAG.amber = RAG.yellow;
   const R = 42, C = 2 * Math.PI * R;
 
   const css = document.createElement("style");
@@ -127,21 +138,21 @@ const CONFIG = {
     font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;cursor:pointer;}
   .oc-toggle button.on{background:${CY};color:#03272a;font-weight:600;}
 
-  .oc-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;}
+  .oc-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px;}
+  @media(max-width:700px){.oc-kpis{grid-template-columns:1fr;}}
+  .oc-funds{--kc:${CY};}
+  .fundshead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;}
+  #yama-reg .fundspct{font-family:var(--numfont);font-weight:600;font-size:19px;line-height:1;}
+  .fundsbar{margin-top:9px;height:12px;border-radius:7px;background:var(--track);
+    border:1px solid var(--line);overflow:hidden;}
+  .fundsfill{height:100%;width:0;border-radius:6px;transition:width .7s cubic-bezier(.22,1,.36,1),background .4s;}
   .oc-kpi{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:12px 14px;position:relative;overflow:hidden;}
   .oc-kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--kc,var(--muted));}
   .oc-kpi .lab{color:var(--muted);font-size:10px;letter-spacing:.14em;text-transform:uppercase;}
   #yama-reg .oc-kpi .num{font-family:var(--numfont);font-weight:600;font-size:36px;line-height:1.05;margin-top:2px;}
   .oc-kpi .sub{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-top:2px;}
 
-  .oc-filter{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;}
-  .oc-filter .vw{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-right:2px;}
-  .oc-fbtn{border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:20px;cursor:pointer;
-    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;padding:5px 12px;}
-  .oc-fbtn:hover{color:var(--ink);border-color:var(--muted);}
-  .oc-fbtn.on{color:#fff;border-color:transparent;}
-
-  .oc-segs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px;}
+  .oc-segs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;}
   @media(max-width:860px){.oc-segs{grid-template-columns:1fr;}.oc-kpis{grid-template-columns:repeat(2,1fr);}.oc-ctrls{gap:10px;}}
   .oc-seg{border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:14px;transition:opacity .25s;}
   .oc-seg.dim{opacity:.32;}
@@ -160,9 +171,8 @@ const CONFIG = {
   .oc-cross::before,.oc-cross::after{content:"";position:absolute;background:var(--guide);}
   .oc-cross::before{left:50%;top:0;bottom:0;width:1px;transform:translateX(-.5px);}
   .oc-cross::after{top:50%;left:0;right:0;height:1px;transform:translateY(-.5px);}
-  .oc-radar{position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;}
-  .oc-sweep{position:absolute;inset:0;border-radius:50%;animation:oc-spin 3.6s linear infinite;}
-  @keyframes oc-spin{to{transform:rotate(360deg);}}
+  /* radar sweep removed - too busy for an internal dashboard. The coloured
+     progress arc and static crosshair guides are retained. */
   .oc-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
   #yama-reg .oc-cnum{font-family:var(--numfont);font-weight:600;font-size:38px;line-height:1;}
   .oc-csub{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.08em;margin-top:3px;}
@@ -273,7 +283,7 @@ const CONFIG = {
   .oc-ftotal{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);text-align:right;}
   .oc-fago{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);}
   .oc-fempty{color:var(--muted);font-size:11px;font-family:'IBM Plex Mono',monospace;padding:16px;text-align:center;}
-  @media (prefers-reduced-motion:reduce){.oc-fr,.oc-live b,.oc-sweep{animation:none!important;}.oc-feed{scroll-behavior:auto;}}
+  @media (prefers-reduced-motion:reduce){.oc-fr,.oc-live b{animation:none!important;}.oc-feed{scroll-behavior:auto;}}
   `;
   document.head.appendChild(css);
 
@@ -293,19 +303,32 @@ const CONFIG = {
       <div class="oc-toggle" id="oc-theme">
         <button data-t="dark">Dark</button><button data-t="light">Light</button>
       </div>
-      <div class="oc-live"><b></b><span id="oc-livetxt">System Live</span></div>
+      <div class="oc-live" id="oc-live"><b id="oc-livedot"></b><span id="oc-livetxt">—</span></div>
       <div class="oc-clock"><span class="k" id="oc-clocklab">Local (JST)</span><span class="v" id="oc-local">--:--:--</span></div>
     </div>
   </div>
 
   <div class="oc-kpis">
-    <div class="oc-kpi k-all" style="--kc:${CY}"><div class="lab" id="lab-all">Total Teams</div><div class="num mono" id="k-all">0</div><div class="sub" id="k-all-sub">of ${CONFIG.EVENT_GOAL} goal</div></div>
-    <div class="oc-kpi" style="--kc:${CONFIG.LEGS.full.color}"><div class="lab" id="lab-full">Full</div><div class="num mono" id="k-full">0</div><div class="sub" id="k-full-sub">of ${CONFIG.LEGS.full.slots}</div></div>
-    <div class="oc-kpi" style="--kc:${CONFIG.LEGS.half.color}"><div class="lab" id="lab-half">Half</div><div class="num mono" id="k-half">0</div><div class="sub" id="k-half-sub">of ${CONFIG.LEGS.half.slots}</div></div>
-    <div class="oc-kpi" style="--kc:${CONFIG.LEGS.quarter.color}"><div class="lab" id="lab-quarter">Half-a-Half</div><div class="num mono" id="k-quarter">0</div><div class="sub" id="k-quarter-sub">of ${CONFIG.LEGS.quarter.slots}</div></div>
+    <div class="oc-kpi oc-funds" id="teams-tile">
+      <div class="fundshead">
+        <div class="lab" id="lab-all">Total Teams</div>
+        <div class="fundspct mono" id="teams-pct">0%</div>
+      </div>
+      <div class="num mono" id="k-all">0</div>
+      <div class="fundsbar"><div class="fundsfill" id="teams-fill"></div></div>
+      <div class="sub" id="k-all-sub">of ${CONFIG.EVENT_GOAL} goal</div>
+    </div>
+    <div class="oc-kpi oc-funds" id="funds-tile">
+      <div class="fundshead">
+        <div class="lab" id="lab-funds">Funds Raised</div>
+        <div class="fundspct mono" id="funds-pct">0%</div>
+      </div>
+      <div class="num mono" id="funds-amt">&yen;0</div>
+      <div class="fundsbar"><div class="fundsfill" id="funds-fill"></div></div>
+      <div class="sub" id="funds-sub">of &yen;0 goal</div>
+    </div>
   </div>
 
-  <div class="oc-filter" id="oc-filter"><span class="vw" id="oc-viewlab">View ▸</span></div>
   <div class="oc-segs" id="oc-segs"></div>
 
   <div class="oc-rep">
@@ -375,19 +398,10 @@ const CONFIG = {
     <div class="oc-feed" id="oc-feed"></div>
   </div>`;
 
-  // filter buttons
-  const filterEl = ROOT.querySelector("#oc-filter");
-  const filters = [{ f: "all", label: "All", color: CY }].concat(
-    ORDER.map(k => ({ f: k, label: CONFIG.LEGS[k].label, color: CONFIG.LEGS[k].color })));
-  for (const b of filters) {
-    const btn = document.createElement("button");
-    btn.className = "oc-fbtn" + (b.f === "all" ? " on" : "");
-    btn.dataset.f = b.f; btn.dataset.color = b.color; btn.textContent = b.label;
-    if (b.f === "all") btn.style.cssText = `background:${b.color};color:#03272a;`;
-    btn.onclick = () => setFilter(b.f);
-    filterEl.appendChild(btn);
-  }
-
+  // The View filter (All / Full / Half / Half-a-Half) was removed: this is an
+  // internal dashboard where the useful reading is always all three courses at
+  // once. activeFilter stays pinned to "all" so the feed and gauges render
+  // unfiltered without needing the control.
   // segment gauges
   const segsEl = ROOT.querySelector("#oc-segs");
   for (const key of ORDER) {
@@ -404,7 +418,6 @@ const CONFIG = {
           <circle class="oc-arc" id="arc-${key}" cx="50" cy="50" r="${R}" stroke="${L.color}"
             stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${C.toFixed(1)}"></circle></svg>
         <div class="oc-guides"></div><div class="oc-cross"></div>
-        <div class="oc-radar"><div class="oc-sweep" style="background:conic-gradient(from 0deg, ${L.color}00 0deg, ${L.color}00 300deg, ${L.color}66 350deg, ${L.color}cc 360deg)"></div></div>
         <div class="oc-center">
           <div class="oc-cnum" id="cnum-${key}">0</div>
           <div class="oc-csub" id="csub-${key}">of ${L.slots} slots</div>
@@ -423,7 +436,8 @@ const CONFIG = {
   const legState = {};
   for (const key of ORDER) legState[key] = { registered: 0, slots: CONFIG.LEGS[key].slots };
   const feedEl = ROOT.querySelector("#oc-feed");
-  let feedCount = 0, activeFilter = "all", lastFeedTs = 0;
+  let feedCount = 0, lastFeedTs = 0;
+  const activeFilter = "all";   // filter UI removed - always show every course
 
   /* ---------------- language ---------------- */
   const I18N = {
@@ -431,22 +445,25 @@ const CONFIG = {
           localJst:"Local (JST)", registered:"Registered", remaining:"Remaining", full:"Full",
           feedTitle:"Registration", feedTitle2:"Activity", logged:"logged", standby:"standing by…",
           now:"now", ago:(n,u)=>n+u+" ago", sysLive:"System Live", recon:"Reconnecting…",
+          noData:"No data", updatedAt:(hhmm,mins)=>"Updated "+hhmm+(mins<2?" (just now)":mins<60?" ("+mins+"m ago)":" ("+Math.floor(mins/60)+"h "+(mins%60)+"m ago)"),
           ofGoal:"of "+CONFIG.EVENT_GOAL+" goal", tag:"Team Registration Dashboard", noActivity:"No registration activity yet",
           repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today", repCum:"Cumulative total",
           repNoData:"Not measured yet - tracking starts from first full day",
+          fundsRaised:"Funds Raised", fundsOf:(g)=>"of \u00a5"+g+" goal",
+          every:(m)=>"updates every "+m+" min",
           repPeople:"Participants",
           peopleNote:(avg,teams,asOf)=>"avg "+avg+" per team across "+teams+" teams \u00b7 from registration export "+asOf,
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
           dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day", chGeneral:"General", chSponsor:"Sponsor",
           campTitle:"Week on", campTitle2:"Week",
-          st_green:"On track", st_amber:"Watch", st_red:"Behind", st_pending:"Not started",
+          st_green:"On track", st_amber:"Yellow", st_red:"Behind", st_pending:"Not started",
           campCum:(c,g)=>"<em>"+c+"</em> of "+g+" teams",
           campAhead:(d,t)=>"<em>"+d+" ahead</em> of plan ("+t+")",
           campBehind:(d,t)=>"<em>"+d+" behind</em> plan ("+t+")",
           campDays:(d)=>d+" days to close",
           campTwoWeak:"two weak weeks in a row",
-          lgGreen:"On or above target", lgAmber:"Up to 10% short",
-          lgRed:"Over 10% short, or 2 weak weeks", lgPending:"Not started", lgTick:"Weekly target",
+          lgGreen:"Green: on or above target", lgYellow:"Yellow: up to 10% short",
+          lgRed:"Red: over 10% short, or 2 weak weeks", lgPending:"Not started", lgTick:"Weekly target",
           tgtOpen:"opening", tipBaseline:"Opening week (baseline, no plan target)",
           tipTarget:(n,c)=>"Target: +"+n+" teams (cumulative "+c+")",
           tipActual:(n,c)=>"Actual: +"+n+" teams (cumulative "+c+")",
@@ -455,7 +472,7 @@ const CONFIG = {
           tipAhead:(p)=>p+"% above cumulative target",
           why_at_or_above_target:"Green: at or above cumulative target",
           why_below_target:"Measured against cumulative target",
-          why_weak_week:"Amber: week came in under 90% of plan",
+          why_weak_week:"Yellow: week came in under 90% of plan",
           why_two_weak_weeks:"Red: two weak weeks in a row (report §6)",
           why_baseline:"Opening week actual" },
     ja: { dark:"ダーク", light:"ライト", totalTeams:"合計チーム数",
@@ -465,10 +482,13 @@ const CONFIG = {
           standby:"待機中…", now:"たった今",
           ago:(n,u)=>n+(u==="s"?"秒":"分")+"前", sysLive:"システム稼働中",
           recon:"再接続中…", ofGoal:"目標 "+CONFIG.EVENT_GOAL+" 中",
+          noData:"データなし", updatedAt:(hhmm,mins)=>hhmm+" 更新"+(mins<2?"（たった今）":mins<60?"（"+mins+"分前）":"（"+Math.floor(mins/60)+"時間"+(mins%60)+"分前）"),
           tag:"チーム登録ダッシュボード",
           noActivity:"まだ登録アクティビティはありません",
           repTitle:"デイリー", repTitle2:"レポート", repLab:"本日の登録チーム数",
           repNoData:"未計測 - 計測は初日の翌日から",
+          fundsRaised:"募金額", fundsOf:(g)=>"目標 \u00a5"+g,
+          every:(m)=>m+"分ごとに更新",
           repPeople:"参加者数",
           peopleNote:(avg,teams,asOf)=>"1チーム平均 "+avg+"名 / "+teams+"チーム \u00b7 登録エクスポート "+asOf,
           repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
@@ -481,8 +501,8 @@ const CONFIG = {
           campBehind:(d,t)=>"計画より <em>"+d+" 不足</em> ("+t+")",
           campDays:(d)=>"締切まで "+d+" 日",
           campTwoWeak:"2週連続で目標未達",
-          lgGreen:"目標達成", lgAmber:"10%以内の不足",
-          lgRed:"10%以上の不足、または2週連続未達", lgPending:"未開始", lgTick:"週次目標",
+          lgGreen:"緑: 目標達成", lgYellow:"黄: 10%以内の不足",
+          lgRed:"赤: 10%以上の不足、または2週連続未達", lgPending:"未開始", lgTick:"週次目標",
           tgtOpen:"開始週", tipBaseline:"開始週（基準値・目標なし）",
           tipTarget:(n,c)=>"目標: +"+n+" チーム（累計 "+c+"）",
           tipActual:(n,c)=>"実績: +"+n+" チーム（累計 "+c+"）",
@@ -504,20 +524,16 @@ const CONFIG = {
     ROOT.querySelectorAll("#oc-lang button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     ROOT.querySelector("#oc-tagtxt").textContent = t("tag");
     ROOT.querySelector("#oc-clocklab").textContent = t("localJst");
-    ROOT.querySelector("#oc-viewlab").textContent = t("view");
     ROOT.querySelector("#lab-all").textContent = t("totalTeams");
     ROOT.querySelector("#k-all-sub").textContent = t("ofGoal");
+    ROOT.querySelector("#lab-funds").textContent = t("fundsRaised");
     for (const key of ORDER) {
-      ROOT.querySelector("#lab-" + key).textContent = legLabel(key);
       const sl = ROOT.querySelector("#sl-" + key); if (sl) sl.textContent = legLabel(key);
       const ss = ROOT.querySelector("#ss-" + key); if (ss) ss.textContent = legSub(key);
       ROOT.querySelector("#l-" + key + "-reg").textContent = t("registered");
       ROOT.querySelector("#l-" + key + "-rem").textContent = t("remaining");
       ROOT.querySelector("#l-" + key + "-pct").textContent = t("full");
     }
-    ROOT.querySelectorAll("#oc-filter .oc-fbtn").forEach(b => {
-      b.textContent = b.dataset.f === "all" ? t("all") : legLabel(b.dataset.f);
-    });
     ROOT.querySelector("#oc-feedtitle").innerHTML = t("feedTitle") + ' <span>' + t("feedTitle2") + '</span>';
     ROOT.querySelector("#oc-feednote").textContent = feedCount ? feedCount + " " + t("logged") : t("standby");
     feedEl.querySelectorAll(".oc-chip").forEach(c => { c.textContent = legLabel(c.dataset.leg); });
@@ -532,7 +548,7 @@ const CONFIG = {
     // campaign tracker
     ROOT.querySelector("#camp-title").innerHTML = t("campTitle") + ' <span>' + t("campTitle2") + '</span>';
     ROOT.querySelector("#lg-green").textContent = t("lgGreen");
-    ROOT.querySelector("#lg-amber").textContent = t("lgAmber");
+    ROOT.querySelector("#lg-amber").textContent = t("lgYellow");
     ROOT.querySelector("#lg-red").textContent = t("lgRed");
     ROOT.querySelector("#lg-pending").textContent = t("lgPending");
     ROOT.querySelector("#lg-tick").textContent = t("lgTick");
@@ -570,20 +586,35 @@ const CONFIG = {
       set("s-" + key + "-reg", s.registered);
       set("s-" + key + "-rem", Math.max(0, s.slots - s.registered));
       set("s-" + key + "-pct", Math.round(pct * 100) + "%");
-      set("k-" + key, s.registered);
     }
-    set("k-all", total);
-  }
+    // --- progress bars: teams and funds share one red/yellow/green rule ---
+    const ragFor = p => p >= CONFIG.FUNDS_GREEN_AT ? RAG.green
+                      : p >= CONFIG.FUNDS_AMBER_AT ? RAG.yellow
+                      : RAG.red;
+    function bar(tileId, fillId, pctId, pct) {
+      const col = ragFor(pct);
+      const fill = ROOT.querySelector("#" + fillId);
+      if (fill) { fill.style.width = Math.min(100, pct) + "%"; fill.style.background = col; }
+      const tile = ROOT.querySelector("#" + tileId);
+      if (tile) tile.style.setProperty("--kc", col);
+      const pe = ROOT.querySelector("#" + pctId);
+      if (pe) { pe.textContent = pct.toFixed(1) + "%"; pe.style.color = col; }
+      return col;
+    }
 
-  function setFilter(f) {
-    activeFilter = f;
-    filterEl.querySelectorAll(".oc-fbtn").forEach(btn => {
-      const on = btn.dataset.f === f;
-      btn.classList.toggle("on", on);
-      btn.style.cssText = on ? `background:${btn.dataset.color};color:#08211f;` : "";
-    });
-    segsEl.querySelectorAll(".oc-seg").forEach(seg => seg.classList.toggle("dim", f !== "all" && seg.dataset.seg !== f));
-    feedEl.querySelectorAll(".oc-fr").forEach(row => { row.style.display = (f === "all" || row.dataset.leg === f) ? "" : "none"; });
+    set("k-all", total);
+    bar("teams-tile", "teams-fill", "teams-pct",
+        CONFIG.EVENT_GOAL ? (total / CONFIG.EVENT_GOAL) * 100 : 0);
+
+    // --- funds raised ---
+    // Straight calculation: every registered team = one entry fee. There is
+    // no donation field in Webscorer (checked - the API returns no money data
+    // at all), so this is derived, not reported. Labelled as such in the UI.
+    const raised = total * CONFIG.FEE_PER_TEAM;
+    const pct = CONFIG.FUNDS_GOAL ? (raised / CONFIG.FUNDS_GOAL) * 100 : 0;
+    set("funds-amt", "\u00a5" + raised.toLocaleString());
+    set("funds-sub", t("fundsOf")(CONFIG.FUNDS_GOAL.toLocaleString()));
+    bar("funds-tile", "funds-fill", "funds-pct", pct);
   }
 
   /* ---------------- feed ---------------- */
@@ -719,6 +750,36 @@ const CONFIG = {
     ROOT.querySelector("#wk-note").textContent = t("wkNote")(weekTotal);
   }
 
+  /* ---------------- data freshness ----------------
+     This is a static site: the page can only ever be as fresh as the last
+     collector run, and GitHub throttles scheduled workflows unpredictably.
+     Showing a permanent "SYSTEM LIVE" badge therefore lies. Show the real
+     age of the data and colour it, so a stalled collector is obvious at a
+     glance instead of quietly serving old numbers.                        */
+  let lastFetchedAt = null;
+
+  function renderFreshness() {
+    const el = ROOT.querySelector("#oc-livetxt");
+    const dot = ROOT.querySelector("#oc-livedot");
+    const wrap = ROOT.querySelector("#oc-live");
+    if (!lastFetchedAt) { if (el) el.textContent = t("noData"); return; }
+
+    const then = new Date(lastFetchedAt);
+    const mins = Math.max(0, Math.round((Date.now() - then.getTime()) / 60000));
+    const jst = new Date(then.getTime() + (then.getTimezoneOffset() + 540) * 60000);
+    const hhmm = pad(jst.getHours()) + ":" + pad(jst.getMinutes());
+
+    let col;
+    if (mins <= 30)       col = "#3DD68C";   // fresh
+    else if (mins <= 90)  col = CY;          // normal
+    else if (mins <= 240) col = "#F0B429";   // getting stale
+    else                  col = "#E5484D";   // stalled
+
+    el.textContent = t("updatedAt")(hhmm, mins);
+    if (dot) dot.style.background = col;
+    if (wrap) { wrap.style.color = col; wrap.style.borderColor = col; }
+  }
+
   /* ---------------- campaign tracker (week on week vs plan) ---------------- */
   let weeklyData = null;
 
@@ -805,6 +866,7 @@ const CONFIG = {
   setInterval(() => {
     const jst = new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000);
     set("oc-local", pad(jst.getHours()) + ":" + pad(jst.getMinutes()) + ":" + pad(jst.getSeconds()));
+    if (jst.getSeconds() === 0) renderFreshness();   // re-age once a minute
   }, 1000);
 
   /* ---------------- live polling ---------------- */
@@ -819,8 +881,9 @@ const CONFIG = {
       ]);
       if (counts) {
         for (const k of ORDER) if (counts[k] != null) legState[k].registered = +counts[k] || 0;
-        set("oc-livetxt", t("sysLive"));
+        lastFetchedAt = counts.fetched_at || null;
       }
+      renderFreshness();
       if (daily && Array.isArray(daily.days)) dailyData = daily;
       if (weekly && Array.isArray(weekly.weeks)) weeklyData = weekly;
       if (teamsize && teamsize.people) {
@@ -848,11 +911,18 @@ const CONFIG = {
 </script>
 
 <div class="foot">
-  Data refreshed automatically from <a href="https://www.tokyo-yamathon.com" target="_blank" rel="noopener">tokyo-yamathon.com</a> (via Webscorer) by a GitHub Actions workflow. Same visual system as the race-day command center — swaps in registration progress until results go live on race day.
+  Data refreshed automatically from Webscorer count by a GitHub Actions workflow.
+  Updated in 30-minute intervals.
   <div class="foot-ip">
-    Developed by <strong>SxS Partners</strong> for the International Volunteer Group-Japan and Tokyo Yamathon.
-    This code is the intellectual property of SxS Partners. All rights remain the property of SxS Partners
-    and the project developer, C. Stewart. &copy; SxS Partners — All rights reserved.
+    <img id="sxs-logo" class="foot-logo" alt="SxS Partners" src="sxs-logo.png"
+         onerror="this.style.display='none'">
+    <span>
+      Design and creative engineering by <strong>SxS Partners株式会社</strong> for the
+      International Volunteer Group-Japan to be utilized for the Tokyo Yamathon 2026.
+      This code is the intellectual property of SxS Partners株式会社. All rights remain
+      the property of SxS Partners株式会社 and the project developer, C. Stewart.
+      &copy; SxS Partners株式会社 — All rights reserved.
+    </span>
   </div>
 </div>
 </body>

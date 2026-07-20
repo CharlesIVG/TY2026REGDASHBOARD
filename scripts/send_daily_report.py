@@ -178,7 +178,11 @@ def render_text(summary) -> str:
 
     # --- are we on target ---
     if wk:
+        # weekly.json stores "amber" as its status value; the team asked for
+        # red/yellow/green language, so translate on display only.
         status = (wk.get("status") or "pending").upper()
+        if status == "AMBER":
+            status = "YELLOW"
         cum = wk.get("cumulative", 0)
         target = wk.get("targetNow")
         goal = wk.get("goal", EVENT_GOAL)
@@ -222,7 +226,7 @@ def render_text(summary) -> str:
         raised = latest["total"] * FEE_PER_TEAM
         gap = max(0, FUNDS_GOAL - raised)
         p = raised / FUNDS_GOAL * 100 if FUNDS_GOAL else 0
-        status = "GREEN" if p >= 85 else "AMBER" if p >= 50 else "RED"
+        status = "GREEN" if p >= 85 else "YELLOW" if p >= 50 else "RED"
         L.append("")
         L.append(f"FUNDS RAISED: \u00a5{raised:,}   [{status}]")
         L.append(f"  Goal         \u00a5{FUNDS_GOAL:,}")
