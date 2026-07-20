@@ -48,6 +48,11 @@ HALF_SLOTS = 250
 QUARTER_SLOTS = 150
 EVENT_GOAL = 1100
 
+# Fundraising - derived, not reported. Webscorer exposes no donation or fee
+# data via its API (verified), so funds are calculated as teams x entry fee.
+FEE_PER_TEAM = 16000
+FUNDS_GOAL = 17600000        # = 1,100 teams x Y16,000
+
 CATEGORY_LABELS = {"full": "Full Course", "half": "Half Course", "quarter": "Half-a-Half"}
 DASHBOARD_URL = "https://charlesivg.github.io/TY2026REGDASHBOARD/"
 
@@ -212,6 +217,18 @@ def render_text(summary) -> str:
             L.append("BY CHANNEL")
             L.append(f"  General      {gen}")
             L.append(f"  Sponsor      {spo}")
+    # --- fundraising ---
+    if latest:
+        raised = latest["total"] * FEE_PER_TEAM
+        gap = max(0, FUNDS_GOAL - raised)
+        p = raised / FUNDS_GOAL * 100 if FUNDS_GOAL else 0
+        status = "GREEN" if p >= 85 else "AMBER" if p >= 50 else "RED"
+        L.append("")
+        L.append(f"FUNDS RAISED: \u00a5{raised:,}   [{status}]")
+        L.append(f"  Goal         \u00a5{FUNDS_GOAL:,}")
+        L.append(f"  Progress     {p:.1f}%")
+        L.append(f"  Still needed \u00a5{gap:,}  ({gap // FEE_PER_TEAM} more teams)")
+
     # --- participants (from periodic export; API has no roster) ---
     ts = load_teamsize()
     if ts and ts.get("people"):
@@ -290,7 +307,7 @@ def send_email(subject: str, text_body: str, html_body: str) -> None:
     user = os.environ.get("SMTP_USER")
     password = os.environ.get("SMTP_PASS")
     mail_from = os.environ.get("MAIL_FROM", user or "")
-    mail_to = os.environ.get("MAIL_TO", "all@ivgjapan.org")
+    mail_to = os.environ.get("MAIL_TO", "allivg@ivgjapan.org")
 
     if not host or not user or not password:
         print("SMTP_HOST/SMTP_USER/SMTP_PASS not set - printing report instead of sending.\n")
