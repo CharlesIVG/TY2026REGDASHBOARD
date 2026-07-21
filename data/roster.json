@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:00:41.418520+09:00",
+  "updated": "2026-07-21T14:30:43.662601+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -792,6 +792,24 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-21T12:30:43.239271+09:00"
+    },
+    "general|duration riak": {
+      "team": "Duration Riak",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-21T14:30:43.662601+09:00"
+    },
+    "general|full duration": {
+      "team": "Full Duration",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-21T14:30:43.662601+09:00"
+    },
+    "general|step sync": {
+      "team": "Step Sync",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T14:30:43.662601+09:00"
     }
   }
 }

@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1784611843662,
+    "team": "Duration Riak",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784611843662,
+    "team": "Full Duration",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784611843662,
+    "team": "Step Sync",
+    "course": "half",
+    "channel": "general"
+  },
+  {
     "ts": 1784604643239,
     "team": "The Fellowship Of The (Boxing) Ring",
     "course": "half",
