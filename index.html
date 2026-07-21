@@ -195,7 +195,18 @@ const CONFIG = {
   .oc-repcell .l{font-family:'IBM Plex Mono','Noto Sans JP',monospace;font-size:8px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:4px;
     overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .oc-reptot{margin-top:11px;padding-top:9px;border-top:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;}
-  .oc-repnote{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);opacity:.75;margin-top:5px;line-height:1.4;}
+  .oc-repnote{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);opacity:.75;margin-top:6px;line-height:1.4;}
+  /* Team-size composition. A mean was meaningless (you cannot have a
+     third of a person), so this shows the actual tally at a size people
+     can read across the room. Team count sits top-right, clear of it. */
+  .oc-repcomp{margin-top:11px;padding-top:9px;border-top:1px solid var(--line);}
+  .oc-repcomph{display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
+  .oc-repcomph .l{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);
+    letter-spacing:.1em;text-transform:uppercase;}
+  .oc-repcomph .t{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);
+    letter-spacing:.08em;white-space:nowrap;}
+  #yama-reg .oc-repcompv{font-family:var(--numfont);font-weight:600;font-size:24px;
+    letter-spacing:.03em;margin-top:7px;display:flex;flex-wrap:wrap;gap:8px 22px;}
   .oc-reptot .l{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;}
   #yama-reg .oc-reptot .v{font-family:var(--numfont);font-weight:600;font-size:20px;}
 
@@ -344,7 +355,14 @@ const CONFIG = {
       <div class="oc-reptot" id="rep-people-row" style="display:none">
         <span class="l" id="rep-people-l">Participants</span><span class="v mono" id="rep-people">0</span>
       </div>
-      <div class="oc-repnote" id="rep-people-note"></div>
+      <div class="oc-repcomp" id="rep-comp-row" style="display:none">
+        <div class="oc-repcomph">
+          <span class="l" id="rep-comp-l">Team Member Composition</span>
+          <span class="t mono" id="rep-comp-teams"></span>
+        </div>
+        <div class="oc-repcompv mono" id="rep-comp"></div>
+        <div class="oc-repnote" id="rep-people-note"></div>
+      </div>
     </div>
 
     <div class="oc-card">
@@ -446,7 +464,8 @@ const CONFIG = {
           fundsRaised:"Funds Raised", fundsOf:(g)=>"of \u00a5"+g+" goal",
           every:(m)=>"updates every "+m+" min",
           repPeople:"Participants",
-          peopleNote:(dist,teams,asOf)=>dist+" \u00b7 "+teams+" teams \u00b7 from registration export "+asOf,
+          compTitle:"Team Member Composition", teamsCount:(n)=>n+" teams",
+          peopleNote:(asOf)=>"from registration export "+asOf,
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
           dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day", chGeneral:"General", chSponsor:"Sponsor",
           campTitle:"Week on", campTitle2:"Week",
@@ -484,7 +503,8 @@ const CONFIG = {
           fundsRaised:"募金額", fundsOf:(g)=>"目標 \u00a5"+g,
           every:(m)=>m+"分ごとに更新",
           repPeople:"参加者数",
-          peopleNote:(dist,teams,asOf)=>dist+" \u00b7 "+teams+"チーム \u00b7 登録エクスポート "+asOf,
+          compTitle:"チーム構成人数", teamsCount:(n)=>n+"チーム",
+          peopleNote:(asOf)=>"登録エクスポート "+asOf,
           repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
           wkNote:(n)=>"7日間で "+n+" チーム",
           dows:["日","月","火","水","木","金","土"], noSnap:"この日のデータなし", chGeneral:"一般", chSponsor:"スポンサー",
@@ -538,6 +558,7 @@ const CONFIG = {
     ROOT.querySelector("#rep-lab").textContent = t("repLab");
     ROOT.querySelector("#rep-cum-l").textContent = t("repCum");
     ROOT.querySelector("#rep-people-l").textContent = t("repPeople");
+    ROOT.querySelector("#rep-comp-l").textContent = t("compTitle");
     for (const key of ORDER) ROOT.querySelector("#rep-" + key + "-l").textContent = legLabel(key);
     // campaign tracker
     ROOT.querySelector("#camp-title").innerHTML = t("campTitle") + ' <span>' + t("campTitle2") + '</span>';
@@ -883,18 +904,27 @@ const CONFIG = {
       /* A mean team size is not actionable - you cannot have a third of a
          person. Show the actual tally instead: "76x4  20x3  29x2". Sizes
          are read from the data, not hardcoded. */
-      const teamSizeTally = d => !d ? "" : Object.keys(d)
+      /* "4=76  3=20  2=29" - largest teams first, sizes read from the data
+         rather than hardcoded, so a 5-person team would appear on its own.
+         Values are coerced to Number before going anywhere near innerHTML. */
+      const teamSizeTally = d => !d ? [] : Object.keys(d)
         .sort((a, b) => Number(b) - Number(a))
         .filter(k => d[k])
-        .map(k => d[k] + "\u00d7" + k)
-        .join("  ");
+        .map(k => Number(k) + "=" + Number(d[k]));
       if (teamsize && teamsize.people) {
         // Member counts come from a manual Webscorer export - the JSON API has
         // no roster - so label the date it was taken rather than implying live.
         ROOT.querySelector("#rep-people-row").style.display = "";
         set("rep-people", teamsize.people.toLocaleString());
-        ROOT.querySelector("#rep-people-note").textContent =
-          t("peopleNote")(teamSizeTally(teamsize.distribution), teamsize.teams, teamsize.asOf);
+        const parts = teamSizeTally(teamsize.distribution);
+        if (parts.length) {
+          ROOT.querySelector("#rep-comp-row").style.display = "";
+          ROOT.querySelector("#rep-comp-l").textContent = t("compTitle");
+          ROOT.querySelector("#rep-comp-teams").textContent = t("teamsCount")(teamsize.teams);
+          ROOT.querySelector("#rep-comp").innerHTML =
+            parts.map(p => "<span>" + p + "</span>").join("");
+        }
+        ROOT.querySelector("#rep-people-note").textContent = t("peopleNote")(teamsize.asOf);
       }
       paint();
       renderDaily();
