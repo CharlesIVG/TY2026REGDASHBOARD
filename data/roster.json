@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:30:43.662601+09:00",
+  "updated": "2026-07-21T15:00:52.567350+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -810,6 +810,12 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-21T14:30:43.662601+09:00"
+    },
+    "general|riot women": {
+      "team": "Riot Women",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-21T15:00:52.567350+09:00"
     }
   }
 }
