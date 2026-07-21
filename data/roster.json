@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T12:00:40.848771+09:00",
+  "updated": "2026-07-21T12:30:43.239271+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -786,6 +786,12 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-21T12:00:40.848771+09:00"
+    },
+    "general|the fellowship of the (boxing) ring": {
+      "team": "The Fellowship Of The (Boxing) Ring",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T12:30:43.239271+09:00"
     }
   }
 }
