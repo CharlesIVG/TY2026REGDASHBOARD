@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T11:00:39.833587+09:00",
+  "updated": "2026-07-21T11:30:32.958673+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -762,6 +762,24 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-21T11:00:39.833587+09:00"
+    },
+    "general|door decoders": {
+      "team": "Door Decoders",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T11:30:32.958673+09:00"
+    },
+    "general|sthree 3": {
+      "team": "Sthree 3",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T11:30:32.958673+09:00"
+    },
+    "general|team snow": {
+      "team": "Team Snow",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T11:30:32.958673+09:00"
     }
   }
 }
