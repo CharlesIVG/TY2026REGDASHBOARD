@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T23:00:45.384940+09:00",
+  "updated": "2026-07-21T23:30:36.703953+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -846,6 +846,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-21T23:00:45.384940+09:00"
+    },
+    "general|aimasho raising stars ✨": {
+      "team": "Aimasho Raising Stars ✨",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T23:30:36.703953+09:00"
     }
   }
 }
