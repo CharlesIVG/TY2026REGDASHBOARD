@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T07:00:40.159581+09:00",
+  "updated": "2026-07-22T07:10:54.621685+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -852,6 +852,12 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-21T23:30:36.703953+09:00"
+    },
+    "general|happy feet 2.0": {
+      "team": "Happy Feet 2.0",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-22T07:10:54.621685+09:00"
     }
   }
 }
