@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T15:00:52.567350+09:00",
+  "updated": "2026-07-21T15:30:32.366564+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -816,6 +816,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-21T15:00:52.567350+09:00"
+    },
+    "general|sthree 2": {
+      "team": "Sthree 2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-21T15:30:32.366564+09:00"
     }
   }
 }
