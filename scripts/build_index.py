@@ -223,8 +223,17 @@ const CONFIG = {
     letter-spacing:.1em;text-transform:uppercase;}
   .oc-repcomph .t{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);
     letter-spacing:.08em;white-space:nowrap;}
-  #yama-reg .oc-repcompv{font-family:var(--numfont);font-weight:600;font-size:24px;
-    letter-spacing:.03em;margin-top:7px;display:flex;flex-wrap:wrap;gap:8px 22px;}
+  /* Same size as the Participants figure above it - these are peers, and
+     an oversized tally shouted louder than the number it describes. */
+  #yama-reg .oc-repcompv{font-family:var(--numfont);font-weight:600;font-size:20px;
+    letter-spacing:.03em;margin-top:6px;display:flex;flex-wrap:wrap;gap:6px 20px;}
+  /* Section headings inside the Daily Report card. The card carries two
+     distinct reports - today's registrations, and the participant
+     breakdown from the last export - so each gets a labelled band. */
+  .oc-repsec{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);
+    letter-spacing:.18em;text-transform:uppercase;margin-top:12px;padding-bottom:7px;
+    border-bottom:1px solid var(--line);}
+  .oc-repsec2{margin-top:16px;}
   .oc-reptot .l{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;}
   #yama-reg .oc-reptot .v{font-family:var(--numfont);font-weight:600;font-size:20px;}
 
@@ -360,6 +369,7 @@ const CONFIG = {
         <div class="oc-cardt" id="rep-title">Daily <span>Report</span></div>
       </div>
       <div class="oc-repdate" id="rep-date">—</div>
+      <div class="oc-repsec" id="rep-sec-daily">Daily Teams In Report</div>
       <div class="oc-repbig mono" id="rep-total">0</div>
       <div class="oc-replab" id="rep-lab">Teams registered today</div>
       <div class="oc-repsplit">
@@ -367,19 +377,19 @@ const CONFIG = {
         <div class="oc-repcell"><div class="n mono" id="rep-half" style="color:${CONFIG.LEGS.half.color}">0</div><div class="l" id="rep-half-l">Half</div></div>
         <div class="oc-repcell"><div class="n mono" id="rep-quarter" style="color:${CONFIG.LEGS.quarter.color}">0</div><div class="l" id="rep-quarter-l">Half-a-Half</div></div>
       </div>
-      <div class="oc-reptot">
-        <span class="l" id="rep-cum-l">Cumulative</span><span class="v mono" id="rep-cum">0</span>
-      </div>
-      <div class="oc-reptot" id="rep-people-row" style="display:none">
-        <span class="l" id="rep-people-l">Participants</span><span class="v mono" id="rep-people">0</span>
-      </div>
-      <div class="oc-repcomp" id="rep-comp-row" style="display:none">
-        <div class="oc-repcomph">
-          <span class="l" id="rep-comp-l">Team Member Composition</span>
-          <span class="t mono" id="rep-comp-teams"></span>
+      <div id="rep-breakdown" style="display:none">
+        <div class="oc-repsec oc-repsec2" id="rep-sec-part">Participant Breakdown Report</div>
+        <div class="oc-reptot" id="rep-people-row">
+          <span class="l" id="rep-people-l">Participants</span><span class="v mono" id="rep-people">0</span>
         </div>
-        <div class="oc-repcompv mono" id="rep-comp"></div>
-        <div class="oc-repnote" id="rep-people-note"></div>
+        <div class="oc-repcomp" id="rep-comp-row">
+          <div class="oc-repcomph">
+            <span class="l" id="rep-comp-l">Team Member Composition</span>
+            <span class="t mono" id="rep-comp-teams"></span>
+          </div>
+          <div class="oc-repcompv mono" id="rep-comp"></div>
+          <div class="oc-repnote" id="rep-people-note"></div>
+        </div>
       </div>
     </div>
 
@@ -477,13 +487,14 @@ const CONFIG = {
           now:"now", ago:(n,u)=>n+u+" ago", sysLive:"System Live", recon:"Reconnecting…",
           noData:"No data", updatedAt:(hhmm,mins)=>"Updated "+hhmm+(mins<2?" (just now)":mins<60?" ("+mins+"m ago)":" ("+Math.floor(mins/60)+"h "+(mins%60)+"m ago)"),
           ofGoal:"of "+CONFIG.EVENT_GOAL+" goal", tag:"Team Registration Dashboard", noActivity:"No registration activity yet",
-          repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today", repCum:"Cumulative total",
+          repTitle:"Daily", repTitle2:"Report", repLab:"Teams registered today",
+          secDaily:"Daily Teams In Report", secPart:"Participant Breakdown Report",
           repNoData:"Not measured yet - tracking starts from first full day",
           fundsRaised:"Funds Raised", fundsOf:(g)=>"of \u00a5"+g+" goal",
           every:(m)=>"updates every "+m+" min",
           repPeople:"Participants",
           compTitle:"Team Member Composition", teamsCount:(n)=>n+" teams",
-          peopleNote:(asOf)=>"from registration export "+asOf,
+          peopleNote:(asOf)=>"Note: from Webscorer team registration data import \u00b7 last import "+asOf,
           wkTitle:"Last 7", wkTitle2:"Days", wkNote:(n)=>n+" teams in 7 days",
           dows:["S","M","T","W","T","F","S"], noSnap:"no snapshots this day", chGeneral:"General", chSponsor:"Sponsor",
           campTitle:"Week on", campTitle2:"Week",
@@ -522,8 +533,9 @@ const CONFIG = {
           every:(m)=>m+"分ごとに更新",
           repPeople:"参加者数",
           compTitle:"チーム構成人数", teamsCount:(n)=>n+"チーム",
-          peopleNote:(asOf)=>"登録エクスポート "+asOf,
-          repCum:"累計", wkTitle:"直近", wkTitle2:"7日間",
+          peopleNote:(asOf)=>"注: Webscorer 登録データ取込 \u00b7 最終取込 "+asOf,
+          secDaily:"当日の登録チーム", secPart:"参加者内訳レポート",
+          wkTitle:"直近", wkTitle2:"7日間",
           wkNote:(n)=>"7日間で "+n+" チーム",
           dows:["日","月","火","水","木","金","土"], noSnap:"この日のデータなし", chGeneral:"一般", chSponsor:"スポンサー",
           campTitle:"週次", campTitle2:"進捗",
@@ -574,7 +586,8 @@ const CONFIG = {
     ROOT.querySelector("#rep-title").innerHTML = t("repTitle") + ' <span>' + t("repTitle2") + '</span>';
     ROOT.querySelector("#wk-title").innerHTML = t("wkTitle") + ' <span>' + t("wkTitle2") + '</span>';
     ROOT.querySelector("#rep-lab").textContent = t("repLab");
-    ROOT.querySelector("#rep-cum-l").textContent = t("repCum");
+    ROOT.querySelector("#rep-sec-daily").textContent = t("secDaily");
+    ROOT.querySelector("#rep-sec-part").textContent = t("secPart");
     ROOT.querySelector("#rep-people-l").textContent = t("repPeople");
     ROOT.querySelector("#rep-comp-l").textContent = t("compTitle");
     for (const key of ORDER) ROOT.querySelector("#rep-" + key + "-l").textContent = legLabel(key);
@@ -725,7 +738,9 @@ const CONFIG = {
     // cumulative: today's figure if present, else the most recent day that has one
     let cum = today.cumulative || 0;
     if (!cum) { for (let i = days.length - 1; i >= 0; i--) { if (days[i].cumulative) { cum = days[i].cumulative; break; } } }
-    set("rep-cum", cum);
+    // Cumulative total lives in the TOTAL TEAMS tile at the top of the page;
+    // repeating it here was noise, and it disagreed with the export-derived
+    // team count sitting directly beneath it.
 
     // --- weekly chart: rolling last 7 days, ending today ---
     // (A strict Sun->Sat calendar week renders almost empty early in the week,
@@ -932,7 +947,7 @@ const CONFIG = {
       if (teamsize && teamsize.people) {
         // Member counts come from a manual Webscorer export - the JSON API has
         // no roster - so label the date it was taken rather than implying live.
-        ROOT.querySelector("#rep-people-row").style.display = "";
+        ROOT.querySelector("#rep-breakdown").style.display = "";
         set("rep-people", teamsize.people.toLocaleString());
         const parts = teamSizeTally(teamsize.distribution);
         if (parts.length) {
