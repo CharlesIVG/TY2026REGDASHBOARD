@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T14:30:31.974723+09:00",
+  "updated": "2026-07-22T15:00:40.656467+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -924,6 +924,18 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-22T14:30:31.974723+09:00"
+    },
+    "general|idexx 7": {
+      "team": "Idexx 7",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T15:00:40.656467+09:00"
+    },
+    "general|tree of life": {
+      "team": "Tree Of Life",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-22T15:00:40.656467+09:00"
     }
   }
 }
