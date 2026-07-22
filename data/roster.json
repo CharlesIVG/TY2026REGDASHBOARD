@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T10:00:40.928927+09:00",
+  "updated": "2026-07-22T10:30:30.137006+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -858,6 +858,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-22T07:10:54.621685+09:00"
+    },
+    "general|spike’s disciples": {
+      "team": "Spike’S Disciples",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-22T10:30:30.137006+09:00"
     }
   }
 }
