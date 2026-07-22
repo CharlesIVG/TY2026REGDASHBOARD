@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T13:30:32.601092+09:00",
+  "updated": "2026-07-22T14:00:40.838793+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -870,6 +870,36 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-22T13:30:32.601092+09:00"
+    },
+    "general|idexx 3": {
+      "team": "Idexx 3",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:00:40.838793+09:00"
+    },
+    "general|on japan": {
+      "team": "On Japan",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:00:40.838793+09:00"
+    },
+    "general|swiss-japan on running": {
+      "team": "Swiss-Japan On Running",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:00:40.838793+09:00"
+    },
+    "general|ticino team": {
+      "team": "Ticino Team",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:00:40.838793+09:00"
+    },
+    "general|オン・ジャパン": {
+      "team": "オン・ジャパン",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:00:40.838793+09:00"
     }
   }
 }
