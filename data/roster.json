@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T16:00:41.371395+09:00",
+  "updated": "2026-07-22T16:30:33.648054+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -954,6 +954,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-22T15:30:33.643675+09:00"
+    },
+    "general|日本bd apmチーム": {
+      "team": "日本bd Apmチーム",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T16:30:33.648054+09:00"
     }
   }
 }
