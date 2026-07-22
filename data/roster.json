@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T14:00:40.838793+09:00",
+  "updated": "2026-07-22T14:30:31.974723+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -900,6 +900,30 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-22T14:00:40.838793+09:00"
+    },
+    "general|idexx 2": {
+      "team": "Idexx 2",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:30:31.974723+09:00"
+    },
+    "general|idexx 4": {
+      "team": "Idexx 4",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:30:31.974723+09:00"
+    },
+    "general|idexx 6": {
+      "team": "Idexx 6",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:30:31.974723+09:00"
+    },
+    "general|idexx1": {
+      "team": "Idexx1",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-22T14:30:31.974723+09:00"
     }
   }
 }
