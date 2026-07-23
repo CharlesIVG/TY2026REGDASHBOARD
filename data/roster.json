@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T09:30:42.823169+09:00",
+  "updated": "2026-07-23T10:00:40.883906+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1008,6 +1008,30 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-23T09:30:42.823169+09:00"
+    },
+    "general|hilton tokyo full-1": {
+      "team": "Hilton Tokyo Full-1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-23T10:00:40.883906+09:00"
+    },
+    "general|hilton tokyo full-2": {
+      "team": "Hilton Tokyo Full-2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-23T10:00:40.883906+09:00"
+    },
+    "general|hilton tokyo half-4": {
+      "team": "Hilton Tokyo Half-4",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-23T10:00:40.883906+09:00"
+    },
+    "general|ロデオドライブ": {
+      "team": "ロデオドライブ",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-23T10:00:40.883906+09:00"
     }
   }
 }

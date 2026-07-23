@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1784768440883,
+    "team": "Hilton Tokyo Full-1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784768440883,
+    "team": "Hilton Tokyo Full-2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1784768440883,
+    "team": "Hilton Tokyo Half-4",
+    "course": "half",
+    "channel": "general"
+  },
+  {
+    "ts": 1784768440883,
+    "team": "ロデオドライブ",
+    "course": "half",
+    "channel": "general"
+  },
+  {
     "ts": 1784766642823,
     "team": "Hilton Tokyo Half-1",
     "course": "half",
