@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T14:00:40.766016+09:00",
+  "updated": "2026-07-23T14:30:33.194274+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1068,6 +1068,18 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-23T11:30:34.396177+09:00"
+    },
+    "general|sthree 7": {
+      "team": "Sthree 7",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-23T14:30:33.194274+09:00"
+    },
+    "general|sthree 8": {
+      "team": "Sthree 8",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-23T14:30:33.194274+09:00"
     }
   }
 }
