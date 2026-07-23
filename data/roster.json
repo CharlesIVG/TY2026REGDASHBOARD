@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T08:00:41.073548+09:00",
+  "updated": "2026-07-24T08:30:33.638888+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1140,6 +1140,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon easy peasy #2": {
+      "team": "Decathlon Easy Peasy #2",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:30:33.638888+09:00"
     }
   }
 }
