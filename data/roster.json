@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T07:30:42.853281+09:00",
+  "updated": "2026-07-24T08:00:41.073548+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1092,6 +1092,54 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-23T22:00:44.481418+09:00"
+    },
+    "sponsor|decathlon breeze runners": {
+      "team": "Decathlon Breeze Runners",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon cozy pacers": {
+      "team": "Decathlon Cozy Pacers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon easy peasy #1": {
+      "team": "Decathlon Easy Peasy #1",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon kiprun club #1": {
+      "team": "Decathlon Kiprun Club #1",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon mellow mile club": {
+      "team": "Decathlon Mellow Mile Club",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon speed spark squad": {
+      "team": "Decathlon Speed Spark Squad",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon sunny stroll club": {
+      "team": "Decathlon Sunny Stroll Club",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
+    },
+    "sponsor|decathlon turbo dash crew": {
+      "team": "Decathlon Turbo Dash Crew",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T08:00:41.073548+09:00"
     }
   }
 }
