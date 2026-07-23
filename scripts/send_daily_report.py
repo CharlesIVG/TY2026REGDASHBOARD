@@ -81,11 +81,16 @@ COURSE_HEX = {"full": "#9ACD32", "half": "#F89825", "quarter": "#7EB7E4"}
 # Fixed wording that opens and closes every report. Edit the strings here -
 # nothing else in the file needs to change. Blank strings produce blank lines.
 GREETING = "Good Morning Community Impact Rockstars \U0001F918 - I've got your \U0001FAF5 daily progress report for the TEAMS IN for 2026!"
+# "YamaGo" is the sign-off name. In plain text it prints as a word; in the
+# HTML email it is replaced by yamago.png (drop that file at the repo root,
+# served by GitHub Pages). If the image is missing, the alt text shows.
+SIGNOFF_NAME = "YamaGo"
 SIGNOFF = [
     "Have a great day and - keep on truckin!",
     "Let's Go!",
-    "YamaGo",
+    SIGNOFF_NAME,
 ]
+SIGNOFF_IMG_URL = "https://charlesivg.github.io/TY2026REGDASHBOARD/yamago.png"
 
 
 def load_history():
@@ -203,7 +208,7 @@ def render_text(summary) -> str:
     wk = load_plan()
 
     L = []
-    L.append(f"TOKYO YAMATHON - REGISTRATION REPORT")
+    L.append(f"TOKYO YAMATHON - DAILY TEAM ENTRY REPORT")
     L.append(f"{summary['date']} (JST)")
     L.append("")
     if GREETING:
@@ -408,17 +413,19 @@ def render_html(summary) -> str:
     # --- running totals + funds ---
     if latest:
         rows.append(_section("\U0001F4CA Running Totals"))
-        for key, cap, lab in (("full", FULL_SLOTS, "Full Course"),
-                              ("half", HALF_SLOTS, "Half Course"),
-                              ("quarter", QUARTER_SLOTS, "Half-a-Half")):
+        for key, cap, lab in (("full", FULL_SLOTS, "Full Trek"),
+                              ("half", HALF_SLOTS, "Half Trek"),
+                              ("quarter", QUARTER_SLOTS, "Half a Half Trek")):
             v = latest[key]
             p = (v / cap * 100) if cap else 0
             rows.append(_metric("", lab, f"{v} / {cap} &middot; {pct(v, cap)}",
                                 bar_html=_bar(p, COURSE_HEX[key])))
         tp = (latest["total"] / EVENT_GOAL * 100) if EVENT_GOAL else 0
+        # Total-vs-goal bar uses its own deeper green, distinct from the Full
+        # Trek bar, so the summary line reads as a separate measure.
         rows.append(_metric("\U0001F3AF", "Total vs Goal",
                             f"{latest['total']} / {EVENT_GOAL} &middot; {pct(latest['total'], EVENT_GOAL)}",
-                            bar_html=_bar(tp, HEX["accent"])))
+                            bar_html=_bar(tp, "#238A01")))
         gen, spo = latest.get("general"), latest.get("sponsor")
         if gen not in (None, "") or spo not in (None, ""):
             rows.append(_metric("\U0001F4E9", "Entry Type",
@@ -452,13 +459,24 @@ def render_html(summary) -> str:
         f'<tr><td style="padding:20px 22px 0 22px;font:400 15px/1.5 Arial,Helvetica,sans-serif;'
         f'color:{HEX["ink"]};">{e(GREETING)}</td></tr>' if GREETING else ""
     )
-    signoff_html = ""
-    if SIGNOFF:
-        so = "<br>".join(e(s) for s in SIGNOFF)
-        signoff_html = (
-            f'<tr><td style="padding:20px 22px 0 22px;font:600 14px/1.6 Arial,Helvetica,sans-serif;'
-            f'color:{HEX["accent"]};">{so}</td></tr>'
+    # HTML sign-off: the text lines as-is, but the "YamaGo" name shown as
+    # yamago.png instead of the word. Plain text keeps the word (no image).
+    so_lines = [e(s) for s in SIGNOFF if s != SIGNOFF_NAME]
+    so_parts = []
+    if so_lines:
+        so_parts.append(
+            f'<div style="font:600 14px/1.6 Arial,Helvetica,sans-serif;color:{HEX["accent"]};">'
+            f'{"<br>".join(so_lines)}</div>'
         )
+    if SIGNOFF_IMG_URL:
+        so_parts.append(
+            f'<img src="{SIGNOFF_IMG_URL}" width="150" alt="{e(SIGNOFF_NAME)}" '
+            f'style="display:block;border:0;outline:none;margin-top:12px;max-width:150px;height:auto;">'
+        )
+    signoff_html = (
+        f'<tr><td style="padding:20px 22px 0 22px;">{"".join(so_parts)}</td></tr>'
+        if so_parts else ""
+    )
 
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -472,7 +490,7 @@ def render_html(summary) -> str:
     <tr><td style="background:{HEX['cardbg']};padding:26px 22px 18px 22px;border-bottom:1px solid {HEX['line']};">
       <img src="{LOGO_URL}" width="270" alt="Tokyo Yamathon" style="display:block;border:0;outline:none;width:270px;max-width:78%;height:auto;">
       <div style="font:700 18px/1.2 Arial,Helvetica,sans-serif;color:{HEX['ink']};padding-top:16px;">
-        Daily Registration Report</div>
+        Daily Team Entry Report</div>
       <div style="font:400 13px/1.2 Arial,Helvetica,sans-serif;color:{HEX['muted']};padding-top:4px;">
         \U0001F4C5 {e(summary['date'])} (JST)</div>
     </td></tr>
@@ -536,7 +554,7 @@ def main() -> int:
     summary = build_summary(rows, date_str)
     text_body = render_text(summary)
     html_body = render_html(summary)
-    subject = f"Tokyo Yamathon - Daily Registration Report ({date_str})"
+    subject = f"Tokyo Yamathon - Daily Team Entry Report ({date_str})"
     try:
         send_email(subject, text_body, html_body)
     except Exception as exc:  # noqa: BLE001
