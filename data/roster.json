@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T21:30:33.174347+09:00",
+  "updated": "2026-07-24T22:00:48.171730+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1200,6 +1200,24 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-24T18:30:34.828186+09:00"
+    },
+    "general|okecchans": {
+      "team": "Okecchans",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-24T22:00:48.171730+09:00"
+    },
+    "general|poppies": {
+      "team": "Poppies",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-24T22:00:48.171730+09:00"
+    },
+    "general|歩き部": {
+      "team": "歩き部",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-24T22:00:48.171730+09:00"
     }
   }
 }
