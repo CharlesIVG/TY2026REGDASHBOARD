@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T18:00:42.721904+09:00",
+  "updated": "2026-07-24T18:30:34.828186+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1194,6 +1194,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-24T16:00:40.979687+09:00"
+    },
+    "general|one hbk３": {
+      "team": "One Hbk３",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-24T18:30:34.828186+09:00"
     }
   }
 }
