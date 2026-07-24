@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T22:06:00.410074+09:00",
+  "updated": "2026-07-24T22:30:33.290377+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1218,6 +1218,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-24T22:00:48.171730+09:00"
+    },
+    "general|tokyo drifters": {
+      "team": "Tokyo Drifters",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-24T22:30:33.290377+09:00"
     }
   }
 }
