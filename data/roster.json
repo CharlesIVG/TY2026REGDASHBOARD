@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T12:30:33.513080+09:00",
+  "updated": "2026-07-24T13:00:40.291702+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1164,6 +1164,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-07-24T11:00:39.593544+09:00"
+    },
+    "sponsor|team ryan": {
+      "team": "Team Ryan",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-24T13:00:40.291702+09:00"
     }
   }
 }
