@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1784876440979,
+    "team": "Lufthansa Group",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1784876440979,
+    "team": "Lufthansa Runners",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1784871034367,
     "team": "Sthree 6",
     "course": "half",

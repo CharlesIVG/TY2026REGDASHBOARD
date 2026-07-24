@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T15:30:33.360588+09:00",
+  "updated": "2026-07-24T16:00:40.979687+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1182,6 +1182,18 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-24T14:30:34.367094+09:00"
+    },
+    "general|lufthansa group": {
+      "team": "Lufthansa Group",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-24T16:00:40.979687+09:00"
+    },
+    "general|lufthansa runners": {
+      "team": "Lufthansa Runners",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-24T16:00:40.979687+09:00"
     }
   }
 }
