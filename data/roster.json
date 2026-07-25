@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T15:02:31.709457+09:00",
+  "updated": "2026-07-25T15:35:52.698011+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1242,6 +1242,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-25T13:32:07.946807+09:00"
+    },
+    "general|blister sisters": {
+      "team": "Blister Sisters",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-25T15:35:52.698011+09:00"
     }
   }
 }
