@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T19:30:31.642970+09:00",
+  "updated": "2026-07-25T20:02:32.821785+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1254,6 +1254,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-25T17:00:38.352410+09:00"
+    },
+    "general|tokyo crawlers": {
+      "team": "Tokyo Crawlers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-25T20:02:32.821785+09:00"
     }
   }
 }
