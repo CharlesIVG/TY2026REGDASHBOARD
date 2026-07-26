@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T22:00:39.927296+09:00",
+  "updated": "2026-07-26T22:30:31.554158+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1320,6 +1320,18 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-26T21:30:31.045840+09:00"
+    },
+    "general|kusiong": {
+      "team": "Kusiong",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-26T22:30:31.554158+09:00"
+    },
+    "general|one hbk team３": {
+      "team": "One Hbk Team３",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-26T22:30:31.554158+09:00"
     }
   }
 }
