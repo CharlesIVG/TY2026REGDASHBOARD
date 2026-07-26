@@ -1,19 +1,19 @@
 {
-  "full": 80,
+  "full": 81,
   "half": 100,
   "quarter": 34,
-  "total": 214,
+  "total": 215,
   "updated": "",
-  "fetched_at": "2026-07-26T04:02:28.378224+00:00",
+  "fetched_at": "2026-07-26T04:30:32.110075+00:00",
   "source": "webscorer",
-  "general": 200,
+  "general": 201,
   "sponsor": 14,
   "byChannel": {
     "general": {
-      "total": 200,
-      "rowCount": 200,
+      "total": 201,
+      "rowCount": 201,
       "distinctTeams": null,
-      "full": 78,
+      "full": 79,
       "half": 90,
       "quarter": 32
     },
