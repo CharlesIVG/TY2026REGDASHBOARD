@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T09:00:41.718147+09:00",
+  "updated": "2026-07-26T09:32:01.652447+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1272,6 +1272,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-26T01:02:02.874395+09:00"
+    },
+    "general|la familia durning": {
+      "team": "La Familia Durning",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-26T09:32:01.652447+09:00"
     }
   }
 }
