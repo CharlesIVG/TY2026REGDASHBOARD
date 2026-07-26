@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T18:32:06.053982+09:00",
+  "updated": "2026-07-26T19:03:37.343344+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1302,6 +1302,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-26T16:30:29.828450+09:00"
+    },
+    "general|spot-billed ducks": {
+      "team": "Spot-Billed Ducks",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-26T19:03:37.343344+09:00"
     }
   }
 }
