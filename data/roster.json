@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T20:00:41.824019+09:00",
+  "updated": "2026-07-27T20:30:34.287670+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1464,6 +1464,30 @@
       "course": "half",
       "channel": "general",
       "firstSeen": "2026-07-27T18:00:41.961083+09:00"
+    },
+    "general|moyana": {
+      "team": "Moyana",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T20:30:34.287670+09:00"
+    },
+    "general|team orange #1": {
+      "team": "Team Orange #1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T20:30:34.287670+09:00"
+    },
+    "general|team orange #2": {
+      "team": "Team Orange #2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T20:30:34.287670+09:00"
+    },
+    "general|team orange #3": {
+      "team": "Team Orange #3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T20:30:34.287670+09:00"
     }
   }
 }
