@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T17:00:53.218103+09:00",
+  "updated": "2026-07-27T17:30:36.510749+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1440,6 +1440,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-27T17:00:53.218103+09:00"
+    },
+    "general|srs-nai 1": {
+      "team": "Srs-Nai 1",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-27T17:30:36.510749+09:00"
     }
   }
 }
