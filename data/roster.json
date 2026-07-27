@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T16:30:32.402819+09:00",
+  "updated": "2026-07-27T17:00:53.218103+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1434,6 +1434,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-27T16:30:32.402819+09:00"
+    },
+    "general|ksゆる４": {
+      "team": "Ksゆる４",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-27T17:00:53.218103+09:00"
     }
   }
 }
