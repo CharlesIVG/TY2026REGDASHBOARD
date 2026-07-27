@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T20:30:34.287670+09:00",
+  "updated": "2026-07-27T21:00:41.903382+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1488,6 +1488,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-27T20:30:34.287670+09:00"
+    },
+    "general|team orange #4": {
+      "team": "Team Orange #4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T21:00:41.903382+09:00"
+    },
+    "general|team orange #5": {
+      "team": "Team Orange #5",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-27T21:00:41.903382+09:00"
     }
   }
 }

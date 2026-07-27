@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785153641903,
+    "team": "Team Orange #4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785153641903,
+    "team": "Team Orange #5",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785151834287,
     "team": "Moyana",
     "course": "full",
