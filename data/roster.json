@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T13:32:05.335609+09:00",
+  "updated": "2026-07-27T14:00:39.267557+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1386,6 +1386,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-27T13:32:05.335609+09:00"
+    },
+    "general|certified crazy 916": {
+      "team": "Certified Crazy 916",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T14:00:39.267557+09:00"
+    },
+    "general|team luka": {
+      "team": "Team Luka",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-27T14:00:39.267557+09:00"
+    },
+    "general|エリンギース": {
+      "team": "エリンギース",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T14:00:39.267557+09:00"
     }
   }
 }
