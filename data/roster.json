@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T15:00:50.310851+09:00",
+  "updated": "2026-07-27T15:30:44.749090+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1410,6 +1410,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-27T14:32:01.533293+09:00"
+    },
+    "general|sparkling squad": {
+      "team": "Sparkling Squad",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-27T15:30:44.749090+09:00"
+    },
+    "general|the wonderfools": {
+      "team": "The Wonderfools",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T15:30:44.749090+09:00"
+    },
+    "general|チームギリギリ": {
+      "team": "チームギリギリ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T15:30:44.749090+09:00"
     }
   }
 }
