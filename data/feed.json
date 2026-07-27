@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785114038981,
+    "team": "Team Myke",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785114038981,
+    "team": "Osos",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785108630460,
     "team": "Segodon",
     "course": "full",
