@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T13:02:25.718874+09:00",
+  "updated": "2026-07-27T13:32:05.335609+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1380,6 +1380,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-27T12:00:41.883953+09:00"
+    },
+    "general|akkad bakkad bombay mo": {
+      "team": "Akkad Bakkad Bombay Mo",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T13:32:05.335609+09:00"
     }
   }
 }
