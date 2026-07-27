@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T11:31:55.146832+09:00",
+  "updated": "2026-07-27T12:00:41.883953+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1362,6 +1362,24 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-27T10:30:31.324378+09:00"
+    },
+    "general|ai42": {
+      "team": "Ai42",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T12:00:41.883953+09:00"
+    },
+    "general|step hope rangers": {
+      "team": "Step Hope Rangers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T12:00:41.883953+09:00"
+    },
+    "general|tokyo walkers": {
+      "team": "Tokyo Walkers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T12:00:41.883953+09:00"
     }
   }
 }
