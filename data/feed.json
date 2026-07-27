@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1785142841961,
+    "team": "Team Okta A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785142841961,
+    "team": "Team Okta B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785142841961,
+    "team": "Team99",
+    "course": "half",
+    "channel": "general"
+  },
+  {
     "ts": 1785141036510,
     "team": "Srs-Nai 1",
     "course": "quarter",

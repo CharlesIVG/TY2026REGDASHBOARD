@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T17:30:36.510749+09:00",
+  "updated": "2026-07-27T18:00:41.961083+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1446,6 +1446,24 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-27T17:30:36.510749+09:00"
+    },
+    "general|team okta a": {
+      "team": "Team Okta A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T18:00:41.961083+09:00"
+    },
+    "general|team okta b": {
+      "team": "Team Okta B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-27T18:00:41.961083+09:00"
+    },
+    "general|team99": {
+      "team": "Team99",
+      "course": "half",
+      "channel": "general",
+      "firstSeen": "2026-07-27T18:00:41.961083+09:00"
     }
   }
 }
