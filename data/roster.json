@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T12:46:17.617125+09:00",
+  "updated": "2026-07-28T13:00:39.342063+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1536,6 +1536,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-28T12:30:29.937415+09:00"
+    },
+    "general|yoko mana ohana": {
+      "team": "Yoko Mana Ohana",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-28T13:00:39.342063+09:00"
     }
   }
 }
