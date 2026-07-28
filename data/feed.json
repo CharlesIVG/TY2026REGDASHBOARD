@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785230233445,
+    "team": "二姫二太郎",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785225646177,
     "team": "Team Finland",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784532846550,
     "team": "チェルteam",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784532846550,
-    "team": "ピンクエンジェルス3",
     "course": "half",
     "channel": "general"
   }
