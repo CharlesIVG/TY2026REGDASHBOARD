@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785250845376,
+    "team": "Mf-Yokohama",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785249055863,
     "team": "Aimasho Team",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1784548990195,
     "team": "Adient G",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784548990195,
-    "team": "千山",
     "course": "half",
     "channel": "general"
   }

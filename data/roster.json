@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T23:30:55.863965+09:00",
+  "updated": "2026-07-29T00:00:45.376881+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1602,6 +1602,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-28T23:30:55.863965+09:00"
+    },
+    "general|mf-yokohama": {
+      "team": "Mf-Yokohama",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-29T00:00:45.376881+09:00"
     }
   }
 }
