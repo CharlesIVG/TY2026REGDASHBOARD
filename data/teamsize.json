@@ -1,29 +1,29 @@
 {
   "_source": "Webscorer registration export. Counts only - no personal data. Team size is NOT available from the JSON API, so this is a point-in-time snapshot that only refreshes when a new export is processed with scripts/import_teamsize.py.",
-  "asOf": "2026-07-23",
-  "teams": 180,
-  "people": 618,
-  "avgTeamSize": 3.43,
+  "asOf": "2026-07-29",
+  "teams": 266,
+  "people": 895,
+  "avgTeamSize": 3.36,
   "distribution": {
-    "2": 38,
-    "3": 26,
-    "4": 116
+    "2": 60,
+    "3": 49,
+    "4": 157
   },
   "byCourse": {
     "full": {
-      "2": 18,
-      "3": 9,
-      "4": 44
+      "2": 27,
+      "3": 20,
+      "4": 60
     },
     "half": {
-      "2": 8,
-      "3": 16,
-      "4": 63
+      "2": 9,
+      "3": 22,
+      "4": 74
     },
     "quarter": {
-      "2": 12,
-      "3": 1,
-      "4": 9
+      "2": 24,
+      "3": 7,
+      "4": 23
     }
   }
 }
