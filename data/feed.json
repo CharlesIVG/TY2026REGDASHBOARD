@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785238233471,
+    "team": "Totonou",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785230233445,
     "team": "二姫二太郎",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784532846550,
     "team": "Team Moric",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784532846550,
-    "team": "チェルteam",
     "course": "half",
     "channel": "general"
   }
