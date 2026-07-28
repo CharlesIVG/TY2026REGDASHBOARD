@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1785218445858,
+    "team": "Embassy Of Switzerland In Japan",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785218445858,
+    "team": "Givaudan Japan",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785218445858,
+    "team": "Hyre 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785214856431,
     "team": "大手町のんびりウォーカーズ",
     "course": "quarter",
@@ -879,18 +897,6 @@
     "ts": 1784512018739,
     "team": "ピンクエンジェルス1",
     "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784512018739,
-    "team": "ピンクエンジェルス2",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784475290247,
-    "team": "Transglobal Adventurers",
-    "course": "full",
     "channel": "general"
   }
 ]

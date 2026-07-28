@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T14:30:44.844120+09:00",
+  "updated": "2026-07-28T15:00:45.858830+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1548,6 +1548,24 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-28T14:00:56.431081+09:00"
+    },
+    "general|embassy of switzerland in japan": {
+      "team": "Embassy Of Switzerland In Japan",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-28T15:00:45.858830+09:00"
+    },
+    "general|givaudan japan": {
+      "team": "Givaudan Japan",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-28T15:00:45.858830+09:00"
+    },
+    "general|hyre 2": {
+      "team": "Hyre 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-28T15:00:45.858830+09:00"
     }
   }
 }
