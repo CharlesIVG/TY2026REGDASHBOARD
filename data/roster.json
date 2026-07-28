@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T16:30:32.661028+09:00",
+  "updated": "2026-07-28T17:00:46.177164+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1578,6 +1578,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-28T16:00:56.764123+09:00"
+    },
+    "general|team finland": {
+      "team": "Team Finland",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-28T17:00:46.177164+09:00"
     }
   }
 }
