@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785300325697,
+    "team": "Srs-Nai 2",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785295833566,
     "team": "Karl Storz Wave 1",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784559647462,
     "team": "Picklegang",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784548990195,
-    "team": "Adient A",
     "course": "full",
     "channel": "general"
   }
