@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T09:30:34.161703+09:00",
+  "updated": "2026-07-29T10:00:57.681842+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1614,6 +1614,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-29T09:00:48.257271+09:00"
+    },
+    "general|ariake fire": {
+      "team": "Ariake Fire",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-29T10:00:57.681842+09:00"
     }
   }
 }

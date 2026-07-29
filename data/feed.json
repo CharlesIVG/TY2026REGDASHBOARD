@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785286857681,
+    "team": "Ariake Fire",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785283248257,
     "team": "Craic On Track",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784548990195,
     "team": "Adient E",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784548990195,
-    "team": "Adient F",
     "course": "half",
     "channel": "general"
   }
