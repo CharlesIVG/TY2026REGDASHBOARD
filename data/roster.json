@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T08:30:32.022932+09:00",
+  "updated": "2026-07-29T09:00:48.257271+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1608,6 +1608,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-29T00:00:45.376881+09:00"
+    },
+    "general|craic on track": {
+      "team": "Craic On Track",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-29T09:00:48.257271+09:00"
     }
   }
 }

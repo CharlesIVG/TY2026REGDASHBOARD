@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785283248257,
+    "team": "Craic On Track",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785250845376,
     "team": "Mf-Yokohama",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1784548990195,
     "team": "Adient F",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784548990195,
-    "team": "Adient G",
     "course": "half",
     "channel": "general"
   }
