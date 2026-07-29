@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T11:30:40.869422+09:00",
+  "updated": "2026-07-29T12:00:43.997376+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1626,6 +1626,18 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-29T10:30:33.467298+09:00"
+    },
+    "general|karl storz wave 2": {
+      "team": "Karl Storz Wave 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-29T12:00:43.997376+09:00"
+    },
+    "general|veloci-walkers": {
+      "team": "Veloci-Walkers",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-29T12:00:43.997376+09:00"
     }
   }
 }

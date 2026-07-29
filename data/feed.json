@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785294043997,
+    "team": "Karl Storz Wave 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785294043997,
+    "team": "Veloci-Walkers",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785288633467,
     "team": "Ariake Runners",
     "course": "quarter",
@@ -885,18 +897,6 @@
     "ts": 1784548990195,
     "team": "Adient B",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784548990195,
-    "team": "Adient C",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784548990195,
-    "team": "Adient D",
-    "course": "half",
     "channel": "general"
   }
 ]
