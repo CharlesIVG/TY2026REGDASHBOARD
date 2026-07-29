@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785333647232,
+    "team": "Mixzigzag",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785328235027,
     "team": "Here I Am Walk You Like A Hurricane",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784601032958,
     "team": "Sthree 3",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784601032958,
-    "team": "Team Snow",
     "course": "half",
     "channel": "general"
   }
