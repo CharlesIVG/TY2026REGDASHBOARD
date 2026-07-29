@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785317435915,
+    "team": "Sthree Baddies",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785300325697,
     "team": "Srs-Nai 2",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1784599239833,
     "team": "Kizuna Mobility",
     "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784559647462,
-    "team": "Picklegang",
-    "course": "full",
     "channel": "general"
   }
 ]

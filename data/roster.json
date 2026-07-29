@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T18:00:49.182314+09:00",
+  "updated": "2026-07-29T18:30:35.915672+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1650,6 +1650,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-29T13:45:25.697797+09:00"
+    },
+    "general|sthree baddies": {
+      "team": "Sthree Baddies",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-07-29T18:30:35.915672+09:00"
     }
   }
 }
