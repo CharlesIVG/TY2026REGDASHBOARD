@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785328235027,
+    "team": "Here I Am Walk You Like A Hurricane",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785317435915,
     "team": "Sthree Baddies",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1784601032958,
     "team": "Team Snow",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784599239833,
-    "team": "Kizuna Mobility",
     "course": "half",
     "channel": "general"
   }
