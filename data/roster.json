@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T12:00:43.997376+09:00",
+  "updated": "2026-07-29T12:30:33.566922+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1638,6 +1638,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-29T12:00:43.997376+09:00"
+    },
+    "general|karl storz wave 1": {
+      "team": "Karl Storz Wave 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-29T12:30:33.566922+09:00"
     }
   }
 }
