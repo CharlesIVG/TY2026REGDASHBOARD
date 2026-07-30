@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T10:30:36.263006+09:00",
+  "updated": "2026-07-30T11:00:40.327525+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1734,6 +1734,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "general|sole sisters": {
+      "team": "Sole Sisters",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-30T11:00:40.327525+09:00"
     }
   }
 }
