@@ -1,5 +1,59 @@
 [
   {
+    "ts": 1785375036263,
+    "team": "Yakusugi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANArmy",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANOsos",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANRyan",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANTeam Kk",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANTeam池澤",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANしおの部屋",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MANチーム ハイボール",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785375036263,
+    "team": "MAN花の62期",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785372848428,
     "team": "Segodon2",
     "course": "full",
@@ -842,60 +896,6 @@
   {
     "ts": 1784626234450,
     "team": "Mjpm　Ｊｐタワー",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784624441635,
-    "team": "ある4種",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784620841633,
-    "team": "Sika Switzerland",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784615432366,
-    "team": "Sthree 2",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784613652567,
-    "team": "Riot Women",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784611843662,
-    "team": "Duration Riak",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784611843662,
-    "team": "Full Duration",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784611843662,
-    "team": "Step Sync",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784604643239,
-    "team": "The Fellowship Of The (Boxing) Ring",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784602840848,
-    "team": "Da Girls",
     "course": "half",
     "channel": "general"
   }

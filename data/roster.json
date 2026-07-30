@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T10:00:41.665782+09:00",
+  "updated": "2026-07-30T10:30:36.263006+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1680,6 +1680,60 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-30T09:54:08.428870+09:00"
+    },
+    "general|yakusugi": {
+      "team": "Yakusugi",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manarmy": {
+      "team": "MANArmy",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manosos": {
+      "team": "MANOsos",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manryan": {
+      "team": "MANRyan",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manteam kk": {
+      "team": "MANTeam Kk",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manteam池澤": {
+      "team": "MANTeam池澤",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manしおの部屋": {
+      "team": "MANしおの部屋",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|manチーム ハイボール": {
+      "team": "MANチーム ハイボール",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
+    },
+    "sponsor|man花の62期": {
+      "team": "MAN花の62期",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-30T10:30:36.263006+09:00"
     }
   }
 }
