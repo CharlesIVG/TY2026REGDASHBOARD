@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T09:30:31.633079+09:00",
+  "updated": "2026-07-30T09:54:08.428870+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1674,6 +1674,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-30T00:00:45.770834+09:00"
+    },
+    "general|segodon2": {
+      "team": "Segodon2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-30T09:54:08.428870+09:00"
     }
   }
 }
