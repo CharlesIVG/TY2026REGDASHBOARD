@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785412841532,
+    "team": "ゆうあい2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785407433026,
     "team": "On Partners",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1784696440838,
     "team": "Swiss-Japan On Running",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784696440838,
-    "team": "Ticino Team",
     "course": "quarter",
     "channel": "general"
   }
