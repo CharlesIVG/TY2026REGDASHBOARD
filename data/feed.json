@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785394843213,
+    "team": "ハマチ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785387640187,
     "team": "Team  にわとり",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1784694632601,
     "team": "Idexx 8",
     "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784683830137,
-    "team": "Spike’S Disciples",
-    "course": "full",
     "channel": "general"
   }
 ]
