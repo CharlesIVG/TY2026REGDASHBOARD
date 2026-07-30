@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785383720698,
+    "team": "Hpe Lenegnd Runners",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785376840327,
     "team": "Sole Sisters",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1784644236703,
     "team": "Aimasho Raising Stars ✨",
     "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784642445384,
-    "team": "Yummython",
-    "course": "full",
     "channel": "general"
   }
 ]
