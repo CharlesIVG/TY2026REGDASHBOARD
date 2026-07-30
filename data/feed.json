@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785425434835,
+    "team": "Medal",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785412841532,
     "team": "ゆうあい2",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784696440838,
     "team": "On Japan",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784696440838,
-    "team": "Swiss-Japan On Running",
     "course": "quarter",
     "channel": "general"
   }

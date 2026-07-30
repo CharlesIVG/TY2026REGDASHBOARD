@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T00:00:47.838363+09:00",
+  "updated": "2026-07-31T00:30:34.835535+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1782,6 +1782,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-30T21:00:41.532766+09:00"
+    },
+    "general|medal": {
+      "team": "Medal",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-31T00:30:34.835535+09:00"
     }
   }
 }
