@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785396634136,
+    "team": "ゆうあい　1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785394843213,
     "team": "ハマチ",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1784696440838,
     "team": "オン・ジャパン",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784694632601,
-    "team": "Idexx 8",
-    "course": "half",
     "channel": "general"
   }
 ]
