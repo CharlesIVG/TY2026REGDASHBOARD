@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785429033257,
+    "team": "Guy & Miya",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785425434835,
     "team": "Medal",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1784696440838,
     "team": "Idexx 3",
     "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784696440838,
-    "team": "On Japan",
-    "course": "quarter",
     "channel": "general"
   }
 ]

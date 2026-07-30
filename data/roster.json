@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T01:00:46.596861+09:00",
+  "updated": "2026-07-31T01:30:33.257282+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1788,6 +1788,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-07-31T00:30:34.835535+09:00"
+    },
+    "general|guy & miya": {
+      "team": "Guy & Miya",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-07-31T01:30:33.257282+09:00"
     }
   }
 }
