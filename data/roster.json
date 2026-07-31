@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T14:00:46.909774+09:00",
+  "updated": "2026-07-31T14:30:38.155694+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1818,6 +1818,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-31T11:30:30.657506+09:00"
+    },
+    "sponsor|team bcp": {
+      "team": "Team Bcp",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-31T14:30:38.155694+09:00"
     }
   }
 }

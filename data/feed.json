@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785475838155,
+    "team": "Team Bcp",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785465030657,
     "team": "Kmb",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1784700040656,
     "team": "Tree Of Life",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784698231974,
-    "team": "Idexx 2",
-    "course": "half",
     "channel": "general"
   }
 ]
