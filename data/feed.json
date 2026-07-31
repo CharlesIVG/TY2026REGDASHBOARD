@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785479431719,
+    "team": "Out Of Office",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785477640681,
     "team": "Dksh Japan",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1784701833643,
     "team": "日本bd 光速ウォーカーズ",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784700040656,
-    "team": "Idexx 7",
-    "course": "half",
     "channel": "general"
   }
 ]

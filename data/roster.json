@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T15:00:40.681230+09:00",
+  "updated": "2026-07-31T15:30:31.719383+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1830,6 +1830,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-07-31T15:00:40.681230+09:00"
+    },
+    "sponsor|out of office": {
+      "team": "Out Of Office",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-07-31T15:30:31.719383+09:00"
     }
   }
 }
