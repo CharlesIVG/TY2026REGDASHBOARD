@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785465030657,
+    "team": "Kmb",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785463239217,
     "team": "Team Stb",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784698231974,
     "team": "Idexx 2",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784698231974,
-    "team": "Idexx 4",
     "course": "half",
     "channel": "general"
   }
