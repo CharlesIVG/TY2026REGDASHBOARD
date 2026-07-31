@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785463239217,
+    "team": "Team Stb",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785463239217,
+    "team": "ひかっちオールスターズ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785450638768,
     "team": "大妻嵐山おやじの会",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1784698231974,
     "team": "Idexx 4",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784698231974,
-    "team": "Idexx 6",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784698231974,
-    "team": "Idexx1",
     "course": "half",
     "channel": "general"
   }
