@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785549649586,
+    "team": "Team Holland",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785479431719,
     "team": "Out Of Office",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1784701833643,
     "team": "Idexx 5",
     "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784701833643,
-    "team": "日本bd 光速ウォーカーズ",
-    "course": "full",
     "channel": "general"
   }
 ]

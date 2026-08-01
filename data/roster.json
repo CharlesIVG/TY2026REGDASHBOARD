@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T10:30:39.704818+09:00",
+  "updated": "2026-08-01T11:00:49.586244+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1836,6 +1836,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-07-31T15:30:31.719383+09:00"
+    },
+    "general|team holland": {
+      "team": "Team Holland",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-01T11:00:49.586244+09:00"
     }
   }
 }
