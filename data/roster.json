@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T01:00:48.503850+09:00",
+  "updated": "2026-08-02T01:30:32.965932+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1848,6 +1848,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-01T15:30:31.894257+09:00"
+    },
+    "general|meguronians": {
+      "team": "Meguronians",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-02T01:30:32.965932+09:00"
     }
   }
 }
