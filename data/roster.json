@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T09:30:32.930425+09:00",
+  "updated": "2026-08-02T10:00:38.651240+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1860,6 +1860,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-02T08:55:54.844615+09:00"
+    },
+    "general|mf-yokohama_a": {
+      "team": "Mf-Yokohama_A",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-02T10:00:38.651240+09:00"
+    },
+    "general|mf-yokohama_b": {
+      "team": "Mf-Yokohama_B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-02T10:00:38.651240+09:00"
+    },
+    "general|she run 1": {
+      "team": "She Run 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-02T10:00:38.651240+09:00"
     }
   }
 }
