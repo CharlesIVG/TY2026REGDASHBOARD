@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785666632864,
+    "team": "Ojima Friends Striders",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785657639882,
     "team": "Desiboyz",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784766642823,
     "team": "Hilton Tokyo Half-1",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784766642823,
-    "team": "Hilton Tokyo Half-2",
     "course": "half",
     "channel": "general"
   }
