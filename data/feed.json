@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785677432483,
+    "team": "Weekend Walkers 1",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785677432483,
+    "team": "Weekend Walkers 2",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785675640254,
     "team": "LD",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1784770231393,
     "team": "Hilton Tokyo Full-4",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784770231393,
-    "team": "Hilton Tokyo Full-5",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784770231393,
-    "team": "アールケイエンタープライズ",
-    "course": "half",
     "channel": "general"
   }
 ]
