@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785711287826,
+    "team": "She Runs 3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785677432483,
     "team": "Weekend Walkers 1",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784770231393,
     "team": "Hilton Tokyo Full-3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784770231393,
-    "team": "Hilton Tokyo Full-4",
     "course": "full",
     "channel": "general"
   }
