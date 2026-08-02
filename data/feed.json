@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785648630218,
+    "team": "Trail Titans",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785632438651,
     "team": "Mf-Yokohama_A",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1784761240598,
     "team": "Kontraktor",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784756597078,
-    "team": "Kingfishers American Football Club",
     "course": "half",
     "channel": "general"
   }
