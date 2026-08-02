@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785655831594,
+    "team": "Tamwood",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785648630218,
     "team": "Trail Titans",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784766642823,
     "team": "Hilton Tokyo Half-3",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1784761240598,
-    "team": "Kontraktor",
     "course": "half",
     "channel": "general"
   }
