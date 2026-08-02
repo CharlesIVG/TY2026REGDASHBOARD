@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T20:41:54.168354+09:00",
+  "updated": "2026-08-02T21:00:41.559896+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1902,6 +1902,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-02T19:30:32.864114+09:00"
+    },
+    "general|sweets hunter a": {
+      "team": "Sweets Hunter A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-02T21:00:41.559896+09:00"
+    },
+    "general|sweets hunter b": {
+      "team": "Sweets Hunter B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-02T21:00:41.559896+09:00"
+    },
+    "general|sweets hunter c": {
+      "team": "Sweets Hunter C",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-02T21:00:41.559896+09:00"
     }
   }
 }
