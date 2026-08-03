@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T06:00:49.455538+09:00",
+  "updated": "2026-08-04T06:30:33.523320+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2040,6 +2040,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-03T22:00:44.249462+09:00"
+    },
+    "general|she runs 4": {
+      "team": "She Runs 4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-04T06:30:33.523320+09:00"
     }
   }
 }
