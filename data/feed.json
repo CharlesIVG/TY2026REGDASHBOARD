@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785726042451,
+    "team": "Ojima Friends Striders-2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785724231402,
     "team": "Forvis Mazar",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "Team Kk",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1784784633194,
-    "team": "Sthree 7",
-    "course": "half",
-    "channel": "general"
   }
 ]
