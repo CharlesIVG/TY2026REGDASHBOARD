@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T11:00:40.964135+09:00",
+  "updated": "2026-08-03T11:30:31.402893+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1962,6 +1962,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-03T11:00:40.964135+09:00"
+    },
+    "general|forvis mazar": {
+      "team": "Forvis Mazar",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-03T11:30:31.402893+09:00"
+    },
+    "general|ojima friends striders-3": {
+      "team": "Ojima Friends Striders-3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-03T11:30:31.402893+09:00"
     }
   }
 }
