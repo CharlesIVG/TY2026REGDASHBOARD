@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785753695760,
+    "team": "She Run 4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785740458213,
     "team": "チームd",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784847641073,
     "team": "Decathlon Breeze Runners",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1784847641073,
-    "team": "Decathlon Cozy Pacers",
     "course": "half",
     "channel": "sponsor"
   }
