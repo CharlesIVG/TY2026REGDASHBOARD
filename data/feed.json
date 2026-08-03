@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785727838053,
+    "team": "The Odawalkers And . . .",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785727003959,
     "team": "ラーメン",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784847641073,
     "team": "Decathlon Sunny Stroll Club",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1784847641073,
-    "team": "Decathlon Turbo Dash Crew",
     "course": "half",
     "channel": "sponsor"
   }
