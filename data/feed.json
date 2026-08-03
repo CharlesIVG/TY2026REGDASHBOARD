@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785799832559,
+    "team": "Mona's Touch",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785792633523,
     "team": "She Runs 4",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Matcha Pacers",
     "course": "half",
     "channel": "general"
-  },
-  {
-    "ts": 1784851242050,
-    "team": "Army",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
