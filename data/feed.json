@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785762044249,
+    "team": "Ojima Friends Striders-5",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785753695760,
     "team": "She Run 4",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1784849433638,
     "team": "Decathlon Easy Peasy #2",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1784847641073,
-    "team": "Decathlon Breeze Runners",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
