@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T10:30:33.287639+09:00",
+  "updated": "2026-08-03T11:00:40.964135+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -1956,6 +1956,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-03T10:30:33.287639+09:00"
+    },
+    "sponsor|ps team1": {
+      "team": "Ps Team1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-03T11:00:40.964135+09:00"
     }
   }
 }
