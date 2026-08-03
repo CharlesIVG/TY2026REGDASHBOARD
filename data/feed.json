@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785740458213,
+    "team": "チームd",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785738638027,
     "team": "Mogumogu",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1784847641073,
     "team": "Decathlon Cozy Pacers",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1784847641073,
-    "team": "Decathlon Easy Peasy #1",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
