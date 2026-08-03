@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785738638027,
+    "team": "Mogumogu",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785738638027,
+    "team": "Pacific Striders",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785733241445,
     "team": "Team Ratbu",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1784847641073,
     "team": "Decathlon Easy Peasy #1",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1784847641073,
-    "team": "Decathlon Kiprun Club #1",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1784847641073,
-    "team": "Decathlon Mellow Mile Club",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
