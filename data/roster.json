@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T18:30:40.591254+09:00",
+  "updated": "2026-08-04T19:00:43.518130+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2082,6 +2082,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-04T17:00:40.864768+09:00"
+    },
+    "general|mb 1802": {
+      "team": "Mb 1802",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-04T19:00:43.518130+09:00"
+    },
+    "general|mb1801": {
+      "team": "Mb1801",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-04T19:00:43.518130+09:00"
+    },
+    "sponsor|ps team3": {
+      "team": "Ps Team3",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-04T19:00:43.518130+09:00"
     }
   }
 }

@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1785837643518,
+    "team": "Mb 1802",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785837643518,
+    "team": "Mb1801",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785837643518,
+    "team": "Ps Team3",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785830440864,
     "team": "I'm Walkin' Here",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1784898048171,
     "team": "歩き部",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784885434828,
-    "team": "One Hbk３",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784876440979,
-    "team": "Lufthansa Group",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784876440979,
-    "team": "Lufthansa Runners",
     "course": "quarter",
     "channel": "general"
   }
