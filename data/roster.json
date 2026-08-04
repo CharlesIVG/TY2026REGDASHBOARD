@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T13:00:40.472753+09:00",
+  "updated": "2026-08-04T13:30:33.932825+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2058,6 +2058,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-04T10:00:46.843253+09:00"
+    },
+    "general|御雑煮軍団 team 6": {
+      "team": "御雑煮軍団 Team 6",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-04T13:30:33.932825+09:00"
+    },
+    "general|御雑煮軍団 team 7": {
+      "team": "御雑煮軍団 Team 7",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-04T13:30:33.932825+09:00"
+    },
+    "sponsor|cap うさぎとタートルズ（loveit & turtles）": {
+      "team": "Cap うさぎとタートルズ（Loveit & Turtles）",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-04T13:30:33.932825+09:00"
     }
   }
 }
