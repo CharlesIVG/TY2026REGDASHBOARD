@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785805246843,
+    "team": "Tiki35",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785799832559,
     "team": "Mona's Touch",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "チーム ハイボール",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1784853033397,
-    "team": "Matcha Pacers",
-    "course": "half",
-    "channel": "general"
   }
 ]
