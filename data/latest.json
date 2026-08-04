@@ -1,10 +1,10 @@
 {
-  "full": 156,
-  "half": 110,
+  "full": 157,
+  "half": 109,
   "quarter": 67,
   "total": 333,
   "updated": "",
-  "fetched_at": "2026-08-04T06:00:47.843616+00:00",
+  "fetched_at": "2026-08-04T06:26:10.039781+00:00",
   "source": "webscorer",
   "general": 307,
   "sponsor": 26,
@@ -21,8 +21,8 @@
       "total": 26,
       "rowCount": 26,
       "distinctTeams": null,
-      "full": 6,
-      "half": 17,
+      "full": 7,
+      "half": 16,
       "quarter": 3
     }
   }
