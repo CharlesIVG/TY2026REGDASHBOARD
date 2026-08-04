@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T19:00:43.518130+09:00",
+  "updated": "2026-08-04T19:30:52.693052+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2100,6 +2100,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-04T19:00:43.518130+09:00"
+    },
+    "general|team esther": {
+      "team": "Team Esther",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-04T19:30:52.693052+09:00"
     }
   }
 }

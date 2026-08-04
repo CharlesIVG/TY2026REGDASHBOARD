@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785839452693,
+    "team": "Team Esther",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785837643518,
     "team": "Mb 1802",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784898048171,
     "team": "Poppies",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784898048171,
-    "team": "歩き部",
     "course": "quarter",
     "channel": "general"
   }
