@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785830440864,
+    "team": "I'm Walkin' Here",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785817833932,
     "team": "御雑煮軍団 Team 6",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1784876440979,
     "team": "Lufthansa Runners",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784871034367,
-    "team": "Sthree 6",
-    "course": "half",
     "channel": "general"
   }
 ]
