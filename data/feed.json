@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785920442611,
+    "team": "Wins",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785918634366,
     "team": "Conrad Tokyo",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785065430158,
     "team": "とーふのすけ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785060217343,
-    "team": "Spot-Billed Ducks",
     "course": "full",
     "channel": "general"
   }
