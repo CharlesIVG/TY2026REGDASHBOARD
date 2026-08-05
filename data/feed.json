@@ -1,5 +1,59 @@
 [
   {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo 2",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo 3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo 4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo 5",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo 6",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Conrad Tokyo 7",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Lakeland Out Of Office",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785918634366,
+    "team": "Lakeland Roadwalkers",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785916842617,
     "team": "Hpe-Hinoeuma",
     "course": "full",
@@ -842,60 +896,6 @@
   {
     "ts": 1785060217343,
     "team": "Spot-Billed Ducks",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785051029828,
-    "team": "Yamallama Dingdongs",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785049312840,
-    "team": "Arles",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785040232110,
-    "team": "Pugnacious",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785029431247,
-    "team": "Ula Trips & Travels",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785025921652,
-    "team": "La Familia Durning",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784995322874,
-    "team": "The Yamanote Trio",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784991684689,
-    "team": "Beans",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784977352821,
-    "team": "Tokyo Crawlers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784966438352,
-    "team": "Unicorns",
     "course": "full",
     "channel": "general"
   }
