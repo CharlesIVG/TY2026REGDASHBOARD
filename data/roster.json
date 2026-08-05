@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T09:00:48.680741+09:00",
+  "updated": "2026-08-05T09:30:52.121996+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2112,6 +2112,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-05T01:00:48.369366+09:00"
+    },
+    "general|ariake adventure": {
+      "team": "Ariake Adventure",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-05T09:30:52.121996+09:00"
+    },
+    "general|yokoayama striders": {
+      "team": "Yokoayama Striders",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-05T09:30:52.121996+09:00"
     }
   }
 }
