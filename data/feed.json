@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785902419282,
+    "team": "ヤマサン",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785889852121,
     "team": "Ariake Adventure",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1784946632376,
     "team": "Dream Team 2",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1784944837973,
-    "team": "椿二十一楼",
     "course": "quarter",
     "channel": "general"
   }
