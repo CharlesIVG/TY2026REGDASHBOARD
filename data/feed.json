@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785943843535,
+    "team": "山歩会1",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785943843535,
+    "team": "山歩会2",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1785936650054,
     "team": "Walking Beauty",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1785072631554,
     "team": "Kusiong",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785072631554,
-    "team": "One Hbk Team３",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785069031045,
-    "team": "Kasai Knightriders",
-    "course": "quarter",
     "channel": "general"
   }
 ]

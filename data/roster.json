@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T00:00:57.922450+09:00",
+  "updated": "2026-08-06T00:30:43.535485+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2214,6 +2214,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-05T22:30:50.054935+09:00"
+    },
+    "general|山歩会1": {
+      "team": "山歩会1",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-06T00:30:43.535485+09:00"
+    },
+    "general|山歩会2": {
+      "team": "山歩会2",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-06T00:30:43.535485+09:00"
     }
   }
 }
