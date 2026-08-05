@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785969044412,
+    "team": "岩ガマドーむ〜ボー１",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785969044412,
+    "team": "岩ガマドーむ〜ボー２",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785943843535,
     "team": "山歩会1",
     "course": "quarter",
@@ -884,18 +896,6 @@
   {
     "ts": 1785108630460,
     "team": "Segodon",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785081640877,
-    "team": "Stride Sisters",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785072631554,
-    "team": "Kusiong",
     "course": "full",
     "channel": "general"
   }
