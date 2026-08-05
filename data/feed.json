@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1785916842617,
+    "team": "Hpe-Hinoeuma",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1785916842617,
+    "team": "Ms-Urban Nomads",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1785906041138,
     "team": "一歩一会",
     "course": "quarter",
@@ -884,18 +896,6 @@
   {
     "ts": 1784966438352,
     "team": "Unicorns",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784961352698,
-    "team": "Blister Sisters",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1784953927946,
-    "team": "Dream Team 1",
     "course": "full",
     "channel": "general"
   }

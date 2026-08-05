@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T16:30:35.656665+09:00",
+  "updated": "2026-08-05T17:00:42.617793+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2136,6 +2136,18 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-08-05T14:00:41.138094+09:00"
+    },
+    "sponsor|hpe-hinoeuma": {
+      "team": "Hpe-Hinoeuma",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-05T17:00:42.617793+09:00"
+    },
+    "sponsor|ms-urban nomads": {
+      "team": "Ms-Urban Nomads",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-05T17:00:42.617793+09:00"
     }
   }
 }
