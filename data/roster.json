@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T22:00:52.238566+09:00",
+  "updated": "2026-08-05T22:30:50.054935+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2208,6 +2208,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-05T18:00:42.611769+09:00"
+    },
+    "general|walking beauty": {
+      "team": "Walking Beauty",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-05T22:30:50.054935+09:00"
     }
   }
 }
