@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T08:30:39.586630+09:00",
+  "updated": "2026-08-06T09:00:26.266440+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2238,6 +2238,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-06T07:30:44.412055+09:00"
+    },
+    "general|conrad tokyo 1": {
+      "team": "Conrad Tokyo 1",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-06T09:00:26.266440+09:00"
+    },
+    "general|yamadada": {
+      "team": "Yamadada",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T09:00:26.266440+09:00"
     }
   }
 }
