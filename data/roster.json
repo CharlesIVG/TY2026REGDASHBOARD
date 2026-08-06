@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T12:30:32.684425+09:00",
+  "updated": "2026-08-06T13:00:43.410249+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2256,6 +2256,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-06T09:30:33.658921+09:00"
+    },
+    "general|embassy switzerland": {
+      "team": "Embassy Switzerland",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-06T13:00:43.410249+09:00"
+    },
+    "general|karnataka walkers": {
+      "team": "Karnataka Walkers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T13:00:43.410249+09:00"
+    },
+    "general|karnataka walkers 1": {
+      "team": "Karnataka Walkers 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T13:00:43.410249+09:00"
+    },
+    "general|karnataka walkers 2": {
+      "team": "Karnataka Walkers 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T13:00:43.410249+09:00"
     }
   }
 }

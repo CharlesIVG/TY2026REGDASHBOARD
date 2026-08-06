@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1785988843410,
+    "team": "Embassy Switzerland",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1785988843410,
+    "team": "Karnataka Walkers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785988843410,
+    "team": "Karnataka Walkers 1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1785988843410,
+    "team": "Karnataka Walkers 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785976233658,
     "team": "Jack And His Minions",
     "course": "full",
@@ -873,30 +897,6 @@
     "ts": 1785126725335,
     "team": "Akkad Bakkad Bombay Mo",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785121241883,
-    "team": "Ai42",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785121241883,
-    "team": "Step Hope Rangers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785121241883,
-    "team": "Tokyo Walkers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785115831324,
-    "team": "Abb Team",
-    "course": "quarter",
     "channel": "general"
   }
 ]
