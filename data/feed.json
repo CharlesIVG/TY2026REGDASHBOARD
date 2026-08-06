@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786008643250,
+    "team": "Workday#1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786006844995,
     "team": "Workday#4",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785128439267,
     "team": "Team Luka",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785128439267,
-    "team": "エリンギース",
-    "course": "full",
     "channel": "general"
   }
 ]
