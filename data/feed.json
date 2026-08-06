@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786026644448,
+    "team": "Karnataka Walkers 3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786010444454,
     "team": "Sprint・Rekker",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785133844749,
     "team": "Sparkling Squad",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785133844749,
-    "team": "The Wonderfools",
-    "course": "full",
     "channel": "general"
   }
 ]
