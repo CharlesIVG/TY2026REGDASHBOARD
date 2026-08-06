@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1786010444454,
+    "team": "Sprint・Rekker",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786010444454,
+    "team": "Workday#2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786010444454,
+    "team": "Workday#3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786010444454,
+    "team": "Workday#5",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786008643250,
     "team": "Workday#1",
     "course": "full",
@@ -873,30 +897,6 @@
     "ts": 1785133844749,
     "team": "The Wonderfools",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785133844749,
-    "team": "チームギリギリ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785130321533,
-    "team": "Masa's Heroes",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785128439267,
-    "team": "Certified Crazy 916",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785128439267,
-    "team": "Team Luka",
-    "course": "quarter",
     "channel": "general"
   }
 ]

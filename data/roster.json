@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T18:30:43.250215+09:00",
+  "updated": "2026-08-06T19:00:44.454984+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2292,6 +2292,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-06T18:30:43.250215+09:00"
+    },
+    "general|sprint・rekker": {
+      "team": "Sprint・Rekker",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T19:00:44.454984+09:00"
+    },
+    "general|workday#2": {
+      "team": "Workday#2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T19:00:44.454984+09:00"
+    },
+    "general|workday#3": {
+      "team": "Workday#3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T19:00:44.454984+09:00"
+    },
+    "general|workday#5": {
+      "team": "Workday#5",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T19:00:44.454984+09:00"
     }
   }
 }
