@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786006844995,
+    "team": "Workday#4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785988843410,
     "team": "Embassy Switzerland",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785128439267,
     "team": "エリンギース",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785126725335,
-    "team": "Akkad Bakkad Bombay Mo",
     "course": "full",
     "channel": "general"
   }
