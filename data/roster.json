@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T09:00:26.266440+09:00",
+  "updated": "2026-08-06T09:30:33.658921+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2250,6 +2250,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-06T09:00:26.266440+09:00"
+    },
+    "general|jack and his minions": {
+      "team": "Jack And His Minions",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-06T09:30:33.658921+09:00"
     }
   }
 }

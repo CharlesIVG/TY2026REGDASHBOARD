@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1785976233658,
+    "team": "Jack And His Minions",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1785974426266,
     "team": "Conrad Tokyo 1",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785115831324,
     "team": "Abb Team",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785114038981,
-    "team": "Team Myke",
     "course": "quarter",
     "channel": "general"
   }
