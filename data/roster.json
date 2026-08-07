@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T11:30:40.960075+09:00",
+  "updated": "2026-08-07T12:00:41.068301+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2328,6 +2328,60 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-07T11:00:41.161170+09:00"
+    },
+    "sponsor|cap out of office": {
+      "team": "CAP Out Of Office",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|man team bcp": {
+      "team": "MAN Team Bcp",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|man weekend walkers 1": {
+      "team": "MAN Weekend Walkers 1",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|man weekend walkers 2": {
+      "team": "MAN Weekend Walkers 2",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|man東京＜山・尊＞第2支社": {
+      "team": "MAN東京＜山・尊＞第2支社",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|sfdc ps team1": {
+      "team": "SFDC Ps Team1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|sfdc ps team2": {
+      "team": "SFDC Ps Team2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|sfdc ps team3": {
+      "team": "SFDC Ps Team3",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|sfdc wins": {
+      "team": "SFDC Wins",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:00:41.068301+09:00"
     }
   }
 }

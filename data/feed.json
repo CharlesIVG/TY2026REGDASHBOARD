@@ -1,5 +1,59 @@
 [
   {
+    "ts": 1786071641068,
+    "team": "CAP Out Of Office",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "MAN Team Bcp",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "MAN Weekend Walkers 1",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "MAN Weekend Walkers 2",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "MAN東京＜山・尊＞第2支社",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "SFDC Ps Team1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "SFDC Ps Team2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "SFDC Ps Team3",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786071641068,
+    "team": "SFDC Wins",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786068041161,
     "team": "東京＜山・尊＞第2支社",
     "course": "half",
@@ -843,60 +897,6 @@
     "ts": 1785151834287,
     "team": "Moyana",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785151834287,
-    "team": "Team Orange #1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785151834287,
-    "team": "Team Orange #2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785151834287,
-    "team": "Team Orange #3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785142841961,
-    "team": "Team Okta A",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785142841961,
-    "team": "Team Okta B",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785142841961,
-    "team": "Team99",
-    "course": "half",
-    "channel": "general"
-  },
-  {
-    "ts": 1785141036510,
-    "team": "Srs-Nai 1",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785139253218,
-    "team": "Ksゆる４",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785137432402,
-    "team": "Greanbeans10",
-    "course": "quarter",
     "channel": "general"
   }
 ]
