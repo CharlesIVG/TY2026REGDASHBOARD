@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T12:00:41.068301+09:00",
+  "updated": "2026-08-07T12:27:30.292834+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2382,6 +2382,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-07T12:00:41.068301+09:00"
+    },
+    "sponsor|matryoshka of misery": {
+      "team": "Matryoshka Of Misery",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T12:27:30.292834+09:00"
     }
   }
 }

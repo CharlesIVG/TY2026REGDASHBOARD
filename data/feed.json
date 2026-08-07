@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786073250292,
+    "team": "Matryoshka Of Misery",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786071641068,
     "team": "CAP Out Of Office",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1785153641903,
     "team": "Team Orange #5",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785151834287,
-    "team": "Moyana",
-    "course": "full",
     "channel": "general"
   }
 ]
