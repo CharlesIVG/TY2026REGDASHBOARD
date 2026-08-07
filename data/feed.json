@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786077034212,
+    "team": "Axelspace Grus-1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786077034212,
+    "team": "Axelspace Grus-3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786073250292,
     "team": "Matryoshka Of Misery",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1785196845885,
     "team": "お散歩の仙人たち",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785153641903,
-    "team": "Team Orange #4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785153641903,
-    "team": "Team Orange #5",
-    "course": "quarter",
     "channel": "general"
   }
 ]
