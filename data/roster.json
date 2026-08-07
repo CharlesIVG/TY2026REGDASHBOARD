@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T23:15:16.630758+09:00",
+  "updated": "2026-08-07T23:30:39.415345+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2430,6 +2430,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-07T18:00:45.291432+09:00"
+    },
+    "general|empty nesters": {
+      "team": "Empty Nesters",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-07T23:30:39.415345+09:00"
     }
   }
 }
