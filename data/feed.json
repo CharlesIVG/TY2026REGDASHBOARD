@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786068041161,
+    "team": "東京＜山・尊＞第2支社",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786026644448,
     "team": "Karnataka Walkers 3",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785137432402,
     "team": "Greanbeans10",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785133844749,
-    "team": "Sparkling Squad",
     "course": "quarter",
     "channel": "general"
   }
