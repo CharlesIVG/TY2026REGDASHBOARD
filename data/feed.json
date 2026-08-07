@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786091435924,
+    "team": "United Runners",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786091435924,
+    "team": "Lakeland Ctrl+Alt+Run_11:59",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786087835357,
     "team": "R3w1nd",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Team池澤",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785204044546,
-    "team": "しおの部屋",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785197300988,
-    "team": "お散歩の仙人たち プラス",
-    "course": "full",
-    "channel": "general"
   }
 ]

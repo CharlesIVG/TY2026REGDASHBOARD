@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T17:12:04.126820+09:00",
+  "updated": "2026-08-07T17:30:35.924426+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2412,6 +2412,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-07T16:30:35.357540+09:00"
+    },
+    "general|united runners": {
+      "team": "United Runners",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-07T17:30:35.924426+09:00"
+    },
+    "sponsor|lakeland ctrl+alt+run_11:59": {
+      "team": "Lakeland Ctrl+Alt+Run_11:59",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-07T17:30:35.924426+09:00"
     }
   }
 }
