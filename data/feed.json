@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786093245291,
+    "team": "Lakeland Students",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786091435924,
     "team": "United Runners",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Vietnam002",
     "course": "quarter",
     "channel": "general"
-  },
-  {
-    "ts": 1785207647615,
-    "team": "Team池澤",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
