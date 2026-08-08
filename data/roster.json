@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T12:30:33.014560+09:00",
+  "updated": "2026-08-08T12:49:30.314166+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2460,6 +2460,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-08T12:30:33.014560+09:00"
+    },
+    "general|potato wizards": {
+      "team": "Potato Wizards",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-08T12:49:30.314166+09:00"
     }
   }
 }

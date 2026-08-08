@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786160970314,
+    "team": "Potato Wizards",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786159833014,
     "team": "Stepbystep",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785220244306,
     "team": "タスキカケルa",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785218445858,
-    "team": "Embassy Of Switzerland In Japan",
     "course": "quarter",
     "channel": "general"
   }
