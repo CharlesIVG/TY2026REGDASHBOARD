@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T19:30:33.269482+09:00",
+  "updated": "2026-08-08T20:00:40.729897+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2472,6 +2472,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-08T15:00:39.214119+09:00"
+    },
+    "general|striders bhai!!": {
+      "team": "Striders Bhai!!",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-08T20:00:40.729897+09:00"
+    },
+    "general|striders bhai.": {
+      "team": "Striders Bhai.",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-08T20:00:40.729897+09:00"
     }
   }
 }
