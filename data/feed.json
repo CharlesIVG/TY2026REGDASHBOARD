@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786201221914,
+    "team": "わんわん",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786186840729,
     "team": "Striders Bhai!!",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785238233471,
     "team": "Totonou",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785230233445,
-    "team": "二姫二太郎",
-    "course": "full",
     "channel": "general"
   }
 ]
