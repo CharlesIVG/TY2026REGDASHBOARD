@@ -98,7 +98,14 @@ def configured() -> bool:
 
 
 def _is_rate_limited(exc) -> bool:
-    return "too many calls" in str(exc).lower()
+    # Webscorer signals throttling two ways: the text "too many calls" on an
+    # HTTP 200, and - observed in production on the shared GitHub-runner IP -
+    # a bare HTTP 403 (occasionally 429). Both are transient, so retry with
+    # backoff rather than failing the run. A genuinely bad token would 403 on
+    # every attempt and simply exhaust the retries, which the caller now
+    # handles as a clean skip rather than a crash.
+    s = str(exc).lower()
+    return "too many calls" in s or "http 403" in s or "http 429" in s
 
 
 def _get(base_url: str, path: str, params: dict) -> dict:

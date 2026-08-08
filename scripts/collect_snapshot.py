@@ -103,8 +103,22 @@ def fetch_source() -> tuple:
                     data.pop("_diagnostics", None)
                     return data, "webscorer"
                 except Exception as exc:  # noqa: BLE001
-                    # webscorer.py redacts credentials before raising
-                    print(f"WARN: Webscorer fetch failed, falling back to Wix: {exc}", file=sys.stderr)
+                    # webscorer.py redacts credentials before raising.
+                    #
+                    # We deliberately do NOT fall back to Wix here. The Wix
+                    # endpoint is hours-stale (that's why we moved to
+                    # Webscorer) AND its response shape now returns nested
+                    # objects that crashed the int() parsing below. Writing
+                    # stale data or failing the whole workflow over a few
+                    # seconds of Webscorer throttling is worse than doing
+                    # nothing: the next run (30 min later) retries. So signal
+                    # a clean skip - existing data is left untouched.
+                    print(
+                        f"WARN: Webscorer fetch failed this run, skipping "
+                        f"(next run retries): {exc}",
+                        file=sys.stderr,
+                    )
+                    return None, None
 
     return fetch_counts(LIVE_DATA_URL), "wix"
 
@@ -546,6 +560,14 @@ def main() -> int:
     except Exception as exc:  # noqa: BLE001
         print(f"ERROR: could not fetch counts: {exc}", file=sys.stderr)
         return 1
+
+    # fetch_source returns (None, None) when the preferred source (Webscorer)
+    # failed transiently. That's not an error - leave the last good data in
+    # place and let the next scheduled run catch up. Exit 0 so the workflow
+    # stays green and no failure notification is sent.
+    if data is None:
+        print("No fresh counts this run - existing data left unchanged.")
+        return 0
 
     full = int(data.get("full", 0) or 0)
     half = int(data.get("half", 0) or 0)
