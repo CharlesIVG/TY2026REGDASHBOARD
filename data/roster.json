@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T09:00:43.570800+09:00",
+  "updated": "2026-08-08T09:30:34.509225+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2436,6 +2436,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-07T23:30:39.415345+09:00"
+    },
+    "general|toin21/4-1": {
+      "team": "Toin21/4-1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-08T09:30:34.509225+09:00"
+    },
+    "general|toin21/4-2": {
+      "team": "Toin21/4-2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-08T09:30:34.509225+09:00"
+    },
+    "general|toin21/4-3": {
+      "team": "Toin21/4-3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-08T09:30:34.509225+09:00"
     }
   }
 }
