@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T23:00:38.144712+09:00",
+  "updated": "2026-08-09T23:30:32.083599+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2496,6 +2496,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-09T19:30:33.553599+09:00"
+    },
+    "general|can walk lah": {
+      "team": "Can Walk Lah",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-09T23:30:32.083599+09:00"
     }
   }
 }
