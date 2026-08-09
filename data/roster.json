@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T19:00:37.798810+09:00",
+  "updated": "2026-08-09T19:30:33.553599+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2490,6 +2490,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-09T00:00:21.914051+09:00"
+    },
+    "general|team crossroads": {
+      "team": "Team Crossroads",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-09T19:30:33.553599+09:00"
     }
   }
 }

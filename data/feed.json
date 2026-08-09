@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786271433553,
+    "team": "Team Crossroads",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786201221914,
     "team": "わんわん",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785249055863,
     "team": "Aimasho Team",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785238233471,
-    "team": "Totonou",
     "course": "quarter",
     "channel": "general"
   }
