@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786318155801,
+    "team": "Giveitago29",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786285832083,
     "team": "Can Walk Lah",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785283248257,
     "team": "Craic On Track",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785250845376,
-    "team": "Mf-Yokohama",
-    "course": "quarter",
     "channel": "general"
   }
 ]
