@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T14:30:33.606773+09:00",
+  "updated": "2026-08-10T14:56:52.249005+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2526,6 +2526,36 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-10T14:30:33.606773+09:00"
+    },
+    "general|abb": {
+      "team": "Abb",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-10T14:56:52.249005+09:00"
+    },
+    "general|on b": {
+      "team": "On B",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-10T14:56:52.249005+09:00"
+    },
+    "general|on c": {
+      "team": "On C",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-10T14:56:52.249005+09:00"
+    },
+    "general|on d": {
+      "team": "On D",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-10T14:56:52.249005+09:00"
+    },
+    "general|on e": {
+      "team": "On E",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-10T14:56:52.249005+09:00"
     }
   }
 }

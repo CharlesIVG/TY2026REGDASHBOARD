@@ -1,5 +1,35 @@
 [
   {
+    "ts": 1786341412249,
+    "team": "Abb",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1786341412249,
+    "team": "On B",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1786341412249,
+    "team": "On C",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1786341412249,
+    "team": "On D",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1786341412249,
+    "team": "On E",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1786339833606,
     "team": "On A",
     "course": "quarter",
@@ -867,36 +897,6 @@
     "ts": 1785328235027,
     "team": "Here I Am Walk You Like A Hurricane",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785317435915,
-    "team": "Sthree Baddies",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785300325697,
-    "team": "Srs-Nai 2",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785295833566,
-    "team": "Karl Storz Wave 1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785294043997,
-    "team": "Karl Storz Wave 2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785294043997,
-    "team": "Veloci-Walkers",
-    "course": "quarter",
     "channel": "general"
   }
 ]
