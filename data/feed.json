@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786345241091,
+    "team": "Jesus Walks",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786341412249,
     "team": "Abb",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785333647232,
     "team": "Mixzigzag",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785328235027,
-    "team": "Here I Am Walk You Like A Hurricane",
     "course": "full",
     "channel": "general"
   }

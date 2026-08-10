@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T15:30:35.358795+09:00",
+  "updated": "2026-08-10T16:00:41.091707+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2556,6 +2556,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-08-10T14:56:52.249005+09:00"
+    },
+    "general|jesus walks": {
+      "team": "Jesus Walks",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-10T16:00:41.091707+09:00"
     }
   }
 }
