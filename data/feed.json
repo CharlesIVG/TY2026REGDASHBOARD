@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786368634991,
+    "team": "Trailhead Academy",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786353471787,
     "team": "Hpe-赤い蹄",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1785372848428,
     "team": "Segodon2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785337245770,
-    "team": "Walkie & Talkie",
     "course": "full",
     "channel": "general"
   }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T22:02:37.802295+09:00",
+  "updated": "2026-08-10T22:30:34.991202+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2568,6 +2568,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-10T18:17:51.787815+09:00"
+    },
+    "sponsor|trailhead academy": {
+      "team": "Trailhead Academy",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-10T22:30:34.991202+09:00"
     }
   }
 }
