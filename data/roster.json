@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T14:00:49.592515+09:00",
+  "updated": "2026-08-10T14:30:33.606773+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2514,6 +2514,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-10T12:30:32.131476+09:00"
+    },
+    "general|on a": {
+      "team": "On A",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-10T14:30:33.606773+09:00"
+    },
+    "sponsor|ms-fintrek": {
+      "team": "Ms-Fintrek",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-10T14:30:33.606773+09:00"
     }
   }
 }

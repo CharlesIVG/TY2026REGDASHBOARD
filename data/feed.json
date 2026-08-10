@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786339833606,
+    "team": "On A",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1786339833606,
+    "team": "Ms-Fintrek",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786332632131,
     "team": "お年寄りのぶらり観光",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1785294043997,
     "team": "Veloci-Walkers",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785288633467,
-    "team": "Ariake Runners",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785286857681,
-    "team": "Ariake Fire",
     "course": "quarter",
     "channel": "general"
   }
