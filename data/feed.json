@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786413639087,
+    "team": "Streunende Kinder",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786368634991,
     "team": "Trailhead Academy",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "MAN花の62期",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785372848428,
-    "team": "Segodon2",
-    "course": "full",
-    "channel": "general"
   }
 ]
