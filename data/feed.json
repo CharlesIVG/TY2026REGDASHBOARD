@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786512632854,
+    "team": "てぃーてぃーてくてく",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786509033391,
     "team": "Day Drinking",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785375036263,
     "team": "MANArmy",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785375036263,
-    "team": "MANOsos",
     "course": "half",
     "channel": "sponsor"
   }
