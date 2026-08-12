@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786516242824,
+    "team": "Buzzin’",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786516242824,
+    "team": "Philips麻布台②",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786514058021,
     "team": "Team Pna",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Hpe Lenegnd Runners",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785376840327,
-    "team": "Sole Sisters",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785375036263,
-    "team": "Yakusugi",
-    "course": "full",
-    "channel": "general"
   }
 ]

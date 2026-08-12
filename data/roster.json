@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T15:00:40.522758+09:00",
+  "updated": "2026-08-12T15:30:42.824754+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2628,6 +2628,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-12T14:54:18.021100+09:00"
+    },
+    "general|buzzin’": {
+      "team": "Buzzin’",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T15:30:42.824754+09:00"
+    },
+    "general|philips麻布台②": {
+      "team": "Philips麻布台②",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T15:30:42.824754+09:00"
     }
   }
 }
