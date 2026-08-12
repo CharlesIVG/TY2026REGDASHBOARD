@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T21:30:36.556350+09:00",
+  "updated": "2026-08-12T22:00:44.524786+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2664,6 +2664,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-12T21:00:44.559432+09:00"
+    },
+    "general|that! english school": {
+      "team": "That! English School",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T22:00:44.524786+09:00"
+    },
+    "sponsor|george gao": {
+      "team": "George Gao",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-12T22:00:44.524786+09:00"
     }
   }
 }

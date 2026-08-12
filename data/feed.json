@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786539644524,
+    "team": "That! English School",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786539644524,
+    "team": "George Gao",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786536044559,
     "team": "Gas Gas",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1785412841532,
     "team": "ゆうあい2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785407433026,
-    "team": "On Partners",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785396634136,
-    "team": "ゆうあい　1",
     "course": "full",
     "channel": "general"
   }
