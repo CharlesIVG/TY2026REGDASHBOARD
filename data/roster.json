@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T20:30:37.544947+09:00",
+  "updated": "2026-08-12T21:00:44.559432+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2652,6 +2652,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-12T18:30:35.649200+09:00"
+    },
+    "general|gas gas": {
+      "team": "Gas Gas",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T21:00:44.559432+09:00"
+    },
+    "general|笑っ歩っほ": {
+      "team": "笑っ歩っほ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T21:00:44.559432+09:00"
     }
   }
 }
