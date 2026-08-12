@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T10:00:44.283815+09:00",
+  "updated": "2026-08-12T10:30:32.783548+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2598,6 +2598,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-08-12T10:00:44.283815+09:00"
+    },
+    "general|runner's high": {
+      "team": "Runner's High",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T10:30:32.783548+09:00"
     }
   }
 }

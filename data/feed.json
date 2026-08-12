@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786498232783,
+    "team": "Runner's High",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786496444283,
     "team": "Dksh Running Club",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785375036263,
     "team": "MANTeam Kk",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785375036263,
-    "team": "MANTeam池澤",
     "course": "half",
     "channel": "sponsor"
   }
