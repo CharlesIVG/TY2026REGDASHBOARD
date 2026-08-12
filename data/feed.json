@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786496444283,
+    "team": "Dksh Running Club",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1786494634331,
     "team": "Sccij A",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1785375036263,
     "team": "MANTeam池澤",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785375036263,
-    "team": "MANしおの部屋",
-    "course": "full",
     "channel": "sponsor"
   }
 ]
