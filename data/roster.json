@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T13:05:30.430376+09:00",
+  "updated": "2026-08-12T13:30:33.391231+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2604,6 +2604,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-12T10:30:32.783548+09:00"
+    },
+    "general|day drinking": {
+      "team": "Day Drinking",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T13:30:33.391231+09:00"
+    },
+    "general|d-broad": {
+      "team": "D-Broad",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-12T13:30:33.391231+09:00"
     }
   }
 }
