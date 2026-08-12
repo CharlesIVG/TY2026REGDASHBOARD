@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786523435759,
+    "team": "Team Takanawa",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786516242824,
     "team": "Buzzin’",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "ゆうあい3",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785383720698,
-    "team": "Hpe Lenegnd Runners",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
