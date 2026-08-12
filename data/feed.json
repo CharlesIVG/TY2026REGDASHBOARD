@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786514058021,
+    "team": "Team Pna",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786512632854,
     "team": "てぃーてぃーてくてく",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Yakusugi",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785375036263,
-    "team": "MANArmy",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
