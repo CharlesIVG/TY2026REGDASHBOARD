@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T09:00:43.669282+09:00",
+  "updated": "2026-08-12T09:30:34.331005+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2586,6 +2586,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-11T16:00:49.039334+09:00"
+    },
+    "general|sccij a": {
+      "team": "Sccij A",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-12T09:30:34.331005+09:00"
     }
   }
 }
