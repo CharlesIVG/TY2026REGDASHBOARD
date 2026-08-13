@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1786584631795,
+    "team": "Forvis Mazars",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1786584631795,
+    "team": "Hpe-Sixtyones",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1786584631795,
+    "team": "Ms Yama Dreamers",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786581031702,
     "team": "MS Yamanote Cruisers",
     "course": "half",
@@ -878,24 +896,6 @@
   {
     "ts": 1785463239217,
     "team": "ひかっちオールスターズ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785450638768,
-    "team": "大妻嵐山おやじの会",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785429033257,
-    "team": "Guy & Miya",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785425434835,
-    "team": "Medal",
     "course": "full",
     "channel": "general"
   }

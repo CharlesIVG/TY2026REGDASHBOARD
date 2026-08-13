@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T10:00:39.679439+09:00",
+  "updated": "2026-08-13T10:30:31.795975+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2682,6 +2682,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-13T09:30:31.702403+09:00"
+    },
+    "general|forvis mazars": {
+      "team": "Forvis Mazars",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-13T10:30:31.795975+09:00"
+    },
+    "sponsor|hpe-sixtyones": {
+      "team": "Hpe-Sixtyones",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-13T10:30:31.795975+09:00"
+    },
+    "sponsor|ms yama dreamers": {
+      "team": "Ms Yama Dreamers",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-13T10:30:31.795975+09:00"
     }
   }
 }
