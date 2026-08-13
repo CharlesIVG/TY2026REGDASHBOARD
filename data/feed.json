@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786581031702,
+    "team": "MS Yamanote Cruisers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786539644524,
     "team": "That! English School",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785425434835,
     "team": "Medal",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785412841532,
-    "team": "ゆうあい2",
     "course": "full",
     "channel": "general"
   }
