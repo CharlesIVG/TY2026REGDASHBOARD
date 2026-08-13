@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786591841386,
+    "team": "Forever Young At 60",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786588233826,
     "team": "The Spicy Girls",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785465030657,
     "team": "Kmb",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785463239217,
-    "team": "Team Stb",
-    "course": "full",
     "channel": "general"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T12:00:43.006517+09:00",
+  "updated": "2026-08-13T12:30:41.386575+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2706,6 +2706,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-13T11:30:33.826510+09:00"
+    },
+    "general|forever young at 60": {
+      "team": "Forever Young At 60",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-13T12:30:41.386575+09:00"
     }
   }
 }
