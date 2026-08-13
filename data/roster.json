@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T23:30:35.295019+09:00",
+  "updated": "2026-08-13T23:58:33.295038+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2754,6 +2754,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-08-13T22:00:53.240694+09:00"
+    },
+    "general|yamathoners!": {
+      "team": "Yamathoners!",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-13T23:58:33.295038+09:00"
     }
   }
 }

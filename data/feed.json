@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786633113295,
+    "team": "Yamathoners!",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786626053240,
     "team": "Swiss Chamber Of Commerce In Japan",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785632438651,
     "team": "She Run 1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785628554844,
-    "team": "She Runs 2",
     "course": "full",
     "channel": "general"
   }
