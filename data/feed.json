@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786593642376,
+    "team": "Striders Bhai - 1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786593642376,
+    "team": "Striders Bhai - 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786591841386,
     "team": "Forever Young At 60",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1785477640681,
     "team": "Dksh Japan",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785475838155,
-    "team": "Team Bcp",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785465030657,
-    "team": "Kmb",
     "course": "quarter",
     "channel": "general"
   }
