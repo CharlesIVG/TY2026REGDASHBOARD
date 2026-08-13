@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786600850076,
+    "team": "Ms-Kabathon",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786595432661,
     "team": "桃色ウォーカーズ",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785565831894,
     "team": "The Big Steppers",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785549649586,
-    "team": "Team Holland",
-    "course": "quarter",
     "channel": "general"
   }
 ]
