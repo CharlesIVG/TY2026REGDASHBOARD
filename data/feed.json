@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786602635121,
+    "team": "Brewed Awakenings",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786600850076,
     "team": "Ms-Kabathon",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785601832965,
     "team": "Meguronians",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785565831894,
-    "team": "The Big Steppers",
     "course": "full",
     "channel": "general"
   }
