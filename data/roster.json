@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T11:00:50.725445+09:00",
+  "updated": "2026-08-13T11:30:33.826510+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2700,6 +2700,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-13T10:30:31.795975+09:00"
+    },
+    "general|the spicy girls": {
+      "team": "The Spicy Girls",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-13T11:30:33.826510+09:00"
     }
   }
 }

@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786588233826,
+    "team": "The Spicy Girls",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786584631795,
     "team": "Forvis Mazars",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785463239217,
     "team": "Team Stb",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785463239217,
-    "team": "ひかっちオールスターズ",
     "course": "full",
     "channel": "general"
   }
