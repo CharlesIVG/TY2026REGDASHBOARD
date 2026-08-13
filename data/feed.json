@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786626053240,
+    "team": "Swiss Chamber Of Commerce In Japan",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1786602635121,
     "team": "Brewed Awakenings",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785628554844,
     "team": "She Runs 2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785601832965,
-    "team": "Meguronians",
     "course": "full",
     "channel": "general"
   }

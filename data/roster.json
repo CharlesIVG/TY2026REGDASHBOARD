@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T21:30:40.470054+09:00",
+  "updated": "2026-08-13T22:00:53.240694+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2748,6 +2748,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-13T15:30:35.121020+09:00"
+    },
+    "general|swiss chamber of commerce in japan": {
+      "team": "Swiss Chamber Of Commerce In Japan",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-13T22:00:53.240694+09:00"
     }
   }
 }
