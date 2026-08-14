@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786674633544,
+    "team": "Ms-Bbq-Sauce",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786633113295,
     "team": "Yamathoners!",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785632438651,
     "team": "Mf-Yokohama_B",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785632438651,
-    "team": "She Run 1",
     "course": "full",
     "channel": "general"
   }

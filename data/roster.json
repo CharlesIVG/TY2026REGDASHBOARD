@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T11:00:39.459532+09:00",
+  "updated": "2026-08-14T11:30:33.544539+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2760,6 +2760,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-13T23:58:33.295038+09:00"
+    },
+    "sponsor|ms-bbq-sauce": {
+      "team": "Ms-Bbq-Sauce",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-14T11:30:33.544539+09:00"
     }
   }
 }
