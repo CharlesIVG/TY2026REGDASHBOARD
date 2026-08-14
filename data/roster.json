@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T12:00:43.402830+09:00",
+  "updated": "2026-08-14T12:30:37.302914+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2766,6 +2766,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-14T11:30:33.544539+09:00"
+    },
+    "general|iwaki family": {
+      "team": "Iwaki Family",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-14T12:30:37.302914+09:00"
     }
   }
 }
