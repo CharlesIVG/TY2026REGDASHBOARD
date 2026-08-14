@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786716042464,
+    "team": "Unipals No Rush",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786710633388,
     "team": "Trackers",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785657639882,
     "team": "Desiboyz",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785655831594,
-    "team": "Tamwood",
     "course": "full",
     "channel": "general"
   }
