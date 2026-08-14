@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-08-14T23:48:13.820305+09:00",
+  "generated_at": "2026-08-15T00:00:44.748007+09:00",
   "days": [
-    {
-      "date": "2026-07-25",
-      "dow": 6,
-      "full": 4,
-      "half": 0,
-      "quarter": 2,
-      "total": 6,
-      "cumulative": 210,
-      "hasData": true,
-      "measured": true
-    },
     {
       "date": "2026-07-26",
       "dow": 0,
@@ -228,6 +217,17 @@
       "half": 0,
       "quarter": 1,
       "total": 5,
+      "cumulative": 427,
+      "hasData": true,
+      "measured": true
+    },
+    {
+      "date": "2026-08-15",
+      "dow": 6,
+      "full": 0,
+      "half": 0,
+      "quarter": 0,
+      "total": 0,
       "cumulative": 427,
       "hasData": true,
       "measured": true
