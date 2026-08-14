@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786710633388,
+    "team": "Trackers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786689035807,
     "team": "Saitama Pheasants",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785655831594,
     "team": "Tamwood",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785648630218,
-    "team": "Trail Titans",
     "course": "full",
     "channel": "general"
   }
