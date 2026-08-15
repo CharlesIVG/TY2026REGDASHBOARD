@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T16:30:32.149235+09:00",
+  "updated": "2026-08-15T16:53:57.160398+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2814,6 +2814,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-15T15:34:20.297169+09:00"
+    },
+    "general|葉山 htrc": {
+      "team": "葉山 Htrc",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-15T16:53:57.160398+09:00"
     }
   }
 }

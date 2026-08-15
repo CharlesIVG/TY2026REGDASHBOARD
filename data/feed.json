@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786780437160,
+    "team": "葉山 Htrc",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786775660297,
     "team": "Gg Sisters",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785675640254,
     "team": "Team Sophia",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785672041559,
-    "team": "Sweets Hunter A",
     "course": "full",
     "channel": "general"
   }
