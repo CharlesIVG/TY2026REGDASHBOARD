@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T21:00:42.282251+09:00",
+  "updated": "2026-08-15T21:30:33.485033+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2832,6 +2832,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-15T18:23:36.376887+09:00"
+    },
+    "general|good morning": {
+      "team": "Good Morning",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-15T21:30:33.485033+09:00"
     }
   }
 }

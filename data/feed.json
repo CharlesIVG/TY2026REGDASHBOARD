@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786797033485,
+    "team": "Good Morning",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786785816376,
     "team": "Full Yamathon Regret Club",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785677432483,
     "team": "Weekend Walkers 1",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785677432483,
-    "team": "Weekend Walkers 2",
     "course": "full",
     "channel": "sponsor"
   }
