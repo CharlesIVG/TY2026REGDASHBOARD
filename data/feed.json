@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786753832763,
+    "team": "Nos-Dx",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786716042464,
     "team": "Unipals No Rush",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785666632864,
     "team": "Ojima Friends Striders",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785657639882,
-    "team": "Desiboyz",
     "course": "full",
     "channel": "general"
   }
