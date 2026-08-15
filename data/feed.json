@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786785816376,
+    "team": "Full Yamathon Regret Club",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786782298728,
     "team": "すーさん With Ｔ",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Weekend Walkers 2",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785675640254,
-    "team": "LD",
-    "course": "full",
-    "channel": "general"
   }
 ]

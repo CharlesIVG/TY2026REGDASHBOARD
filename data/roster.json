@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T18:00:43.103667+09:00",
+  "updated": "2026-08-15T18:23:36.376887+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2826,6 +2826,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-15T17:24:58.728878+09:00"
+    },
+    "general|full yamathon regret club": {
+      "team": "Full Yamathon Regret Club",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-15T18:23:36.376887+09:00"
     }
   }
 }
