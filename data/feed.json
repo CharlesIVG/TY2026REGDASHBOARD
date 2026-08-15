@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786800492819,
+    "team": "Go Go Chen",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786797033485,
     "team": "Good Morning",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "She Runs 3",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785677432483,
-    "team": "Weekend Walkers 1",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
