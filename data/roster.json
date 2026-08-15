@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T14:00:42.410642+09:00",
+  "updated": "2026-08-15T14:28:51.889743+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2796,6 +2796,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-15T09:30:32.763608+09:00"
+    },
+    "general|ninjas": {
+      "team": "Ninjas",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-15T14:28:51.889743+09:00"
     }
   }
 }

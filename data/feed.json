@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786771731889,
+    "team": "Ninjas",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786753832763,
     "team": "Nos-Dx",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785672041559,
     "team": "Sweets Hunter C",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785666632864,
-    "team": "Ojima Friends Striders",
     "course": "full",
     "channel": "general"
   }
