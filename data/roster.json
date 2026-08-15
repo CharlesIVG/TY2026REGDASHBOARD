@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T15:30:32.724554+09:00",
+  "updated": "2026-08-15T15:34:20.297169+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2808,6 +2808,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-15T15:30:32.724554+09:00"
+    },
+    "general|gg sisters": {
+      "team": "Gg Sisters",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-15T15:34:20.297169+09:00"
     }
   }
 }
