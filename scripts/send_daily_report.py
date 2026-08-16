@@ -80,16 +80,19 @@ COURSE_HEX = {"full": "#9ACD32", "half": "#F89825", "quarter": "#7EB7E4"}
 
 # Fixed wording that opens and closes every report. Edit the strings here -
 # nothing else in the file needs to change. Blank strings produce blank lines.
-GREETING = "Good Morning Community Impact Rockstars \U0001F918 - I've got your \U0001FAF5 daily progress report for the TEAMS IN for 2026!"
-# "YamaGo" is the sign-off name. In plain text it prints as a word; in the
-# HTML email it is replaced by yamago.png (drop that file at the repo root,
-# served by GitHub Pages). If the image is missing, the alt text shows.
+# Opening line. "SOM" = start of message.
+GREETING = "SOM"
+
+# Send the plain-text report only. The full HTML report (render_html below,
+# logo + coloured bars + emoji headers) is preserved and can be switched back
+# on by flipping this to True - nothing about it was deleted.
+SEND_HTML = False
+# Closing line. "EOM" = end of message.
+SIGNOFF = ["EOM"]
+
+# Kept for the preserved HTML report: when SEND_HTML is on, this name is shown
+# as yamago.png instead of a word. Unused while sending text only.
 SIGNOFF_NAME = "YamaGo"
-SIGNOFF = [
-    "Have a great day and - keep on truckin!",
-    "Let's Go!",
-    SIGNOFF_NAME,
-]
 SIGNOFF_IMG_URL = "https://charlesivg.github.io/TY2026REGDASHBOARD/yamago.png"
 
 
@@ -553,7 +556,9 @@ def main() -> int:
     date_str = report_date_jst()
     summary = build_summary(rows, date_str)
     text_body = render_text(summary)
-    html_body = render_html(summary)
+    # HTML report is preserved but off (SEND_HTML). Empty html_body makes
+    # send_email fall back to a plain-text-only message.
+    html_body = render_html(summary) if SEND_HTML else ""
     subject = f"Tokyo Yamathon - Daily Team Entry Report ({date_str})"
     try:
         send_email(subject, text_body, html_body)
