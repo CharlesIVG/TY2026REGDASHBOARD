@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786885239433,
+    "team": "More Better",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786881640160,
     "team": "Knights1",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "ラーメン",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785727003959,
-    "team": "Ps Team2",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
