@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786845639886,
+    "team": "Mott-Beer",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786800492819,
     "team": "Go Go Chen",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785720633287,
     "team": "Ojima Friends Striders-4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785711287826,
-    "team": "She Runs 3",
     "course": "full",
     "channel": "general"
   }
