@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786869031398,
+    "team": "Koyaam Test",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786866919165,
     "team": "谷を越え、濱の向こうの高みへ",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785724231402,
     "team": "Forvis Mazar",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785724231402,
-    "team": "Ojima Friends Striders-3",
-    "course": "full",
     "channel": "general"
   }
 ]

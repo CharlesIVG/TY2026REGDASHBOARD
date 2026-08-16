@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T17:26:24.621100+09:00",
+  "updated": "2026-08-16T17:30:31.398252+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2862,6 +2862,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-16T16:55:19.165190+09:00"
+    },
+    "sponsor|koyaam test": {
+      "team": "Koyaam Test",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-16T17:30:31.398252+09:00"
     }
   }
 }
