@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786881640160,
+    "team": "Knights1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786881640160,
+    "team": "Mighty Turtles",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786869031398,
     "team": "Koyaam Test",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Ps Team2",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785726042451,
-    "team": "Ojima Friends Striders-2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785724231402,
-    "team": "Forvis Mazar",
-    "course": "quarter",
-    "channel": "general"
   }
 ]

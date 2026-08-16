@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T20:44:12.781432+09:00",
+  "updated": "2026-08-16T21:00:40.160871+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2868,6 +2868,18 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-16T17:30:31.398252+09:00"
+    },
+    "general|knights1": {
+      "team": "Knights1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-16T21:00:40.160871+09:00"
+    },
+    "general|mighty turtles": {
+      "team": "Mighty Turtles",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-16T21:00:40.160871+09:00"
     }
   }
 }
