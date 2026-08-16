@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786866919165,
+    "team": "谷を越え、濱の向こうの高みへ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786859609942,
     "team": "Jolly Walkers",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Ojima Friends Striders-3",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785722440964,
-    "team": "Ps Team1",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
