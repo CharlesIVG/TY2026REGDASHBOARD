@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786859609942,
+    "team": "Jolly Walkers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786845639886,
     "team": "Mott-Beer",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Ps Team1",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785720633287,
-    "team": "Ojima Friends Striders-4",
-    "course": "full",
-    "channel": "general"
   }
 ]

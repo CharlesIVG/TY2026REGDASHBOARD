@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T14:30:33.198485+09:00",
+  "updated": "2026-08-16T14:53:29.942728+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2850,6 +2850,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-16T11:00:39.886782+09:00"
+    },
+    "general|jolly walkers": {
+      "team": "Jolly Walkers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-16T14:53:29.942728+09:00"
     }
   }
 }
