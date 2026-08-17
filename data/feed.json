@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786976675465,
+    "team": "F&K",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786973846371,
     "team": "Birthday Team",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785762044249,
     "team": "Ojima Friends Striders-5",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785753695760,
-    "team": "She Run 4",
     "course": "full",
     "channel": "general"
   }
