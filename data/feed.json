@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786969835533,
+    "team": "チームおさかな世代",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786955435053,
     "team": "Keio Team",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785738638027,
     "team": "Mogumogu",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785738638027,
-    "team": "Pacific Striders",
-    "course": "full",
     "channel": "general"
   }
 ]
