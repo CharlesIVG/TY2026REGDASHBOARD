@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786928439966,
+    "team": "Team Wicked",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786885239433,
     "team": "More Better",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785727838053,
     "team": "The Odawalkers And . . .",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785727003959,
-    "team": "ラーメン",
     "course": "full",
     "channel": "general"
   }

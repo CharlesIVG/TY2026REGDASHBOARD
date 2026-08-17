@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T09:30:33.246189+09:00",
+  "updated": "2026-08-17T10:00:39.966627+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2886,6 +2886,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-16T22:00:39.433860+09:00"
+    },
+    "general|team wicked": {
+      "team": "Team Wicked",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-17T10:00:39.966627+09:00"
     }
   }
 }
