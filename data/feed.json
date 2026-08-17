@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786944633425,
+    "team": "Hpe-ひじき",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786939240956,
     "team": "Team Zakiyama",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1785733241445,
     "team": "Team Ratbu",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785731432803,
-    "team": "Leones",
     "course": "full",
     "channel": "general"
   }
