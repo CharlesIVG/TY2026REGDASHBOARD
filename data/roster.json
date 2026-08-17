@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T17:00:41.845502+09:00",
+  "updated": "2026-08-17T17:30:35.053930+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2904,6 +2904,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-17T14:30:33.425006+09:00"
+    },
+    "sponsor|keio team": {
+      "team": "Keio Team",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-17T17:30:35.053930+09:00"
     }
   }
 }

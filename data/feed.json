@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1786955435053,
+    "team": "Keio Team",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1786944633425,
     "team": "Hpe-ひじき",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1785738638027,
     "team": "Pacific Striders",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785733241445,
-    "team": "Team Ratbu",
     "course": "full",
     "channel": "general"
   }
