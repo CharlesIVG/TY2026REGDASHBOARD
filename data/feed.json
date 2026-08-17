@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1786973846371,
+    "team": "Birthday Team",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1786973846371,
+    "team": "Tokyo Drift",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1786969835533,
     "team": "チームおさかな世代",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1785753695760,
     "team": "She Run 4",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785740458213,
-    "team": "チームd",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785738638027,
-    "team": "Mogumogu",
-    "course": "quarter",
     "channel": "general"
   }
 ]

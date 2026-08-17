@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T22:30:46.244400+09:00",
+  "updated": "2026-08-17T22:37:26.371094+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2916,6 +2916,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-17T21:30:35.533473+09:00"
+    },
+    "general|birthday team": {
+      "team": "Birthday Team",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-17T22:37:26.371094+09:00"
+    },
+    "general|tokyo drift": {
+      "team": "Tokyo Drift",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-17T22:37:26.371094+09:00"
     }
   }
 }
