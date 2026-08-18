@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787015143000,
+    "team": "終点どこ？",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787014842621,
     "team": "迷子ガールズ",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785817833932,
     "team": "御雑煮軍団 Team 6",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785817833932,
-    "team": "御雑煮軍団 Team 7",
     "course": "full",
     "channel": "general"
   }
