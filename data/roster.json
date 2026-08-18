@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:00:42.363028+09:00",
+  "updated": "2026-08-18T16:30:36.280842+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3042,6 +3042,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-18T14:26:21.398492+09:00"
+    },
+    "sponsor|ms 優勝": {
+      "team": "Ms 優勝",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T16:30:36.280842+09:00"
     }
   }
 }

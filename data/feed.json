@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787038236280,
+    "team": "Ms 優勝",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787030781398,
     "team": "Don't Think Feel !",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1785918634366,
     "team": "Lakeland Roadwalkers",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785916842617,
-    "team": "Hpe-Hinoeuma",
     "course": "full",
     "channel": "sponsor"
   }
