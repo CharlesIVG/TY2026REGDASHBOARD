@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787050547560,
+    "team": "ご来店ありがとうございます！ⅱ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787049034136,
     "team": "Alab Squad",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785918634366,
     "team": "Conrad Tokyo 4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785918634366,
-    "team": "Conrad Tokyo 5",
     "course": "full",
     "channel": "general"
   }
