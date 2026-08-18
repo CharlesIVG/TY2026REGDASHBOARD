@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T17:00:40.875943+09:00",
+  "updated": "2026-08-18T17:30:36.325381+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3048,6 +3048,18 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-18T16:30:36.280842+09:00"
+    },
+    "general|fpt japan 002": {
+      "team": "Fpt Japan 002",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-18T17:30:36.325381+09:00"
+    },
+    "sponsor|sfdc ahmy feet!": {
+      "team": "Sfdc Ahmy Feet!",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T17:30:36.325381+09:00"
     }
   }
 }

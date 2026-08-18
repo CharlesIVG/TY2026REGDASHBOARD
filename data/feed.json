@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787041836325,
+    "team": "Fpt Japan 002",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1787041836325,
+    "team": "Sfdc Ahmy Feet!",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787038236280,
     "team": "Ms 優勝",
     "course": "quarter",
@@ -886,17 +898,5 @@
     "team": "Conrad Tokyo 7",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785918634366,
-    "team": "Lakeland Out Of Office",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785918634366,
-    "team": "Lakeland Roadwalkers",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
