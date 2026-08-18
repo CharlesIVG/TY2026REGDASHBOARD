@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787029241746,
+    "team": "MAN Keio Team",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787029241746,
+    "team": "MAN Team Zakiyama",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787023844686,
     "team": "Miles By Modis",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1785902419282,
     "team": "ヤマサン",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785889852121,
-    "team": "Ariake Adventure",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785889852121,
-    "team": "Yokoayama Striders",
-    "course": "full",
     "channel": "general"
   }
 ]
