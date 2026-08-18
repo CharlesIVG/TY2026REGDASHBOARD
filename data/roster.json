@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T21:00:43.739258+09:00",
+  "updated": "2026-08-18T21:30:35.618049+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3084,6 +3084,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-18T20:24:06.964877+09:00"
+    },
+    "general|ai&aa グルメウォーカーズ": {
+      "team": "Ai&Aa グルメウォーカーズ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T21:30:35.618049+09:00"
+    },
+    "sponsor|hpe-ted_aps_united": {
+      "team": "Hpe-Ted_Aps_United",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T21:30:35.618049+09:00"
     }
   }
 }
