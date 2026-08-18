@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787013033749,
+    "team": "Team Koyama No2",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787011242374,
     "team": "Team Koyama No1",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1785799832559,
     "team": "Mona's Touch",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785792633523,
-    "team": "She Runs 4",
     "course": "full",
     "channel": "general"
   }

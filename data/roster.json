@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T09:00:42.374791+09:00",
+  "updated": "2026-08-18T09:30:33.749103+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2940,6 +2940,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-18T09:00:42.374791+09:00"
+    },
+    "sponsor|team koyama no2": {
+      "team": "Team Koyama No2",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T09:30:33.749103+09:00"
     }
   }
 }
