@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787049034136,
+    "team": "Alab Squad",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787043642671,
     "team": "Fpt Japan 001",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1785918634366,
     "team": "Conrad Tokyo 5",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785918634366,
-    "team": "Conrad Tokyo 6",
     "course": "full",
     "channel": "general"
   }
