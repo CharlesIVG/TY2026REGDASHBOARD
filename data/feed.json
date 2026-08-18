@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787016632024,
+    "team": "Team Koyama No5",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787016632024,
+    "team": "Team Koyama No6",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787015143000,
     "team": "終点どこ？",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Ps Team3",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785830440864,
-    "team": "I'm Walkin' Here",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785817833932,
-    "team": "御雑煮軍団 Team 6",
-    "course": "full",
-    "channel": "general"
   }
 ]
