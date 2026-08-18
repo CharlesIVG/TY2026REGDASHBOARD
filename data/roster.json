@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T09:30:33.749103+09:00",
+  "updated": "2026-08-18T10:00:42.621654+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2946,6 +2946,24 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-18T09:30:33.749103+09:00"
+    },
+    "general|迷子ガールズ": {
+      "team": "迷子ガールズ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T10:00:42.621654+09:00"
+    },
+    "sponsor|team koyama no3": {
+      "team": "Team Koyama No3",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T10:00:42.621654+09:00"
+    },
+    "sponsor|team koyama no4": {
+      "team": "Team Koyama No4",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T10:00:42.621654+09:00"
     }
   }
 }

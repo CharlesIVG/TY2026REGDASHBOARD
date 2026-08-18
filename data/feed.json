@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787014842621,
+    "team": "迷子ガールズ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787014842621,
+    "team": "Team Koyama No3",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787014842621,
+    "team": "Team Koyama No4",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787013033749,
     "team": "Team Koyama No2",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1785817833932,
     "team": "御雑煮軍団 Team 7",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785817833932,
-    "team": "Cap うさぎとタートルズ（Loveit & Turtles）",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785805246843,
-    "team": "Tiki35",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785799832559,
-    "team": "Mona's Touch",
     "course": "full",
     "channel": "general"
   }
