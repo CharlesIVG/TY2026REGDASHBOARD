@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T14:00:41.746712+09:00",
+  "updated": "2026-08-18T14:26:21.398492+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3024,6 +3024,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-18T14:00:41.746712+09:00"
+    },
+    "sponsor|don't think feel !": {
+      "team": "Don't Think Feel !",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T14:26:21.398492+09:00"
+    },
+    "sponsor|man matryoshka of misery": {
+      "team": "MAN Matryoshka Of Misery",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T14:26:21.398492+09:00"
+    },
+    "sponsor|sfdc trailhead academy": {
+      "team": "SFDC Trailhead Academy",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-18T14:26:21.398492+09:00"
     }
   }
 }

@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787030781398,
+    "team": "Don't Think Feel !",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787030781398,
+    "team": "MAN Matryoshka Of Misery",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787030781398,
+    "team": "SFDC Trailhead Academy",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787029241746,
     "team": "MAN Keio Team",
     "course": "full",
@@ -880,23 +898,5 @@
     "team": "Hpe-Hinoeuma",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785916842617,
-    "team": "Ms-Urban Nomads",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1785906041138,
-    "team": "一歩一会",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785902419282,
-    "team": "ヤマサン",
-    "course": "quarter",
-    "channel": "general"
   }
 ]
