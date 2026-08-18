@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787052246964,
+    "team": "The Hikers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787050547560,
     "team": "ご来店ありがとうございます！ⅱ",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1785918634366,
     "team": "Conrad Tokyo 3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785918634366,
-    "team": "Conrad Tokyo 4",
     "course": "full",
     "channel": "general"
   }
