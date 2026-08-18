@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1787022042543,
+    "team": "Bbhcarestokyo Full 1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787022042543,
+    "team": "Bbhcarestokyo Full 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787022042543,
+    "team": "Bbhcarestokyo Full 3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787022042543,
+    "team": "Bbhcarestokyo Full 4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787016632024,
     "team": "Team Koyama No5",
     "course": "full",
@@ -874,29 +898,5 @@
     "team": "Kmt",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1785839452693,
-    "team": "Team Esther",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785837643518,
-    "team": "Mb 1802",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785837643518,
-    "team": "Mb1801",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785837643518,
-    "team": "Ps Team3",
-    "course": "quarter",
-    "channel": "sponsor"
   }
 ]

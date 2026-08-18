@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T11:35:30.308485+09:00",
+  "updated": "2026-08-18T12:00:42.543297+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -2982,6 +2982,30 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-18T10:30:32.024423+09:00"
+    },
+    "general|bbhcarestokyo full 1": {
+      "team": "Bbhcarestokyo Full 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T12:00:42.543297+09:00"
+    },
+    "general|bbhcarestokyo full 2": {
+      "team": "Bbhcarestokyo Full 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T12:00:42.543297+09:00"
+    },
+    "general|bbhcarestokyo full 3": {
+      "team": "Bbhcarestokyo Full 3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T12:00:42.543297+09:00"
+    },
+    "general|bbhcarestokyo full 4": {
+      "team": "Bbhcarestokyo Full 4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T12:00:42.543297+09:00"
     }
   }
 }
