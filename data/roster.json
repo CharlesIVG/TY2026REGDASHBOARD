@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T12:00:42.543297+09:00",
+  "updated": "2026-08-18T12:30:44.686189+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3006,6 +3006,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-18T12:00:42.543297+09:00"
+    },
+    "general|miles by modis": {
+      "team": "Miles By Modis",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-18T12:30:44.686189+09:00"
     }
   }
 }
