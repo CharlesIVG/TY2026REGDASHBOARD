@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787099436087,
+    "team": "Tanessies",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787099436087,
+    "team": "Hpe Aps Presales 2026",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787099436087,
+    "team": "Man Tufs女",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787097643814,
     "team": "チームよでん",
     "course": "half",
@@ -880,23 +898,5 @@
     "team": "山歩会1",
     "course": "quarter",
     "channel": "general"
-  },
-  {
-    "ts": 1785943843535,
-    "team": "山歩会2",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785936650054,
-    "team": "Walking Beauty",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785920442611,
-    "team": "Wins",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]

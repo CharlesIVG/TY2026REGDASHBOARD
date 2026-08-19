@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T09:00:43.814494+09:00",
+  "updated": "2026-08-19T09:30:36.087826+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3102,6 +3102,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-19T09:00:43.814494+09:00"
+    },
+    "general|tanessies": {
+      "team": "Tanessies",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-19T09:30:36.087826+09:00"
+    },
+    "sponsor|hpe aps presales 2026": {
+      "team": "Hpe Aps Presales 2026",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-19T09:30:36.087826+09:00"
+    },
+    "sponsor|man tufs女": {
+      "team": "Man Tufs女",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-19T09:30:36.087826+09:00"
     }
   }
 }
