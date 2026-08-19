@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787104840262,
+    "team": "Aaa",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787099436087,
     "team": "Tanessies",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1785969044412,
     "team": "岩ガマドーむ〜ボー２",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785943843535,
-    "team": "山歩会1",
-    "course": "quarter",
     "channel": "general"
   }
 ]
