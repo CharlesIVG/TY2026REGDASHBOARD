@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787113832692,
+    "team": "Hiraya",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787112052222,
     "team": "MAN Don't Think Feel !",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1785976233658,
     "team": "Jack And His Minions",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785974426266,
-    "team": "Conrad Tokyo 1",
-    "course": "quarter",
     "channel": "general"
   }
 ]
