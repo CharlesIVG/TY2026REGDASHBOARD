@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787122008217,
+    "team": "Loop Legends",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787122008217,
+    "team": "Yamanote Roses",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787122008217,
+    "team": "チームポジティブ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787119013351,
     "team": "チーム黒はんぺん　静岡",
     "course": "half",
@@ -878,24 +896,6 @@
   {
     "ts": 1786006844995,
     "team": "Workday#4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785988843410,
-    "team": "Embassy Switzerland",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785988843410,
-    "team": "Karnataka Walkers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785988843410,
-    "team": "Karnataka Walkers 1",
     "course": "full",
     "channel": "general"
   }

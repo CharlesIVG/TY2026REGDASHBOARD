@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T15:30:46.121986+09:00",
+  "updated": "2026-08-19T15:46:48.217569+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3162,6 +3162,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-19T14:56:53.351598+09:00"
+    },
+    "general|loop legends": {
+      "team": "Loop Legends",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-19T15:46:48.217569+09:00"
+    },
+    "general|yamanote roses": {
+      "team": "Yamanote Roses",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-19T15:46:48.217569+09:00"
+    },
+    "general|チームポジティブ": {
+      "team": "チームポジティブ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-19T15:46:48.217569+09:00"
     }
   }
 }
