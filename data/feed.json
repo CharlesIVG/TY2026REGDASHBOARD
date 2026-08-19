@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787146913088,
+    "team": "Yamabants",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787131841504,
     "team": "コンプライアンスb",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1786010444454,
     "team": "Workday#2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786010444454,
-    "team": "Workday#3",
     "course": "full",
     "channel": "general"
   }
