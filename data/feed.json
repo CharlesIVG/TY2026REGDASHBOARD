@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787097643814,
+    "team": "チームよでん",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787056235618,
     "team": "Ai&Aa グルメウォーカーズ",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Wins",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1785918634366,
-    "team": "Conrad Tokyo",
-    "course": "quarter",
-    "channel": "general"
   }
 ]
