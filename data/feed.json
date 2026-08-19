@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787131841504,
+    "team": "コンプライアンスb",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787131841504,
+    "team": "コンプライアンスc",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787130040786,
     "team": "コンプライアンスa",
     "course": "quarter",
@@ -884,18 +896,6 @@
   {
     "ts": 1786010444454,
     "team": "Workday#3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786010444454,
-    "team": "Workday#5",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786008643250,
-    "team": "Workday#1",
     "course": "full",
     "channel": "general"
   }

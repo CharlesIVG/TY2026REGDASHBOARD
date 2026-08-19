@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T18:00:40.786496+09:00",
+  "updated": "2026-08-19T18:30:41.504933+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3186,6 +3186,18 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-19T18:00:40.786496+09:00"
+    },
+    "sponsor|コンプライアンスb": {
+      "team": "コンプライアンスb",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-19T18:30:41.504933+09:00"
+    },
+    "sponsor|コンプライアンスc": {
+      "team": "コンプライアンスc",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-19T18:30:41.504933+09:00"
     }
   }
 }
