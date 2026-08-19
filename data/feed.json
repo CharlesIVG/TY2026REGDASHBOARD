@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787112052222,
+    "team": "MAN Don't Think Feel !",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787112052222,
+    "team": "MAN ご来店ありがとうございます！ⅱ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787111032661,
     "team": "MAN チームよでん",
     "course": "half",
@@ -885,18 +897,6 @@
     "ts": 1785974426266,
     "team": "Conrad Tokyo 1",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1785974426266,
-    "team": "Yamadada",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785969044412,
-    "team": "岩ガマドーむ〜ボー１",
-    "course": "full",
     "channel": "general"
   }
 ]
