@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787119013351,
+    "team": "チーム黒はんぺん　静岡",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787117242449,
     "team": "Hpe-Turu5150",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1785988843410,
     "team": "Karnataka Walkers 1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1785988843410,
-    "team": "Karnataka Walkers 2",
     "course": "full",
     "channel": "general"
   }
