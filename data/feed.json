@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787160279715,
+    "team": "Whining Wanderers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787146913088,
     "team": "Yamabants",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786010444454,
     "team": "Sprint・Rekker",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786010444454,
-    "team": "Workday#2",
     "course": "full",
     "channel": "general"
   }
