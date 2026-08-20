@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787200477768,
+    "team": "Team Victory",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787196643428,
     "team": "Fi&Cc Sales Division1",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1786071641068,
     "team": "MAN東京＜山・尊＞第2支社",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "SFDC Ps Team1",
     "course": "half",
     "channel": "sponsor"
   }
