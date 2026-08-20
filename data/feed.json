@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787194845884,
+    "team": "Beauty,Beauty And Gold",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787191252437,
     "team": "チームゆりかもめ",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1786071641068,
     "team": "SFDC Ps Team2",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "SFDC Ps Team3",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]

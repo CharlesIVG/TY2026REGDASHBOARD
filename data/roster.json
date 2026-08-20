@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T11:36:20.503896+09:00",
+  "updated": "2026-08-20T12:00:45.884701+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3234,6 +3234,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-20T11:00:52.437807+09:00"
+    },
+    "sponsor|beauty,beauty and gold": {
+      "team": "Beauty,Beauty And Gold",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-20T12:00:45.884701+09:00"
     }
   }
 }
