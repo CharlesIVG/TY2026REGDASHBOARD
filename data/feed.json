@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787184055191,
+    "team": "Team Next Stage",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787160279715,
     "team": "Whining Wanderers",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786026644448,
     "team": "Karnataka Walkers 3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786010444454,
-    "team": "Sprint・Rekker",
     "course": "full",
     "channel": "general"
   }
