@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787191252437,
+    "team": "チームゆりかもめ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787191252437,
+    "team": "Sfdc さざな",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787185844539,
     "team": "Hama Striders 1",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1786071641068,
     "team": "SFDC Ps Team3",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "SFDC Wins",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786068041161,
-    "team": "東京＜山・尊＞第2支社",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
