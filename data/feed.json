@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787205652322,
+    "team": "ゆるwalk営業支援",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787200477768,
     "team": "Team Victory",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1786071641068,
     "team": "MAN Weekend Walkers 2",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "MAN東京＜山・尊＞第2支社",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

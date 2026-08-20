@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T14:57:45.829019+09:00",
+  "updated": "2026-08-20T15:00:52.322953+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3252,6 +3252,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-20T13:34:37.768251+09:00"
+    },
+    "sponsor|ゆるwalk営業支援": {
+      "team": "ゆるwalk営業支援",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-20T15:00:52.322953+09:00"
     }
   }
 }
