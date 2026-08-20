@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T17:00:41.695440+09:00",
+  "updated": "2026-08-20T17:30:34.532722+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3258,6 +3258,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-20T15:00:52.322953+09:00"
+    },
+    "sponsor|sfdc-team-izr": {
+      "team": "Sfdc-Team-Izr",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-20T17:30:34.532722+09:00"
     }
   }
 }

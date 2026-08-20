@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787214634532,
+    "team": "Sfdc-Team-Izr",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787205652322,
     "team": "ゆるwalk営業支援",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1786071641068,
     "team": "MAN Weekend Walkers 1",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "MAN Weekend Walkers 2",
     "course": "full",
     "channel": "sponsor"
   }
