@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787227254618,
+    "team": "Ms-Darkstar",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787214634532,
     "team": "Sfdc-Team-Izr",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1786071641068,
     "team": "MAN Team Bcp",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "MAN Weekend Walkers 1",
     "course": "full",
     "channel": "sponsor"
   }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T20:32:12.235117+09:00",
+  "updated": "2026-08-20T21:00:54.618532+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3264,6 +3264,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-20T17:30:34.532722+09:00"
+    },
+    "sponsor|ms-darkstar": {
+      "team": "Ms-Darkstar",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-20T21:00:54.618532+09:00"
     }
   }
 }
