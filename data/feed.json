@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787288442025,
+    "team": "チーム黒はんぺん",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787284841098,
     "team": "北の国から",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "Axelspace Grus-3",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1786073250292,
-    "team": "Matryoshka Of Misery",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
