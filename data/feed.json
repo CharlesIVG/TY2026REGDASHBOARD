@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787284841098,
+    "team": "北の国から",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787277652023,
     "team": "チーム宮崎",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1786073250292,
     "team": "Matryoshka Of Misery",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "CAP Out Of Office",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
