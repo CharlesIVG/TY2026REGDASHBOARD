@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787299241964,
+    "team": "Philips_1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787288442025,
     "team": "チーム黒はんぺん",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1786077034212,
     "team": "Axelspace Grus-1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786077034212,
-    "team": "Axelspace Grus-3",
     "course": "full",
     "channel": "general"
   }
