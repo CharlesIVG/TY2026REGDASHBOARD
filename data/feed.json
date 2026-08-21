@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787277652023,
+    "team": "チーム宮崎",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787227254618,
     "team": "Ms-Darkstar",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1786071641068,
     "team": "CAP Out Of Office",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786071641068,
-    "team": "MAN Team Bcp",
-    "course": "full",
     "channel": "sponsor"
   }
 ]
