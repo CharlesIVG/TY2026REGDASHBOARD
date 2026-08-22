@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787362232870,
+    "team": "Lets Go!",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787360743997,
     "team": "Ms - Assurance Walkers",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786087835357,
     "team": "R3w1nd",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786086040256,
-    "team": "Harinezumi / ハりネズミ",
     "course": "full",
     "channel": "general"
   }
