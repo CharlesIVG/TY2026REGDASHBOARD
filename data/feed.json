@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787360743997,
+    "team": "Ms - Assurance Walkers",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787299241964,
     "team": "Philips_1",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786086040256,
     "team": "Harinezumi / ハりネズミ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786077034212,
-    "team": "Axelspace Grus-1",
     "course": "full",
     "channel": "general"
   }

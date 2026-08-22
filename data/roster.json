@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T10:00:43.368069+09:00",
+  "updated": "2026-08-22T10:05:43.997210+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3294,6 +3294,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-21T17:00:41.964084+09:00"
+    },
+    "sponsor|ms - assurance walkers": {
+      "team": "Ms - Assurance Walkers",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-22T10:05:43.997210+09:00"
     }
   }
 }
