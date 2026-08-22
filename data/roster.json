@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T16:00:41.342082+09:00",
+  "updated": "2026-08-22T16:29:34.216043+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3312,6 +3312,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-22T15:00:51.077534+09:00"
+    },
+    "general|team tippi": {
+      "team": "Team Tippi",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-22T16:29:34.216043+09:00"
     }
   }
 }

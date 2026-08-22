@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787383774216,
+    "team": "Team Tippi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787378451077,
     "team": "Hama Striders One",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "United Runners",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1786091435924,
-    "team": "Lakeland Ctrl+Alt+Run_11:59",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
