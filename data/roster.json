@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T03:30:32.909569+09:00",
+  "updated": "2026-08-23T03:58:45.272340+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3324,6 +3324,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-22T20:18:50.064836+09:00"
+    },
+    "sponsor|x-hart-friends": {
+      "team": "X-Hart-Friends",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-23T03:58:45.272340+09:00"
     }
   }
 }
