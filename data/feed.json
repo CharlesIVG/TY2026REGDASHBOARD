@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787378451077,
+    "team": "Hama Striders One",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787362232870,
     "team": "Lets Go!",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Lakeland Ctrl+Alt+Run_11:59",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1786087835357,
-    "team": "R3w1nd",
-    "course": "full",
-    "channel": "general"
   }
 ]

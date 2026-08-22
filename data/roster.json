@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T14:53:09.569481+09:00",
+  "updated": "2026-08-22T15:00:51.077534+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3306,6 +3306,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-22T10:30:32.870865+09:00"
+    },
+    "general|hama striders one": {
+      "team": "Hama Striders One",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-22T15:00:51.077534+09:00"
     }
   }
 }
