@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T11:30:31.125098+09:00",
+  "updated": "2026-08-23T11:43:53.776655+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3348,6 +3348,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-23T11:30:31.125098+09:00"
+    },
+    "general|professional walkers - unpaid": {
+      "team": "Professional Walkers - Unpaid",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-23T11:43:53.776655+09:00"
+    },
+    "sponsor|jpm malani": {
+      "team": "Jpm Malani",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-23T11:43:53.776655+09:00"
     }
   }
 }

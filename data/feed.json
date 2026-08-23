@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787453033776,
+    "team": "Professional Walkers - Unpaid",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787453033776,
+    "team": "Jpm Malani",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787452231125,
     "team": "Usfj 1.75",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786160970314,
     "team": "Potato Wizards",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786159833014,
-    "team": "Stepbystep",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786149034509,
-    "team": "Toin21/4-1",
     "course": "full",
     "channel": "general"
   }
