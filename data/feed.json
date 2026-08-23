@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787472039974,
+    "team": "Greenbeans A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787459443482,
     "team": "Greenbeans E",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786186840729,
     "team": "Striders Bhai!!",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786186840729,
-    "team": "Striders Bhai.",
     "course": "full",
     "channel": "general"
   }
