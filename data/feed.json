@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787486442063,
+    "team": "10336.72",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787481031882,
     "team": "ウォーキングp",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786271433553,
     "team": "Team Crossroads",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786201221914,
-    "team": "わんわん",
     "course": "full",
     "channel": "general"
   }
