@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T12:00:41.773753+09:00",
+  "updated": "2026-08-23T12:30:32.656553+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3360,6 +3360,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-23T11:43:53.776655+09:00"
+    },
+    "general|breast friends forever": {
+      "team": "Breast Friends Forever",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-23T12:30:32.656553+09:00"
     }
   }
 }

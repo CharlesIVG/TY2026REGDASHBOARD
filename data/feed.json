@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787455832656,
+    "team": "Breast Friends Forever",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787453033776,
     "team": "Professional Walkers - Unpaid",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786168839214,
     "team": "デリパ3年",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786160970314,
-    "team": "Potato Wizards",
     "course": "full",
     "channel": "general"
   }
