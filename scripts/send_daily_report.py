@@ -80,20 +80,23 @@ COURSE_HEX = {"full": "#9ACD32", "half": "#F89825", "quarter": "#7EB7E4"}
 
 # Fixed wording that opens and closes every report. Edit the strings here -
 # nothing else in the file needs to change. Blank strings produce blank lines.
-# Opening line. "SOM" = start of message.
-GREETING = "SOM"
+# Opening line of the report.
+GREETING = "Good Morning Team \U0001F918 - I've got your \U0001FAF5 daily progress report for the TEAMS IN for 2026!"
 
-# Send the plain-text report only. The full HTML report (render_html below,
-# logo + coloured bars + emoji headers) is preserved and can be switched back
-# on by flipping this to True - nothing about it was deleted.
-SEND_HTML = False
-# Closing line. "EOM" = end of message.
-SIGNOFF = ["EOM"]
+# Send the full HTML report (logo + coloured bars + emoji headers). Flip to
+# False for the plain-text-only version - both are kept, nothing is deleted.
+SEND_HTML = True
+# Closing lines of the report.
+SIGNOFF = [
+    "Have a great day and - keep on trekin'!",
+    "Let's Go!",
+]
 
-# Kept for the preserved HTML report: when SEND_HTML is on, this name is shown
-# as yamago.png instead of a word. Unused while sending text only.
+# Yamago sign-off image removed by request. SIGNOFF_IMG_URL is left empty so
+# no image renders; SIGNOFF_NAME is retained only so the HTML sign-off filter
+# still has a name to exclude if the image is ever restored.
 SIGNOFF_NAME = "YamaGo"
-SIGNOFF_IMG_URL = "https://charlesivg.github.io/TY2026REGDASHBOARD/yamago.png"
+SIGNOFF_IMG_URL = ""
 
 
 def load_history():
