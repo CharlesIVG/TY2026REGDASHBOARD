@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787452231125,
+    "team": "Usfj 1.75",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787445034102,
     "team": "Sunny Soles",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786149034509,
     "team": "Toin21/4-1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786149034509,
-    "team": "Toin21/4-2",
     "course": "full",
     "channel": "general"
   }
