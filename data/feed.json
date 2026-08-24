@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787556644252,
+    "team": "Foot Notes",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787551241459,
     "team": "Infosys Ninjas",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786341412249,
     "team": "Abb",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786341412249,
-    "team": "On B",
     "course": "quarter",
     "channel": "general"
   }
