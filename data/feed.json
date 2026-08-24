@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787562045018,
+    "team": "Harmonious Co-Existers (Famichiki.Jp)",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787561329076,
     "team": "Wander Woman",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Streunende Kinder",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1786368634991,
-    "team": "Trailhead Academy",
-    "course": "quarter",
-    "channel": "sponsor"
   }
 ]
