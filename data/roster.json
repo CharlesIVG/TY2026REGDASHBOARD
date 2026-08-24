@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T16:30:44.252048+09:00",
+  "updated": "2026-08-24T16:56:26.204447+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3450,6 +3450,18 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-24T16:30:44.252048+09:00"
+    },
+    "general|404 pace not found": {
+      "team": "404 Pace Not Found",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T16:56:26.204447+09:00"
+    },
+    "sponsor|その後、赤羽に行くのに日和ってねぇ奴ら": {
+      "team": "その後、赤羽に行くのに日和ってねぇ奴ら",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-24T16:56:26.204447+09:00"
     }
   }
 }

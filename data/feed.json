@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787558186204,
+    "team": "404 Pace Not Found",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787558186204,
+    "team": "その後、赤羽に行くのに日和ってねぇ奴ら",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787556644252,
     "team": "Foot Notes",
     "course": "quarter",
@@ -886,17 +898,5 @@
     "team": "Hpe-赤い蹄",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1786345241091,
-    "team": "Jesus Walks",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786341412249,
-    "team": "Abb",
-    "course": "quarter",
-    "channel": "general"
   }
 ]
