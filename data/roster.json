@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T10:09:10.153716+09:00",
+  "updated": "2026-08-24T10:30:33.639588+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3402,6 +3402,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-08-24T09:30:32.602935+09:00"
+    },
+    "sponsor|ms-iron ladies": {
+      "team": "Ms-Iron Ladies",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-24T10:30:33.639588+09:00"
     }
   }
 }

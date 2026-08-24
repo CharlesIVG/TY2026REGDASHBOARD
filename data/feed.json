@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787535033639,
+    "team": "Ms-Iron Ladies",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787531432602,
     "team": "チームsハンドパパ",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786332632131,
     "team": "お年寄りのぶらり観光",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786318155801,
-    "team": "Giveitago29",
     "course": "full",
     "channel": "general"
   }
