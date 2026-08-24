@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787549434919,
+    "team": "Greenbeans D",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787547654576,
     "team": "Good Vibes",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786341412249,
     "team": "On D",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786341412249,
-    "team": "On E",
     "course": "quarter",
     "channel": "general"
   }
