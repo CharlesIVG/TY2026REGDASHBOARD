@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787551241459,
+    "team": "Infosys Ninjas",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787551241459,
+    "team": "Infosys Samurais",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787549434919,
     "team": "Greenbeans D",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786341412249,
     "team": "On B",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786341412249,
-    "team": "On C",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786341412249,
-    "team": "On D",
     "course": "quarter",
     "channel": "general"
   }
