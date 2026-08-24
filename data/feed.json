@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787561329076,
+    "team": "Wander Woman",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787558186204,
     "team": "404 Pace Not Found",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1786368634991,
     "team": "Trailhead Academy",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786353471787,
-    "team": "Hpe-赤い蹄",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

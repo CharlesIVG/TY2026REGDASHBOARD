@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:30:34.237454+09:00",
+  "updated": "2026-08-24T17:48:49.076430+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3462,6 +3462,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-24T16:56:26.204447+09:00"
+    },
+    "general|wander woman": {
+      "team": "Wander Woman",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T17:48:49.076430+09:00"
     }
   }
 }
