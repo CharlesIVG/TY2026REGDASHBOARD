@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787565642797,
+    "team": "Greenbeans B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787563834485,
     "team": "Sfdc み〜ず",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1786494634331,
     "team": "Sccij A",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786431649039,
-    "team": "走る居酒屋探訪記",
-    "course": "full",
     "channel": "general"
   }
 ]
