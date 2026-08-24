@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T22:49:46.722230+09:00",
+  "updated": "2026-08-24T23:00:46.027465+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3504,6 +3504,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-24T20:54:08.662330+09:00"
+    },
+    "general|altera": {
+      "team": "Altera",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T23:00:46.027465+09:00"
+    },
+    "general|kpmg team 13": {
+      "team": "Kpmg Team 13",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T23:00:46.027465+09:00"
     }
   }
 }

@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787580046027,
+    "team": "Altera",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787580046027,
+    "team": "Kpmg Team 13",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787572448662,
     "team": "中途半端 (Famichiki.Jp)",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786512632854,
     "team": "てぃーてぃーてくてく",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786509033391,
-    "team": "Day Drinking",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786509033391,
-    "team": "D-Broad",
     "course": "full",
     "channel": "general"
   }
