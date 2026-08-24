@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787572448662,
+    "team": "中途半端 (Famichiki.Jp)",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787567432864,
     "team": "Team Likius",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786509033391,
     "team": "D-Broad",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786498232783,
-    "team": "Runner's High",
     "course": "full",
     "channel": "general"
   }

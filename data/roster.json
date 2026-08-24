@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T20:30:33.649509+09:00",
+  "updated": "2026-08-24T20:54:08.662330+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3498,6 +3498,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-24T19:30:32.864705+09:00"
+    },
+    "general|中途半端 (famichiki.jp)": {
+      "team": "中途半端 (Famichiki.Jp)",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T20:54:08.662330+09:00"
     }
   }
 }
