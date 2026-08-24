@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787531432602,
+    "team": "チームsハンドパパ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787531432602,
+    "team": "Xiaha88",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787486442063,
     "team": "10336.72",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786318155801,
     "team": "Giveitago29",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786285832083,
-    "team": "Can Walk Lah",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786271433553,
-    "team": "Team Crossroads",
     "course": "full",
     "channel": "general"
   }

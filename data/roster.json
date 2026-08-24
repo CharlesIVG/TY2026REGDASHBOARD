@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T09:00:40.551567+09:00",
+  "updated": "2026-08-24T09:30:32.602935+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3390,6 +3390,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-23T21:00:42.063872+09:00"
+    },
+    "general|チームsハンドパパ": {
+      "team": "チームsハンドパパ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T09:30:32.602935+09:00"
+    },
+    "sponsor|xiaha88": {
+      "team": "Xiaha88",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-24T09:30:32.602935+09:00"
     }
   }
 }
