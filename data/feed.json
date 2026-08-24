@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787536839753,
+    "team": "Aaah",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787535033639,
     "team": "Ms-Iron Ladies",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Ms-Fintrek",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1786332632131,
-    "team": "お年寄りのぶらり観光",
-    "course": "full",
-    "channel": "general"
   }
 ]
