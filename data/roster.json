@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T18:00:45.018477+09:00",
+  "updated": "2026-08-24T18:30:34.485708+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3474,6 +3474,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-24T18:00:45.018477+09:00"
+    },
+    "sponsor|sfdc み〜ず": {
+      "team": "Sfdc み〜ず",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-24T18:30:34.485708+09:00"
     }
   }
 }

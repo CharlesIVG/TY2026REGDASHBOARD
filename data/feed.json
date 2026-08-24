@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787563834485,
+    "team": "Sfdc み〜ず",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787562045018,
     "team": "Harmonious Co-Existers (Famichiki.Jp)",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786431649039,
     "team": "走る居酒屋探訪記",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786413639087,
-    "team": "Streunende Kinder",
     "course": "full",
     "channel": "general"
   }
