@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787547654576,
+    "team": "Good Vibes",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787547654576,
+    "team": "アドベンチャービンチリン",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787536839753,
     "team": "Aaah",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "On E",
     "course": "quarter",
     "channel": "general"
-  },
-  {
-    "ts": 1786339833606,
-    "team": "On A",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786339833606,
-    "team": "Ms-Fintrek",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]

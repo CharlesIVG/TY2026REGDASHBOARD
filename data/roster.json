@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T13:41:32.715109+09:00",
+  "updated": "2026-08-24T14:00:54.576104+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3414,6 +3414,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-24T11:00:39.753935+09:00"
+    },
+    "general|good vibes": {
+      "team": "Good Vibes",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T14:00:54.576104+09:00"
+    },
+    "general|アドベンチャービンチリン": {
+      "team": "アドベンチャービンチリン",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-24T14:00:54.576104+09:00"
     }
   }
 }
