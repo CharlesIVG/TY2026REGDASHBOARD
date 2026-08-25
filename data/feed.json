@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787648846717,
+    "team": "Masatchis",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787646633369,
     "team": "TG",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786536044559,
     "team": "Gas Gas",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786536044559,
-    "team": "笑っ歩っほ",
     "course": "full",
     "channel": "general"
   }
