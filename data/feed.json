@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787646633369,
+    "team": "TG",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787646633369,
+    "team": "ひーちゃんず",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787634044205,
     "team": "Omnissa",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786536044559,
     "team": "笑っ歩っほ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786527035649,
-    "team": "マイペース",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786523435759,
-    "team": "Team Takanawa",
     "course": "full",
     "channel": "general"
   }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T17:06:42.758561+09:00",
+  "updated": "2026-08-25T17:30:33.369989+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3540,6 +3540,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-25T14:00:44.205651+09:00"
+    },
+    "general|tg": {
+      "team": "TG",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-25T17:30:33.369989+09:00"
+    },
+    "general|ひーちゃんず": {
+      "team": "ひーちゃんず",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-25T17:30:33.369989+09:00"
     }
   }
 }
