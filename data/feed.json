@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787634044205,
+    "team": "Omnissa",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787632243759,
     "team": "High Power Runners",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786523435759,
     "team": "Team Takanawa",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786516242824,
-    "team": "Buzzin’",
     "course": "full",
     "channel": "general"
   }
