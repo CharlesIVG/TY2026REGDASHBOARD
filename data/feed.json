@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787661067406,
+    "team": "Ryu1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787658870131,
     "team": "Ninnenme",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1786584631795,
     "team": "Ms Yama Dreamers",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786581031702,
-    "team": "MS Yamanote Cruisers",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
