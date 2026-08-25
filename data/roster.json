@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T20:30:44.664915+09:00",
+  "updated": "2026-08-25T20:54:30.131867+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3564,6 +3564,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-25T20:30:44.664915+09:00"
+    },
+    "general|ninnenme": {
+      "team": "Ninnenme",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-25T20:54:30.131867+09:00"
+    },
+    "general|ヤマノテルセン": {
+      "team": "ヤマノテルセン",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-25T20:54:30.131867+09:00"
     }
   }
 }

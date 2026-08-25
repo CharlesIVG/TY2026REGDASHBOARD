@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787658870131,
+    "team": "Ninnenme",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787658870131,
+    "team": "ヤマノテルセン",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787657444664,
     "team": "Greenbeans C",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786581031702,
     "team": "MS Yamanote Cruisers",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786539644524,
-    "team": "That! English School",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786539644524,
-    "team": "George Gao",
     "course": "half",
     "channel": "sponsor"
   }
