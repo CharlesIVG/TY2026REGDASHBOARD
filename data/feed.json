@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787632243759,
+    "team": "High Power Runners",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787632243759,
+    "team": "High Torque Heroes",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787625481420,
     "team": "Revenge Of The Famichiki",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786516242824,
     "team": "Buzzin’",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786516242824,
-    "team": "Philips麻布台②",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786514058021,
-    "team": "Team Pna",
     "course": "full",
     "channel": "general"
   }
