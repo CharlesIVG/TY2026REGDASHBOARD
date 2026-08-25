@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787668251280,
+    "team": "アドベンチャービンチリンダジバ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787665702204,
     "team": "Hpe てくてくib",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "Forvis Mazars",
     "course": "quarter",
     "channel": "general"
-  },
-  {
-    "ts": 1786584631795,
-    "team": "Hpe-Sixtyones",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
