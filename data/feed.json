@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787657444664,
+    "team": "Greenbeans C",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787648846717,
     "team": "Masatchis",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "George Gao",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1786536044559,
-    "team": "Gas Gas",
-    "course": "full",
-    "channel": "general"
   }
 ]

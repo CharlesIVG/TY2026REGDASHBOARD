@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T20:24:41.385757+09:00",
+  "updated": "2026-08-25T20:30:44.664915+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3558,6 +3558,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-25T18:07:26.717235+09:00"
+    },
+    "general|greenbeans c": {
+      "team": "Greenbeans C",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-25T20:30:44.664915+09:00"
     }
   }
 }
