@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787665702204,
+    "team": "Hpe てくてくib",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787661067406,
     "team": "Ryu1",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1786584631795,
     "team": "Hpe-Sixtyones",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786584631795,
-    "team": "Ms Yama Dreamers",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
