@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787783435160,
+    "team": "The Walkie-Talkies",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787783435160,
+    "team": "だん家しぇん",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787756452032,
     "team": "Les Pères Du Dimanche",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786785816376,
     "team": "Full Yamathon Regret Club",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786782298728,
-    "team": "すーさん With Ｔ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786780437160,
-    "team": "葉山 Htrc",
     "course": "full",
     "channel": "general"
   }
