@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T17:00:43.378762+09:00",
+  "updated": "2026-08-26T17:30:34.343013+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3678,6 +3678,30 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-26T15:43:45.078650+09:00"
+    },
+    "general|lost in tokyo year3: fellowship grows": {
+      "team": "Lost In Tokyo Year3: Fellowship Grows",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T17:30:34.343013+09:00"
+    },
+    "general|lost in tokyo year3: walk is coming": {
+      "team": "Lost In Tokyo Year3: Walk Is Coming",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T17:30:34.343013+09:00"
+    },
+    "general|lost in tokyo year3: walkers of tokyo": {
+      "team": "Lost In Tokyo Year3: Walkers Of Tokyo",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T17:30:34.343013+09:00"
+    },
+    "general|lost in tokyo year3:a song of feet&fire": {
+      "team": "Lost In Tokyo Year3:A Song Of Feet&Fire",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T17:30:34.343013+09:00"
     }
   }
 }

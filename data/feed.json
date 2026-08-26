@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1787733034343,
+    "team": "Lost In Tokyo Year3: Fellowship Grows",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787733034343,
+    "team": "Lost In Tokyo Year3: Walk Is Coming",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787733034343,
+    "team": "Lost In Tokyo Year3: Walkers Of Tokyo",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787733034343,
+    "team": "Lost In Tokyo Year3:A Song Of Feet&Fire",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787726625078,
     "team": "チーム　トッポッキ",
     "course": "half",
@@ -872,30 +896,6 @@
   {
     "ts": 1786775432724,
     "team": "Samurai",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786771731889,
-    "team": "Ninjas",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786753832763,
-    "team": "Nos-Dx",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786716042464,
-    "team": "Unipals No Rush",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786710633388,
-    "team": "Trackers",
     "course": "full",
     "channel": "general"
   }
