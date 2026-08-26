@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T12:00:46.215621+09:00",
+  "updated": "2026-08-26T12:30:33.628725+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3642,6 +3642,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-08-26T11:30:34.525317+09:00"
+    },
+    "sponsor|sfdc: off the rails": {
+      "team": "Sfdc: Off The Rails",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-26T12:30:33.628725+09:00"
     }
   }
 }

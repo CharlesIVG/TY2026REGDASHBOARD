@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787715033628,
+    "team": "Sfdc: Off The Rails",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787711434525,
     "team": "Swiss Team - Sccij",
     "course": "quarter",
@@ -891,12 +897,6 @@
     "ts": 1786626053240,
     "team": "Swiss Chamber Of Commerce In Japan",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1786602635121,
-    "team": "Brewed Awakenings",
-    "course": "full",
     "channel": "general"
   }
 ]
