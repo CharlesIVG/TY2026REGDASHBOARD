@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787726625078,
+    "team": "チーム　トッポッキ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787722236159,
     "team": "Fantastic Four",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786710633388,
     "team": "Trackers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786689035807,
-    "team": "Saitama Pheasants",
     "course": "full",
     "channel": "general"
   }
