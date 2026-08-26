@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787751037328,
+    "team": "申年",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787733034343,
     "team": "Lost In Tokyo Year3: Fellowship Grows",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1786775660297,
     "team": "Gg Sisters",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786775432724,
-    "team": "Samurai",
     "course": "full",
     "channel": "general"
   }
