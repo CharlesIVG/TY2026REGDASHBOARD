@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T10:00:43.096273+09:00",
+  "updated": "2026-08-26T10:10:32.045842+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3594,6 +3594,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-25T23:30:51.280550+09:00"
+    },
+    "general|jtsc blue": {
+      "team": "Jtsc Blue",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T10:10:32.045842+09:00"
+    },
+    "general|jtsc green": {
+      "team": "Jtsc Green",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T10:10:32.045842+09:00"
+    },
+    "general|jtsc red": {
+      "team": "Jtsc Red",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T10:10:32.045842+09:00"
+    },
+    "general|jtsc yellow": {
+      "team": "Jtsc Yellow",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T10:10:32.045842+09:00"
     }
   }
 }

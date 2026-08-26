@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1787706632045,
+    "team": "Jtsc Blue",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787706632045,
+    "team": "Jtsc Green",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787706632045,
+    "team": "Jtsc Red",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787706632045,
+    "team": "Jtsc Yellow",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787668251280,
     "team": "アドベンチャービンチリンダジバ",
     "course": "full",
@@ -873,30 +897,6 @@
     "ts": 1786593642376,
     "team": "Striders Bhai - 1",
     "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786593642376,
-    "team": "Striders Bhai - 2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786591841386,
-    "team": "Forever Young At 60",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786588233826,
-    "team": "The Spicy Girls",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786584631795,
-    "team": "Forvis Mazars",
-    "course": "quarter",
     "channel": "general"
   }
 ]
