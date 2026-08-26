@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787720443440,
+    "team": "Give＆Love",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787720443440,
+    "team": "Hsbc Walking Club",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787718643802,
     "team": "Hpeボラバス-1",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1786678237302,
     "team": "Iwaki Family",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786674633544,
-    "team": "Ms-Bbq-Sauce",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786633113295,
-    "team": "Yamathoners!",
     "course": "full",
     "channel": "general"
   }

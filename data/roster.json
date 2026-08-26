@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T13:37:07.969263+09:00",
+  "updated": "2026-08-26T14:00:43.440094+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3654,6 +3654,18 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-26T13:30:43.802503+09:00"
+    },
+    "general|give＆love": {
+      "team": "Give＆Love",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T14:00:43.440094+09:00"
+    },
+    "general|hsbc walking club": {
+      "team": "Hsbc Walking Club",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T14:00:43.440094+09:00"
     }
   }
 }
