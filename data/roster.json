@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T23:43:08.198253+09:00",
+  "updated": "2026-08-27T00:00:52.032514+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3708,6 +3708,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-26T22:30:37.328819+09:00"
+    },
+    "general|les pères du dimanche": {
+      "team": "Les Pères Du Dimanche",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-27T00:00:52.032514+09:00"
     }
   }
 }
