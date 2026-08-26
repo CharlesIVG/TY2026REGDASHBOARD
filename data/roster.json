@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T11:00:41.192684+09:00",
+  "updated": "2026-08-26T11:30:34.525317+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3618,6 +3618,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-26T10:10:32.045842+09:00"
+    },
+    "general|swiss team - sccij": {
+      "team": "Swiss Team - Sccij",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-26T11:30:34.525317+09:00"
+    },
+    "general|team eurofins": {
+      "team": "Team Eurofins",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-26T11:30:34.525317+09:00"
+    },
+    "general|zurich life insurance japan": {
+      "team": "Zurich Life Insurance Japan",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-26T11:30:34.525317+09:00"
+    },
+    "general|zurich life insurance team": {
+      "team": "Zurich Life Insurance Team",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-26T11:30:34.525317+09:00"
     }
   }
 }
