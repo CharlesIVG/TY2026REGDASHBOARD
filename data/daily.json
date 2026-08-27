@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:00:41.703602+09:00",
+  "generated_at": "2026-08-27T10:30:43.526378+09:00",
   "days": [
     {
       "date": "2026-08-07",
@@ -225,10 +225,10 @@
       "date": "2026-08-27",
       "dow": 4,
       "full": 3,
-      "half": 1,
+      "half": 2,
       "quarter": 0,
-      "total": 4,
-      "cumulative": 569,
+      "total": 5,
+      "cumulative": 570,
       "hasData": true,
       "measured": true
     }

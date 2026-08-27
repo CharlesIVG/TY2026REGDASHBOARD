@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T10:00:41.703602+09:00",
+  "updated": "2026-08-27T10:30:43.526378+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3828,6 +3828,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-27T09:26:54.754877+09:00"
+    },
+    "sponsor|man team タッピー": {
+      "team": "MAN Team タッピー",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T10:30:43.526378+09:00"
+    },
+    "sponsor|man 磯自慢": {
+      "team": "MAN 磯自慢",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T10:30:43.526378+09:00"
     }
   }
 }

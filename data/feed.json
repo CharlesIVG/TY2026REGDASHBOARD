@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787794243526,
+    "team": "MAN Team タッピー",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787794243526,
+    "team": "MAN 磯自慢",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787790414754,
     "team": "Team タッピー",
     "course": "half",
@@ -886,17 +898,5 @@
     "team": "Team Koyama No2",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787011242374,
-    "team": "Team Koyama No1",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786976675465,
-    "team": "F&K",
-    "course": "full",
-    "channel": "general"
   }
 ]
