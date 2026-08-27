@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T14:30:32.918899+09:00",
+  "updated": "2026-08-27T15:00:41.102863+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3840,6 +3840,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-27T10:30:43.526378+09:00"
+    },
+    "general|yamaheads": {
+      "team": "Yamaheads",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-27T15:00:41.102863+09:00"
+    },
+    "sponsor|サムギョプサル": {
+      "team": "サムギョプサル",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T15:00:41.102863+09:00"
+    },
+    "sponsor|チャプチェ": {
+      "team": "チャプチェ",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T15:00:41.102863+09:00"
     }
   }
 }
