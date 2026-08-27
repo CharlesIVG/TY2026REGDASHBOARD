@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787826633129,
+    "team": "MAN サムギョプサル",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787826633129,
+    "team": "MAN チャプチェ",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787826633129,
+    "team": "MAN 足パンパン4銃士",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787823045759,
     "team": "足パンパン4銃士",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1787022042543,
     "team": "Bbhcarestokyo Full 4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787016632024,
-    "team": "Team Koyama No5",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787016632024,
-    "team": "Team Koyama No6",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787015143000,
-    "team": "終点どこ？",
     "course": "full",
     "channel": "general"
   }

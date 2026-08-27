@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T19:08:38.739735+09:00",
+  "updated": "2026-08-27T19:30:33.129987+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3864,6 +3864,24 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-27T18:30:45.759022+09:00"
+    },
+    "sponsor|man サムギョプサル": {
+      "team": "MAN サムギョプサル",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T19:30:33.129987+09:00"
+    },
+    "sponsor|man チャプチェ": {
+      "team": "MAN チャプチェ",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T19:30:33.129987+09:00"
+    },
+    "sponsor|man 足パンパン4銃士": {
+      "team": "MAN 足パンパン4銃士",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T19:30:33.129987+09:00"
     }
   }
 }
