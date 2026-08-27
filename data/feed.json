@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787823045759,
+    "team": "足パンパン4銃士",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787810441102,
     "team": "Yamaheads",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787015143000,
     "team": "終点どこ？",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787014842621,
-    "team": "迷子ガールズ",
     "course": "full",
     "channel": "general"
   }
