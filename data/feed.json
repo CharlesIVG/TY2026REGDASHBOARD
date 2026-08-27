@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787790414754,
+    "team": "Team タッピー",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787788855108,
     "team": "MAN Beauty,Beauty And Gold",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1786976675465,
     "team": "F&K",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786973846371,
-    "team": "Birthday Team",
     "course": "full",
     "channel": "general"
   }
