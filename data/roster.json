@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T19:30:33.129987+09:00",
+  "updated": "2026-08-27T20:00:52.344519+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3882,6 +3882,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-27T19:30:33.129987+09:00"
+    },
+    "general|meduzi": {
+      "team": "Meduzi",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-27T20:00:52.344519+09:00"
     }
   }
 }

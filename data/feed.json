@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787828452344,
+    "team": "Meduzi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787826633129,
     "team": "MAN サムギョプサル",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1787022042543,
     "team": "Bbhcarestokyo Full 3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787022042543,
-    "team": "Bbhcarestokyo Full 4",
     "course": "full",
     "channel": "general"
   }
