@@ -1,5 +1,101 @@
 [
   {
+    "ts": 1787788855108,
+    "team": "MAN Beauty,Beauty And Gold",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN Fi&Cc Sales Division1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN Foot Notes",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN Team Next Stage",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN X-Hart-Friends",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN Xiaha88",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN コンプライアンスa",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN コンプライアンスb",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN コンプライアンスc",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN その後、赤羽に行くのに日和ってねぇ奴ら",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN チーム　トッポッキ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN チーム宮崎",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN チーム黒はんぺん",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN チーム黒はんぺん　静岡",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN ゆるwalk営業支援",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787788855108,
+    "team": "MAN 北の国から",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787783435160,
     "team": "The Walkie-Talkies",
     "course": "full",
@@ -800,102 +896,6 @@
   {
     "ts": 1786973846371,
     "team": "Birthday Team",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786973846371,
-    "team": "Tokyo Drift",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786969835533,
-    "team": "チームおさかな世代",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786955435053,
-    "team": "Keio Team",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786944633425,
-    "team": "Hpe-ひじき",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786939240956,
-    "team": "Team Zakiyama",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786928439966,
-    "team": "Team Wicked",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786885239433,
-    "team": "More Better",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786881640160,
-    "team": "Knights1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786881640160,
-    "team": "Mighty Turtles",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786869031398,
-    "team": "Koyaam Test",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1786866919165,
-    "team": "谷を越え、濱の向こうの高みへ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786859609942,
-    "team": "Jolly Walkers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786845639886,
-    "team": "Mott-Beer",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786800492819,
-    "team": "Go Go Chen",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786797033485,
-    "team": "Good Morning",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1786785816376,
-    "team": "Full Yamathon Regret Club",
     "course": "full",
     "channel": "general"
   }

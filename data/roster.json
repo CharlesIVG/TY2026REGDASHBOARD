@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T08:30:35.879747+09:00",
+  "updated": "2026-08-27T09:00:55.108400+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3726,6 +3726,102 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-27T07:30:35.160008+09:00"
+    },
+    "sponsor|man beauty,beauty and gold": {
+      "team": "MAN Beauty,Beauty And Gold",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man fi&cc sales division1": {
+      "team": "MAN Fi&Cc Sales Division1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man foot notes": {
+      "team": "MAN Foot Notes",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man team next stage": {
+      "team": "MAN Team Next Stage",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man x-hart-friends": {
+      "team": "MAN X-Hart-Friends",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man xiaha88": {
+      "team": "MAN Xiaha88",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man コンプライアンスa": {
+      "team": "MAN コンプライアンスa",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man コンプライアンスb": {
+      "team": "MAN コンプライアンスb",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man コンプライアンスc": {
+      "team": "MAN コンプライアンスc",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man その後、赤羽に行くのに日和ってねぇ奴ら": {
+      "team": "MAN その後、赤羽に行くのに日和ってねぇ奴ら",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man チーム　トッポッキ": {
+      "team": "MAN チーム　トッポッキ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man チーム宮崎": {
+      "team": "MAN チーム宮崎",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man チーム黒はんぺん": {
+      "team": "MAN チーム黒はんぺん",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man チーム黒はんぺん　静岡": {
+      "team": "MAN チーム黒はんぺん　静岡",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man ゆるwalk営業支援": {
+      "team": "MAN ゆるwalk営業支援",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
+    },
+    "sponsor|man 北の国から": {
+      "team": "MAN 北の国から",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-27T09:00:55.108400+09:00"
     }
   }
 }
