@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787837435639,
+    "team": "Ucch#1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787833833691,
     "team": "Voxelgroom & Voxelbride",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787022042543,
     "team": "Bbhcarestokyo Full 1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787022042543,
-    "team": "Bbhcarestokyo Full 2",
     "course": "full",
     "channel": "general"
   }
