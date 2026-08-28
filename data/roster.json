@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T09:00:57.796218+09:00",
+  "updated": "2026-08-28T09:30:36.403781+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3900,6 +3900,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-27T22:30:35.639189+09:00"
+    },
+    "general|help alliance japan a": {
+      "team": "Help Alliance Japan A",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-28T09:30:36.403781+09:00"
+    },
+    "general|help alliance japan b": {
+      "team": "Help Alliance Japan B",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-08-28T09:30:36.403781+09:00"
     }
   }
 }

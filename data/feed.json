@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787877036403,
+    "team": "Help Alliance Japan A",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
+    "ts": 1787877036403,
+    "team": "Help Alliance Japan B",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1787837435639,
     "team": "Ucch#1",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "MAN Team Zakiyama",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787023844686,
-    "team": "Miles By Modis",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787022042543,
-    "team": "Bbhcarestokyo Full 1",
-    "course": "full",
-    "channel": "general"
   }
 ]
