@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:06:14.821638+09:00",
+  "updated": "2026-08-28T14:30:43.492693+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3972,6 +3972,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-28T13:00:45.560703+09:00"
+    },
+    "general|philips東関東": {
+      "team": "Philips東関東",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T14:30:43.492693+09:00"
     }
   }
 }

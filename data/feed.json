@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787895043492,
+    "team": "Philips東関東",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787889645560,
     "team": "Aoba",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "The Hikers",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787050547560,
-    "team": "ご来店ありがとうございます！ⅱ",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
