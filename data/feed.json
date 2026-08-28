@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787907646199,
+    "team": "安藤　麻衣",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787907646199,
+    "team": "Cap Rmms",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787907646199,
+    "team": "Sfdc ひよこダッシュ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787904055699,
     "team": "Kozy&Tiger",
     "course": "full",
@@ -880,23 +898,5 @@
     "team": "MAN ご来店ありがとうございます！ⅱ",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787111032661,
-    "team": "MAN チームよでん",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787104840262,
-    "team": "Aaa",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787099436087,
-    "team": "Tanessies",
-    "course": "full",
-    "channel": "general"
   }
 ]
