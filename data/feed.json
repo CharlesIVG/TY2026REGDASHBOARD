@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787902234038,
+    "team": "Tanium Eso-1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787898634210,
     "team": "不撓不屈のヘラジカたち",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "チームよでん",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787056235618,
-    "team": "Ai&Aa グルメウォーカーズ",
-    "course": "full",
-    "channel": "general"
   }
 ]
