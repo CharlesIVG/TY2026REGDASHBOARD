@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:30:43.492693+09:00",
+  "updated": "2026-08-28T15:00:45.404617+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3978,6 +3978,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-28T14:30:43.492693+09:00"
+    },
+    "sponsor|sfdc run4beer": {
+      "team": "Sfdc Run4beer",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-28T15:00:45.404617+09:00"
     }
   }
 }
