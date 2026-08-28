@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787923834590,
+    "team": "Philgritt",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787918447604,
     "team": "アンコンシャス・バイアス",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787119013351,
     "team": "チーム黒はんぺん　静岡",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787117242449,
-    "team": "Hpe-Turu5150",
     "course": "half",
     "channel": "sponsor"
   }
