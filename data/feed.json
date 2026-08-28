@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1787904055699,
+    "team": "Kozy&Tiger",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787904055699,
+    "team": "Ms Yamanote Crusaders",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787904055699,
+    "team": "Team 本店営業部",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787902234038,
     "team": "Tanium Eso-1",
     "course": "full",
@@ -880,23 +898,5 @@
     "team": "Tanessies",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787099436087,
-    "team": "Hpe Aps Presales 2026",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787099436087,
-    "team": "Man Tufs女",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787097643814,
-    "team": "チームよでん",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

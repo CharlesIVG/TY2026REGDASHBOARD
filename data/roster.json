@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T16:30:34.038470+09:00",
+  "updated": "2026-08-28T17:00:55.699349+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3996,6 +3996,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-28T16:30:34.038470+09:00"
+    },
+    "general|kozy&tiger": {
+      "team": "Kozy&Tiger",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T17:00:55.699349+09:00"
+    },
+    "sponsor|ms yamanote crusaders": {
+      "team": "Ms Yamanote Crusaders",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-28T17:00:55.699349+09:00"
+    },
+    "sponsor|team 本店営業部": {
+      "team": "Team 本店営業部",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-28T17:00:55.699349+09:00"
     }
   }
 }
