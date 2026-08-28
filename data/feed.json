@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787918447604,
+    "team": "アンコンシャス・バイアス",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787913045576,
     "team": "Hpe-海苔巻きロケット",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Hpe-Turu5150",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787113832692,
-    "team": "Hiraya",
-    "course": "full",
-    "channel": "general"
   }
 ]
