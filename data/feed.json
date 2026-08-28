@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787909435270,
+    "team": "Hpe-Walkmen",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787907646199,
     "team": "安藤　麻衣",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787112052222,
     "team": "MAN Don't Think Feel !",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787112052222,
-    "team": "MAN ご来店ありがとうございます！ⅱ",
     "course": "half",
     "channel": "sponsor"
   }

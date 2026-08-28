@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T18:00:46.199887+09:00",
+  "updated": "2026-08-28T18:30:35.270686+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4032,6 +4032,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-28T18:00:46.199887+09:00"
+    },
+    "sponsor|hpe-walkmen": {
+      "team": "Hpe-Walkmen",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-28T18:30:35.270686+09:00"
     }
   }
 }
