@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787884234565,
+    "team": "Maple Dubss",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787880644402,
     "team": "Team ぐるくん",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787030781398,
     "team": "MAN Matryoshka Of Misery",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787030781398,
-    "team": "SFDC Trailhead Academy",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
