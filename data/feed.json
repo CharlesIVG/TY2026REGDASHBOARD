@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787898634210,
+    "team": "不撓不屈のヘラジカたち",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787896845404,
     "team": "Sfdc Run4beer",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "Ai&Aa グルメウォーカーズ",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787056235618,
-    "team": "Hpe-Ted_Aps_United",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
