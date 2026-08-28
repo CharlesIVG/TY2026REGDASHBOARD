@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T12:30:44.425120+09:00",
+  "updated": "2026-08-28T13:00:45.560703+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3942,6 +3942,36 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-28T12:30:44.425120+09:00"
+    },
+    "general|aoba": {
+      "team": "Aoba",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T13:00:45.560703+09:00"
+    },
+    "general|aoba 2": {
+      "team": "Aoba 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T13:00:45.560703+09:00"
+    },
+    "general|aoba 3": {
+      "team": "Aoba 3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T13:00:45.560703+09:00"
+    },
+    "general|aoba 4": {
+      "team": "Aoba 4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T13:00:45.560703+09:00"
+    },
+    "general|mc登山部a": {
+      "team": "Mc登山部a",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T13:00:45.560703+09:00"
     }
   }
 }

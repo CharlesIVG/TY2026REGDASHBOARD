@@ -1,5 +1,35 @@
 [
   {
+    "ts": 1787889645560,
+    "team": "Aoba",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787889645560,
+    "team": "Aoba 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787889645560,
+    "team": "Aoba 3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787889645560,
+    "team": "Aoba 4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787889645560,
+    "team": "Mc登山部a",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787887844425,
     "team": "Embassy Of Canada/カナダ大使館",
     "course": "full",
@@ -867,36 +897,6 @@
     "ts": 1787050547560,
     "team": "ご来店ありがとうございます！ⅱ",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787049034136,
-    "team": "Alab Squad",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787043642671,
-    "team": "Fpt Japan 001",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1787041836325,
-    "team": "Fpt Japan 002",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1787041836325,
-    "team": "Sfdc Ahmy Feet!",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787038236280,
-    "team": "Ms 優勝",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
