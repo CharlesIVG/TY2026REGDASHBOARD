@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787954451389,
+    "team": "ベイサイドランニング",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787923834590,
     "team": "Philgritt",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "チームポジティブ",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787119013351,
-    "team": "チーム黒はんぺん　静岡",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
