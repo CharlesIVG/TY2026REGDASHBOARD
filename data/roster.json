@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T12:00:45.966240+09:00",
+  "updated": "2026-08-28T12:30:44.425120+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3936,6 +3936,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-28T12:00:45.966240+09:00"
+    },
+    "general|embassy of canada/カナダ大使館": {
+      "team": "Embassy Of Canada/カナダ大使館",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T12:30:44.425120+09:00"
     }
   }
 }

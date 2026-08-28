@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787887844425,
+    "team": "Embassy Of Canada/カナダ大使館",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787886045966,
     "team": "Just Walk Baby!",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787038236280,
     "team": "Ms 優勝",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787030781398,
-    "team": "Don't Think Feel !",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
