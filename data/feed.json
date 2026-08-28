@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787959841835,
+    "team": "MAN Team 本店営業部",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1787959841835,
+    "team": "MAN 不撓不屈のヘラジカたち",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787954451389,
     "team": "ベイサイドランニング",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787122008217,
     "team": "Loop Legends",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787122008217,
-    "team": "Yamanote Roses",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787122008217,
-    "team": "チームポジティブ",
     "course": "full",
     "channel": "general"
   }

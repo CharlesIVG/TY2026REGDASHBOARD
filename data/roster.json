@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T08:00:51.089602+09:00",
+  "updated": "2026-08-29T08:30:41.835502+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4062,6 +4062,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-29T07:00:51.389589+09:00"
+    },
+    "sponsor|man team 本店営業部": {
+      "team": "MAN Team 本店営業部",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-29T08:30:41.835502+09:00"
+    },
+    "sponsor|man 不撓不屈のヘラジカたち": {
+      "team": "MAN 不撓不屈のヘラジカたち",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-29T08:30:41.835502+09:00"
     }
   }
 }
