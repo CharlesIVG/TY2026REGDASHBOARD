@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T10:00:47.369862+09:00",
+  "updated": "2026-08-28T10:30:44.402210+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -3912,6 +3912,18 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-08-28T09:30:36.403781+09:00"
+    },
+    "general|team ぐるくん": {
+      "team": "Team ぐるくん",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-28T10:30:44.402210+09:00"
+    },
+    "sponsor|sfdc jt3ランナーズ": {
+      "team": "Sfdc Jt3ランナーズ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-28T10:30:44.402210+09:00"
     }
   }
 }

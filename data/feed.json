@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1787880644402,
+    "team": "Team ぐるくん",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1787880644402,
+    "team": "Sfdc Jt3ランナーズ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1787877036403,
     "team": "Help Alliance Japan A",
     "course": "quarter",
@@ -885,18 +897,6 @@
     "ts": 1787030781398,
     "team": "SFDC Trailhead Academy",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787029241746,
-    "team": "MAN Keio Team",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787029241746,
-    "team": "MAN Team Zakiyama",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
