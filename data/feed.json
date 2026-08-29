@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787999434447,
+    "team": "早東ウォーカーズ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787990450388,
     "team": "Famimart Friends",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787131841504,
     "team": "コンプライアンスb",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787131841504,
-    "team": "コンプライアンスc",
     "course": "quarter",
     "channel": "sponsor"
   }
