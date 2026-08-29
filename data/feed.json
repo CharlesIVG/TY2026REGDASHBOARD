@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788024700208,
+    "team": "みんなであいこちゃん",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788006643322,
     "team": "Born To Walk",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "チームゆりかもめ",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787191252437,
-    "team": "Sfdc さざな",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
