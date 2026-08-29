@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T16:30:41.845652+09:00",
+  "updated": "2026-08-29T17:00:50.388912+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4080,6 +4080,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-29T14:01:11.609457+09:00"
+    },
+    "general|famimart friends": {
+      "team": "Famimart Friends",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-29T17:00:50.388912+09:00"
     }
   }
 }

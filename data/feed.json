@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787990450388,
+    "team": "Famimart Friends",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787979671609,
     "team": "エスコート",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787131841504,
     "team": "コンプライアンスc",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787130040786,
-    "team": "コンプライアンスa",
     "course": "quarter",
     "channel": "sponsor"
   }
