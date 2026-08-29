@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1787979671609,
+    "team": "エスコート",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787959841835,
     "team": "MAN Team 本店営業部",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "コンプライアンスa",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787122008217,
-    "team": "Loop Legends",
-    "course": "full",
-    "channel": "general"
   }
 ]
