@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788003033800,
+    "team": "Brexa Technology 宇都宮支店#1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788003033800,
+    "team": "Brexa Technology 宇都宮支店#2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788003033800,
+    "team": "Brexa Technology 宇都宮支店#3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1787999434447,
     "team": "早東ウォーカーズ",
     "course": "full",
@@ -879,24 +897,6 @@
     "ts": 1787184055191,
     "team": "Team Next Stage",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787160279715,
-    "team": "Whining Wanderers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787146913088,
-    "team": "Yamabants",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787131841504,
-    "team": "コンプライアンスb",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
