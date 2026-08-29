@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788006643322,
+    "team": "Born To Walk",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788006643322,
+    "team": "Walk And Talk",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788003033800,
     "team": "Brexa Technology 宇都宮支店#1",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787191252437,
     "team": "Sfdc さざな",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787185844539,
-    "team": "Hama Striders 1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787184055191,
-    "team": "Team Next Stage",
     "course": "half",
     "channel": "sponsor"
   }
