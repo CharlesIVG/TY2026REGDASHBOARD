@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788076839947,
+    "team": "まだ歩けます",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788066041849,
     "team": "Muskies",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "ゆるwalk営業支援",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787200477768,
-    "team": "Team Victory",
-    "course": "full",
-    "channel": "general"
   }
 ]
