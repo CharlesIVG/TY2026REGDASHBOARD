@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788093043813,
+    "team": "Lakaswacheras",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788093043813,
+    "team": "ひげ部",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788084040125,
     "team": "桃と愉快な仲間たち",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787277652023,
     "team": "チーム宮崎",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787227254618,
-    "team": "Ms-Darkstar",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787214634532,
-    "team": "Sfdc-Team-Izr",
     "course": "half",
     "channel": "sponsor"
   }

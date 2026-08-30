@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T21:00:41.192900+09:00",
+  "updated": "2026-08-30T21:30:43.813629+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4158,6 +4158,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-30T19:00:40.125897+09:00"
+    },
+    "general|lakaswacheras": {
+      "team": "Lakaswacheras",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-30T21:30:43.813629+09:00"
+    },
+    "general|ひげ部": {
+      "team": "ひげ部",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-30T21:30:43.813629+09:00"
     }
   }
 }
