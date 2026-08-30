@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788084040125,
+    "team": "桃と愉快な仲間たち",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788076839947,
     "team": "まだ歩けます",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787214634532,
     "team": "Sfdc-Team-Izr",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787205652322,
-    "team": "ゆるwalk営業支援",
     "course": "half",
     "channel": "sponsor"
   }
