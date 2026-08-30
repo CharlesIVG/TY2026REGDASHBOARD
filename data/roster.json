@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T13:30:32.616493+09:00",
+  "updated": "2026-08-30T14:00:41.849282+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4134,6 +4134,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-30T10:30:32.895079+09:00"
+    },
+    "general|muskies": {
+      "team": "Muskies",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-30T14:00:41.849282+09:00"
+    },
+    "general|ドゥンドゥンやろうじゃねえか": {
+      "team": "ドゥンドゥンやろうじゃねえか",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-30T14:00:41.849282+09:00"
     }
   }
 }

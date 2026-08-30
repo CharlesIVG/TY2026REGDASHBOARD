@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788066041849,
+    "team": "Muskies",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788066041849,
+    "team": "ドゥンドゥンやろうじゃねえか",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788053432895,
     "team": "Tomorrow's My Birthday",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Team Victory",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787196643428,
-    "team": "Fi&Cc Sales Division1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787194845884,
-    "team": "Beauty,Beauty And Gold",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
