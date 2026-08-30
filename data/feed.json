@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788053432895,
+    "team": "Tomorrow's My Birthday",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788024700208,
     "team": "みんなであいこちゃん",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Beauty,Beauty And Gold",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787191252437,
-    "team": "チームゆりかもめ",
-    "course": "full",
-    "channel": "general"
   }
 ]
