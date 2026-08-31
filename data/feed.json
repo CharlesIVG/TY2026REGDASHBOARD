@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788170444442,
+    "team": "Return_Of_Masaturn",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788154232272,
     "team": "Bbb",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "X-Hart-Friends",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787397530064,
-    "team": "雨天結構ズ",
-    "course": "full",
-    "channel": "general"
   }
 ]
