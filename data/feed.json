@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788154232272,
+    "team": "Bbb",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788147032828,
     "team": "犬猿の仲良し",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787397530064,
     "team": "雨天結構ズ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787383774216,
-    "team": "Team Tippi",
     "course": "full",
     "channel": "general"
   }
