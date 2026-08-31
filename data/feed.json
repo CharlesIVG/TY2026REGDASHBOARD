@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788184844199,
+    "team": "Tokyo Trekkers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788183034875,
     "team": "かきまる2026",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787459443482,
     "team": "Greenbeans E",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787455832656,
-    "team": "Breast Friends Forever",
     "course": "full",
     "channel": "general"
   }
