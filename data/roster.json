@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T10:00:49.946137+09:00",
+  "updated": "2026-08-31T10:27:39.035285+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4176,6 +4176,30 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-08-31T09:30:33.258072+09:00"
+    },
+    "general|csats-tse": {
+      "team": "Csats-Tse",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T10:27:39.035285+09:00"
+    },
+    "general|kasumi　a": {
+      "team": "Kasumi　A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T10:27:39.035285+09:00"
+    },
+    "general|kasumi b": {
+      "team": "Kasumi B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T10:27:39.035285+09:00"
+    },
+    "general|kasumi c": {
+      "team": "Kasumi C",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T10:27:39.035285+09:00"
     }
   }
 }

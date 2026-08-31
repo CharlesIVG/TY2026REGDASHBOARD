@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1788139659035,
+    "team": "Csats-Tse",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788139659035,
+    "team": "Kasumi　A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788139659035,
+    "team": "Kasumi B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788139659035,
+    "team": "Kasumi C",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788136233258,
     "team": "トホ上等",
     "course": "half",
@@ -874,29 +898,5 @@
     "team": "Lets Go!",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787360743997,
-    "team": "Ms - Assurance Walkers",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787299241964,
-    "team": "Philips_1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787288442025,
-    "team": "チーム黒はんぺん",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787284841098,
-    "team": "北の国から",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
