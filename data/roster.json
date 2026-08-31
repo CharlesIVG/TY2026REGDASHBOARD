@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T23:00:44.199996+09:00",
+  "updated": "2026-08-31T23:30:33.051546+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4266,6 +4266,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-31T23:00:44.199996+09:00"
+    },
+    "general|team ams": {
+      "team": "Team Ams",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T23:30:33.051546+09:00"
+    },
+    "general|チームfte": {
+      "team": "チームfte",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T23:30:33.051546+09:00"
     }
   }
 }

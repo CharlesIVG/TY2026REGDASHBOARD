@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788186633051,
+    "team": "Team Ams",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788186633051,
+    "team": "チームfte",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788184844199,
     "team": "Tokyo Trekkers",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787481031882,
     "team": "ウォーキングp",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787472039974,
-    "team": "Greenbeans A",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787459443482,
-    "team": "Greenbeans E",
     "course": "full",
     "channel": "general"
   }
