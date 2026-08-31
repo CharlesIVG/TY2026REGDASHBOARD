@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T21:00:43.353685+09:00",
+  "updated": "2026-08-31T21:30:33.963600+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4236,6 +4236,24 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-08-31T21:00:43.353685+09:00"
+    },
+    "general|the troubleshooters of pts": {
+      "team": "The Troubleshooters Of Pts",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T21:30:33.963600+09:00"
+    },
+    "sponsor|man rbaoki_2026": {
+      "team": "MAN Rbaoki_2026",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-31T21:30:33.963600+09:00"
+    },
+    "sponsor|man トホ上等": {
+      "team": "MAN トホ上等",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-08-31T21:30:33.963600+09:00"
     }
   }
 }

@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788179433963,
+    "team": "The Troubleshooters Of Pts",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788179433963,
+    "team": "MAN Rbaoki_2026",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788179433963,
+    "team": "MAN トホ上等",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788177643353,
     "team": "Rbaoki_2026",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1787453033776,
     "team": "Professional Walkers - Unpaid",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787453033776,
-    "team": "Jpm Malani",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787452231125,
-    "team": "Usfj 1.75",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787445034102,
-    "team": "Sunny Soles",
     "course": "full",
     "channel": "general"
   }
