@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788147032828,
+    "team": "犬猿の仲良し",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788145241686,
     "team": "Csats-Tam",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787383774216,
     "team": "Team Tippi",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787378451077,
-    "team": "Hama Striders One",
     "course": "full",
     "channel": "general"
   }
