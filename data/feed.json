@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788183034875,
+    "team": "かきまる2026",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788179433963,
     "team": "The Troubleshooters Of Pts",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787455832656,
     "team": "Breast Friends Forever",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787453033776,
-    "team": "Professional Walkers - Unpaid",
     "course": "full",
     "channel": "general"
   }
