@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T11:30:35.171839+09:00",
+  "updated": "2026-08-31T12:00:41.686445+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4200,6 +4200,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-31T10:27:39.035285+09:00"
+    },
+    "general|csats-tam": {
+      "team": "Csats-Tam",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-08-31T12:00:41.686445+09:00"
     }
   }
 }

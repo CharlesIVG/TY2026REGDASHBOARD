@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788145241686,
+    "team": "Csats-Tam",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788139659035,
     "team": "Csats-Tse",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787378451077,
     "team": "Hama Striders One",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787362232870,
-    "team": "Lets Go!",
     "course": "full",
     "channel": "general"
   }
