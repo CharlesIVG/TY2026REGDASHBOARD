@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788172241946,
+    "team": "Kpmgアドバイザリーホールディングスチーム２",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788170444442,
     "team": "Return_Of_Masaturn",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Happy Feet",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787425125272,
-    "team": "X-Hart-Friends",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
