@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788136233258,
+    "team": "トホ上等",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788093043813,
     "team": "Lakaswacheras",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787284841098,
     "team": "北の国から",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787277652023,
-    "team": "チーム宮崎",
     "course": "half",
     "channel": "sponsor"
   }
