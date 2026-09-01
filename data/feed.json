@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788242441653,
+    "team": "Ydaj",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1788228042442,
     "team": "Fi&Cc",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "チームsハンドパパ",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787531432602,
-    "team": "Xiaha88",
-    "course": "quarter",
-    "channel": "sponsor"
   }
 ]
