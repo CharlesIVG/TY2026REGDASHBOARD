@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788305432594,
+    "team": "サキタク&カン",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788271245671,
     "team": "Yamanote Ya-Yas",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Foot Notes",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787551241459,
-    "team": "Infosys Ninjas",
-    "course": "full",
-    "channel": "general"
   }
 ]
