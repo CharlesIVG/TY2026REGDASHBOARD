@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T20:30:33.587638+09:00",
+  "updated": "2026-09-01T21:00:45.903370+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4320,6 +4320,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-01T19:00:41.744190+09:00"
+    },
+    "general|cocorico": {
+      "team": "Cocorico",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-01T21:00:45.903370+09:00"
     }
   }
 }

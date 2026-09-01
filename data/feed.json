@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788264045903,
+    "team": "Cocorico",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788256841744,
     "team": "Sfdc 半周しながらご飯部",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787549434919,
     "team": "Greenbeans D",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787547654576,
-    "team": "Good Vibes",
     "course": "full",
     "channel": "general"
   }
