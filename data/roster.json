@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T22:30:34.660488+09:00",
+  "updated": "2026-09-01T23:00:45.671039+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4326,6 +4326,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-01T21:00:45.903370+09:00"
+    },
+    "general|yamanote ya-yas": {
+      "team": "Yamanote Ya-Yas",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-01T23:00:45.671039+09:00"
+    },
+    "sponsor|雨が降ったらつくねとハイボール！": {
+      "team": "雨が降ったらつくねとハイボール！",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-01T23:00:45.671039+09:00"
     }
   }
 }

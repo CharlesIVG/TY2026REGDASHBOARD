@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788271245671,
+    "team": "Yamanote Ya-Yas",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788271245671,
+    "team": "雨が降ったらつくねとハイボール！",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788264045903,
     "team": "Cocorico",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787551241459,
     "team": "Infosys Ninjas",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787551241459,
-    "team": "Infosys Samurais",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787549434919,
-    "team": "Greenbeans D",
     "course": "full",
     "channel": "general"
   }
