@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788228042442,
+    "team": "Fi&Cc",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788226233191,
     "team": "Apollo",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Xiaha88",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787486442063,
-    "team": "10336.72",
-    "course": "full",
-    "channel": "general"
   }
 ]
