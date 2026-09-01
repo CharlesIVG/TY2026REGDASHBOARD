@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788247832983,
+    "team": "トルコアイス",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788242441653,
     "team": "Ydaj",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "Ms-Iron Ladies",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787531432602,
-    "team": "チームsハンドパパ",
-    "course": "full",
-    "channel": "general"
   }
 ]
