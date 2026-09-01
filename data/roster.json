@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T10:00:39.804464+09:00",
+  "updated": "2026-09-01T10:30:33.191570+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4278,6 +4278,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-08-31T23:30:33.051546+09:00"
+    },
+    "general|apollo": {
+      "team": "Apollo",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-01T10:30:33.191570+09:00"
     }
   }
 }
