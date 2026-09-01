@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T18:00:43.888523+09:00",
+  "updated": "2026-09-01T18:30:32.087885+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4308,6 +4308,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-01T17:00:40.006924+09:00"
+    },
+    "general|walkers beyond borders": {
+      "team": "Walkers Beyond Borders",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-01T18:30:32.087885+09:00"
     }
   }
 }

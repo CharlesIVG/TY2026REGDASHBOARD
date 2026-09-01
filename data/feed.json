@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788255032087,
+    "team": "Walkers Beyond Borders",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788249640006,
     "team": "Tanium Eso-2",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787547654576,
     "team": "アドベンチャービンチリン",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787536839753,
-    "team": "Aaah",
     "course": "full",
     "channel": "general"
   }
