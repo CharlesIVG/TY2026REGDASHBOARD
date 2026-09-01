@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T16:30:32.983762+09:00",
+  "updated": "2026-09-01T17:00:40.006924+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4302,6 +4302,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-01T16:30:32.983762+09:00"
+    },
+    "general|tanium eso-2": {
+      "team": "Tanium Eso-2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-01T17:00:40.006924+09:00"
     }
   }
 }

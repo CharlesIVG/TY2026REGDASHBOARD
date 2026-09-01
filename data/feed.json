@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788249640006,
+    "team": "Tanium Eso-2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788247832983,
     "team": "トルコアイス",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Aaah",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787535033639,
-    "team": "Ms-Iron Ladies",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
