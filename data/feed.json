@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788256841744,
+    "team": "Sfdc 半周しながらご飯部",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788255032087,
     "team": "Walkers Beyond Borders",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787547654576,
     "team": "Good Vibes",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787547654576,
-    "team": "アドベンチャービンチリン",
     "course": "full",
     "channel": "general"
   }
