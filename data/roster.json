@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T12:30:43.001713+09:00",
+  "updated": "2026-09-02T13:00:50.139707+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4368,6 +4368,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-02T12:30:43.001713+09:00"
+    },
+    "general|yamahoes": {
+      "team": "Yamahoes",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T13:00:50.139707+09:00"
+    },
+    "general|走らない勇気": {
+      "team": "走らない勇気",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T13:00:50.139707+09:00"
     }
   }
 }

@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788321650139,
+    "team": "Yamahoes",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788321650139,
+    "team": "走らない勇気",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788319843001,
     "team": "Crwd (Can Really Walk Distances ?)",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787565642797,
     "team": "Greenbeans B",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787563834485,
-    "team": "Sfdc み〜ず",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787562045018,
-    "team": "Harmonious Co-Existers (Famichiki.Jp)",
     "course": "full",
     "channel": "general"
   }
