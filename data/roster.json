@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T12:00:41.236947+09:00",
+  "updated": "2026-09-02T12:30:43.001713+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4362,6 +4362,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-02T12:00:41.236947+09:00"
+    },
+    "general|crwd (can really walk distances ?)": {
+      "team": "Crwd (Can Really Walk Distances ?)",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T12:30:43.001713+09:00"
     }
   }
 }

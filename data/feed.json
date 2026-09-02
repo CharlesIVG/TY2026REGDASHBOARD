@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788319843001,
+    "team": "Crwd (Can Really Walk Distances ?)",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788318041236,
     "team": "Mainland Japan Army",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787562045018,
     "team": "Harmonious Co-Existers (Famichiki.Jp)",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787561329076,
-    "team": "Wander Woman",
     "course": "full",
     "channel": "general"
   }
