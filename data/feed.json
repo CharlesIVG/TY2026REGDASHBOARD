@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788327030739,
+    "team": "Sfdc もりもり探検隊",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788325250377,
     "team": "Ecoh Yamathon 2026",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787632243759,
     "team": "High Torque Heroes",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787625481420,
-    "team": "Revenge Of The Famichiki",
     "course": "full",
     "channel": "general"
   }
