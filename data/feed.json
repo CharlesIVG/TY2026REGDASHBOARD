@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788318041236,
+    "team": "Mainland Japan Army",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788310840911,
     "team": "Kozy-Tiger",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787561329076,
     "team": "Wander Woman",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787558186204,
-    "team": "404 Pace Not Found",
     "course": "full",
     "channel": "general"
   }
