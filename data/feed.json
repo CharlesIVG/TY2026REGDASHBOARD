@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788348634926,
+    "team": "Pagegirls",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788348634926,
+    "team": "Wine Blonde",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788343242118,
     "team": "気持ちは先頭です",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787648846717,
     "team": "Masatchis",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787646633369,
-    "team": "TG",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787646633369,
-    "team": "ひーちゃんず",
     "course": "full",
     "channel": "general"
   }

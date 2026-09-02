@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T20:00:40.862132+09:00",
+  "updated": "2026-09-02T20:30:34.926544+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4440,6 +4440,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-02T19:00:42.118855+09:00"
+    },
+    "general|pagegirls": {
+      "team": "Pagegirls",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T20:30:34.926544+09:00"
+    },
+    "general|wine blonde": {
+      "team": "Wine Blonde",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T20:30:34.926544+09:00"
     }
   }
 }
