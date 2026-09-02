@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788309035607,
+    "team": "Ydad",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1788305432594,
     "team": "サキタク&カン",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787558186204,
     "team": "その後、赤羽に行くのに日和ってねぇ奴ら",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787556644252,
-    "team": "Foot Notes",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]

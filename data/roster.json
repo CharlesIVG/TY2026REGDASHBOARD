@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T09:00:42.088621+09:00",
+  "updated": "2026-09-02T09:30:35.607942+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4344,6 +4344,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-02T08:30:32.594569+09:00"
+    },
+    "general|ydad": {
+      "team": "Ydad",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-09-02T09:30:35.607942+09:00"
     }
   }
 }
