@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788336042765,
+    "team": "Abb K.K.",
+    "course": "quarter",
+    "channel": "general"
+  },
+  {
     "ts": 1788327030739,
     "team": "Sfdc もりもり探検隊",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787632243759,
     "team": "High Power Runners",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787632243759,
-    "team": "High Torque Heroes",
     "course": "full",
     "channel": "general"
   }

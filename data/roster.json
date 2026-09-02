@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T16:38:14.296509+09:00",
+  "updated": "2026-09-02T17:00:42.765784+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4422,6 +4422,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-02T14:30:30.739002+09:00"
+    },
+    "general|abb k.k.": {
+      "team": "Abb K.K.",
+      "course": "quarter",
+      "channel": "general",
+      "firstSeen": "2026-09-02T17:00:42.765784+09:00"
     }
   }
 }
