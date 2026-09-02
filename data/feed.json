@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788350441799,
+    "team": "Arc",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788348634926,
     "team": "Pagegirls",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787657444664,
     "team": "Greenbeans C",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787648846717,
-    "team": "Masatchis",
     "course": "full",
     "channel": "general"
   }
