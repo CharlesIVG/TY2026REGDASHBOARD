@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788310840911,
+    "team": "Kozy-Tiger",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788309035607,
     "team": "Ydad",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "404 Pace Not Found",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787558186204,
-    "team": "その後、赤羽に行くのに日和ってねぇ奴ら",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

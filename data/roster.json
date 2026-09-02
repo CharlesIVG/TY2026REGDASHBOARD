@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T09:30:35.607942+09:00",
+  "updated": "2026-09-02T10:00:40.911920+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4350,6 +4350,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-09-02T09:30:35.607942+09:00"
+    },
+    "general|kozy-tiger": {
+      "team": "Kozy-Tiger",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T10:00:40.911920+09:00"
     }
   }
 }
