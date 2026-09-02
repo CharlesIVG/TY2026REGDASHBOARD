@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T13:00:50.139707+09:00",
+  "updated": "2026-09-02T14:00:50.377119+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4380,6 +4380,42 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-02T13:00:50.139707+09:00"
+    },
+    "general|ecoh yamathon 2026": {
+      "team": "Ecoh Yamathon 2026",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T14:00:50.377119+09:00"
+    },
+    "general|wellora": {
+      "team": "Wellora",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-02T14:00:50.377119+09:00"
+    },
+    "sponsor|morgan stanley": {
+      "team": "Morgan Stanley",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-02T14:00:50.377119+09:00"
+    },
+    "sponsor|sfdc りんりん探検隊": {
+      "team": "Sfdc りんりん探検隊",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-02T14:00:50.377119+09:00"
+    },
+    "sponsor|sfdcもぎもぎ探検隊": {
+      "team": "Sfdcもぎもぎ探検隊",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-02T14:00:50.377119+09:00"
+    },
+    "sponsor|もりもり探検隊": {
+      "team": "もりもり探検隊",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-02T14:00:50.377119+09:00"
     }
   }
 }

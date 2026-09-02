@@ -1,5 +1,41 @@
 [
   {
+    "ts": 1788325250377,
+    "team": "Ecoh Yamathon 2026",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788325250377,
+    "team": "Wellora",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788325250377,
+    "team": "Morgan Stanley",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788325250377,
+    "team": "Sfdc りんりん探検隊",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788325250377,
+    "team": "Sfdcもぎもぎ探検隊",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788325250377,
+    "team": "もりもり探検隊",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788321650139,
     "team": "Yamahoes",
     "course": "full",
@@ -860,42 +896,6 @@
   {
     "ts": 1787625481420,
     "team": "Revenge Of The Famichiki",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787580046027,
-    "team": "Altera",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787580046027,
-    "team": "Kpmg Team 13",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787572448662,
-    "team": "中途半端 (Famichiki.Jp)",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787567432864,
-    "team": "Team Likius",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787567432864,
-    "team": "ザ・Team (Famichiki.Jp)",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787565642797,
-    "team": "Greenbeans B",
     "course": "full",
     "channel": "general"
   }
