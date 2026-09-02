@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788343242118,
+    "team": "気持ちは先頭です",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788341431933,
     "team": "20’S Misogi",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787646633369,
     "team": "ひーちゃんず",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787634044205,
-    "team": "Omnissa",
     "course": "full",
     "channel": "general"
   }
