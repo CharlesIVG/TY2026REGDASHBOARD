@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T18:00:42.644643+09:00",
+  "updated": "2026-09-02T18:30:31.933208+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4428,6 +4428,12 @@
       "course": "quarter",
       "channel": "general",
       "firstSeen": "2026-09-02T17:00:42.765784+09:00"
+    },
+    "sponsor|20’s misogi": {
+      "team": "20’S Misogi",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-02T18:30:31.933208+09:00"
     }
   }
 }

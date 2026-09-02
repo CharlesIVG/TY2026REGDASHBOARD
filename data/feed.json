@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788341431933,
+    "team": "20’S Misogi",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788336042765,
     "team": "Abb K.K.",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1787634044205,
     "team": "Omnissa",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787632243759,
-    "team": "High Power Runners",
     "course": "full",
     "channel": "general"
   }
