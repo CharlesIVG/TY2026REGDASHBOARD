@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788422440337,
+    "team": "茶々",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788418841647,
     "team": "Tb1",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787711434525,
     "team": "Zurich Life Insurance Team",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1787706632045,
-    "team": "Jtsc Blue",
-    "course": "full",
     "channel": "general"
   }
 ]
