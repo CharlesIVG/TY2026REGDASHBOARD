@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1788409834383,
+    "team": "Itk Balansu",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788409834383,
+    "team": "Itk Chillippines",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788409834383,
+    "team": "Itk Ikuzo!",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788409834383,
+    "team": "Itk Zen",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788400840824,
     "team": "山脇酸素a",
     "course": "full",
@@ -872,30 +896,6 @@
   {
     "ts": 1787706632045,
     "team": "Jtsc Red",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787706632045,
-    "team": "Jtsc Yellow",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787668251280,
-    "team": "アドベンチャービンチリンダジバ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787665702204,
-    "team": "Hpe てくてくib",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787661067406,
-    "team": "Ryu1",
     "course": "full",
     "channel": "general"
   }
