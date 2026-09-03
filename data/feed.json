@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788399042466,
+    "team": "Chacha-Maru",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788350441799,
     "team": "Arc",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787658870131,
     "team": "ヤマノテルセン",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787657444664,
-    "team": "Greenbeans C",
     "course": "full",
     "channel": "general"
   }
