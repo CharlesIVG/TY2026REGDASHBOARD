@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788426052516,
+    "team": "Modis Smiles",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788422440337,
     "team": "茶々",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787711434525,
     "team": "Zurich Life Insurance Japan",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1787711434525,
-    "team": "Zurich Life Insurance Team",
     "course": "quarter",
     "channel": "general"
   }
