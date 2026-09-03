@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788435037429,
+    "team": "Team Ponzu",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788427844523,
     "team": "給水所は居酒屋",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787711434525,
     "team": "Swiss Team - Sccij",
     "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1787711434525,
-    "team": "Team Eurofins",
-    "course": "full",
     "channel": "general"
   }
 ]
