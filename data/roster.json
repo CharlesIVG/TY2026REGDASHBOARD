@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T21:30:33.368717+09:00",
+  "updated": "2026-09-03T22:00:54.341269+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4536,6 +4536,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-03T20:30:37.429295+09:00"
+    },
+    "general|natsu": {
+      "team": "Natsu",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-03T22:00:54.341269+09:00"
     }
   }
 }

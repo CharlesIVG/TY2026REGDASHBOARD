@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788440454341,
+    "team": "Natsu",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788435037429,
     "team": "Team Ponzu",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Sfdc: Off The Rails",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787711434525,
-    "team": "Swiss Team - Sccij",
-    "course": "quarter",
-    "channel": "general"
   }
 ]
