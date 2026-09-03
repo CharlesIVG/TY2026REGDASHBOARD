@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788418841647,
+    "team": "Tb1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788418841647,
+    "team": "Tb2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788409834383,
     "team": "Itk Balansu",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787706632045,
     "team": "Jtsc Blue",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787706632045,
-    "team": "Jtsc Green",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787706632045,
-    "team": "Jtsc Red",
     "course": "full",
     "channel": "general"
   }
