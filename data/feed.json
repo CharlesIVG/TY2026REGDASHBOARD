@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788445852479,
+    "team": "Yamanote Swing",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788440454341,
     "team": "Natsu",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787718643802,
     "team": "Hpeボラバス-1",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787715033628,
-    "team": "Sfdc: Off The Rails",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T23:00:50.550050+09:00",
+  "updated": "2026-09-03T23:30:52.479036+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4542,6 +4542,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-03T22:00:54.341269+09:00"
+    },
+    "general|yamanote swing": {
+      "team": "Yamanote Swing",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-03T23:30:52.479036+09:00"
     }
   }
 }
