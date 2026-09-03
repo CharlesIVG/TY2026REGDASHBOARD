@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788476312488,
+    "team": "アイティーアイ（株）関東",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788445852479,
     "team": "Yamanote Swing",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Hsbc Walking Club",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787718643802,
-    "team": "Hpeボラバス-1",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
