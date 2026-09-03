@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788400840824,
+    "team": "山脇酸素a",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788400840824,
+    "team": "山脇酸素b",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788399042466,
     "team": "Chacha-Maru",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787661067406,
     "team": "Ryu1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787658870131,
-    "team": "Ninnenme",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787658870131,
-    "team": "ヤマノテルセン",
     "course": "full",
     "channel": "general"
   }

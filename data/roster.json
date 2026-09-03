@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T10:30:42.466779+09:00",
+  "updated": "2026-09-03T11:00:40.824744+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4464,6 +4464,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-03T10:30:42.466779+09:00"
+    },
+    "general|山脇酸素a": {
+      "team": "山脇酸素a",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-03T11:00:40.824744+09:00"
+    },
+    "general|山脇酸素b": {
+      "team": "山脇酸素b",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-03T11:00:40.824744+09:00"
     }
   }
 }
