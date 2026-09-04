@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788485431563,
+    "team": "チームアクティ部a",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788476312488,
     "team": "アイティーアイ（株）関東",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787720443440,
     "team": "Give＆Love",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787720443440,
-    "team": "Hsbc Walking Club",
     "course": "full",
     "channel": "general"
   }
