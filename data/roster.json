@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:00:39.954396+09:00",
+  "updated": "2026-09-04T14:30:16.010114+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4602,6 +4602,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-04T14:00:39.954396+09:00"
+    },
+    "general|the real jct": {
+      "team": "The Real Jct",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-04T14:30:16.010114+09:00"
     }
   }
 }

@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788499816010,
+    "team": "The Real Jct",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788498039954,
     "team": "ハーフ",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787756452032,
     "team": "Les Pères Du Dimanche",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787751037328,
-    "team": "申年",
     "course": "full",
     "channel": "general"
   }
