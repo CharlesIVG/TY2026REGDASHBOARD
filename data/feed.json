@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788512441444,
+    "team": "Hpe-Gts3",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788512441444,
+    "team": "チーム関西",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788510632450,
     "team": "Ms-Tonakai",
     "course": "quarter",
@@ -884,18 +896,6 @@
   {
     "ts": 1787788855108,
     "team": "MAN Xiaha88",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN コンプライアンスa",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN コンプライアンスb",
     "course": "quarter",
     "channel": "sponsor"
   }
