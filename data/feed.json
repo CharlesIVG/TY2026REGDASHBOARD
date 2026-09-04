@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788505241446,
+    "team": "Hpe-Teamこにたん",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788501649799,
     "team": "HPE 雨が降ったらつくねとハイボール！",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787788855108,
     "team": "MAN チーム宮崎",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN チーム黒はんぺん",
     "course": "half",
     "channel": "sponsor"
   }
