@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T12:30:32.107736+09:00",
+  "updated": "2026-09-04T13:00:40.713806+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4578,6 +4578,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-04T12:30:32.107736+09:00"
+    },
+    "sponsor|hpe-gts2": {
+      "team": "Hpe-Gts2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T13:00:40.713806+09:00"
     }
   }
 }
