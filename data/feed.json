@@ -1,5 +1,41 @@
 [
   {
+    "ts": 1788501649799,
+    "team": "HPE 雨が降ったらつくねとハイボール！",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788501649799,
+    "team": "Hpe-Nomuthon2026",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788501649799,
+    "team": "MAN 20’S Misogi",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788501649799,
+    "team": "MAN Fi&Cc",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788501649799,
+    "team": "MS Team Ikeoji 2026",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788501649799,
+    "team": "SFDC Tada Aruku Man",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788499816010,
     "team": "The Real Jct",
     "course": "full",
@@ -862,41 +898,5 @@
     "team": "MAN チーム黒はんぺん",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN チーム黒はんぺん　静岡",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN ゆるwalk営業支援",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN 北の国から",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787783435160,
-    "team": "The Walkie-Talkies",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787783435160,
-    "team": "だん家しぇん",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787756452032,
-    "team": "Les Pères Du Dimanche",
-    "course": "full",
-    "channel": "general"
   }
 ]

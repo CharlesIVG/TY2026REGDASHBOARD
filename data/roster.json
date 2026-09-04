@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:30:44.420237+09:00",
+  "updated": "2026-09-04T15:00:49.799015+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4608,6 +4608,42 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-04T14:30:16.010114+09:00"
+    },
+    "sponsor|hpe 雨が降ったらつくねとハイボール！": {
+      "team": "HPE 雨が降ったらつくねとハイボール！",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T15:00:49.799015+09:00"
+    },
+    "sponsor|hpe-nomuthon2026": {
+      "team": "Hpe-Nomuthon2026",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T15:00:49.799015+09:00"
+    },
+    "sponsor|man 20’s misogi": {
+      "team": "MAN 20’S Misogi",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T15:00:49.799015+09:00"
+    },
+    "sponsor|man fi&cc": {
+      "team": "MAN Fi&Cc",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T15:00:49.799015+09:00"
+    },
+    "sponsor|ms team ikeoji 2026": {
+      "team": "MS Team Ikeoji 2026",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T15:00:49.799015+09:00"
+    },
+    "sponsor|sfdc tada aruku man": {
+      "team": "SFDC Tada Aruku Man",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T15:00:49.799015+09:00"
     }
   }
 }
