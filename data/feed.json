@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788492632107,
+    "team": "チームアクティ部c",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788489031188,
     "team": "Hpe-Gts4",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Lost In Tokyo Year3:A Song Of Feet&Fire",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787726625078,
-    "team": "チーム　トッポッキ",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
