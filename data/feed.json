@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788496230914,
+    "team": "ひがかんhalf-2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788494440713,
     "team": "Hpe-Gts2",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787733034343,
     "team": "Lost In Tokyo Year3: Walk Is Coming",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787733034343,
-    "team": "Lost In Tokyo Year3: Walkers Of Tokyo",
     "course": "full",
     "channel": "general"
   }
