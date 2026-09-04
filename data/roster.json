@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T17:00:40.741467+09:00",
+  "updated": "2026-09-04T17:30:32.450996+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4668,6 +4668,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-04T17:00:40.741467+09:00"
+    },
+    "sponsor|ms-tonakai": {
+      "team": "Ms-Tonakai",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T17:30:32.450996+09:00"
     }
   }
 }

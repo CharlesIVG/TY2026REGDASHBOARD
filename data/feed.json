@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788510632450,
+    "team": "Ms-Tonakai",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788508840741,
     "team": "Servicenow - ヒオッキー4/炎の友情（仮）",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787788855108,
     "team": "MAN コンプライアンスb",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN コンプライアンスc",
     "course": "quarter",
     "channel": "sponsor"
   }
