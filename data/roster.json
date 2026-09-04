@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T22:00:46.372607+09:00",
+  "updated": "2026-09-04T22:30:33.058443+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4692,6 +4692,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-04T22:00:46.372607+09:00"
+    },
+    "general|domo buddies hirogaru": {
+      "team": "Domo Buddies Hirogaru",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-04T22:30:33.058443+09:00"
     }
   }
 }

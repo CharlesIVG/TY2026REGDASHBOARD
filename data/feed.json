@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788528633058,
+    "team": "Domo Buddies Hirogaru",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788526846372,
     "team": "Achilles Mongolia",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787788855108,
     "team": "MAN Team Next Stage",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN X-Hart-Friends",
     "course": "half",
     "channel": "sponsor"
   }
