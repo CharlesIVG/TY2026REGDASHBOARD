@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788487238924,
+    "team": "Tada Aruku Man",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788485431563,
     "team": "チームアクティ部a",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787722236159,
     "team": "Fantastic Four",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787720443440,
-    "team": "Give＆Love",
     "course": "full",
     "channel": "general"
   }

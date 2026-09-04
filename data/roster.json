@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T10:30:31.563571+09:00",
+  "updated": "2026-09-04T11:00:38.924341+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4560,6 +4560,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-04T10:30:31.563571+09:00"
+    },
+    "sponsor|tada aruku man": {
+      "team": "Tada Aruku Man",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T11:00:38.924341+09:00"
     }
   }
 }
