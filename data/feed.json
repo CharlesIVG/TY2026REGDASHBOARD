@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788508840741,
+    "team": "Servicenow - ヒオッキー4/炎の友情（仮）",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788507044357,
     "team": "Hpe-新卒3年目",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1787788855108,
     "team": "MAN コンプライアンスc",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN その後、赤羽に行くのに日和ってねぇ奴ら",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

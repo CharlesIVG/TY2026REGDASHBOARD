@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:30:44.357825+09:00",
+  "updated": "2026-09-04T17:00:40.741467+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4662,6 +4662,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-04T16:30:44.357825+09:00"
+    },
+    "sponsor|servicenow - ヒオッキー4/炎の友情（仮）": {
+      "team": "Servicenow - ヒオッキー4/炎の友情（仮）",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T17:00:40.741467+09:00"
     }
   }
 }
