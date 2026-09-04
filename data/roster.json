@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T22:30:33.058443+09:00",
+  "updated": "2026-09-04T23:00:44.213758+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4698,6 +4698,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-04T22:30:33.058443+09:00"
+    },
+    "general|domo buddies leverage": {
+      "team": "Domo Buddies Leverage",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-04T23:00:44.213758+09:00"
+    },
+    "general|domo buddies tech": {
+      "team": "Domo Buddies Tech",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-04T23:00:44.213758+09:00"
     }
   }
 }

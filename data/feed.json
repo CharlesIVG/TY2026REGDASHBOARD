@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788530444213,
+    "team": "Domo Buddies Leverage",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788530444213,
+    "team": "Domo Buddies Tech",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788528633058,
     "team": "Domo Buddies Hirogaru",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787788855108,
     "team": "MAN Fi&Cc Sales Division1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN Foot Notes",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN Team Next Stage",
     "course": "half",
     "channel": "sponsor"
   }
