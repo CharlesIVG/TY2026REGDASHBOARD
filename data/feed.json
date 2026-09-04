@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788489031188,
+    "team": "Hpe-Gts4",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788487238924,
     "team": "Tada Aruku Man",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "チーム　トッポッキ",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787722236159,
-    "team": "Fantastic Four",
-    "course": "full",
-    "channel": "general"
   }
 ]
