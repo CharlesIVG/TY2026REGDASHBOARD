@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788498039954,
+    "team": "ハーフ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788498039954,
+    "team": "Hpe-Gts1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788496230914,
     "team": "ひがかんhalf-2",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787751037328,
     "team": "申年",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787733034343,
-    "team": "Lost In Tokyo Year3: Fellowship Grows",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787733034343,
-    "team": "Lost In Tokyo Year3: Walk Is Coming",
     "course": "full",
     "channel": "general"
   }
