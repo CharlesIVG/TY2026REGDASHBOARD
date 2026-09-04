@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T21:30:32.951926+09:00",
+  "updated": "2026-09-04T22:00:46.372607+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4686,6 +4686,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-04T18:00:41.444745+09:00"
+    },
+    "general|achilles mongolia": {
+      "team": "Achilles Mongolia",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-04T22:00:46.372607+09:00"
     }
   }
 }

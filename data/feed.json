@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788526846372,
+    "team": "Achilles Mongolia",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788512441444,
     "team": "Hpe-Gts3",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1787788855108,
     "team": "MAN X-Hart-Friends",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN Xiaha88",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
