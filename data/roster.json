@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:00:41.446066+09:00",
+  "updated": "2026-09-04T16:30:44.357825+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4650,6 +4650,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-04T16:00:41.446066+09:00"
+    },
+    "sponsor|hpe-新卒3年目": {
+      "team": "Hpe-新卒3年目",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T16:30:44.357825+09:00"
+    },
+    "sponsor|jpm tokyo mmky": {
+      "team": "Jpm Tokyo Mmky",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-04T16:30:44.357825+09:00"
     }
   }
 }
