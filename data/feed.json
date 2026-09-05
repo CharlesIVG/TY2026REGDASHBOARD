@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788651524927,
+    "team": "チームアクティ部b",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788647430121,
     "team": "Active Recovery Gone Wrong",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787826633129,
     "team": "MAN 足パンパン4銃士",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787823045759,
-    "team": "足パンパン4銃士",
     "course": "full",
     "channel": "sponsor"
   }
