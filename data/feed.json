@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788575441358,
+    "team": "Puchikis",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788573638120,
     "team": "MANチーム関西",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787794243526,
     "team": "MAN 磯自慢",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787790414754,
-    "team": "Team タッピー",
     "course": "half",
     "channel": "sponsor"
   }

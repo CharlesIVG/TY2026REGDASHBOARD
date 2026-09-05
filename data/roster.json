@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T11:00:38.120363+09:00",
+  "updated": "2026-09-05T11:30:41.358422+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4722,6 +4722,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-05T11:00:38.120363+09:00"
+    },
+    "general|puchikis": {
+      "team": "Puchikis",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-05T11:30:41.358422+09:00"
     }
   }
 }
