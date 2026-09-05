@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788573638120,
+    "team": "MANチーム関西",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788561993583,
     "team": "Knights2",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787790414754,
     "team": "Team タッピー",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787788855108,
-    "team": "MAN Beauty,Beauty And Gold",
     "course": "half",
     "channel": "sponsor"
   }

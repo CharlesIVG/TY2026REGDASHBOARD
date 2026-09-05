@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T10:30:31.857472+09:00",
+  "updated": "2026-09-05T11:00:38.120363+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4716,6 +4716,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-05T07:46:33.583002+09:00"
+    },
+    "sponsor|manチーム関西": {
+      "team": "MANチーム関西",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-05T11:00:38.120363+09:00"
     }
   }
 }
