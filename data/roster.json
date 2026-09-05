@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T15:00:38.134133+09:00",
+  "updated": "2026-09-05T15:30:32.414576+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4728,6 +4728,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-05T11:30:41.358422+09:00"
+    },
+    "general|sps japan k.k.": {
+      "team": "Sps Japan K.K.",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-05T15:30:32.414576+09:00"
     }
   }
 }
