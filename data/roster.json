@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T07:00:37.189931+09:00",
+  "updated": "2026-09-06T07:30:30.121432+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4752,6 +4752,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-05T20:30:29.702046+09:00"
+    },
+    "general|active recovery gone wrong": {
+      "team": "Active Recovery Gone Wrong",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T07:30:30.121432+09:00"
     }
   }
 }

@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788647430121,
+    "team": "Active Recovery Gone Wrong",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788607829702,
     "team": "Happy Little Vegemites",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "足パンパン4銃士",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787810441102,
-    "team": "Yamaheads",
-    "course": "full",
-    "channel": "general"
   }
 ]
