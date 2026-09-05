@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T20:00:48.823301+09:00",
+  "updated": "2026-09-05T20:30:29.702046+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4746,6 +4746,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-05T20:00:48.823301+09:00"
+    },
+    "general|happy little vegemites": {
+      "team": "Happy Little Vegemites",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-05T20:30:29.702046+09:00"
     }
   }
 }
