@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788606048823,
+    "team": "Hatsune Stride",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788598839515,
     "team": "Vegetarians",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787810441102,
     "team": "サムギョプサル",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787810441102,
-    "team": "チャプチェ",
     "course": "quarter",
     "channel": "sponsor"
   }
