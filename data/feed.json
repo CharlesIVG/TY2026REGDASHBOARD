@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788680798826,
+    "team": "開花",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788669032066,
     "team": "Amuna Gamers-1",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Sfdc Jt3ランナーズ",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787877036403,
-    "team": "Help Alliance Japan A",
-    "course": "quarter",
-    "channel": "general"
   }
 ]
