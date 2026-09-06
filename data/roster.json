@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T12:30:30.716012+09:00",
+  "updated": "2026-09-06T13:00:38.411169+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4788,6 +4788,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-06T12:30:30.716012+09:00"
+    },
+    "sponsor|ms-tokushu butai": {
+      "team": "Ms-Tokushu Butai",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-06T13:00:38.411169+09:00"
     }
   }
 }

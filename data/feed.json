@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788667238411,
+    "team": "Ms-Tokushu Butai",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788665430716,
     "team": "Ms-Strangers In The Loop",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787837435639,
     "team": "Ucch#1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787833833691,
-    "team": "Voxelgroom & Voxelbride",
     "course": "full",
     "channel": "general"
   }
