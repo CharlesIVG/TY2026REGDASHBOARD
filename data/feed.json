@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788695852283,
+    "team": "Sole Mates",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788688839335,
     "team": "明日ディズニーに行くんだぞ",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787884234565,
     "team": "Maple Dubss",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787880644402,
-    "team": "Team ぐるくん",
     "course": "full",
     "channel": "general"
   }

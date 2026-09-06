@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T20:30:30.261465+09:00",
+  "updated": "2026-09-06T20:57:32.283142+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4818,6 +4818,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-06T19:00:39.335350+09:00"
+    },
+    "general|sole mates": {
+      "team": "Sole Mates",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T20:57:32.283142+09:00"
     }
   }
 }
