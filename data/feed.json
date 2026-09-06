@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788656436757,
+    "team": "Schienenersatzverkehr",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788652840807,
     "team": "チームしも",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787826633129,
     "team": "MAN サムギョプサル",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787826633129,
-    "team": "MAN チャプチェ",
     "course": "quarter",
     "channel": "sponsor"
   }

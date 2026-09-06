@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T09:30:30.871943+09:00",
+  "updated": "2026-09-06T10:00:36.757683+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4770,6 +4770,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-06T09:00:40.807219+09:00"
+    },
+    "general|schienenersatzverkehr": {
+      "team": "Schienenersatzverkehr",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T10:00:36.757683+09:00"
     }
   }
 }
