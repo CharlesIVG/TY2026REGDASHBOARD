@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1788701432171,
+    "team": "Mimi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788701432171,
+    "team": "チームn1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788701432171,
+    "team": "チームn2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788701432171,
+    "team": "チームn3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788695852283,
     "team": "Sole Mates",
     "course": "full",
@@ -872,30 +896,6 @@
   {
     "ts": 1787889645560,
     "team": "Aoba 4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787889645560,
-    "team": "Mc登山部a",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787887844425,
-    "team": "Embassy Of Canada/カナダ大使館",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787886045966,
-    "team": "Just Walk Baby!",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787884234565,
-    "team": "Maple Dubss",
     "course": "full",
     "channel": "general"
   }

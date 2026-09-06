@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T22:00:38.911690+09:00",
+  "updated": "2026-09-06T22:30:32.171666+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4824,6 +4824,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-06T20:57:32.283142+09:00"
+    },
+    "general|mimi": {
+      "team": "Mimi",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T22:30:32.171666+09:00"
+    },
+    "general|チームn1": {
+      "team": "チームn1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T22:30:32.171666+09:00"
+    },
+    "general|チームn2": {
+      "team": "チームn2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T22:30:32.171666+09:00"
+    },
+    "general|チームn3": {
+      "team": "チームn3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T22:30:32.171666+09:00"
     }
   }
 }
