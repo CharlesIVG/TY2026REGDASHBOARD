@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788665430716,
+    "team": "Ms-Strangers In The Loop",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788658240501,
     "team": "Bucket Brigade",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1787833833691,
     "team": "Voxelgroom & Voxelbride",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787828452344,
-    "team": "Meduzi",
     "course": "full",
     "channel": "general"
   }

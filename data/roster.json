@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T12:00:39.700809+09:00",
+  "updated": "2026-09-06T12:30:30.716012+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4782,6 +4782,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-06T10:30:40.501518+09:00"
+    },
+    "sponsor|ms-strangers in the loop": {
+      "team": "Ms-Strangers In The Loop",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-06T12:30:30.716012+09:00"
     }
   }
 }
