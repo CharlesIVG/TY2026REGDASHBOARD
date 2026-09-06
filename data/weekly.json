@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-06T23:30:30.618566+09:00",
+  "generated_at": "2026-09-07T00:00:39.864311+09:00",
   "goal": 1100,
   "closes": "2026-09-14",
-  "daysRemaining": 8,
+  "daysRemaining": 7,
   "cumulative": 720,
   "status": "red",
   "reason": "two_weak_weeks",
-  "shortfallPct": 15.1,
-  "targetNow": 848.0,
-  "currentWeek": "W7",
-  "consecutiveWeak": 3,
+  "shortfallPct": 18.1,
+  "targetNow": 879.5,
+  "currentWeek": "W8",
+  "consecutiveWeak": 4,
   "weeks": [
     {
       "n": 0,
@@ -176,7 +176,7 @@
       "pattern2025": 718,
       "baseline": false,
       "started": true,
-      "inProgress": true,
+      "inProgress": false,
       "actualNew": 103,
       "actualCum": 720,
       "proRatedTargetCum": 848.0,
@@ -184,7 +184,7 @@
       "status": "red",
       "weak": true,
       "reason": "two_weak_weeks",
-      "consecutiveWeak": 3
+      "consecutiveWeak": 4
     },
     {
       "n": 8,
@@ -192,19 +192,21 @@
       "start": "2026-09-07",
       "end": "2026-09-14",
       "daysTotal": 8,
-      "daysElapsed": 0,
+      "daysElapsed": 1,
       "targetNew": 252,
       "targetCum": 1100,
       "pattern2025": 1100,
       "baseline": false,
-      "started": false,
-      "inProgress": false,
-      "actualNew": null,
-      "actualCum": null,
-      "proRatedTargetCum": null,
-      "shortfallPct": null,
-      "status": "pending",
-      "weak": false
+      "started": true,
+      "inProgress": true,
+      "actualNew": 0,
+      "actualCum": 720,
+      "proRatedTargetCum": 879.5,
+      "shortfallPct": 18.1,
+      "status": "red",
+      "weak": false,
+      "reason": "two_weak_weeks",
+      "consecutiveWeak": 4
     }
   ]
 }
