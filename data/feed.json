@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788705030618,
+    "team": "- 196",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788705030618,
+    "team": "U Cheese",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788701432171,
     "team": "Mimi",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787889645560,
     "team": "Aoba 2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787889645560,
-    "team": "Aoba 3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787889645560,
-    "team": "Aoba 4",
     "course": "full",
     "channel": "general"
   }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T23:00:36.029031+09:00",
+  "updated": "2026-09-06T23:30:30.618566+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4848,6 +4848,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-06T22:30:32.171666+09:00"
+    },
+    "general|- 196": {
+      "team": "- 196",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T23:30:30.618566+09:00"
+    },
+    "general|u cheese": {
+      "team": "U Cheese",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T23:30:30.618566+09:00"
     }
   }
 }
