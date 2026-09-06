@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T13:00:38.411169+09:00",
+  "updated": "2026-09-06T13:30:32.066752+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4794,6 +4794,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-06T13:00:38.411169+09:00"
+    },
+    "general|amuna gamers-1": {
+      "team": "Amuna Gamers-1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-06T13:30:32.066752+09:00"
+    },
+    "sponsor|ms-imai nyanz": {
+      "team": "Ms-Imai Nyanz",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-06T13:30:32.066752+09:00"
     }
   }
 }
