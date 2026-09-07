@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T13:00:50.785497+09:00",
+  "updated": "2026-09-07T13:30:31.846450+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4938,6 +4938,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T13:00:50.785497+09:00"
+    },
+    "sponsor|servicenow - jls ladies": {
+      "team": "Servicenow - Jls Ladies",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:30:31.846450+09:00"
+    },
+    "sponsor|servicenow-走るnow": {
+      "team": "Servicenow-走るnow",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:30:31.846450+09:00"
     }
   }
 }

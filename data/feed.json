@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788755431846,
+    "team": "Servicenow - Jls Ladies",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788755431846,
+    "team": "Servicenow-走るnow",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788753650785,
     "team": "Servicenow - Neverwalkalone",
     "course": "half",
@@ -886,17 +898,5 @@
     "team": "Philgritt",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787918447604,
-    "team": "アンコンシャス・バイアス",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787913045576,
-    "team": "Hpe-海苔巻きロケット",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
