@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1788751831854,
+    "team": "Servicenow - フルは短し歩けよ乙女",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788751831854,
+    "team": "Servicenow- Team Yasu",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788751831854,
+    "team": "Servicenow-Where Are We Now?",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788751831854,
+    "team": "ほぼ同期が山手線一周してみた",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788750041578,
     "team": "Los Mois",
     "course": "full",
@@ -874,29 +898,5 @@
     "team": "Kozy&Tiger",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787904055699,
-    "team": "Ms Yamanote Crusaders",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787904055699,
-    "team": "Team 本店営業部",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787902234038,
-    "team": "Tanium Eso-1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787898634210,
-    "team": "不撓不屈のヘラジカたち",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T12:00:41.578803+09:00",
+  "updated": "2026-09-07T12:30:31.854631+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4884,6 +4884,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-07T12:00:41.578803+09:00"
+    },
+    "sponsor|servicenow - フルは短し歩けよ乙女": {
+      "team": "Servicenow - フルは短し歩けよ乙女",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T12:30:31.854631+09:00"
+    },
+    "sponsor|servicenow- team yasu": {
+      "team": "Servicenow- Team Yasu",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T12:30:31.854631+09:00"
+    },
+    "sponsor|servicenow-where are we now?": {
+      "team": "Servicenow-Where Are We Now?",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T12:30:31.854631+09:00"
+    },
+    "sponsor|ほぼ同期が山手線一周してみた": {
+      "team": "ほぼ同期が山手線一周してみた",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T12:30:31.854631+09:00"
     }
   }
 }
