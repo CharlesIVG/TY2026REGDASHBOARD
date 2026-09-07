@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788744641415,
+    "team": "てくてくてっく愛",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788744641415,
+    "team": "Ms-The Thankful Four",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788705030618,
     "team": "- 196",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1787895043492,
     "team": "Philips東関東",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787889645560,
-    "team": "Aoba",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787889645560,
-    "team": "Aoba 2",
     "course": "full",
     "channel": "general"
   }

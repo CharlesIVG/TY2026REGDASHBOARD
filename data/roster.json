@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T10:00:37.759460+09:00",
+  "updated": "2026-09-07T10:30:41.415703+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4860,6 +4860,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-06T23:30:30.618566+09:00"
+    },
+    "general|てくてくてっく愛": {
+      "team": "てくてくてっく愛",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T10:30:41.415703+09:00"
+    },
+    "sponsor|ms-the thankful four": {
+      "team": "Ms-The Thankful Four",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T10:30:41.415703+09:00"
     }
   }
 }
