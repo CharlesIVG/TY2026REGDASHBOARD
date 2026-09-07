@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788750041578,
+    "team": "Los Mois",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788748230401,
     "team": "Hpe-Ms1",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1787898634210,
     "team": "不撓不屈のヘラジカたち",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787896845404,
-    "team": "Sfdc Run4beer",
     "course": "half",
     "channel": "sponsor"
   }

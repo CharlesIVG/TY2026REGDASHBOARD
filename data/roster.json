@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:30:30.401620+09:00",
+  "updated": "2026-09-07T12:00:41.578803+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4878,6 +4878,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T11:30:30.401620+09:00"
+    },
+    "general|los mois": {
+      "team": "Los Mois",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T12:00:41.578803+09:00"
     }
   }
 }
