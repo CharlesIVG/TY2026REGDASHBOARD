@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T16:00:39.941012+09:00",
+  "updated": "2026-09-07T16:30:42.556833+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4980,6 +4980,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T16:00:39.941012+09:00"
+    },
+    "general|no name": {
+      "team": "No Name",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T16:30:42.556833+09:00"
     }
   }
 }
