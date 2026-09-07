@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T15:30:32.414616+09:00",
+  "updated": "2026-09-07T16:00:39.941012+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4974,6 +4974,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T15:00:40.649490+09:00"
+    },
+    "sponsor|servicenow - r246 リボーン": {
+      "team": "Servicenow - R246 リボーン",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T16:00:39.941012+09:00"
     }
   }
 }
