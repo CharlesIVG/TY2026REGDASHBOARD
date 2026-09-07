@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788782440925,
+    "team": "Konbini Krawlers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788773442938,
     "team": "Bladewalker 2044",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788024700208,
     "team": "みんなであいこちゃん",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788006643322,
-    "team": "Born To Walk",
     "course": "full",
     "channel": "general"
   }
