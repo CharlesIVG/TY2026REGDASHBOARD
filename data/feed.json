@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788768039507,
+    "team": "Bell Fighters",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788766242556,
     "team": "No Name",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788003033800,
     "team": "Brexa Technology 宇都宮支店#3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787999434447,
-    "team": "早東ウォーカーズ",
     "course": "full",
     "channel": "general"
   }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T16:30:42.556833+09:00",
+  "updated": "2026-09-07T17:00:39.507935+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4986,6 +4986,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-07T16:30:42.556833+09:00"
+    },
+    "general|bell fighters": {
+      "team": "Bell Fighters",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T17:00:39.507935+09:00"
     }
   }
 }
