@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788760840649,
+    "team": "N3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788760840649,
+    "team": "Desi Girls",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788757240352,
     "team": "Ogiakimochigun　With　P",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "エスコート",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1787959841835,
-    "team": "MAN Team 本店営業部",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787959841835,
-    "team": "MAN 不撓不屈のヘラジカたち",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T14:30:32.812179+09:00",
+  "updated": "2026-09-07T15:00:40.649490+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4962,6 +4962,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T14:00:40.352757+09:00"
+    },
+    "general|n3": {
+      "team": "N3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T15:00:40.649490+09:00"
+    },
+    "sponsor|desi girls": {
+      "team": "Desi Girls",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T15:00:40.649490+09:00"
     }
   }
 }
