@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788771641211,
+    "team": "Cirque Du Sore Legs",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788771641211,
+    "team": "Vowey",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788771641211,
+    "team": "チームアクティ部d",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788768039507,
     "team": "Bell Fighters",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1788006643322,
     "team": "Walk And Talk",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788003033800,
-    "team": "Brexa Technology 宇都宮支店#1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788003033800,
-    "team": "Brexa Technology 宇都宮支店#2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788003033800,
-    "team": "Brexa Technology 宇都宮支店#3",
     "course": "full",
     "channel": "general"
   }

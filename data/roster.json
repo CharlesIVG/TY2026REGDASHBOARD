@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T17:30:31.799032+09:00",
+  "updated": "2026-09-07T18:00:41.211741+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4992,6 +4992,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-07T17:00:39.507935+09:00"
+    },
+    "general|cirque du sore legs": {
+      "team": "Cirque Du Sore Legs",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T18:00:41.211741+09:00"
+    },
+    "general|vowey": {
+      "team": "Vowey",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T18:00:41.211741+09:00"
+    },
+    "general|チームアクティ部d": {
+      "team": "チームアクティ部d",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T18:00:41.211741+09:00"
     }
   }
 }
