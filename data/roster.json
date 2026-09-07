@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T13:30:31.846450+09:00",
+  "updated": "2026-09-07T14:00:40.352757+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4950,6 +4950,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T13:30:31.846450+09:00"
+    },
+    "general|ogiakimochigun　with　p": {
+      "team": "Ogiakimochigun　With　P",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-07T14:00:40.352757+09:00"
+    },
+    "sponsor|servicenow - webhunter": {
+      "team": "Servicenow - Webhunter",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T14:00:40.352757+09:00"
     }
   }
 }

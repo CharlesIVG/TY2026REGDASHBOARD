@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788757240352,
+    "team": "Ogiakimochigun　With　P",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788757240352,
+    "team": "Servicenow - Webhunter",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788755431846,
     "team": "Servicenow - Jls Ladies",
     "course": "half",
@@ -886,17 +898,5 @@
     "team": "MAN 不撓不屈のヘラジカたち",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787954451389,
-    "team": "ベイサイドランニング",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787923834590,
-    "team": "Philgritt",
-    "course": "full",
-    "channel": "general"
   }
 ]
