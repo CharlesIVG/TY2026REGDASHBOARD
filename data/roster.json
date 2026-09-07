@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T12:30:31.854631+09:00",
+  "updated": "2026-09-07T13:00:50.785497+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -4908,6 +4908,36 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-07T12:30:31.854631+09:00"
+    },
+    "sponsor|servicenow - neverwalkalone": {
+      "team": "Servicenow - Neverwalkalone",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:00:50.785497+09:00"
+    },
+    "sponsor|servicenow - now on tap": {
+      "team": "Servicenow - Now On Tap",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:00:50.785497+09:00"
+    },
+    "sponsor|servicenow - the 3 amigos": {
+      "team": "Servicenow - The 3 Amigos",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:00:50.785497+09:00"
+    },
+    "sponsor|servicenow-ほぼ同期が山手線一周してみた": {
+      "team": "Servicenow-ほぼ同期が山手線一周してみた",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:00:50.785497+09:00"
+    },
+    "sponsor|servicenow-全速前進ヨーソロー": {
+      "team": "Servicenow-全速前進ヨーソロー",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T13:00:50.785497+09:00"
     }
   }
 }

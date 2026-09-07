@@ -1,5 +1,35 @@
 [
   {
+    "ts": 1788753650785,
+    "team": "Servicenow - Neverwalkalone",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788753650785,
+    "team": "Servicenow - Now On Tap",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788753650785,
+    "team": "Servicenow - The 3 Amigos",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788753650785,
+    "team": "Servicenow-ほぼ同期が山手線一周してみた",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788753650785,
+    "team": "Servicenow-全速前進ヨーソロー",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788751831854,
     "team": "Servicenow - フルは短し歩けよ乙女",
     "course": "full",
@@ -868,35 +898,5 @@
     "team": "Hpe-海苔巻きロケット",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1787909435270,
-    "team": "Hpe-Walkmen",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787907646199,
-    "team": "安藤　麻衣",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1787907646199,
-    "team": "Cap Rmms",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787907646199,
-    "team": "Sfdc ひよこダッシュ",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1787904055699,
-    "team": "Kozy&Tiger",
-    "course": "full",
-    "channel": "general"
   }
 ]
