@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T18:00:41.211741+09:00",
+  "updated": "2026-09-07T18:30:42.938083+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5010,6 +5010,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-07T18:00:41.211741+09:00"
+    },
+    "sponsor|bladewalker 2044": {
+      "team": "Bladewalker 2044",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-07T18:30:42.938083+09:00"
     }
   }
 }
