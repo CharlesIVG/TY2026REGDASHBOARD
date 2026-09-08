@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1788834631916,
+    "team": "Gaijintrot",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788834631916,
+    "team": "Woven By Toyota 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788834631916,
+    "team": "Woven By Toyota 3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788834631916,
+    "team": "Ms-Shiohara's",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788832838730,
     "team": "Earth Walker",
     "course": "full",
@@ -874,29 +898,5 @@
     "team": "トホ上等",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788093043813,
-    "team": "Lakaswacheras",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788093043813,
-    "team": "ひげ部",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788084040125,
-    "team": "桃と愉快な仲間たち",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788076839947,
-    "team": "まだ歩けます",
-    "course": "full",
-    "channel": "general"
   }
 ]

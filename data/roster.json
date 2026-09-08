@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T11:00:38.730365+09:00",
+  "updated": "2026-09-08T11:30:31.916116+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5046,6 +5046,30 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T11:00:38.730365+09:00"
+    },
+    "general|gaijintrot": {
+      "team": "Gaijintrot",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T11:30:31.916116+09:00"
+    },
+    "general|woven by toyota 2": {
+      "team": "Woven By Toyota 2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T11:30:31.916116+09:00"
+    },
+    "general|woven by toyota 3": {
+      "team": "Woven By Toyota 3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T11:30:31.916116+09:00"
+    },
+    "sponsor|ms-shiohara's": {
+      "team": "Ms-Shiohara's",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T11:30:31.916116+09:00"
     }
   }
 }
