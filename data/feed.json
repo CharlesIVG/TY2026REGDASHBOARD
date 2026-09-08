@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788870633996,
+    "team": "Summit Achievers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788867033235,
     "team": "CAP Bladewalker 2044",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788321650139,
     "team": "走らない勇気",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788319843001,
-    "team": "Crwd (Can Really Walk Distances ?)",
     "course": "full",
     "channel": "general"
   }

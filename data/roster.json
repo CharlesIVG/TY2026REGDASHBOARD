@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T21:00:53.694224+09:00",
+  "updated": "2026-09-08T21:30:33.996227+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5262,6 +5262,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|summit achievers": {
+      "team": "Summit Achievers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T21:30:33.996227+09:00"
     }
   }
 }
