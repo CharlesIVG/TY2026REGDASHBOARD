@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788847240853,
+    "team": "Ascent Global Partners 株式会社",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788847240853,
+    "team": "Fuyui",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788847240853,
+    "team": "Philiphoes",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788845431020,
     "team": "Big Jim",
     "course": "quarter",
@@ -880,23 +898,5 @@
     "team": "MAN Rbaoki_2026",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788179433963,
-    "team": "MAN トホ上等",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788177643353,
-    "team": "Rbaoki_2026",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788172241946,
-    "team": "Kpmgアドバイザリーホールディングスチーム２",
-    "course": "full",
-    "channel": "general"
   }
 ]

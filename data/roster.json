@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T14:46:16.260204+09:00",
+  "updated": "2026-09-08T15:00:40.853743+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5124,6 +5124,24 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T14:30:31.020865+09:00"
+    },
+    "general|ascent global partners 株式会社": {
+      "team": "Ascent Global Partners 株式会社",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T15:00:40.853743+09:00"
+    },
+    "general|fuyui": {
+      "team": "Fuyui",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T15:00:40.853743+09:00"
+    },
+    "general|philiphoes": {
+      "team": "Philiphoes",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T15:00:40.853743+09:00"
     }
   }
 }
