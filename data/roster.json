@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T01:00:44.307988+09:00",
+  "updated": "2026-09-09T01:30:35.098249+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5274,6 +5274,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-08T22:30:36.592200+09:00"
+    },
+    "sponsor|servicenow - flow forward": {
+      "team": "Servicenow - Flow Forward",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-09T01:30:35.098249+09:00"
     }
   }
 }
