@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T14:00:39.516566+09:00",
+  "updated": "2026-09-08T14:30:31.020865+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5106,6 +5106,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-08T14:00:39.516566+09:00"
+    },
+    "sponsor|big jim": {
+      "team": "Big Jim",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T14:30:31.020865+09:00"
+    },
+    "sponsor|ms-ndy": {
+      "team": "Ms-Ndy",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T14:30:31.020865+09:00"
+    },
+    "sponsor|walk&beer": {
+      "team": "Walk&Beer",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T14:30:31.020865+09:00"
     }
   }
 }

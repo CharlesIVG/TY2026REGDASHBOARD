@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788845431020,
+    "team": "Big Jim",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788845431020,
+    "team": "Ms-Ndy",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788845431020,
+    "team": "Walk&Beer",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788843639516,
     "team": "Yama There Yet?",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1788172241946,
     "team": "Kpmgアドバイザリーホールディングスチーム２",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788170444442,
-    "team": "Return_Of_Masaturn",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788154232272,
-    "team": "Bbb",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788147032828,
-    "team": "犬猿の仲良し",
     "course": "full",
     "channel": "general"
   }
