@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788850852042,
+    "team": "御雑煮軍団 Team 1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788847240853,
     "team": "Ascent Global Partners 株式会社",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "The Troubleshooters Of Pts",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788179433963,
-    "team": "MAN Rbaoki_2026",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]

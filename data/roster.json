@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T15:30:31.972731+09:00",
+  "updated": "2026-09-08T16:00:52.042328+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5142,6 +5142,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-08T15:00:40.853743+09:00"
+    },
+    "general|御雑煮軍団 team 1": {
+      "team": "御雑煮軍団 Team 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T16:00:52.042328+09:00"
     }
   }
 }
