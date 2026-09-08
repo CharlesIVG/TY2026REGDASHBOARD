@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788840038807,
+    "team": "Comms & Cxpress",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788838231089,
     "team": "Ms-Chafing Alpha",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1788139659035,
     "team": "Kasumi　A",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788139659035,
-    "team": "Kasumi B",
     "course": "full",
     "channel": "general"
   }
