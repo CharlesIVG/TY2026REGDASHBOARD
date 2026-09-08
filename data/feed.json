@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788841867393,
+    "team": "Coworker",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788841867393,
+    "team": "Sd_Kokyojog部",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788840038807,
     "team": "Comms & Cxpress",
     "course": "quarter",
@@ -884,18 +896,6 @@
   {
     "ts": 1788145241686,
     "team": "Csats-Tam",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788139659035,
-    "team": "Csats-Tse",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788139659035,
-    "team": "Kasumi　A",
     "course": "full",
     "channel": "general"
   }

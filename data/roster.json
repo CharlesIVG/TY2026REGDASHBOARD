@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T13:00:38.807530+09:00",
+  "updated": "2026-09-08T13:31:07.393041+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5088,6 +5088,18 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T13:00:38.807530+09:00"
+    },
+    "sponsor|coworker": {
+      "team": "Coworker",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T13:31:07.393041+09:00"
+    },
+    "sponsor|sd_kokyojog部": {
+      "team": "Sd_Kokyojog部",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T13:31:07.393041+09:00"
     }
   }
 }
