@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788843639516,
+    "team": "Yama There Yet?",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788841867393,
     "team": "Coworker",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788147032828,
     "team": "犬猿の仲良し",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788145241686,
-    "team": "Csats-Tam",
     "course": "full",
     "channel": "general"
   }

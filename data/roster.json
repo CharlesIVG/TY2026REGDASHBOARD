@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T13:31:07.393041+09:00",
+  "updated": "2026-09-08T14:00:39.516566+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5100,6 +5100,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T13:31:07.393041+09:00"
+    },
+    "general|yama there yet?": {
+      "team": "Yama There Yet?",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T14:00:39.516566+09:00"
     }
   }
 }
