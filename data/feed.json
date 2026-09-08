@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788856241742,
+    "team": "Kasumiおさんぽ部a",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788856241742,
+    "team": "Kasumiおさんぽ部b",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788856241742,
+    "team": "Kasumiおさんぽ部c",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788850852042,
     "team": "御雑煮軍団 Team 1",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1788186633051,
     "team": "チームfte",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788184844199,
-    "team": "Tokyo Trekkers",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788183034875,
-    "team": "かきまる2026",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788179433963,
-    "team": "The Troubleshooters Of Pts",
     "course": "full",
     "channel": "general"
   }

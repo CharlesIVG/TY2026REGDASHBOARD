@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T17:00:51.410789+09:00",
+  "updated": "2026-09-08T17:30:41.742230+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5148,6 +5148,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-08T16:00:52.042328+09:00"
+    },
+    "general|kasumiおさんぽ部a": {
+      "team": "Kasumiおさんぽ部a",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T17:30:41.742230+09:00"
+    },
+    "general|kasumiおさんぽ部b": {
+      "team": "Kasumiおさんぽ部b",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T17:30:41.742230+09:00"
+    },
+    "general|kasumiおさんぽ部c": {
+      "team": "Kasumiおさんぽ部c",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T17:30:41.742230+09:00"
     }
   }
 }
