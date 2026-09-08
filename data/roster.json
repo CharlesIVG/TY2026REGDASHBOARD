@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T20:00:40.100454+09:00",
+  "updated": "2026-09-08T20:30:33.235867+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5208,6 +5208,60 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-08T19:30:43.772762+09:00"
+    },
+    "sponsor|cap bladewalker 2044": {
+      "team": "CAP Bladewalker 2044",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|cap desi girls": {
+      "team": "CAP Desi Girls",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|cap 限界のその先": {
+      "team": "CAP 限界のその先",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|laurus big jim": {
+      "team": "LAURUS Big Jim",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|man comms & cxpress": {
+      "team": "MAN Comms & Cxpress",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|man mlj_payrollg": {
+      "team": "MAN Mlj_Payrollg",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|man walk&beer": {
+      "team": "MAN Walk&Beer",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|sfdc coworker": {
+      "team": "SFDC Coworker",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
+    },
+    "sponsor|sfdc kokyojog部": {
+      "team": "SFDC Kokyojog部",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T20:30:33.235867+09:00"
     }
   }
 }

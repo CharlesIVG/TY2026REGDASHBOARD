@@ -1,5 +1,59 @@
 [
   {
+    "ts": 1788867033235,
+    "team": "CAP Bladewalker 2044",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "CAP Desi Girls",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "CAP 限界のその先",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "LAURUS Big Jim",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "MAN Comms & Cxpress",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "MAN Mlj_Payrollg",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "MAN Walk&Beer",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "SFDC Coworker",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788867033235,
+    "team": "SFDC Kokyojog部",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788863443772,
     "team": "Kanya",
     "course": "full",
@@ -842,60 +896,6 @@
   {
     "ts": 1788319843001,
     "team": "Crwd (Can Really Walk Distances ?)",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788318041236,
-    "team": "Mainland Japan Army",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788310840911,
-    "team": "Kozy-Tiger",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788309035607,
-    "team": "Ydad",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1788305432594,
-    "team": "サキタク&カン",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788271245671,
-    "team": "Yamanote Ya-Yas",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788271245671,
-    "team": "雨が降ったらつくねとハイボール！",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788264045903,
-    "team": "Cocorico",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788256841744,
-    "team": "Sfdc 半周しながらご飯部",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788255032087,
-    "team": "Walkers Beyond Borders",
     "course": "full",
     "channel": "general"
   }
