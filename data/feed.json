@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1788832838730,
+    "team": "Earth Walker",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788832838730,
+    "team": "Woven By Toyota 1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788832838730,
+    "team": "Mlj_Payrollg",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788827429845,
     "team": "限界のその先",
     "course": "quarter",
@@ -878,24 +896,6 @@
   {
     "ts": 1788076839947,
     "team": "まだ歩けます",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788066041849,
-    "team": "Muskies",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788066041849,
-    "team": "ドゥンドゥンやろうじゃねえか",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788053432895,
-    "team": "Tomorrow's My Birthday",
     "course": "full",
     "channel": "general"
   }

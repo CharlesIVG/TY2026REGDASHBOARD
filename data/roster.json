@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T10:30:32.080481+09:00",
+  "updated": "2026-09-08T11:00:38.730365+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5028,6 +5028,24 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T09:30:29.845840+09:00"
+    },
+    "general|earth walker": {
+      "team": "Earth Walker",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T11:00:38.730365+09:00"
+    },
+    "general|woven by toyota 1": {
+      "team": "Woven By Toyota 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T11:00:38.730365+09:00"
+    },
+    "sponsor|mlj_payrollg": {
+      "team": "Mlj_Payrollg",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T11:00:38.730365+09:00"
     }
   }
 }
