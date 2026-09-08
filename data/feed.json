@@ -1,5 +1,35 @@
 [
   {
+    "ts": 1788861641367,
+    "team": "\"コーニューセーズ  \"",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788861641367,
+    "team": "Carnivore",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788861641367,
+    "team": "Tsumamo",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788861641367,
+    "team": "우리는 할 수 있어、출발！",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788861641367,
+    "team": "愉快な三人組",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788858051063,
     "team": "Servicenow-Muscle Now",
     "course": "half",
@@ -866,36 +896,6 @@
   {
     "ts": 1788249640006,
     "team": "Tanium Eso-2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788247832983,
-    "team": "トルコアイス",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788242441653,
-    "team": "Ydaj",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1788228042442,
-    "team": "Fi&Cc",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788226233191,
-    "team": "Apollo",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788186633051,
-    "team": "Team Ams",
     "course": "full",
     "channel": "general"
   }

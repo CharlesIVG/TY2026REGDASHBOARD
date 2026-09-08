@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T18:30:43.856627+09:00",
+  "updated": "2026-09-08T19:00:41.367860+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5172,6 +5172,36 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T18:00:51.063118+09:00"
+    },
+    "general|\"コーニューセーズ  \"": {
+      "team": "\"コーニューセーズ  \"",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T19:00:41.367860+09:00"
+    },
+    "general|carnivore": {
+      "team": "Carnivore",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T19:00:41.367860+09:00"
+    },
+    "general|tsumamo": {
+      "team": "Tsumamo",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T19:00:41.367860+09:00"
+    },
+    "general|우리는 할 수 있어、출발！": {
+      "team": "우리는 할 수 있어、출발！",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T19:00:41.367860+09:00"
+    },
+    "general|愉快な三人組": {
+      "team": "愉快な三人組",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-08T19:00:41.367860+09:00"
     }
   }
 }
