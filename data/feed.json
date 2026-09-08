@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788827429845,
+    "team": "限界のその先",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788782440925,
     "team": "Konbini Krawlers",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788053432895,
     "team": "Tomorrow's My Birthday",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788024700208,
-    "team": "みんなであいこちゃん",
     "course": "full",
     "channel": "general"
   }
