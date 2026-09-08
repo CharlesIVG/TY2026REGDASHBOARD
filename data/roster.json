@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T11:30:31.916116+09:00",
+  "updated": "2026-09-08T12:00:43.330332+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5070,6 +5070,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T11:30:31.916116+09:00"
+    },
+    "sponsor|manulife momentum": {
+      "team": "Manulife Momentum",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T12:00:43.330332+09:00"
     }
   }
 }

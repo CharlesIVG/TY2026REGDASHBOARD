@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788836443330,
+    "team": "Manulife Momentum",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788834631916,
     "team": "Gaijintrot",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Kasumi C",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788136233258,
-    "team": "トホ上等",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
