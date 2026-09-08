@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T12:00:43.330332+09:00",
+  "updated": "2026-09-08T12:30:31.089775+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5076,6 +5076,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-08T12:00:43.330332+09:00"
+    },
+    "sponsor|ms-chafing alpha": {
+      "team": "Ms-Chafing Alpha",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-08T12:30:31.089775+09:00"
     }
   }
 }
