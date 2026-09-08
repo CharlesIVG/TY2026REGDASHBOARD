@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788858051063,
+    "team": "Servicenow-Muscle Now",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788856241742,
     "team": "Kasumiおさんぽ部a",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788186633051,
     "team": "Team Ams",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788186633051,
-    "team": "チームfte",
     "course": "full",
     "channel": "general"
   }
