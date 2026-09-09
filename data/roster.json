@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T20:00:43.124486+09:00",
+  "updated": "2026-09-09T20:30:33.219564+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5352,6 +5352,18 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-09T19:30:33.441809+09:00"
+    },
+    "general|yama-muri, but go! a": {
+      "team": "Yama-Muri, But Go! A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-09T20:30:33.219564+09:00"
+    },
+    "general|yama-muri, but go! b": {
+      "team": "Yama-Muri, But Go! B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-09T20:30:33.219564+09:00"
     }
   }
 }

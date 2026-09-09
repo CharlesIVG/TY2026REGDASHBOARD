@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788953433219,
+    "team": "Yama-Muri, But Go! A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788953433219,
+    "team": "Yama-Muri, But Go! B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788949833441,
     "team": "Yama Elite2026",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788400840824,
     "team": "山脇酸素b",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788399042466,
-    "team": "Chacha-Maru",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788350441799,
-    "team": "Arc",
     "course": "full",
     "channel": "general"
   }
