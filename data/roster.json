@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T15:30:42.364425+09:00",
+  "updated": "2026-09-09T16:00:53.599307+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5328,6 +5328,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-09T15:00:38.374005+09:00"
+    },
+    "sponsor|th高尾山": {
+      "team": "Th高尾山",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-09T16:00:53.599307+09:00"
     }
   }
 }
