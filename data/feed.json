@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788994841113,
+    "team": "Two Backs",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788991241580,
     "team": "Fmm",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788422440337,
     "team": "茶々",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788418841647,
-    "team": "Tb1",
     "course": "full",
     "channel": "general"
   }
