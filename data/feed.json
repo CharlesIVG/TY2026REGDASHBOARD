@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788949833441,
+    "team": "Yama Elite2026",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788939031511,
     "team": "Manor Lords",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788350441799,
     "team": "Arc",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788348634926,
-    "team": "Pagegirls",
     "course": "full",
     "channel": "general"
   }

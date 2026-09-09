@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T19:00:41.978458+09:00",
+  "updated": "2026-09-09T19:30:33.441809+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5346,6 +5346,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-09T16:30:31.511843+09:00"
+    },
+    "sponsor|yama elite2026": {
+      "team": "Yama Elite2026",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-09T19:30:33.441809+09:00"
     }
   }
 }
