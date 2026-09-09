@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788957035130,
+    "team": "Ms-Windbreakers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788955243910,
     "team": "Manu Tokyo 1’St",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1788409834383,
     "team": "Itk Zen",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788400840824,
-    "team": "山脇酸素a",
     "course": "full",
     "channel": "general"
   }
