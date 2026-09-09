@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788915640085,
+    "team": "Indy Run Club",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788885035098,
     "team": "Servicenow - Flow Forward",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1788325250377,
     "team": "Sfdcもぎもぎ探検隊",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788325250377,
-    "team": "もりもり探検隊",
     "course": "half",
     "channel": "sponsor"
   }
