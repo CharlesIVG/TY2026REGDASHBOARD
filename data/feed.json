@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788923203942,
+    "team": "Sfdc Es 2",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788922841346,
     "team": "帰りは電車で。",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Wellora",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788325250377,
-    "team": "Morgan Stanley",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
