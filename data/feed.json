@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788924632618,
+    "team": "Nomushikanai",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788923203942,
     "team": "Sfdc Es 2",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788325250377,
     "team": "Ecoh Yamathon 2026",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788325250377,
-    "team": "Wellora",
     "course": "full",
     "channel": "general"
   }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T12:06:43.942620+09:00",
+  "updated": "2026-09-09T12:30:32.618471+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5304,6 +5304,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-09T12:06:43.942620+09:00"
+    },
+    "sponsor|nomushikanai": {
+      "team": "Nomushikanai",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-09T12:30:32.618471+09:00"
     }
   }
 }
