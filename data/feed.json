@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788922841346,
+    "team": "帰りは電車で。",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788921033621,
     "team": "Sfdc Es 1",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1788325250377,
     "team": "Morgan Stanley",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788325250377,
-    "team": "Sfdc りんりん探検隊",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
