@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T08:00:41.113197+09:00",
+  "updated": "2026-09-10T08:30:34.498468+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5412,6 +5412,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-10T08:00:41.113197+09:00"
+    },
+    "general|sacred heart cwg yokosuka": {
+      "team": "Sacred Heart Cwg Yokosuka",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-10T08:30:34.498468+09:00"
     }
   }
 }
