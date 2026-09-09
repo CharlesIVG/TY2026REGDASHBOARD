@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788930050913,
+    "team": "Hpe-Shakaas",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788924632618,
     "team": "Nomushikanai",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "Sfdc もりもり探検隊",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788325250377,
-    "team": "Ecoh Yamathon 2026",
-    "course": "full",
-    "channel": "general"
   }
 ]
