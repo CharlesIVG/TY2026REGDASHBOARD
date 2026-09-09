@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T23:00:52.358667+09:00",
+  "updated": "2026-09-09T23:30:46.097328+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5382,6 +5382,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-09T23:00:52.358667+09:00"
+    },
+    "general|42k and impulsive decisions": {
+      "team": "42K And Impulsive Decisions",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-09T23:30:46.097328+09:00"
+    },
+    "general|tokyo 2020 ☆ twinkle": {
+      "team": "Tokyo 2020 ☆ Twinkle",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-09T23:30:46.097328+09:00"
     }
   }
 }

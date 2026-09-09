@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788964246097,
+    "team": "42K And Impulsive Decisions",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788964246097,
+    "team": "Tokyo 2020 ☆ Twinkle",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788962452358,
     "team": "Tokyo 2020 ☆ Sparkle",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788409834383,
     "team": "Itk Balansu",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788409834383,
-    "team": "Itk Chillippines",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788409834383,
-    "team": "Itk Ikuzo!",
     "course": "full",
     "channel": "general"
   }
