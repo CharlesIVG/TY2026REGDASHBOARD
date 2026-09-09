@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788962452358,
+    "team": "Tokyo 2020 ☆ Sparkle",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788957035130,
     "team": "Ms-Windbreakers",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1788409834383,
     "team": "Itk Ikuzo!",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788409834383,
-    "team": "Itk Zen",
     "course": "full",
     "channel": "general"
   }

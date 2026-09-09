@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T22:30:35.599861+09:00",
+  "updated": "2026-09-09T23:00:52.358667+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5376,6 +5376,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-09T21:30:35.130515+09:00"
+    },
+    "general|tokyo 2020 ☆ sparkle": {
+      "team": "Tokyo 2020 ☆ Sparkle",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-09T23:00:52.358667+09:00"
     }
   }
 }
