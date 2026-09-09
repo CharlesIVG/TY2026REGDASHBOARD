@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T00:30:33.853703+09:00",
+  "updated": "2026-09-10T01:00:44.631480+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5394,6 +5394,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-09T23:30:46.097328+09:00"
+    },
+    "sponsor|jenny and her cheerful teammates": {
+      "team": "Jenny And Her Cheerful Teammates",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-10T01:00:44.631480+09:00"
     }
   }
 }
