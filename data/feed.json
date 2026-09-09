@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788933638374,
+    "team": "Ms-Zeal",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1788933638374,
+    "team": "The Murakamis",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788930050913,
     "team": "Hpe-Shakaas",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1788341431933,
     "team": "20’S Misogi",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788336042765,
-    "team": "Abb K.K.",
-    "course": "quarter",
-    "channel": "general"
-  },
-  {
-    "ts": 1788327030739,
-    "team": "Sfdc もりもり探検隊",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
