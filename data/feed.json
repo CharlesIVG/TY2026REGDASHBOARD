@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1788939031511,
+    "team": "Manor Lords",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1788939031511,
+    "team": "Man_Opera 30-1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788937253599,
     "team": "Th高尾山",
     "course": "half",
@@ -884,18 +896,6 @@
   {
     "ts": 1788348634926,
     "team": "Pagegirls",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788348634926,
-    "team": "Wine Blonde",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788343242118,
-    "team": "気持ちは先頭です",
     "course": "full",
     "channel": "general"
   }

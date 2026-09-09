@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T16:00:53.599307+09:00",
+  "updated": "2026-09-09T16:30:31.511843+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5334,6 +5334,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-09T16:00:53.599307+09:00"
+    },
+    "general|manor lords": {
+      "team": "Manor Lords",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-09T16:30:31.511843+09:00"
+    },
+    "sponsor|man_opera 30-1": {
+      "team": "Man_Opera 30-1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-09T16:30:31.511843+09:00"
     }
   }
 }
