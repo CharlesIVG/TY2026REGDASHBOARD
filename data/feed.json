@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1788991241580,
+    "team": "Fmm",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1788969644631,
     "team": "Jenny And Her Cheerful Teammates",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788418841647,
     "team": "Tb1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788418841647,
-    "team": "Tb2",
     "course": "full",
     "channel": "general"
   }
