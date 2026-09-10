@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T23:30:36.036877+09:00",
+  "updated": "2026-09-11T00:00:46.903809+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5544,6 +5544,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-10T23:30:36.036877+09:00"
+    },
+    "general|nadia": {
+      "team": "Nadia",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T00:00:46.903809+09:00"
+    },
+    "general|国連": {
+      "team": "国連",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T00:00:46.903809+09:00"
     }
   }
 }

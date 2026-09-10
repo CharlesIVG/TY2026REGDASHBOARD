@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789052446903,
+    "team": "Nadia",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789052446903,
+    "team": "国連",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789050636036,
     "team": "Fight Club",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788507044357,
     "team": "Hpe-新卒3年目",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788507044357,
-    "team": "Jpm Tokyo Mmky",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788505241446,
-    "team": "Hpe-Teamこにたん",
     "course": "half",
     "channel": "sponsor"
   }
