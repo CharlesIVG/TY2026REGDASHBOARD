@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789021832073,
+    "team": "Fourever",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789021832073,
+    "team": "Hpe-As2withh",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789020037219,
     "team": "Hpe-Ms2",
     "course": "half",
@@ -886,17 +898,5 @@
     "team": "チームアクティ部c",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788489031188,
-    "team": "Hpe-Gts4",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788487238924,
-    "team": "Tada Aruku Man",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
