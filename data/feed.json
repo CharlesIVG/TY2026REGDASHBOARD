@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789009241143,
+    "team": "Cheeta's",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789002046180,
     "team": "Hp山楽俱楽部",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788440454341,
     "team": "Natsu",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788435037429,
-    "team": "Team Ponzu",
     "course": "full",
     "channel": "general"
   }

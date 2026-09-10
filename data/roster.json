@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T11:30:30.479675+09:00",
+  "updated": "2026-09-10T12:00:41.143016+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5430,6 +5430,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-10T10:00:46.180834+09:00"
+    },
+    "sponsor|cheeta's": {
+      "team": "Cheeta's",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-10T12:00:41.143016+09:00"
     }
   }
 }
