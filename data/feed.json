@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789020037219,
+    "team": "Hpe-Ms2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789018232847,
     "team": "イケメンタイコ",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Tada Aruku Man",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788485431563,
-    "team": "チームアクティ部a",
-    "course": "full",
-    "channel": "general"
   }
 ]
