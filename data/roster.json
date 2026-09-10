@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T23:07:50.094713+09:00",
+  "updated": "2026-09-10T23:30:36.036877+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5538,6 +5538,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-10T21:00:43.387007+09:00"
+    },
+    "general|fight club": {
+      "team": "Fight Club",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-10T23:30:36.036877+09:00"
     }
   }
 }

@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789050636036,
+    "team": "Fight Club",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789041643387,
     "team": "Cap Team 8 Yama Elite 2026",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788505241446,
     "team": "Hpe-Teamこにたん",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788501649799,
-    "team": "HPE 雨が降ったらつくねとハイボール！",
     "course": "half",
     "channel": "sponsor"
   }
