@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789029033186,
+    "team": "L Team",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789027238968,
     "team": "Jct 1.75",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788499816010,
     "team": "The Real Jct",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788498039954,
-    "team": "ハーフ",
     "course": "full",
     "channel": "general"
   }
