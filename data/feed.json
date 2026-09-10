@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789081242855,
+    "team": "エクストリーム散歩部",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789079431978,
     "team": "Big Step",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1788510632450,
     "team": "Ms-Tonakai",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788508840741,
-    "team": "Servicenow - ヒオッキー4/炎の友情（仮）",
-    "course": "full",
     "channel": "sponsor"
   }
 ]
