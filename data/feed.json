@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789018232847,
+    "team": "イケメンタイコ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789018232847,
+    "team": "カエリタイヤキ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789011048252,
     "team": "Opera 30-2",
     "course": "half",
@@ -884,18 +896,6 @@
   {
     "ts": 1788485431563,
     "team": "チームアクティ部a",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788476312488,
-    "team": "アイティーアイ（株）関東",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788445852479,
-    "team": "Yamanote Swing",
     "course": "full",
     "channel": "general"
   }
