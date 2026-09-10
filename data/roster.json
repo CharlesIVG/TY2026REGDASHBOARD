@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T15:30:32.073437+09:00",
+  "updated": "2026-09-10T16:00:38.091302+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5472,6 +5472,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-10T15:30:32.073437+09:00"
+    },
+    "general|urban grit": {
+      "team": "Urban Grit",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-10T16:00:38.091302+09:00"
+    },
+    "sponsor|hpe-cheers": {
+      "team": "Hpe-Cheers",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-10T16:00:38.091302+09:00"
     }
   }
 }

@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789023638091,
+    "team": "Urban Grit",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789023638091,
+    "team": "Hpe-Cheers",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789021832073,
     "team": "Fourever",
     "course": "quarter",
@@ -884,18 +896,6 @@
   {
     "ts": 1788496230914,
     "team": "ひがかんhalf-2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788494440713,
-    "team": "Hpe-Gts2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788492632107,
-    "team": "チームアクティ部c",
     "course": "full",
     "channel": "general"
   }
