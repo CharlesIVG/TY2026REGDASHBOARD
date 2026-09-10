@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789002046180,
+    "team": "Hp山楽俱楽部",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789002046180,
+    "team": "チームえのっち",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1788996634498,
     "team": "Sacred Heart Cwg Yokosuka",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788435037429,
     "team": "Team Ponzu",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788427844523,
-    "team": "給水所は居酒屋",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788426052516,
-    "team": "Modis Smiles",
     "course": "full",
     "channel": "general"
   }
