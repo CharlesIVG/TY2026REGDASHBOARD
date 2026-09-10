@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T16:30:32.094855+09:00",
+  "updated": "2026-09-10T17:00:38.968019+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5484,6 +5484,18 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-10T16:00:38.091302+09:00"
+    },
+    "general|jct 1.75": {
+      "team": "Jct 1.75",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-10T17:00:38.968019+09:00"
+    },
+    "sponsor|miminpu": {
+      "team": "Miminpu",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-10T17:00:38.968019+09:00"
     }
   }
 }
