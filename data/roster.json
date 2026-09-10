@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T12:00:41.143016+09:00",
+  "updated": "2026-09-10T12:30:48.252593+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5436,6 +5436,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-10T12:00:41.143016+09:00"
+    },
+    "sponsor|opera 30-2": {
+      "team": "Opera 30-2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-10T12:30:48.252593+09:00"
     }
   }
 }

@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789011048252,
+    "team": "Opera 30-2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789009241143,
     "team": "Cheeta's",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788445852479,
     "team": "Yamanote Swing",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788440454341,
-    "team": "Natsu",
     "course": "full",
     "channel": "general"
   }
