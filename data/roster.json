@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T20:30:31.703531+09:00",
+  "updated": "2026-09-10T21:00:43.387007+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5532,6 +5532,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-10T20:00:41.716227+09:00"
+    },
+    "sponsor|cap team 8 yama elite 2026": {
+      "team": "Cap Team 8 Yama Elite 2026",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-10T21:00:43.387007+09:00"
     }
   }
 }

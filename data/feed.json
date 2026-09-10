@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789041643387,
+    "team": "Cap Team 8 Yama Elite 2026",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789038041716,
     "team": "O5 6E3 Stasa",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788501649799,
     "team": "HPE 雨が降ったらつくねとハイボール！",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788501649799,
-    "team": "Hpe-Nomuthon2026",
     "course": "half",
     "channel": "sponsor"
   }
