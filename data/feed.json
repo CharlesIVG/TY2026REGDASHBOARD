@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789122631704,
+    "team": "Gazi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789122631704,
+    "team": "やまのてテクテクめそこログ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789120843262,
     "team": "This Is Peak",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788766242556,
     "team": "No Name",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788764439941,
-    "team": "Servicenow - R246 リボーン",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788760840649,
-    "team": "N3",
     "course": "full",
     "channel": "general"
   }
