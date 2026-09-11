@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T18:00:40.189824+09:00",
+  "updated": "2026-09-11T18:30:33.019692+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5790,6 +5790,48 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T18:00:40.189824+09:00"
+    },
+    "general|team mirai": {
+      "team": "Team Mirai",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "sponsor|fpt 1": {
+      "team": "Fpt 1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "sponsor|fpt 2": {
+      "team": "Fpt 2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "sponsor|fpt 3": {
+      "team": "Fpt 3",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "sponsor|fpt 4": {
+      "team": "Fpt 4",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "sponsor|man カシスを求めて三千里": {
+      "team": "Man カシスを求めて三千里",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "sponsor|team 9": {
+      "team": "Team 9",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T18:30:33.019692+09:00"
     }
   }
 }

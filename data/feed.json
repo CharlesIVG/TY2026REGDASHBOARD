@@ -1,5 +1,47 @@
 [
   {
+    "ts": 1789119033019,
+    "team": "Team Mirai",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789119033019,
+    "team": "Fpt 1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789119033019,
+    "team": "Fpt 2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789119033019,
+    "team": "Fpt 3",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789119033019,
+    "team": "Fpt 4",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789119033019,
+    "team": "Man カシスを求めて三千里",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789119033019,
+    "team": "Team 9",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789117240189,
     "team": "Run! Hays! Run!",
     "course": "full",
@@ -854,48 +896,6 @@
   {
     "ts": 1788753650785,
     "team": "Servicenow - Neverwalkalone",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788753650785,
-    "team": "Servicenow - Now On Tap",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788753650785,
-    "team": "Servicenow - The 3 Amigos",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788753650785,
-    "team": "Servicenow-ほぼ同期が山手線一周してみた",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788753650785,
-    "team": "Servicenow-全速前進ヨーソロー",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788751831854,
-    "team": "Servicenow - フルは短し歩けよ乙女",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788751831854,
-    "team": "Servicenow- Team Yasu",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788751831854,
-    "team": "Servicenow-Where Are We Now?",
     "course": "half",
     "channel": "sponsor"
   }
