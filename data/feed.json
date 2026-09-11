@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789146042928,
+    "team": "今年こそは誰よりも早く",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789142446718,
     "team": "Yokotathon",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788832838730,
     "team": "Earth Walker",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788832838730,
-    "team": "Woven By Toyota 1",
     "course": "full",
     "channel": "general"
   }
