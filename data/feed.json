@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789123016738,
+    "team": "Aurora Solutions K.K.",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789122631704,
     "team": "Gazi",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788768039507,
     "team": "Bell Fighters",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788766242556,
-    "team": "No Name",
     "course": "full",
     "channel": "general"
   }

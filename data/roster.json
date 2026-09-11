@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T19:30:31.704034+09:00",
+  "updated": "2026-09-11T19:36:56.738076+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5880,6 +5880,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-11T19:30:31.704034+09:00"
+    },
+    "general|aurora solutions k.k.": {
+      "team": "Aurora Solutions K.K.",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T19:36:56.738076+09:00"
     }
   }
 }
