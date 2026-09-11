@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789133469036,
+    "team": "Team Hankokies",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789131653782,
     "team": "パトラン境坂東グループ",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Bladewalker 2044",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788771641211,
-    "team": "Cirque Du Sore Legs",
-    "course": "full",
-    "channel": "general"
   }
 ]
