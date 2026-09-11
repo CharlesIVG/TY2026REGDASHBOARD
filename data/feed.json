@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789106451039,
+    "team": "Running Late",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789105021691,
     "team": "Gka Ashley",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788658240501,
     "team": "Bucket Brigade",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788656436757,
-    "team": "Schienenersatzverkehr",
     "course": "full",
     "channel": "general"
   }
