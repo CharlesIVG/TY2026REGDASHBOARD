@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789162246637,
+    "team": "HPE なかふじせき",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789162246637,
+    "team": "Laurus Team Hankokies",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789146042928,
     "team": "今年こそは誰よりも早く",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788834631916,
     "team": "Woven By Toyota 3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788834631916,
-    "team": "Ms-Shiohara's",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788832838730,
-    "team": "Earth Walker",
     "course": "full",
     "channel": "general"
   }

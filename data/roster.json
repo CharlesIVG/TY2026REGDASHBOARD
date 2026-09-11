@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T06:07:50.182584+09:00",
+  "updated": "2026-09-12T06:30:46.637538+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5940,6 +5940,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-12T02:00:42.928204+09:00"
+    },
+    "sponsor|hpe なかふじせき": {
+      "team": "HPE なかふじせき",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T06:30:46.637538+09:00"
+    },
+    "sponsor|laurus team hankokies": {
+      "team": "Laurus Team Hankokies",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T06:30:46.637538+09:00"
     }
   }
 }
