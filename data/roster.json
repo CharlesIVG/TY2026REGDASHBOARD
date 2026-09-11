@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T17:00:40.813022+09:00",
+  "updated": "2026-09-11T17:31:07.527799+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5766,6 +5766,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T17:00:40.813022+09:00"
+    },
+    "sponsor|jmf iii": {
+      "team": "Jmf Iii",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T17:31:07.527799+09:00"
+    },
+    "sponsor|jmf iv": {
+      "team": "Jmf Iv",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T17:31:07.527799+09:00"
     }
   }
 }

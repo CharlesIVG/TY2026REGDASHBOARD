@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789115467527,
+    "team": "Jmf Iii",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789115467527,
+    "team": "Jmf Iv",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789113640813,
     "team": "Philips東京3",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788750041578,
     "team": "Los Mois",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788748230401,
-    "team": "Hpe-Ms1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788744641415,
-    "team": "てくてくてっく愛",
     "course": "full",
     "channel": "general"
   }
