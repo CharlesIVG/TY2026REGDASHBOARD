@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789131653782,
+    "team": "パトラン境坂東グループ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789126234349,
     "team": "Profound Assassins",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788771641211,
     "team": "Cirque Du Sore Legs",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788771641211,
-    "team": "Vowey",
     "course": "full",
     "channel": "general"
   }
