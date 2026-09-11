@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789097434005,
+    "team": "Philips東京4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789097434005,
+    "team": "Ms-Lulu&Ari",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789095640855,
     "team": "Yamanope",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788561993583,
     "team": "Knights2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788530444213,
-    "team": "Domo Buddies Leverage",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788530444213,
-    "team": "Domo Buddies Tech",
     "course": "full",
     "channel": "general"
   }
