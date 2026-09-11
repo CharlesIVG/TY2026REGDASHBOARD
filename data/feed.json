@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789113640813,
+    "team": "Philips東京3",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789113640813,
+    "team": "チーム森山",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789111831437,
     "team": "Pikachuisyourfriend",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788744641415,
     "team": "てくてくてっく愛",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788744641415,
-    "team": "Ms-The Thankful Four",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788705030618,
-    "team": "- 196",
     "course": "full",
     "channel": "general"
   }

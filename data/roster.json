@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T16:30:31.437167+09:00",
+  "updated": "2026-09-11T17:00:40.813022+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5754,6 +5754,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T16:30:31.437167+09:00"
+    },
+    "general|philips東京3": {
+      "team": "Philips東京3",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T17:00:40.813022+09:00"
+    },
+    "sponsor|チーム森山": {
+      "team": "チーム森山",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T17:00:40.813022+09:00"
     }
   }
 }
