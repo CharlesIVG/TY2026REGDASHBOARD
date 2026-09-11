@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T12:30:34.005289+09:00",
+  "updated": "2026-09-11T13:00:39.667344+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5610,6 +5610,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T12:30:34.005289+09:00"
+    },
+    "general|gkajames": {
+      "team": "Gkajames",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T13:00:39.667344+09:00"
     }
   }
 }

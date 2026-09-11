@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789099239667,
+    "team": "Gkajames",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789097434005,
     "team": "Philips東京4",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "MANチーム関西",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788561993583,
-    "team": "Knights2",
-    "course": "full",
-    "channel": "general"
   }
 ]
