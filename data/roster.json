@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T23:30:44.933481+09:00",
+  "updated": "2026-09-11T23:50:24.163579+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5916,6 +5916,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T23:30:44.933481+09:00"
+    },
+    "general|miles & alcohol": {
+      "team": "Miles & Alcohol",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T23:50:24.163579+09:00"
+    },
+    "general|the crusty ones": {
+      "team": "The Crusty Ones",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T23:50:24.163579+09:00"
     }
   }
 }

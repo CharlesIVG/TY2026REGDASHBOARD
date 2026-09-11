@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789138224163,
+    "team": "Miles & Alcohol",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789138224163,
+    "team": "The Crusty Ones",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789137044933,
     "team": "なかふじせき",
     "course": "half",
@@ -886,17 +898,5 @@
     "team": "Mlj_Payrollg",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788827429845,
-    "team": "限界のその先",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788782440925,
-    "team": "Konbini Krawlers",
-    "course": "full",
-    "channel": "general"
   }
 ]
