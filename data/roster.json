@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T16:00:41.385220+09:00",
+  "updated": "2026-09-11T16:30:31.437167+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5718,6 +5718,42 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T16:00:41.385220+09:00"
+    },
+    "general|pikachuisyourfriend": {
+      "team": "Pikachuisyourfriend",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T16:30:31.437167+09:00"
+    },
+    "sponsor|dark siders": {
+      "team": "Dark Siders",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:30:31.437167+09:00"
+    },
+    "sponsor|hpe-hexa☆gon": {
+      "team": "Hpe-Hexa☆Gon",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:30:31.437167+09:00"
+    },
+    "sponsor|hpe-hexa★gon": {
+      "team": "Hpe-Hexa★Gon",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:30:31.437167+09:00"
+    },
+    "sponsor|wko japan 1": {
+      "team": "Wko Japan 1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:30:31.437167+09:00"
+    },
+    "sponsor|wko japan 2": {
+      "team": "Wko Japan 2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:30:31.437167+09:00"
     }
   }
 }
