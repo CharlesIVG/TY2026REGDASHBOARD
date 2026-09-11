@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789137044933,
+    "team": "なかふじせき",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789133469036,
     "team": "Team Hankokies",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "Konbini Krawlers",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788773442938,
-    "team": "Bladewalker 2044",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
