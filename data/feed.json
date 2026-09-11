@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789124441598,
+    "team": "Laurus Superheroes",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789123016738,
     "team": "Aurora Solutions K.K.",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788771641211,
     "team": "チームアクティ部d",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788768039507,
-    "team": "Bell Fighters",
     "course": "full",
     "channel": "general"
   }

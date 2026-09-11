@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T19:36:56.738076+09:00",
+  "updated": "2026-09-11T20:00:41.598683+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5886,6 +5886,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-11T19:36:56.738076+09:00"
+    },
+    "sponsor|laurus superheroes": {
+      "team": "Laurus Superheroes",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T20:00:41.598683+09:00"
     }
   }
 }
