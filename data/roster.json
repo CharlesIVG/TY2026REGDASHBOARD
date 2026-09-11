@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T10:30:32.444905+09:00",
+  "updated": "2026-09-11T11:00:49.616267+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5574,6 +5574,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-11T09:49:25.435477+09:00"
+    },
+    "general|jamustine!": {
+      "team": "Jamustine!",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T11:00:49.616267+09:00"
+    },
+    "sponsor|hpe-team sachiko": {
+      "team": "Hpe-Team Sachiko",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T11:00:49.616267+09:00"
     }
   }
 }

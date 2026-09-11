@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789092049616,
+    "team": "Jamustine!",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789092049616,
+    "team": "Hpe-Team Sachiko",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789087765435,
     "team": "T-Value",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Achilles Mongolia",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788512441444,
-    "team": "Hpe-Gts3",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788512441444,
-    "team": "チーム関西",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
