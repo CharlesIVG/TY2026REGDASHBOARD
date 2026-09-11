@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789101031022,
+    "team": "Cap Fantastic Four",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789101031022,
+    "team": "Pints For A Purpose",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789099239667,
     "team": "Gkajames",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Sps Japan K.K.",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788575441358,
-    "team": "Puchikis",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788573638120,
-    "team": "MANチーム関西",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
