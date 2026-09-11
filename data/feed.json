@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789104632493,
+    "team": "Fight Club 2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789104632493,
+    "team": "チームfukashi",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789102839059,
     "team": "Gka Jackson",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788651524927,
     "team": "チームアクティ部b",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788647430121,
-    "team": "Active Recovery Gone Wrong",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788607829702,
-    "team": "Happy Little Vegemites",
     "course": "full",
     "channel": "general"
   }
