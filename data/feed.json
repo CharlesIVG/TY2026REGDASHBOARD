@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789126234349,
+    "team": "Profound Assassins",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789124441598,
     "team": "Laurus Superheroes",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1788771641211,
     "team": "Vowey",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788771641211,
-    "team": "チームアクティ部d",
     "course": "full",
     "channel": "general"
   }
