@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789110041385,
+    "team": "Jolamar",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789110041385,
+    "team": "Avengers",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789110041385,
+    "team": "Ma La Team",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789108232027,
     "team": "Philips7",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1788695852283,
     "team": "Sole Mates",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788688839335,
-    "team": "明日ディズニーに行くんだぞ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788680798826,
-    "team": "開花",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788669032066,
-    "team": "Amuna Gamers-1",
     "course": "full",
     "channel": "general"
   }

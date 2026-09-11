@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T15:30:32.027990+09:00",
+  "updated": "2026-09-11T16:00:41.385220+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5700,6 +5700,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T15:30:32.027990+09:00"
+    },
+    "general|jolamar": {
+      "team": "Jolamar",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T16:00:41.385220+09:00"
+    },
+    "sponsor|avengers": {
+      "team": "Avengers",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:00:41.385220+09:00"
+    },
+    "sponsor|ma la team": {
+      "team": "Ma La Team",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T16:00:41.385220+09:00"
     }
   }
 }
