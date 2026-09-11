@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789105021691,
+    "team": "Gka Ashley",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789105021691,
+    "team": "Gka Livio",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789104632493,
     "team": "Fight Club 2",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788656436757,
     "team": "Schienenersatzverkehr",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788652840807,
-    "team": "チームしも",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788651524927,
-    "team": "チームアクティ部b",
     "course": "full",
     "channel": "general"
   }

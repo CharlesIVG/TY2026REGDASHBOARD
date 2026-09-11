@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T14:30:32.493008+09:00",
+  "updated": "2026-09-11T14:37:01.691914+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5658,6 +5658,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T14:30:32.493008+09:00"
+    },
+    "general|gka ashley": {
+      "team": "Gka Ashley",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T14:37:01.691914+09:00"
+    },
+    "general|gka livio": {
+      "team": "Gka Livio",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T14:37:01.691914+09:00"
     }
   }
 }
