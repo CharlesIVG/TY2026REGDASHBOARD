@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T09:30:32.800525+09:00",
+  "updated": "2026-09-11T09:49:25.435477+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5568,6 +5568,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-11T08:00:42.855908+09:00"
+    },
+    "general|t-value": {
+      "team": "T-Value",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T09:49:25.435477+09:00"
     }
   }
 }

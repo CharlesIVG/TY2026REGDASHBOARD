@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789087765435,
+    "team": "T-Value",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789081242855,
     "team": "エクストリーム散歩部",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1788512441444,
     "team": "チーム関西",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788510632450,
-    "team": "Ms-Tonakai",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
