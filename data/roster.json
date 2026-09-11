@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T15:00:51.039681+09:00",
+  "updated": "2026-09-11T15:30:32.027990+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5676,6 +5676,30 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T15:00:51.039681+09:00"
+    },
+    "general|philips7": {
+      "team": "Philips7",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T15:30:32.027990+09:00"
+    },
+    "general|情熱n不！": {
+      "team": "情熱n不！",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T15:30:32.027990+09:00"
+    },
+    "sponsor|sfdc striders renewal team1": {
+      "team": "Sfdc Striders Renewal Team1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T15:30:32.027990+09:00"
+    },
+    "sponsor|sfdc striders renewal team2": {
+      "team": "Sfdc Striders Renewal Team2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T15:30:32.027990+09:00"
     }
   }
 }

@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789108232027,
+    "team": "Philips7",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789108232027,
+    "team": "情熱n不！",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789108232027,
+    "team": "Sfdc Striders Renewal Team1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789108232027,
+    "team": "Sfdc Striders Renewal Team2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789106451039,
     "team": "Running Late",
     "course": "half",
@@ -872,30 +896,6 @@
   {
     "ts": 1788669032066,
     "team": "Amuna Gamers-1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788669032066,
-    "team": "Ms-Imai Nyanz",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788667238411,
-    "team": "Ms-Tokushu Butai",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788665430716,
-    "team": "Ms-Strangers In The Loop",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788658240501,
-    "team": "Bucket Brigade",
     "course": "full",
     "channel": "general"
   }
