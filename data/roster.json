@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T13:30:31.022715+09:00",
+  "updated": "2026-09-11T14:00:39.059342+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5628,6 +5628,24 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T13:30:31.022715+09:00"
+    },
+    "general|gka jackson": {
+      "team": "Gka Jackson",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T14:00:39.059342+09:00"
+    },
+    "sponsor|renewal team1": {
+      "team": "Renewal Team1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T14:00:39.059342+09:00"
+    },
+    "sponsor|yko frontiers": {
+      "team": "Yko Frontiers",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T14:00:39.059342+09:00"
     }
   }
 }

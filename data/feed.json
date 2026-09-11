@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789102839059,
+    "team": "Gka Jackson",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789102839059,
+    "team": "Renewal Team1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789102839059,
+    "team": "Yko Frontiers",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789101031022,
     "team": "Cap Fantastic Four",
     "course": "half",
@@ -878,24 +896,6 @@
   {
     "ts": 1788607829702,
     "team": "Happy Little Vegemites",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788606048823,
-    "team": "Hatsune Stride",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788598839515,
-    "team": "Vegetarians",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788589832414,
-    "team": "Sps Japan K.K.",
     "course": "full",
     "channel": "general"
   }
