@@ -1,5 +1,41 @@
 [
   {
+    "ts": 1789120843262,
+    "team": "This Is Peak",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789120843262,
+    "team": "Fpt 5",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789120843262,
+    "team": "Fpt 6",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789120843262,
+    "team": "Fpt 7",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789120843262,
+    "team": "Fpt 8",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789120843262,
+    "team": "Servicenow-Rgb軍団",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789119033019,
     "team": "Team Mirai",
     "course": "full",
@@ -862,41 +898,5 @@
     "team": "N3",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788760840649,
-    "team": "Desi Girls",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788757240352,
-    "team": "Ogiakimochigun　With　P",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788757240352,
-    "team": "Servicenow - Webhunter",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788755431846,
-    "team": "Servicenow - Jls Ladies",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788755431846,
-    "team": "Servicenow-走るnow",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788753650785,
-    "team": "Servicenow - Neverwalkalone",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

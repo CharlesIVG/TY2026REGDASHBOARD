@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T18:30:33.019692+09:00",
+  "updated": "2026-09-11T19:00:43.262779+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5832,6 +5832,42 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-11T18:30:33.019692+09:00"
+    },
+    "general|this is peak": {
+      "team": "This Is Peak",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-11T19:00:43.262779+09:00"
+    },
+    "sponsor|fpt 5": {
+      "team": "Fpt 5",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T19:00:43.262779+09:00"
+    },
+    "sponsor|fpt 6": {
+      "team": "Fpt 6",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T19:00:43.262779+09:00"
+    },
+    "sponsor|fpt 7": {
+      "team": "Fpt 7",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T19:00:43.262779+09:00"
+    },
+    "sponsor|fpt 8": {
+      "team": "Fpt 8",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T19:00:43.262779+09:00"
+    },
+    "sponsor|servicenow-rgb軍団": {
+      "team": "Servicenow-Rgb軍団",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-11T19:00:43.262779+09:00"
     }
   }
 }
