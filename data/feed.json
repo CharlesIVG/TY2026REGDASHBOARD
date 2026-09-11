@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789117240189,
+    "team": "Run! Hays! Run!",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789117240189,
+    "team": "Gensler-Sky Walkers",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789115467527,
     "team": "Jmf Iii",
     "course": "half",
@@ -886,17 +898,5 @@
     "team": "Servicenow-Where Are We Now?",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788751831854,
-    "team": "ほぼ同期が山手線一周してみた",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788750041578,
-    "team": "Los Mois",
-    "course": "full",
-    "channel": "general"
   }
 ]
