@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789095640855,
+    "team": "Yamanope",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789095640855,
+    "team": "ふせ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789092049616,
     "team": "Jamustine!",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1788530444213,
     "team": "Domo Buddies Tech",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788528633058,
-    "team": "Domo Buddies Hirogaru",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788526846372,
-    "team": "Achilles Mongolia",
     "course": "full",
     "channel": "general"
   }
