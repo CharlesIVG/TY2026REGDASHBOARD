@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789169234476,
+    "team": "(−_−＃)",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789164041540,
     "team": "CAP L Team",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1788867033235,
     "team": "MAN Mlj_Payrollg",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "MAN Walk&Beer",
     "course": "quarter",
     "channel": "sponsor"
   }
