@@ -1,5 +1,173 @@
 [
   {
+    "ts": 1789164041540,
+    "team": "CAP L Team",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "CAP Miminpu",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "CAP Running Late",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "CAP Team 9",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "CAP Yama Elite2026",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "GENSLER Avengers",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "GENSLER Dark Siders",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "GENSLER Ma La Team",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM Jmf Iii",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM Jmf Iv",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM Pints For A Purpose",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM The Murakamis",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM Wko Japan 1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM Wko Japan 2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "JPM レオナさん出産おめでとうメーン",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Cheeta's",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Fourever",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Jenny And Her Cheerful Teammates",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Manu Tokyo 1’St",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Nomushikanai",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Opera 30-2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Summit Achievers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Th高尾山",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN Yko Frontiers",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN チームfukashi",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN チームえのっち",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN チーム森山",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789164041540,
+    "team": "MAN 龍驤 （ロンシャン）",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789162246637,
     "team": "HPE なかふじせき",
     "course": "half",
@@ -730,173 +898,5 @@
     "team": "MAN Walk&Beer",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "SFDC Coworker",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "SFDC Kokyojog部",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788863443772,
-    "team": "Kanya",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788861641367,
-    "team": "\"コーニューセーズ  \"",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788861641367,
-    "team": "Carnivore",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788861641367,
-    "team": "Tsumamo",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788861641367,
-    "team": "우리는 할 수 있어、출발！",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788861641367,
-    "team": "愉快な三人組",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788858051063,
-    "team": "Servicenow-Muscle Now",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788856241742,
-    "team": "Kasumiおさんぽ部a",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788856241742,
-    "team": "Kasumiおさんぽ部b",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788856241742,
-    "team": "Kasumiおさんぽ部c",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788850852042,
-    "team": "御雑煮軍団 Team 1",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788847240853,
-    "team": "Ascent Global Partners 株式会社",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788847240853,
-    "team": "Fuyui",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788847240853,
-    "team": "Philiphoes",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788845431020,
-    "team": "Big Jim",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788845431020,
-    "team": "Ms-Ndy",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788845431020,
-    "team": "Walk&Beer",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788843639516,
-    "team": "Yama There Yet?",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788841867393,
-    "team": "Coworker",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788841867393,
-    "team": "Sd_Kokyojog部",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788840038807,
-    "team": "Comms & Cxpress",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788838231089,
-    "team": "Ms-Chafing Alpha",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788836443330,
-    "team": "Manulife Momentum",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788834631916,
-    "team": "Gaijintrot",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788834631916,
-    "team": "Woven By Toyota 2",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788834631916,
-    "team": "Woven By Toyota 3",
-    "course": "full",
-    "channel": "general"
   }
 ]

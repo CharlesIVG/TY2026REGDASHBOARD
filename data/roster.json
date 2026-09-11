@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T06:30:46.637538+09:00",
+  "updated": "2026-09-12T07:00:41.540270+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -5952,6 +5952,174 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-12T06:30:46.637538+09:00"
+    },
+    "sponsor|cap l team": {
+      "team": "CAP L Team",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|cap miminpu": {
+      "team": "CAP Miminpu",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|cap running late": {
+      "team": "CAP Running Late",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|cap team 9": {
+      "team": "CAP Team 9",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|cap yama elite2026": {
+      "team": "CAP Yama Elite2026",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|gensler avengers": {
+      "team": "GENSLER Avengers",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|gensler dark siders": {
+      "team": "GENSLER Dark Siders",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|gensler ma la team": {
+      "team": "GENSLER Ma La Team",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm jmf iii": {
+      "team": "JPM Jmf Iii",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm jmf iv": {
+      "team": "JPM Jmf Iv",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm pints for a purpose": {
+      "team": "JPM Pints For A Purpose",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm the murakamis": {
+      "team": "JPM The Murakamis",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm wko japan 1": {
+      "team": "JPM Wko Japan 1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm wko japan 2": {
+      "team": "JPM Wko Japan 2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|jpm レオナさん出産おめでとうメーン": {
+      "team": "JPM レオナさん出産おめでとうメーン",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man cheeta's": {
+      "team": "MAN Cheeta's",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man fourever": {
+      "team": "MAN Fourever",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man jenny and her cheerful teammates": {
+      "team": "MAN Jenny And Her Cheerful Teammates",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man manu tokyo 1’st": {
+      "team": "MAN Manu Tokyo 1’St",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man nomushikanai": {
+      "team": "MAN Nomushikanai",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man opera 30-2": {
+      "team": "MAN Opera 30-2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man summit achievers": {
+      "team": "MAN Summit Achievers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man th高尾山": {
+      "team": "MAN Th高尾山",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man yko frontiers": {
+      "team": "MAN Yko Frontiers",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man チームfukashi": {
+      "team": "MAN チームfukashi",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man チームえのっち": {
+      "team": "MAN チームえのっち",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man チーム森山": {
+      "team": "MAN チーム森山",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
+    },
+    "sponsor|man 龍驤 （ロンシャン）": {
+      "team": "MAN 龍驤 （ロンシャン）",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T07:00:41.540270+09:00"
     }
   }
 }
