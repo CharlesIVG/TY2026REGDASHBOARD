@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789214446505,
+    "team": "おさんぽ Girls",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789210844086,
     "team": "Y&S",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788937253599,
     "team": "Th高尾山",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788933638374,
-    "team": "Ms-Zeal",
     "course": "half",
     "channel": "sponsor"
   }
