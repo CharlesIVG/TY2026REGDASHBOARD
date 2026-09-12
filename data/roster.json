@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T11:30:36.801794+09:00",
+  "updated": "2026-09-12T12:00:49.181487+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6144,6 +6144,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-12T11:00:45.693371+09:00"
+    },
+    "general|love & hustle": {
+      "team": "Love & Hustle",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-12T12:00:49.181487+09:00"
     }
   }
 }
