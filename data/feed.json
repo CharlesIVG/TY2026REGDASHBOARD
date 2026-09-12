@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789203643075,
+    "team": "Black Mamba",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789201836767,
     "team": "Registered Runners",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1788933638374,
     "team": "The Murakamis",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788930050913,
-    "team": "Hpe-Shakaas",
-    "course": "full",
     "channel": "sponsor"
   }
 ]

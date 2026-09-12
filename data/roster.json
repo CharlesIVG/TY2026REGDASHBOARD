@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T17:30:36.767405+09:00",
+  "updated": "2026-09-12T18:00:43.075284+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6210,6 +6210,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-12T17:30:36.767405+09:00"
+    },
+    "general|black mamba": {
+      "team": "Black Mamba",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-12T18:00:43.075284+09:00"
     }
   }
 }
