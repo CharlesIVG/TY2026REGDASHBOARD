@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T10:00:54.076793+09:00",
+  "updated": "2026-09-12T10:24:14.036116+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6132,6 +6132,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-12T09:00:47.466397+09:00"
+    },
+    "sponsor|hpe-teamhtm": {
+      "team": "Hpe-Teamhtm",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T10:24:14.036116+09:00"
     }
   }
 }

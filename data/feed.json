@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789176254036,
+    "team": "Hpe-Teamhtm",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789171247466,
     "team": "Team Tagata",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788867033235,
     "team": "LAURUS Big Jim",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "MAN Comms & Cxpress",
     "course": "quarter",
     "channel": "sponsor"
   }
