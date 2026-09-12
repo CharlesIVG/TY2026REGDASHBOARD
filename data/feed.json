@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789192846339,
+    "team": "ゴゴゴ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789189244108,
     "team": "Ciao Okada",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Indy Run Club",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788885035098,
-    "team": "Servicenow - Flow Forward",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
