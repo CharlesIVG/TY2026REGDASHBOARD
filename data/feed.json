@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789210844086,
+    "team": "Y&S",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789203643075,
     "team": "Black Mamba",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1788933638374,
     "team": "Ms-Zeal",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788933638374,
-    "team": "The Murakamis",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
