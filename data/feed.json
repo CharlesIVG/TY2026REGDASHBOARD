@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789171247466,
+    "team": "Team Tagata",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789169234476,
     "team": "(−_−＃)",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788867033235,
     "team": "MAN Comms & Cxpress",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "MAN Mlj_Payrollg",
     "course": "quarter",
     "channel": "sponsor"
   }
