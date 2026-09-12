@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789185644706,
+    "team": "Toyosu",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789183846621,
     "team": "Book Chat",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1788870633996,
     "team": "Summit Achievers",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "CAP Bladewalker 2044",
-    "course": "full",
     "channel": "sponsor"
   }
 ]
