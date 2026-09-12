@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789201836767,
+    "team": "Registered Runners",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789196444369,
     "team": "Emと仲間たち",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1788930050913,
     "team": "Hpe-Shakaas",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788924632618,
-    "team": "Nomushikanai",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
