@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T03:30:34.972097+09:00",
+  "updated": "2026-09-13T04:00:44.465163+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6246,6 +6246,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T00:00:44.372649+09:00"
+    },
+    "general|hygeia": {
+      "team": "Hygeia",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T04:00:44.465163+09:00"
     }
   }
 }

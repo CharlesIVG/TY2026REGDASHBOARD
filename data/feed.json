@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789239644465,
+    "team": "Hygeia",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789225244372,
     "team": "Platform93/4",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Yama-Muri, But Go! B",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788949833441,
-    "team": "Yama Elite2026",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
