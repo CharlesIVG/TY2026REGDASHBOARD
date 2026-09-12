@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789178445693,
+    "team": "Cow Attack",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789176254036,
     "team": "Hpe-Teamhtm",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788867033235,
     "team": "CAP 限界のその先",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788867033235,
-    "team": "LAURUS Big Jim",
     "course": "quarter",
     "channel": "sponsor"
   }

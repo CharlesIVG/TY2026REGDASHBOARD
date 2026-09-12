@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T10:30:35.995805+09:00",
+  "updated": "2026-09-12T11:00:45.693371+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6138,6 +6138,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-12T10:24:14.036116+09:00"
+    },
+    "general|cow attack": {
+      "team": "Cow Attack",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-12T11:00:45.693371+09:00"
     }
   }
 }
