@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:30:38.036657+09:00",
+  "updated": "2026-09-12T23:00:43.687964+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6228,6 +6228,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-12T21:00:46.505570+09:00"
+    },
+    "sponsor|laurus n.n runner 0631": {
+      "team": "LAURUS N.N Runner 0631",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T23:00:43.687964+09:00"
     }
   }
 }
