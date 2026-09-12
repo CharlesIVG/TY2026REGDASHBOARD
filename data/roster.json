@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T12:00:49.181487+09:00",
+  "updated": "2026-09-12T12:30:46.621829+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6150,6 +6150,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-12T12:00:49.181487+09:00"
+    },
+    "general|book chat": {
+      "team": "Book Chat",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-12T12:30:46.621829+09:00"
     }
   }
 }
