@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789225244372,
+    "team": "Platform93/4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789223434310,
     "team": "ブンチャー",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Yama Elite2026",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788939031511,
-    "team": "Manor Lords",
-    "course": "full",
-    "channel": "general"
   }
 ]
