@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789193396789,
+    "team": "歩酒会2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789192846339,
     "team": "ゴゴゴ",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Sfdc Es 1",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788915640085,
-    "team": "Indy Run Club",
-    "course": "full",
-    "channel": "general"
   }
 ]
