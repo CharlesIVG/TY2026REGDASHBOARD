@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789196444369,
+    "team": "Emと仲間たち",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789196444369,
+    "team": "MAN-歩酒会2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789196444369,
+    "team": "N.N Runner 0631",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789193396789,
     "team": "歩酒会2",
     "course": "half",
@@ -879,24 +897,6 @@
     "ts": 1788924632618,
     "team": "Nomushikanai",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788923203942,
-    "team": "Sfdc Es 2",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788922841346,
-    "team": "帰りは電車で。",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788921033621,
-    "team": "Sfdc Es 1",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

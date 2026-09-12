@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T15:30:34.695059+09:00",
+  "updated": "2026-09-12T16:00:44.369576+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6186,6 +6186,24 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-12T15:09:56.789101+09:00"
+    },
+    "general|emと仲間たち": {
+      "team": "Emと仲間たち",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-12T16:00:44.369576+09:00"
+    },
+    "sponsor|man-歩酒会2": {
+      "team": "MAN-歩酒会2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T16:00:44.369576+09:00"
+    },
+    "sponsor|n.n runner 0631": {
+      "team": "N.N Runner 0631",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-12T16:00:44.369576+09:00"
     }
   }
 }
