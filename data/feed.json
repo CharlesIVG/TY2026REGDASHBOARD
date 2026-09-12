@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789223434310,
+    "team": "ブンチャー",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789221643687,
     "team": "LAURUS N.N Runner 0631",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "Manor Lords",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1788939031511,
-    "team": "Man_Opera 30-1",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
