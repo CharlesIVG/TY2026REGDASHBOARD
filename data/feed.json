@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789331443947,
+    "team": "Team　T.N.T",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789318844040,
     "team": "Burger, Schnitzel & Sushi",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789052446903,
     "team": "国連",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789050636036,
-    "team": "Fight Club",
     "course": "full",
     "channel": "general"
   }
