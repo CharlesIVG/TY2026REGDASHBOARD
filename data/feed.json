@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789279255712,
+    "team": "米山友愛ロータリークラブ　ポリオ撲滅",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789275642595,
     "team": "Jpm - Lost In Yamanote",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788964246097,
     "team": "42K And Impulsive Decisions",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788964246097,
-    "team": "Tokyo 2020 ☆ Twinkle",
     "course": "full",
     "channel": "general"
   }
