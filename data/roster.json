@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T10:30:33.607934+09:00",
+  "updated": "2026-09-13T11:00:42.376188+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6252,6 +6252,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T04:00:44.465163+09:00"
+    },
+    "general|exploding mofusando walking & walqueens": {
+      "team": "Exploding Mofusando Walking & Walqueens",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T11:00:42.376188+09:00"
+    },
+    "general|work hard, walk harder": {
+      "team": "Work Hard, Walk Harder",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T11:00:42.376188+09:00"
     }
   }
 }
