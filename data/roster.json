@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T12:30:33.762162+09:00",
+  "updated": "2026-09-13T13:00:43.922429+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6270,6 +6270,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T11:30:33.806388+09:00"
+    },
+    "general|the walking dead": {
+      "team": "The Walking Dead",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T13:00:43.922429+09:00"
     }
   }
 }
