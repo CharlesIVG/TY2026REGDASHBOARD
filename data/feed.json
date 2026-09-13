@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789318844040,
+    "team": "Burger, Schnitzel & Sushi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789317034824,
     "team": "Hot Babes",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Fight Club",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789041643387,
-    "team": "Cap Team 8 Yama Elite 2026",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
