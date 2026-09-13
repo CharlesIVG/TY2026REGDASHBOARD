@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789282843137,
+    "team": "ルネホンコマ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789282843137,
+    "team": "Ms-Fig/Ra",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789282843137,
+    "team": "Ms-Ra/Fig",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789279255712,
     "team": "米山友愛ロータリークラブ　ポリオ撲滅",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1788994841113,
     "team": "Two Backs",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788991241580,
-    "team": "Fmm",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788969644631,
-    "team": "Jenny And Her Cheerful Teammates",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1788964246097,
-    "team": "42K And Impulsive Decisions",
     "course": "full",
     "channel": "general"
   }
