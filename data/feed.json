@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789291879366,
+    "team": "ビーンズ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789288098032,
     "team": "Chicken Warriors",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "チームえのっち",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1788996634498,
-    "team": "Sacred Heart Cwg Yokosuka",
-    "course": "full",
-    "channel": "general"
   }
 ]
