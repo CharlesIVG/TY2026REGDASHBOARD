@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789288098032,
+    "team": "Chicken Warriors",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789282843137,
     "team": "ルネホンコマ",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788996634498,
     "team": "Sacred Heart Cwg Yokosuka",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788994841113,
-    "team": "Two Backs",
     "course": "full",
     "channel": "general"
   }
