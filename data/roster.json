@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T19:30:36.514286+09:00",
+  "updated": "2026-09-13T20:00:45.579000+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6330,6 +6330,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-13T19:01:04.199269+09:00"
+    },
+    "general|team mogumogu": {
+      "team": "Team MoguMogu",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T20:00:45.579000+09:00"
     }
   }
 }

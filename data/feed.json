@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789297245579,
+    "team": "Team MoguMogu",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789293664199,
     "team": "Verde Jade",
     "course": "full",
@@ -891,12 +897,6 @@
     "ts": 1789011048252,
     "team": "Opera 30-2",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789009241143,
-    "team": "Cheeta's",
-    "course": "full",
     "channel": "sponsor"
   }
 ]
