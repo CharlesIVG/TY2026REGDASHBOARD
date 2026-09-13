@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T01:00:49.924321+09:00",
+  "updated": "2026-09-14T01:30:34.824535+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6426,6 +6426,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T00:30:49.408726+09:00"
+    },
+    "general|hot babes": {
+      "team": "Hot Babes",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T01:30:34.824535+09:00"
     }
   }
 }

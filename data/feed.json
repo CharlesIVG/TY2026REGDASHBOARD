@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789317034824,
+    "team": "Hot Babes",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789313449408,
     "team": "Tokyo Komodo",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Cap Team 8 Yama Elite 2026",
     "course": "full",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789038041716,
-    "team": "O5 6E3 Stasa",
-    "course": "full",
-    "channel": "general"
   }
 ]
