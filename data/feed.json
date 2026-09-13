@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789293664199,
+    "team": "Verde Jade",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789293664199,
+    "team": "Man Fathers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789291879366,
     "team": "ビーンズ",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1789009241143,
     "team": "Cheeta's",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789002046180,
-    "team": "Hp山楽俱楽部",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789002046180,
-    "team": "チームえのっち",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

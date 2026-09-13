@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T18:31:19.366112+09:00",
+  "updated": "2026-09-13T19:01:04.199269+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6318,6 +6318,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T18:31:19.366112+09:00"
+    },
+    "general|verde jade": {
+      "team": "Verde Jade",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T19:01:04.199269+09:00"
+    },
+    "sponsor|man fathers": {
+      "team": "Man Fathers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-13T19:01:04.199269+09:00"
     }
   }
 }
