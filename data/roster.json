@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T08:00:43.839038+09:00",
+  "updated": "2026-09-14T08:30:36.029673+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6444,6 +6444,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T05:30:43.947434+09:00"
+    },
+    "sponsor|ms-biriyani bullet train 1": {
+      "team": "Ms-Biriyani Bullet Train 1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T08:30:36.029673+09:00"
+    },
+    "sponsor|team ka": {
+      "team": "Team Ka",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T08:30:36.029673+09:00"
     }
   }
 }
