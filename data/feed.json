@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789304447773,
+    "team": "Tim Hore",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789304447773,
+    "team": "Tim-Hore",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789299033947,
     "team": "The Regular 4",
     "course": "full",
@@ -885,18 +897,6 @@
     "ts": 1789023638091,
     "team": "Hpe-Cheers",
     "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789021832073,
-    "team": "Fourever",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789021832073,
-    "team": "Hpe-As2withh",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
