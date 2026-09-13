@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T22:00:47.773190+09:00",
+  "updated": "2026-09-13T22:25:51.623607+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6372,6 +6372,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T22:00:47.773190+09:00"
+    },
+    "general|kaizen": {
+      "team": "Kaizen",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T22:25:51.623607+09:00"
+    },
+    "general|sole mates km": {
+      "team": "Sole Mates Km",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T22:25:51.623607+09:00"
+    },
+    "general|yamanauts": {
+      "team": "Yamanauts",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T22:25:51.623607+09:00"
     }
   }
 }

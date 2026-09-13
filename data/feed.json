@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789305951623,
+    "team": "Kaizen",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789305951623,
+    "team": "Sole Mates Km",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789305951623,
+    "team": "Yamanauts",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789304447773,
     "team": "Tim Hore",
     "course": "full",
@@ -880,23 +898,5 @@
     "team": "Jct 1.75",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789027238968,
-    "team": "Miminpu",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789023638091,
-    "team": "Urban Grit",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789023638091,
-    "team": "Hpe-Cheers",
-    "course": "full",
-    "channel": "sponsor"
   }
 ]
