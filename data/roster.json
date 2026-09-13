@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T20:00:45.579000+09:00",
+  "updated": "2026-09-13T20:30:33.947026+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6336,6 +6336,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T20:00:45.579000+09:00"
+    },
+    "general|the regular 4": {
+      "team": "The Regular 4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T20:30:33.947026+09:00"
+    },
+    "general|walkie talkies": {
+      "team": "Walkie Talkies",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T20:30:33.947026+09:00"
+    },
+    "sponsor|てっちゃん　brothers": {
+      "team": "てっちゃん　Brothers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-13T20:30:33.947026+09:00"
+    },
+    "sponsor|てっちゃん　sisters": {
+      "team": "てっちゃん　Sisters",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-13T20:30:33.947026+09:00"
     }
   }
 }

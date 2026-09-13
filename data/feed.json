@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789299033947,
+    "team": "The Regular 4",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789299033947,
+    "team": "Walkie Talkies",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789299033947,
+    "team": "てっちゃん　Brothers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789299033947,
+    "team": "てっちゃん　Sisters",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789297245579,
     "team": "Team MoguMogu",
     "course": "full",
@@ -872,30 +896,6 @@
   {
     "ts": 1789021832073,
     "team": "Hpe-As2withh",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789020037219,
-    "team": "Hpe-Ms2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789018232847,
-    "team": "イケメンタイコ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789018232847,
-    "team": "カエリタイヤキ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789011048252,
-    "team": "Opera 30-2",
     "course": "half",
     "channel": "sponsor"
   }
