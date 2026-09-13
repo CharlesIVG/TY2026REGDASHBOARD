@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T22:30:34.560438+09:00",
+  "updated": "2026-09-13T23:00:53.817203+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6390,6 +6390,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T22:25:51.623607+09:00"
+    },
+    "general|うみそら": {
+      "team": "うみそら",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T23:00:53.817203+09:00"
+    },
+    "general|うみそら応援団": {
+      "team": "うみそら応援団",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T23:00:53.817203+09:00"
     }
   }
 }

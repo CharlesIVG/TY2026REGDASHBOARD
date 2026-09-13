@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789308053817,
+    "team": "うみそら",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789308053817,
+    "team": "うみそら応援団",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789305951623,
     "team": "Kaizen",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "龍驤 （ロンシャン）",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789029033186,
-    "team": "L Team",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789027238968,
-    "team": "Jct 1.75",
-    "course": "full",
-    "channel": "general"
   }
 ]
