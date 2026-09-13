@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T11:00:42.376188+09:00",
+  "updated": "2026-09-13T11:30:33.806388+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6264,6 +6264,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T11:00:42.376188+09:00"
+    },
+    "general|team hkh-rgh": {
+      "team": "Team Hkh-Rgh",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-13T11:30:33.806388+09:00"
     }
   }
 }
