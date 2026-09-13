@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T00:00:46.997128+09:00",
+  "updated": "2026-09-14T00:30:49.408726+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6420,6 +6420,12 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-13T23:30:35.175445+09:00"
+    },
+    "general|tokyo komodo": {
+      "team": "Tokyo Komodo",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T00:30:49.408726+09:00"
     }
   }
 }
