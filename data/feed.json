@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789275642595,
+    "team": "Jpm - Lost In Yamanote",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789272043922,
     "team": "The Walking Dead",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1788964246097,
     "team": "Tokyo 2020 ☆ Twinkle",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1788962452358,
-    "team": "Tokyo 2020 ☆ Sparkle",
     "course": "full",
     "channel": "general"
   }
