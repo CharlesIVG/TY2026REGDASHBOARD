@@ -1,5 +1,41 @@
 [
   {
+    "ts": 1789369247133,
+    "team": "Horizon International School Team A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789369247133,
+    "team": "Horizon International School Team B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789369247133,
+    "team": "Philips東京8（大谷組）",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789369247133,
+    "team": "St. Ernesto's Pilgrimage",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789369247133,
+    "team": "The Bird Launchers",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789369247133,
+    "team": "Jpm すぎやまそん",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789367437225,
     "team": "Yamastars",
     "course": "full",
@@ -861,42 +897,6 @@
     "ts": 1789124441598,
     "team": "Laurus Superheroes",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789123016738,
-    "team": "Aurora Solutions K.K.",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789122631704,
-    "team": "Gazi",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789122631704,
-    "team": "やまのてテクテクめそこログ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789120843262,
-    "team": "This Is Peak",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789120843262,
-    "team": "Fpt 5",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789120843262,
-    "team": "Fpt 6",
-    "course": "half",
     "channel": "sponsor"
   }
 ]

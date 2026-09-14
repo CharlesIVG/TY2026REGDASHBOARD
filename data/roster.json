@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T15:30:37.225528+09:00",
+  "updated": "2026-09-14T16:00:47.133407+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6750,6 +6750,42 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "general|horizon international school team a": {
+      "team": "Horizon International School Team A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:00:47.133407+09:00"
+    },
+    "general|horizon international school team b": {
+      "team": "Horizon International School Team B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:00:47.133407+09:00"
+    },
+    "general|philips東京8（大谷組）": {
+      "team": "Philips東京8（大谷組）",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:00:47.133407+09:00"
+    },
+    "general|st. ernesto's pilgrimage": {
+      "team": "St. Ernesto's Pilgrimage",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:00:47.133407+09:00"
+    },
+    "general|the bird launchers": {
+      "team": "The Bird Launchers",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:00:47.133407+09:00"
+    },
+    "sponsor|jpm すぎやまそん": {
+      "team": "Jpm すぎやまそん",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T16:00:47.133407+09:00"
     }
   }
 }
