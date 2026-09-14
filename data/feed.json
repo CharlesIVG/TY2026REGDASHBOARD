@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789363835744,
+    "team": "I Thought This Was A Parade",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789362083118,
     "team": "Gka Lynn",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Run! Hays! Run!",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789117240189,
-    "team": "Gensler-Sky Walkers",
-    "course": "quarter",
-    "channel": "sponsor"
   }
 ]
