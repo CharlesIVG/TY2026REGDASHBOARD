@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T13:30:36.487728+09:00",
+  "updated": "2026-09-14T14:01:23.118481+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6654,6 +6654,30 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T13:30:36.487728+09:00"
+    },
+    "general|gka lynn": {
+      "team": "Gka Lynn",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T14:01:23.118481+09:00"
+    },
+    "general|やまと": {
+      "team": "やまと",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T14:01:23.118481+09:00"
+    },
+    "sponsor|8492": {
+      "team": "8492",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T14:01:23.118481+09:00"
+    },
+    "sponsor|team dorayaki": {
+      "team": "Team Dorayaki",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T14:01:23.118481+09:00"
     }
   }
 }

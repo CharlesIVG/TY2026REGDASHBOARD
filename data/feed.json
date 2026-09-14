@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789362083118,
+    "team": "Gka Lynn",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789362083118,
+    "team": "やまと",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789362083118,
+    "team": "8492",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789362083118,
+    "team": "Team Dorayaki",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789360236487,
     "team": "Burabura-Bu",
     "course": "full",
@@ -873,30 +897,6 @@
     "ts": 1789117240189,
     "team": "Gensler-Sky Walkers",
     "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789115467527,
-    "team": "Jmf Iii",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789115467527,
-    "team": "Jmf Iv",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789113640813,
-    "team": "Philips東京3",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789113640813,
-    "team": "チーム森山",
-    "course": "half",
     "channel": "sponsor"
   }
 ]
