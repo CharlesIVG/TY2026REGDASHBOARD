@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789383138892,
+    "team": "Illumina E",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789383138892,
+    "team": "Illumina F",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789381836543,
     "team": "Team F F And T",
     "course": "full",
@@ -884,18 +896,6 @@
   {
     "ts": 1789189244108,
     "team": "Ciao Okada",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789189244108,
-    "team": "Yamadawgs",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789185644706,
-    "team": "Toyosu",
     "course": "full",
     "channel": "general"
   }
