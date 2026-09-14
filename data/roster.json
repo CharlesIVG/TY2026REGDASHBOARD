@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T18:01:56.501884+09:00",
+  "updated": "2026-09-14T18:30:38.372652+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6942,6 +6942,66 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "general|baguettes": {
+      "team": "Baguettes",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "general|shinkansen": {
+      "team": "Shinkansen",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "general|the dram train": {
+      "team": "The Dram Train",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "general|さんぼんまつ": {
+      "team": "さんぼんまつ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "general|よんほんまつ": {
+      "team": "よんほんまつ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "sponsor|man team melting pot": {
+      "team": "Man Team Melting Pot",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "sponsor|ハーフ1": {
+      "team": "ハーフ1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "sponsor|ハーフ2": {
+      "team": "ハーフ2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "sponsor|フル1": {
+      "team": "フル1",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "sponsor|フル2": {
+      "team": "フル2",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:30:38.372652+09:00"
     }
   }
 }
