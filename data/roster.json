@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T12:30:45.007015+09:00",
+  "updated": "2026-09-14T13:00:42.836363+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6606,6 +6606,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T12:30:45.007015+09:00"
+    },
+    "general|philips麻布台_4": {
+      "team": "Philips麻布台_4",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T13:00:42.836363+09:00"
+    },
+    "sponsor|jpm shi-shi-jam": {
+      "team": "Jpm Shi-Shi-Jam",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T13:00:42.836363+09:00"
+    },
+    "sponsor|顧客第一ズ": {
+      "team": "顧客第一ズ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T13:00:42.836363+09:00"
     }
   }
 }
