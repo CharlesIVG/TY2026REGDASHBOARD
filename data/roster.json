@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T17:30:36.989763+09:00",
+  "updated": "2026-09-14T18:01:56.501884+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6888,6 +6888,60 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T17:30:36.989763+09:00"
+    },
+    "general|braid": {
+      "team": "Braid",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "general|express": {
+      "team": "Express",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "general|gka_we♡chemistry": {
+      "team": "Gka_We♡Chemistry",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "general|local train": {
+      "team": "Local Train",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "general|osi": {
+      "team": "Osi",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "sponsor|man team l2-a": {
+      "team": "Man Team L2-A",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "sponsor|man team l2-b": {
+      "team": "Man Team L2-B",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "sponsor|man team l2-c": {
+      "team": "Man Team L2-C",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
+    },
+    "sponsor|富士飲みランナーズ": {
+      "team": "富士飲みランナーズ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T18:01:56.501884+09:00"
     }
   }
 }

@@ -1,5 +1,59 @@
 [
   {
+    "ts": 1789376516501,
+    "team": "Braid",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Express",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Gka_We♡Chemistry",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Local Train",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Osi",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Man Team L2-A",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Man Team L2-B",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "Man Team L2-C",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789376516501,
+    "team": "富士飲みランナーズ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789374636989,
     "team": "Crows",
     "course": "full",
@@ -842,60 +896,6 @@
   {
     "ts": 1789164041540,
     "team": "JPM Wko Japan 1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "JPM Wko Japan 2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "JPM レオナさん出産おめでとうメーン",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Cheeta's",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Fourever",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Jenny And Her Cheerful Teammates",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Manu Tokyo 1’St",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Nomushikanai",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Opera 30-2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Summit Achievers",
     "course": "half",
     "channel": "sponsor"
   }
