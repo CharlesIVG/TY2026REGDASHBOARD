@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789353033993,
+    "team": "Gkajohn",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789353033993,
+    "team": "Moomin",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789353033993,
+    "team": "Croissants & Dim Sum",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789351242783,
     "team": "Gka - Kissler",
     "course": "full",
@@ -880,23 +898,5 @@
     "team": "Fight Club 2",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789104632493,
-    "team": "チームfukashi",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789102839059,
-    "team": "Gka Jackson",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789102839059,
-    "team": "Renewal Team1",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

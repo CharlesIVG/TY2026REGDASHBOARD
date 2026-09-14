@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T11:00:42.783854+09:00",
+  "updated": "2026-09-14T11:30:33.993204+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6534,6 +6534,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T11:00:42.783854+09:00"
+    },
+    "general|gkajohn": {
+      "team": "Gkajohn",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T11:30:33.993204+09:00"
+    },
+    "general|moomin": {
+      "team": "Moomin",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T11:30:33.993204+09:00"
+    },
+    "sponsor|croissants & dim sum": {
+      "team": "Croissants & Dim Sum",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T11:30:33.993204+09:00"
     }
   }
 }
