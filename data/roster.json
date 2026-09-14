@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T10:30:32.904274+09:00",
+  "updated": "2026-09-14T11:00:42.783854+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6510,6 +6510,30 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T10:00:54.040373+09:00"
+    },
+    "general|gka - kissler": {
+      "team": "Gka - Kissler",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T11:00:42.783854+09:00"
+    },
+    "general|phoenix": {
+      "team": "Phoenix",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T11:00:42.783854+09:00"
+    },
+    "general|team a": {
+      "team": "Team A",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T11:00:42.783854+09:00"
+    },
+    "general|team b": {
+      "team": "Team B",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T11:00:42.783854+09:00"
     }
   }
 }

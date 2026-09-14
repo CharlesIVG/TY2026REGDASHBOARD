@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789351242783,
+    "team": "Gka - Kissler",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789351242783,
+    "team": "Phoenix",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789351242783,
+    "team": "Team A",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789351242783,
+    "team": "Team B",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789347654040,
     "team": "Gka Kim",
     "course": "full",
@@ -874,29 +898,5 @@
     "team": "Renewal Team1",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789102839059,
-    "team": "Yko Frontiers",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789101031022,
-    "team": "Cap Fantastic Four",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789101031022,
-    "team": "Pints For A Purpose",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789099239667,
-    "team": "Gkajames",
-    "course": "full",
-    "channel": "general"
   }
 ]
