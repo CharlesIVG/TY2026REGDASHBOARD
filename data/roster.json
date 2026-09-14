@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T09:00:45.087380+09:00",
+  "updated": "2026-09-14T09:20:03.116188+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6462,6 +6462,24 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T09:00:45.087380+09:00"
+    },
+    "general|philipsひがかん": {
+      "team": "Philipsひがかん",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T09:20:03.116188+09:00"
+    },
+    "sponsor|laurus てっちゃん　brothers": {
+      "team": "LAURUS てっちゃん　Brothers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T09:20:03.116188+09:00"
+    },
+    "sponsor|laurus てっちゃん　sisters": {
+      "team": "LAURUS てっちゃん　Sisters",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T09:20:03.116188+09:00"
     }
   }
 }

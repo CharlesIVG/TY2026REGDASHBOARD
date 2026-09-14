@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789345203116,
+    "team": "Philipsひがかん",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789345203116,
+    "team": "LAURUS てっちゃん　Brothers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789345203116,
+    "team": "LAURUS てっちゃん　Sisters",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789344045087,
     "team": "Gka Kurihara",
     "course": "full",
@@ -878,24 +896,6 @@
   {
     "ts": 1789092049616,
     "team": "Jamustine!",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789092049616,
-    "team": "Hpe-Team Sachiko",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789087765435,
-    "team": "T-Value",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789081242855,
-    "team": "エクストリーム散歩部",
     "course": "full",
     "channel": "general"
   }
