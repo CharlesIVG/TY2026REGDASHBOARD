@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789385447895,
+    "team": "Illumina A",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789385447895,
+    "team": "Illumina B",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789385447895,
+    "team": "Illumina C",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789383138892,
     "team": "Illumina E",
     "course": "quarter",
@@ -880,23 +898,5 @@
     "team": "N.N Runner 0631",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789193396789,
-    "team": "歩酒会2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789192846339,
-    "team": "ゴゴゴ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789189244108,
-    "team": "Ciao Okada",
-    "course": "full",
-    "channel": "general"
   }
 ]
