@@ -1,5 +1,53 @@
 [
   {
+    "ts": 1789354857710,
+    "team": "Mkti26",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "Philips東京1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "Philips東京2",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "The Powerpuff Girls",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "Triple Dipper",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "走ルンです。",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "Hpe-Vr Party",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789354857710,
+    "team": "Servicenow - Dc Plumbers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789353033993,
     "team": "Gkajohn",
     "course": "full",
@@ -850,53 +898,5 @@
     "team": "Ma La Team",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789108232027,
-    "team": "Philips7",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789108232027,
-    "team": "情熱n不！",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789108232027,
-    "team": "Sfdc Striders Renewal Team1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789108232027,
-    "team": "Sfdc Striders Renewal Team2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789106451039,
-    "team": "Running Late",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789105021691,
-    "team": "Gka Ashley",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789105021691,
-    "team": "Gka Livio",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789104632493,
-    "team": "Fight Club 2",
-    "course": "full",
-    "channel": "general"
   }
 ]

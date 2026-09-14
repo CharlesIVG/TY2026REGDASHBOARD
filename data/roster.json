@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T11:30:33.993204+09:00",
+  "updated": "2026-09-14T12:00:57.710657+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6552,6 +6552,54 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T11:30:33.993204+09:00"
+    },
+    "general|mkti26": {
+      "team": "Mkti26",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "general|philips東京1": {
+      "team": "Philips東京1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "general|philips東京2": {
+      "team": "Philips東京2",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "general|the powerpuff girls": {
+      "team": "The Powerpuff Girls",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "general|triple dipper": {
+      "team": "Triple Dipper",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "general|走ルンです。": {
+      "team": "走ルンです。",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "sponsor|hpe-vr party": {
+      "team": "Hpe-Vr Party",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
+    },
+    "sponsor|servicenow - dc plumbers": {
+      "team": "Servicenow - Dc Plumbers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T12:00:57.710657+09:00"
     }
   }
 }
