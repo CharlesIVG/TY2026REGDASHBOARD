@@ -1,5 +1,59 @@
 [
   {
+    "ts": 1789367437225,
+    "team": "Yamastars",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "Hpe-Ssd Freshers",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "JPM Croissants & Dim Sum",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "JPM Team Dorayaki",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "MAN Team Ka",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "MAN Team　T.N.T",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "MAN 顧客第一ズ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "SFDC 8492",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789367437225,
+    "team": "Team 12",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789365647509,
     "team": "Jpm Momentum Bull",
     "course": "full",
@@ -843,60 +897,6 @@
     "ts": 1789120843262,
     "team": "Fpt 6",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789120843262,
-    "team": "Fpt 7",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789120843262,
-    "team": "Fpt 8",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789120843262,
-    "team": "Servicenow-Rgb軍団",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Team Mirai",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Fpt 1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Fpt 2",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Fpt 3",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Fpt 4",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Man カシスを求めて三千里",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]

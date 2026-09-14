@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T15:00:47.509441+09:00",
+  "updated": "2026-09-14T15:30:37.225528+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6696,6 +6696,60 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T15:00:47.509441+09:00"
+    },
+    "general|yamastars": {
+      "team": "Yamastars",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|hpe-ssd freshers": {
+      "team": "Hpe-Ssd Freshers",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|jpm croissants & dim sum": {
+      "team": "JPM Croissants & Dim Sum",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|jpm team dorayaki": {
+      "team": "JPM Team Dorayaki",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|man team ka": {
+      "team": "MAN Team Ka",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|man team　t.n.t": {
+      "team": "MAN Team　T.N.T",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|man 顧客第一ズ": {
+      "team": "MAN 顧客第一ズ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|sfdc 8492": {
+      "team": "SFDC 8492",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
+    },
+    "sponsor|team 12": {
+      "team": "Team 12",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:30:37.225528+09:00"
     }
   }
 }
