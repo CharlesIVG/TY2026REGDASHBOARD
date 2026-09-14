@@ -1,5 +1,35 @@
 [
   {
+    "ts": 1789374636989,
+    "team": "Crows",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789374636989,
+    "team": "Quick Feet (We Think)",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789374636989,
+    "team": "Semi-Rapid / 準急",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789374636989,
+    "team": "おわったら一杯ひっかけるぞおやじいズ",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789374636989,
+    "team": "Sxs Summit & Beyond",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789372856498,
     "team": "Cis Tokyo Team 1",
     "course": "full",
@@ -866,36 +896,6 @@
   {
     "ts": 1789164041540,
     "team": "MAN Summit Achievers",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Th高尾山",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN Yko Frontiers",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN チームfukashi",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN チームえのっち",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN チーム森山",
     "course": "half",
     "channel": "sponsor"
   }

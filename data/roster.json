@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T17:00:56.498811+09:00",
+  "updated": "2026-09-14T17:30:36.989763+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6858,6 +6858,36 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|crows": {
+      "team": "Crows",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:30:36.989763+09:00"
+    },
+    "general|quick feet (we think)": {
+      "team": "Quick Feet (We Think)",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:30:36.989763+09:00"
+    },
+    "general|semi-rapid / 準急": {
+      "team": "Semi-Rapid / 準急",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:30:36.989763+09:00"
+    },
+    "general|おわったら一杯ひっかけるぞおやじいズ": {
+      "team": "おわったら一杯ひっかけるぞおやじいズ",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:30:36.989763+09:00"
+    },
+    "sponsor|sxs summit & beyond": {
+      "team": "Sxs Summit & Beyond",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T17:30:36.989763+09:00"
     }
   }
 }
