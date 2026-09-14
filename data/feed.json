@@ -1,5 +1,17 @@
 [
   {
+    "ts": 1789365647509,
+    "team": "Jpm Momentum Bull",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789365647509,
+    "team": "Ms-We_Thought_This_Was_A_Teams_Meeting",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789363835744,
     "team": "I Thought This Was A Parade",
     "course": "full",
@@ -886,17 +898,5 @@
     "team": "Man カシスを求めて三千里",
     "course": "quarter",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789119033019,
-    "team": "Team 9",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789117240189,
-    "team": "Run! Hays! Run!",
-    "course": "full",
-    "channel": "general"
   }
 ]

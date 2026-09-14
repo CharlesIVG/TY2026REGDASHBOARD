@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T14:30:35.744047+09:00",
+  "updated": "2026-09-14T15:00:47.509441+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6684,6 +6684,18 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T14:30:35.744047+09:00"
+    },
+    "sponsor|jpm momentum bull": {
+      "team": "Jpm Momentum Bull",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:00:47.509441+09:00"
+    },
+    "sponsor|ms-we_thought_this_was_a_teams_meeting": {
+      "team": "Ms-We_Thought_This_Was_A_Teams_Meeting",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T15:00:47.509441+09:00"
     }
   }
 }
