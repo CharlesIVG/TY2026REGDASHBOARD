@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T00:00:56.083166+09:00",
+  "updated": "2026-09-15T00:30:46.227026+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7092,6 +7092,30 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T22:30:38.082733+09:00"
+    },
+    "sponsor|cap team 14": {
+      "team": "Cap Team 14",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T00:30:46.227026+09:00"
+    },
+    "sponsor|cap team 15": {
+      "team": "Cap Team 15",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T00:30:46.227026+09:00"
+    },
+    "sponsor|samurai": {
+      "team": "Samurai",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T00:30:46.227026+09:00"
+    },
+    "sponsor|team 16": {
+      "team": "Team 16",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T00:30:46.227026+09:00"
     }
   }
 }

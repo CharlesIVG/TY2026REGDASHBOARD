@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789399846227,
+    "team": "Cap Team 14",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789399846227,
+    "team": "Cap Team 15",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789399846227,
+    "team": "Samurai",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789399846227,
+    "team": "Team 16",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789392638082,
     "team": "Orion",
     "course": "half",
@@ -874,29 +898,5 @@
     "team": "Y&S",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789203643075,
-    "team": "Black Mamba",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789201836767,
-    "team": "Registered Runners",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789196444369,
-    "team": "Emと仲間たち",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789196444369,
-    "team": "MAN-歩酒会2",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
