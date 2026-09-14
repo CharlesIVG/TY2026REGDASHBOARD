@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T04:30:33.990063+09:00",
+  "updated": "2026-09-15T05:00:41.508060+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7128,6 +7128,72 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-15T01:00:58.212070+09:00"
+    },
+    "sponsor|cap team 12": {
+      "team": "CAP Team 12",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|cap team 16": {
+      "team": "CAP Team 16",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|cap team 5": {
+      "team": "CAP Team 5",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|docu ハーフ1": {
+      "team": "DOCU ハーフ1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|docu ハーフ2": {
+      "team": "DOCU ハーフ2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|docu フル2": {
+      "team": "DOCU フル2",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|docuフル1": {
+      "team": "DOCUフル1",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|man orion": {
+      "team": "MAN Orion",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|man チーム石川": {
+      "team": "MAN チーム石川",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|man てくてく": {
+      "team": "MAN てくてく",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
+    },
+    "sponsor|man 富士飲みランナーズ": {
+      "team": "MAN 富士飲みランナーズ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T05:00:41.508060+09:00"
     }
   }
 }

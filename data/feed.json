@@ -1,5 +1,71 @@
 [
   {
+    "ts": 1789416041508,
+    "team": "CAP Team 12",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "CAP Team 16",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "CAP Team 5",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "DOCU ハーフ1",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "DOCU ハーフ2",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "DOCU フル2",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "DOCUフル1",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "MAN Orion",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "MAN チーム石川",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "MAN てくてく",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789416041508,
+    "team": "MAN 富士飲みランナーズ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789401658212,
     "team": "Cap Samurai",
     "course": "half",
@@ -831,72 +897,6 @@
     "ts": 1789282843137,
     "team": "Ms-Fig/Ra",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789282843137,
-    "team": "Ms-Ra/Fig",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789279255712,
-    "team": "米山友愛ロータリークラブ　ポリオ撲滅",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789275642595,
-    "team": "Jpm - Lost In Yamanote",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789272043922,
-    "team": "The Walking Dead",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789266633806,
-    "team": "Team Hkh-Rgh",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789264842376,
-    "team": "Exploding Mofusando Walking & Walqueens",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789264842376,
-    "team": "Work Hard, Walk Harder",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789239644465,
-    "team": "Hygeia",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789225244372,
-    "team": "Platform93/4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789223434310,
-    "team": "ブンチャー",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789221643687,
-    "team": "LAURUS N.N Runner 0631",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
