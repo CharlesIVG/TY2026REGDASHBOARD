@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789392638082,
+    "team": "Orion",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789385447895,
     "team": "Illumina A",
     "course": "half",
@@ -891,12 +897,6 @@
     "ts": 1789196444369,
     "team": "MAN-歩酒会2",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789196444369,
-    "team": "N.N Runner 0631",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]
