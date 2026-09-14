@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789345835416,
+    "team": "Gka Sheila",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789345203116,
     "team": "Philipsひがかん",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789095640855,
     "team": "ふせ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789092049616,
-    "team": "Jamustine!",
     "course": "full",
     "channel": "general"
   }
