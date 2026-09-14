@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789356645007,
+    "team": "Kc Team 15",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789354857710,
     "team": "Mkti26",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789110041385,
     "team": "Avengers",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789110041385,
-    "team": "Ma La Team",
     "course": "quarter",
     "channel": "sponsor"
   }
