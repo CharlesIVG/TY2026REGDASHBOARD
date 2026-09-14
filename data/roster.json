@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T13:00:42.836363+09:00",
+  "updated": "2026-09-14T13:30:36.487728+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6624,6 +6624,36 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T13:00:42.836363+09:00"
+    },
+    "general|burabura-bu": {
+      "team": "Burabura-Bu",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T13:30:36.487728+09:00"
+    },
+    "general|gka taka's": {
+      "team": "Gka Taka's",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T13:30:36.487728+09:00"
+    },
+    "general|walk つらすぎて滅！": {
+      "team": "Walk つらすぎて滅！",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T13:30:36.487728+09:00"
+    },
+    "general|チームみどり": {
+      "team": "チームみどり",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T13:30:36.487728+09:00"
+    },
+    "sponsor|servicenow-walkflow": {
+      "team": "Servicenow-Walkflow",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T13:30:36.487728+09:00"
     }
   }
 }
