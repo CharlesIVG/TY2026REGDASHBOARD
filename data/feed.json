@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789347654040,
+    "team": "Gka Kim",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789347654040,
+    "team": "Gka Paschal",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789347654040,
+    "team": "Popstars",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789347654040,
+    "team": "Hpe-ぽ",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789345835416,
     "team": "Gka Sheila",
     "course": "full",
@@ -872,30 +896,6 @@
   {
     "ts": 1789099239667,
     "team": "Gkajames",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789097434005,
-    "team": "Philips東京4",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789097434005,
-    "team": "Ms-Lulu&Ari",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789095640855,
-    "team": "Yamanope",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789095640855,
-    "team": "ふせ",
     "course": "full",
     "channel": "general"
   }

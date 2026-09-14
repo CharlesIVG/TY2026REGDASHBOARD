@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T09:30:35.416352+09:00",
+  "updated": "2026-09-14T10:00:54.040373+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6486,6 +6486,30 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T09:30:35.416352+09:00"
+    },
+    "general|gka kim": {
+      "team": "Gka Kim",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T10:00:54.040373+09:00"
+    },
+    "general|gka paschal": {
+      "team": "Gka Paschal",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T10:00:54.040373+09:00"
+    },
+    "general|popstars": {
+      "team": "Popstars",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T10:00:54.040373+09:00"
+    },
+    "sponsor|hpe-ぽ": {
+      "team": "Hpe-ぽ",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T10:00:54.040373+09:00"
     }
   }
 }
