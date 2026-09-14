@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T18:30:38.372652+09:00",
+  "updated": "2026-09-14T19:00:48.311840+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7002,6 +7002,54 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T18:30:38.372652+09:00"
+    },
+    "general|3 frenchs & 1 japanese": {
+      "team": "3 Frenchs & 1 Japanese",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "general|afn": {
+      "team": "Afn",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "general|nananose": {
+      "team": "Nananose",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "general|二人三脚": {
+      "team": "二人三脚",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "sponsor|sfdc psfamfg1": {
+      "team": "Sfdc Psfamfg1",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "sponsor|sfdc psfamfg2": {
+      "team": "Sfdc Psfamfg2",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "sponsor|チーム石川": {
+      "team": "チーム石川",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
+    },
+    "sponsor|てくてく": {
+      "team": "てくてく",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T19:00:48.311840+09:00"
     }
   }
 }

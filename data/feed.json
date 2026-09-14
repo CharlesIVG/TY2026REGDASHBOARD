@@ -1,5 +1,53 @@
 [
   {
+    "ts": 1789380048311,
+    "team": "3 Frenchs & 1 Japanese",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "Afn",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "Nananose",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "二人三脚",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "Sfdc Psfamfg1",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "Sfdc Psfamfg2",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "チーム石川",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789380048311,
+    "team": "てくてく",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789378238372,
     "team": "Baguettes",
     "course": "full",
@@ -850,53 +898,5 @@
     "team": "Book Chat",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789182049181,
-    "team": "Love & Hustle",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789178445693,
-    "team": "Cow Attack",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789176254036,
-    "team": "Hpe-Teamhtm",
-    "course": "full",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789171247466,
-    "team": "Team Tagata",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789169234476,
-    "team": "(−_−＃)",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "CAP L Team",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "CAP Miminpu",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "CAP Running Late",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
