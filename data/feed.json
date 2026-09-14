@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789381836543,
+    "team": "Team F F And T",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789380048311,
     "team": "3 Frenchs & 1 Japanese",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789185644706,
     "team": "Toyosu",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789183846621,
-    "team": "Book Chat",
     "course": "full",
     "channel": "general"
   }
