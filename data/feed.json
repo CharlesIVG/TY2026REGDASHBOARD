@@ -1,5 +1,53 @@
 [
   {
+    "ts": 1789372856498,
+    "team": "Cis Tokyo Team 1",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "Crossbridge Education",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "Kame",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "Team Megalis",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "太陽工業ランニング部",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "終電はない",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "耳のある亀",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789372856498,
+    "team": "Jpm Yamanote Walkers",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789371036952,
     "team": "Horizon International School Team C",
     "course": "full",
@@ -848,54 +896,6 @@
   {
     "ts": 1789164041540,
     "team": "MAN チーム森山",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789164041540,
-    "team": "MAN 龍驤 （ロンシャン）",
-    "course": "quarter",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789162246637,
-    "team": "HPE なかふじせき",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789162246637,
-    "team": "Laurus Team Hankokies",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789146042928,
-    "team": "今年こそは誰よりも早く",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789142446718,
-    "team": "Yokotathon",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789138224163,
-    "team": "Miles & Alcohol",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789138224163,
-    "team": "The Crusty Ones",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789137044933,
-    "team": "なかふじせき",
     "course": "half",
     "channel": "sponsor"
   }

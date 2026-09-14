@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T16:30:36.952240+09:00",
+  "updated": "2026-09-14T17:00:56.498811+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6810,6 +6810,54 @@
       "course": "full",
       "channel": "general",
       "firstSeen": "2026-09-14T16:30:36.952240+09:00"
+    },
+    "general|cis tokyo team 1": {
+      "team": "Cis Tokyo Team 1",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|crossbridge education": {
+      "team": "Crossbridge Education",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|kame": {
+      "team": "Kame",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|team megalis": {
+      "team": "Team Megalis",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|太陽工業ランニング部": {
+      "team": "太陽工業ランニング部",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|終電はない": {
+      "team": "終電はない",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "general|耳のある亀": {
+      "team": "耳のある亀",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
+    },
+    "sponsor|jpm yamanote walkers": {
+      "team": "Jpm Yamanote Walkers",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-14T17:00:56.498811+09:00"
     }
   }
 }
