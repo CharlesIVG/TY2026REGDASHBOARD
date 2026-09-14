@@ -1,5 +1,29 @@
 [
   {
+    "ts": 1789371036952,
+    "team": "Horizon International School Team C",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789371036952,
+    "team": "Saint Ernesto's Pilgrimage",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789371036952,
+    "team": "Team Sssa",
+    "course": "full",
+    "channel": "general"
+  },
+  {
+    "ts": 1789371036952,
+    "team": "きこりんず",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789369247133,
     "team": "Horizon International School Team A",
     "course": "full",
@@ -873,30 +897,6 @@
     "ts": 1789137044933,
     "team": "なかふじせき",
     "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789133469036,
-    "team": "Team Hankokies",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789131653782,
-    "team": "パトラン境坂東グループ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789126234349,
-    "team": "Profound Assassins",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789124441598,
-    "team": "Laurus Superheroes",
-    "course": "quarter",
     "channel": "sponsor"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T16:00:47.133407+09:00",
+  "updated": "2026-09-14T16:30:36.952240+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -6786,6 +6786,30 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-14T16:00:47.133407+09:00"
+    },
+    "general|horizon international school team c": {
+      "team": "Horizon International School Team C",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:30:36.952240+09:00"
+    },
+    "general|saint ernesto's pilgrimage": {
+      "team": "Saint Ernesto's Pilgrimage",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:30:36.952240+09:00"
+    },
+    "general|team sssa": {
+      "team": "Team Sssa",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:30:36.952240+09:00"
+    },
+    "general|きこりんず": {
+      "team": "きこりんず",
+      "course": "full",
+      "channel": "general",
+      "firstSeen": "2026-09-14T16:30:36.952240+09:00"
     }
   }
 }
