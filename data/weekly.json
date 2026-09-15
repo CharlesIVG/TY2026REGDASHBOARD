@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T23:30:35.794403+09:00",
+  "generated_at": "2026-09-16T00:00:55.511494+09:00",
   "goal": 1100,
   "closes": "2026-09-16",
-  "daysRemaining": 1,
+  "daysRemaining": 0,
   "cumulative": 1041,
   "status": "amber",
   "reason": "below_target",
