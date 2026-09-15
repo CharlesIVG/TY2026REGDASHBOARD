@@ -1,5 +1,35 @@
 [
   {
+    "ts": 1789448441133,
+    "team": "Cap Boldness",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789448441133,
+    "team": "Cap Freedom",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789448441133,
+    "team": "Cap Fun",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789448441133,
+    "team": "Cap Modesty",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789448441133,
+    "team": "Cis Tokyo Team 2",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789446633618,
     "team": "Ms-Runrates",
     "course": "half",
@@ -868,35 +898,5 @@
     "team": "てっちゃん　Sisters",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789297245579,
-    "team": "Team MoguMogu",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789293664199,
-    "team": "Verde Jade",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789293664199,
-    "team": "Man Fathers",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789291879366,
-    "team": "ビーンズ",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789288098032,
-    "team": "Chicken Warriors",
-    "course": "full",
-    "channel": "general"
   }
 ]
