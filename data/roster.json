@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T14:00:41.133353+09:00",
+  "updated": "2026-09-15T14:30:32.100536+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7236,6 +7236,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-15T14:00:41.133353+09:00"
+    },
+    "sponsor|philips東京5": {
+      "team": "Philips東京5",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-15T14:30:32.100536+09:00"
     }
   }
 }

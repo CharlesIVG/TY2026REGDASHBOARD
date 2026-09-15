@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789450232100,
+    "team": "Philips東京5",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789448441133,
     "team": "Cap Boldness",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1789299033947,
     "team": "てっちゃん　Brothers",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789299033947,
-    "team": "てっちゃん　Sisters",
     "course": "half",
     "channel": "sponsor"
   }
