@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789462394398,
+    "team": "Ms-Jersey-City",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789452041645,
     "team": "Cap Honesty",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1789304447773,
     "team": "Tim-Hore",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789299033947,
-    "team": "The Regular 4",
     "course": "full",
     "channel": "general"
   }
