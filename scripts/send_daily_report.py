@@ -206,6 +206,37 @@ def load_teamsize():
         return None
 
 
+def _close_phrase(wk) -> str:
+    """Close-status line, correct before / on / after the registration close.
+
+    Computed from the plan's close date (weekly.json 'closes') relative to
+    today in JST, so it keeps reading sensibly once the date passes rather than
+    freezing at the clamped daysRemaining=0. General entry closed 14 Sept;
+    sponsor entry closes 19:00 on 16 Sept - set data/plan.json 'closes' to the
+    last day registration is open in any channel so the report reflects it.
+    """
+    cs = wk.get("closes")
+    days = wk.get("daysRemaining")
+    closed = False
+    if cs:
+        try:
+            cd = datetime.strptime(cs, "%Y-%m-%d").date()
+            today = datetime.now(JST).date()
+            days = (cd - today).days
+            closed = today > cd
+        except ValueError:
+            pass
+    if closed:
+        return "registration has closed"
+    if days is None:
+        return ""
+    if days <= 0:
+        return "registration closes today"
+    if days == 1:
+        return "1 day until registration closes"
+    return f"{days} days until registration closes"
+
+
 def render_text(summary) -> str:
     """Plain numbers. No graphics, no tables, no decoration - a straight
     status read for the team, short enough to take in on a phone."""
@@ -231,15 +262,15 @@ def render_text(summary) -> str:
         cum = wk.get("cumulative", 0)
         target = wk.get("targetNow")
         goal = wk.get("goal", EVENT_GOAL)
-        days = wk.get("daysRemaining")
         L.append(f"STATUS: {status}")
         if target:
             diff = round(cum - target)
             word = "ahead of" if diff >= 0 else "behind"
             L.append(f"  {cum} teams vs {round(target)} planned by now ({abs(diff)} {word} plan)")
         L.append(f"  {cum} of {goal} goal ({pct(cum, goal)})")
-        if days is not None:
-            L.append(f"  {days} days until registration closes")
+        phrase = _close_phrase(wk)
+        if phrase:
+            L.append(f"  {phrase}")
         L.append("")
 
     # --- yesterday ---
@@ -385,14 +416,14 @@ def render_html(summary) -> str:
         cum = wk.get("cumulative", 0)
         target = wk.get("targetNow")
         goal = wk.get("goal", EVENT_GOAL)
-        days = wk.get("daysRemaining")
         line = ""
         if target:
             diff = round(cum - target)
             word = "ahead of plan" if diff >= 0 else "behind plan"
             line = f"{cum} teams vs {round(target)} planned by now &middot; {abs(diff)} {word}"
-        if days is not None:
-            line += (" &middot; " if line else "") + f"{days} days until close"
+        phrase = _close_phrase(wk)
+        if phrase:
+            line += (" &middot; " if line else "") + phrase
         rows.append(f"""
       <tr><td style="padding:22px 22px 0 22px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
