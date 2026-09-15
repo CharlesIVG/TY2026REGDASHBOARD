@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789441242502,
+    "team": "Illumina D",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789416041508,
     "team": "CAP Team 12",
     "course": "quarter",
@@ -892,11 +898,5 @@
     "team": "ルネホンコマ",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789282843137,
-    "team": "Ms-Fig/Ra",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
