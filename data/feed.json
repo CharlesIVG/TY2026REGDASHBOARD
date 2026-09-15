@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789446633618,
+    "team": "Ms-Runrates",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789441242502,
     "team": "Illumina D",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1789288098032,
     "team": "Chicken Warriors",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789282843137,
-    "team": "ルネホンコマ",
     "course": "full",
     "channel": "general"
   }
