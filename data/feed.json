@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789565435541,
+    "team": "Ms_Qrp",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789563643138,
     "team": "AFLN",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789317034824,
     "team": "Hot Babes",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789313449408,
-    "team": "Tokyo Komodo",
     "course": "full",
     "channel": "general"
   }
