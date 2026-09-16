@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789522241135,
+    "team": "エーアイエムサービス",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789518643308,
     "team": "Cap Team Serendipity",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789305951623,
     "team": "Kaizen",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789305951623,
-    "team": "Sole Mates Km",
     "course": "full",
     "channel": "general"
   }
