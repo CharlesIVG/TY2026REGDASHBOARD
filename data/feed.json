@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789527640522,
+    "team": "Laurus エーアイエムサービス",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789522241135,
     "team": "エーアイエムサービス",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1789308053817,
     "team": "うみそら応援団",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789305951623,
-    "team": "Kaizen",
     "course": "full",
     "channel": "general"
   }

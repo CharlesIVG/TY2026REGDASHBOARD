@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T11:30:35.919142+09:00",
+  "updated": "2026-09-16T12:00:40.522600+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7284,6 +7284,12 @@
       "course": "quarter",
       "channel": "sponsor",
       "firstSeen": "2026-09-16T10:30:41.135772+09:00"
+    },
+    "sponsor|laurus エーアイエムサービス": {
+      "team": "Laurus エーアイエムサービス",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-16T12:00:40.522600+09:00"
     }
   }
 }
