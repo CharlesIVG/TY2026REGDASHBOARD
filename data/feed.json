@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789545640229,
+    "team": "Ms-Rpeater",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789538440114,
     "team": "FTP For The People",
     "course": "full",
@@ -890,12 +896,6 @@
   {
     "ts": 1789309835175,
     "team": "Thatsonme",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789308053817,
-    "team": "うみそら",
     "course": "full",
     "channel": "general"
   }
