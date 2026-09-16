@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789574444620,
+    "team": "For The People",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789565435541,
     "team": "Ms_Qrp",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1789318844040,
     "team": "Burger, Schnitzel & Sushi",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789317034824,
-    "team": "Hot Babes",
     "course": "full",
     "channel": "general"
   }
