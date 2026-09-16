@@ -50,6 +50,7 @@ DAILY_PATH = os.path.join(DATA_DIR, "daily.json")
 PLAN_PATH = os.path.join(DATA_DIR, "plan.json")
 WEEKLY_PATH = os.path.join(DATA_DIR, "weekly.json")
 ROSTER_PATH = os.path.join(DATA_DIR, "roster.json")
+MANUAL_PATH = os.path.join(DATA_DIR, "manual_entries.json")
 DAILY_DAYS = 21  # days of history to keep in daily.json (chart shows the last 7)
 
 HISTORY_FIELDS = [
@@ -219,6 +220,28 @@ def update_feed_from_roster(roster: list, now_ms: int, now_jst: datetime) -> int
             f.write("\n")
 
     return len(new_entries)
+
+
+def load_manual_entries():
+    """Off-platform registrations to add on top of the Webscorer counts.
+
+    Some sponsor teams register by spreadsheet, not through the Webscorer
+    registration list this collector polls. They later appear in Webscorer's
+    START list, but never the REGISTRATION list - two different endpoints - so
+    adding them here does NOT double-count. Populate data/manual_entries.json
+    with scripts/build_manual_entries.py.
+
+    Returns the dict only when the file exists and is enabled; missing,
+    disabled, or corrupt returns None (no adjustment applied).
+    """
+    if not os.path.exists(MANUAL_PATH):
+        return None
+    try:
+        with open(MANUAL_PATH, encoding="utf-8") as f:
+            m = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+    return m if isinstance(m, dict) and m.get("enabled") else None
 
 
 def seed_feed_file() -> None:
@@ -577,6 +600,40 @@ def main() -> int:
     # present only when sourced from Webscorer; None means "not tracked"
     general = data.get("general")
     sponsor = data.get("sponsor")
+
+    # --- off-platform manual entries (sponsor block bookings entered by
+    # spreadsheet, absent from the Webscorer registration list). Added on top
+    # so the dashboard shows the true total. No double-count: these hit the
+    # Webscorer START list later, not the REGISTRATION list we poll.
+    manual = load_manual_entries()
+    if manual:
+        mf = int(manual.get("full", 0) or 0)
+        mh = int(manual.get("half", 0) or 0)
+        mq = int(manual.get("quarter", 0) or 0)
+        madd = mf + mh + mq
+        if madd:
+            full += mf
+            half += mh
+            quarter += mq
+            total += madd
+            ch = (manual.get("channel") or "sponsor").lower()
+            if ch == "general":
+                general = int(general or 0) + madd
+            else:
+                sponsor = int(sponsor or 0) + madd
+            bc = data.get("byChannel")
+            if isinstance(bc, dict):
+                slot = bc.setdefault(
+                    ch, {"total": 0, "rowCount": 0, "distinctTeams": None,
+                         "full": 0, "half": 0, "quarter": 0}
+                )
+                slot["total"] = int(slot.get("total", 0) or 0) + madd
+                slot["full"] = int(slot.get("full", 0) or 0) + mf
+                slot["half"] = int(slot.get("half", 0) or 0) + mh
+                slot["quarter"] = int(slot.get("quarter", 0) or 0) + mq
+            source = f"{source}+manual"
+            print(f"Applied manual layer: +{madd} teams ({ch}) "
+                  f"[full+{mf} half+{mh} quarter+{mq}]", file=sys.stderr)
 
     now_utc = datetime.now(timezone.utc)
     now_jst = now_utc.astimezone(JST)
