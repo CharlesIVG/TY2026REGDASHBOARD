@@ -129,25 +129,67 @@ def find_column(headers: list, *names: str):
     return None
 
 
+# A row whose team-name cell carries one of these is a form template /
+# worked example, not a real entry (e.g. JLR's "JLR- xxxx（例です）").
+# Skipped so it is not counted as a team. Matched on the team-name cell
+# only, so a real team is never dropped.
+EXAMPLE_MARKERS = ("（例", "(例", "例です", "example", "xxxx", "サンプル", "sample")
+
+
+def find_header_row(ws, max_scan: int = 6):
+    """Row index (1-based) of the header row, plus its cell values.
+
+    Webscorer exports put headers on row 1. The off-platform company
+    sheets (INDEED, BNP, JLR, ...) put a merged banner on row 1 and the
+    real headers on row 2. Rather than hard-code either, scan the first
+    few rows and take the first one that actually carries a 'Last Name'
+    column - that is unambiguously the header row in every layout seen.
+    """
+    rows = list(ws.iter_rows(min_row=1, max_row=max_scan, values_only=True))
+    for idx, row in enumerate(rows, start=1):
+        if row and find_name_columns(list(row)):
+            return idx, list(row)
+    # Fall back to row 1 so the original error path still fires.
+    return 1, (list(rows[0]) if rows else [])
+
+
+def _is_example_row(name_value) -> bool:
+    if name_value in (None, ""):
+        return False
+    v = str(name_value).strip().lower()
+    return any(m.lower() in v for m in EXAMPLE_MARKERS)
+
+
 def read_export(path: str, course_map: dict) -> list:
-    """Return one dict per team: {size, course}. No personal data."""
+    """Return one dict per team: {size, course}. No personal data.
+
+    Handles both the Webscorer registration export (headers on row 1,
+    one row per team) and the off-platform company sheets (headers on
+    row 2, still one row per team, members spread across columns). The
+    member-counting logic is identical - team size is the number of
+    'Last Name' blocks that carry a surname on that row.
+    """
     wb = openpyxl.load_workbook(path, data_only=True)
     ws = wb[wb.sheetnames[0]]
 
-    headers = [c.value for c in ws[1]]
+    header_row, headers = find_header_row(ws)
     name_cols = find_name_columns(headers)
     dist_col = find_column(headers, "distance", "category")
+    team_col = find_column(headers, "team name", "teamname")
 
     if not name_cols:
         raise ValueError(
             f"{os.path.basename(path)}: no 'Last Name' columns found - "
-            "is this a Webscorer registration export?"
+            "is this a Webscorer registration export or a company sheet?"
         )
 
     teams = []
-    for row in ws.iter_rows(min_row=2, values_only=True):
+    for row in ws.iter_rows(min_row=header_row + 1, values_only=True):
         if row is None or all(v in (None, "") for v in row):
             continue
+        if team_col is not None and team_col < len(row) \
+                and _is_example_row(row[team_col]):
+            continue  # form template / worked-example row
         # Team size = number of member blocks that carry a surname.
         size = sum(
             1 for c in name_cols
