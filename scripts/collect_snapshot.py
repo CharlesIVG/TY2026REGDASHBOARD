@@ -516,6 +516,14 @@ def rebuild_weekly(now_jst: datetime) -> None:
                 if consecutive_weak >= weak_for_red:
                     status, reason = "red", "two_weak_weeks"
 
+                # Goal reached overrides everything: once a week's cumulative
+                # is at or above the campaign goal, that is the end state. A
+                # soft-week trend from earlier in the campaign should never
+                # paint a goal-meeting week red or amber. Applied last so it
+                # wins over the trend escalations above.
+                if plan.get("goal") and current >= plan["goal"]:
+                    status, reason = "green", "goal_reached"
+
                 entry["status"] = status
                 entry["reason"] = reason
                 entry["consecutiveWeak"] = consecutive_weak
@@ -544,6 +552,10 @@ def rebuild_weekly(now_jst: datetime) -> None:
             overall, overall_reason = "red", "below_target"
         if consecutive_weak >= weak_for_red:
             overall, overall_reason = "red", "two_weak_weeks"
+        # Goal reached is the end state - hitting the campaign goal always
+        # shows green, overriding a stale soft-week trend from earlier weeks.
+        if plan.get("goal") and latest_total >= plan["goal"]:
+            overall, overall_reason, overall_short = "green", "goal_reached", 0.0
     else:
         overall, overall_reason, overall_short = "pending", "not_started", None
 
