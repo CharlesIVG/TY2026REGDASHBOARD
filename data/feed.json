@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789563643138,
+    "team": "AFLN",
+    "course": "full",
+    "channel": "general"
+  },
+  {
     "ts": 1789552839761,
     "team": "Team Spirit",
     "course": "quarter",
@@ -890,12 +896,6 @@
   {
     "ts": 1789313449408,
     "team": "Tokyo Komodo",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789309835175,
-    "team": "Genshin Never Dies",
     "course": "full",
     "channel": "general"
   }
