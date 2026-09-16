@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T01:31:08.850401+09:00",
+  "updated": "2026-09-17T02:00:45.748109+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7332,6 +7332,12 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-17T01:00:44.620895+09:00"
+    },
+    "sponsor|ms-walkie-talkies": {
+      "team": "Ms-Walkie-Talkies",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T02:00:45.748109+09:00"
     }
   }
 }

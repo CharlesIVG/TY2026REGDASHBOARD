@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789578045748,
+    "team": "Ms-Walkie-Talkies",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789574444620,
     "team": "For The People",
     "course": "full",
@@ -892,11 +898,5 @@
     "team": "Team　T.N.T",
     "course": "half",
     "channel": "sponsor"
-  },
-  {
-    "ts": 1789318844040,
-    "team": "Burger, Schnitzel & Sushi",
-    "course": "full",
-    "channel": "general"
   }
 ]
