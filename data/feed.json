@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789552839761,
+    "team": "Team Spirit",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789549242713,
     "team": "Team Walkie-Talkies",
     "course": "half",
@@ -890,12 +896,6 @@
   {
     "ts": 1789309835175,
     "team": "Genshin Never Dies",
-    "course": "full",
-    "channel": "general"
-  },
-  {
-    "ts": 1789309835175,
-    "team": "Philips6",
     "course": "full",
     "channel": "general"
   }
