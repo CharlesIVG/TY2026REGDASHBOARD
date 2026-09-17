@@ -2,15 +2,15 @@
   "_note": "Off-platform sponsor registrations (spreadsheet), added on top of the Webscorer registration counts by collect_snapshot.py. These appear in Webscorer's START list later but not the REGISTRATION list we poll, so there is no double-count. Rebuild with scripts/build_manual_entries.py; set \"enabled\": false to remove the layer.",
   "enabled": true,
   "channel": "sponsor",
-  "asOf": "2026-09-16",
-  "teams": 54,
-  "people": 193,
-  "full": 23,
-  "half": 27,
+  "asOf": "2026-09-17",
+  "teams": 62,
+  "people": 225,
+  "full": 25,
+  "half": 33,
   "quarter": 4,
   "distribution": {
     "2": 6,
     "3": 11,
-    "4": 37
+    "4": 45
   }
 }
