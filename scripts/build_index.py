@@ -83,12 +83,14 @@ const CONFIG = {
   UPDATE_MINUTES: 30,          // collector cadence, shown in the UI
   CHART_SCALE: 100,                 // bar chart tops out at 100 teams/day; auto-grows if a day exceeds it
   LEGS: {
-    // slots = final registered count per course (registration closed 16 Sep 2026).
+    // slots = final registered count per course (registration closed 16 Sep 2026,
+    // incl. all off-platform sponsor teams: INDEED, BNP, JLR, HPI, CBRE).
     // Set to actuals so each card reads 100% / 0 remaining rather than the earlier
-    // planning allocation (700/250/150). Rebump if a late off-platform block (e.g. CBRE) is added.
-    full:    { label: "Full",        labelJa: "フル",              sub: "≈ 42 km", subJa: "約42km",   color: "#9ACD32", slots: 692 },
-    half:    { label: "Half",        labelJa: "ハーフ",            sub: "≈ 21 km", subJa: "約21km",   color: "#F89825", slots: 278 },
-    quarter: { label: "Half-a-Half", labelJa: "ハーフ・ア・ハーフ", sub: "≈ 10 km", subJa: "約10km",   color: "#7EB7E4", slots: 130 }
+    // planning allocation (700/250/150). Total = 695+284+131 = 1110
+    // (incl. 2 late Webscorer sponsor teams on 17 Sept).
+    full:    { label: "Full",        labelJa: "フル",              sub: "≈ 42 km", subJa: "約42km",   color: "#9ACD32", slots: 695 },
+    half:    { label: "Half",        labelJa: "ハーフ",            sub: "≈ 21 km", subJa: "約21km",   color: "#F89825", slots: 284 },
+    quarter: { label: "Half-a-Half", labelJa: "ハーフ・ア・ハーフ", sub: "≈ 10 km", subJa: "約10km",   color: "#7EB7E4", slots: 131 }
   }
 };
 /* ============================================================ */
