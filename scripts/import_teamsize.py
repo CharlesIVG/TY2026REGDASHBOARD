@@ -170,18 +170,26 @@ def read_export(path: str, course_map: dict) -> list:
     'Last Name' blocks that carry a surname on that row.
     """
     wb = openpyxl.load_workbook(path, data_only=True)
-    ws = wb[wb.sheetnames[0]]
 
-    header_row, headers = find_header_row(ws)
-    name_cols = find_name_columns(headers)
-    dist_col = find_column(headers, "distance", "category")
-    team_col = find_column(headers, "team name", "teamname")
+    # Pick the data sheet: the first worksheet whose header row actually
+    # carries a 'Last Name' column. Some exports prepend an 'Export Summary'
+    # tab or append an 'Event Waiver' tab, so sheet 0 is not always the data.
+    ws = header_row = headers = name_cols = None
+    for cand in wb.worksheets:
+        hr, hdrs = find_header_row(cand)
+        cols = find_name_columns(hdrs)
+        if cols:
+            ws, header_row, headers, name_cols = cand, hr, hdrs, cols
+            break
 
     if not name_cols:
         raise ValueError(
-            f"{os.path.basename(path)}: no 'Last Name' columns found - "
-            "is this a Webscorer registration export or a company sheet?"
+            f"{os.path.basename(path)}: no 'Last Name' columns found in any "
+            "sheet - is this a Webscorer registration export or a company sheet?"
         )
+
+    dist_col = find_column(headers, "distance", "category")
+    team_col = find_column(headers, "team name", "teamname")
 
     teams = []
     for row in ws.iter_rows(min_row=header_row + 1, values_only=True):
