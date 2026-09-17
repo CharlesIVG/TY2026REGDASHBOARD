@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:30:34.920944+09:00",
+  "updated": "2026-09-17T18:00:40.272355+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7368,6 +7368,12 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-17T17:00:38.563818+09:00"
+    },
+    "sponsor|ms-lyy": {
+      "team": "Ms-Lyy",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T18:00:40.272355+09:00"
     }
   }
 }

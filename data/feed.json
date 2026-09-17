@@ -1,5 +1,11 @@
 [
   {
+    "ts": 1789635640272,
+    "team": "Ms-Lyy",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789632038563,
     "team": "Ms-Ist-Walkers1",
     "course": "half",
@@ -892,11 +898,5 @@
     "team": "Philipsひがかん",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789345203116,
-    "team": "LAURUS てっちゃん　Brothers",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]
