@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T16:30:31.349495+09:00",
+  "updated": "2026-09-17T17:00:38.563818+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7356,6 +7356,18 @@
       "course": "half",
       "channel": "sponsor",
       "firstSeen": "2026-09-17T15:30:34.709954+09:00"
+    },
+    "sponsor|ms-ist-walkers1": {
+      "team": "Ms-Ist-Walkers1",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T17:00:38.563818+09:00"
+    },
+    "sponsor|ms-ist-walkers2": {
+      "team": "Ms-Ist-Walkers2",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T17:00:38.563818+09:00"
     }
   }
 }
