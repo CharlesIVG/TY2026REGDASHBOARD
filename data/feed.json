@@ -1,5 +1,23 @@
 [
   {
+    "ts": 1789626634709,
+    "team": "CAP Team Spirit",
+    "course": "quarter",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789626634709,
+    "team": "Laurus For The People",
+    "course": "full",
+    "channel": "sponsor"
+  },
+  {
+    "ts": 1789626634709,
+    "team": "MS Team Walkie-Talkies",
+    "course": "half",
+    "channel": "sponsor"
+  },
+  {
     "ts": 1789578045748,
     "team": "Ms-Walkie-Talkies",
     "course": "full",
@@ -880,23 +898,5 @@
     "team": "Gka Kurihara",
     "course": "full",
     "channel": "general"
-  },
-  {
-    "ts": 1789342236029,
-    "team": "Ms-Biriyani Bullet Train 1",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789342236029,
-    "team": "Team Ka",
-    "course": "half",
-    "channel": "sponsor"
-  },
-  {
-    "ts": 1789331443947,
-    "team": "Team　T.N.T",
-    "course": "half",
-    "channel": "sponsor"
   }
 ]

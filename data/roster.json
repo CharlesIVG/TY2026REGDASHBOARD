@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:00:39.829983+09:00",
+  "updated": "2026-09-17T15:30:34.709954+09:00",
   "teams": {
     "general|130　鉄道部①": {
       "team": "130　鉄道部①",
@@ -7338,6 +7338,24 @@
       "course": "full",
       "channel": "sponsor",
       "firstSeen": "2026-09-17T02:00:45.748109+09:00"
+    },
+    "sponsor|cap team spirit": {
+      "team": "CAP Team Spirit",
+      "course": "quarter",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T15:30:34.709954+09:00"
+    },
+    "sponsor|laurus for the people": {
+      "team": "Laurus For The People",
+      "course": "full",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T15:30:34.709954+09:00"
+    },
+    "sponsor|ms team walkie-talkies": {
+      "team": "MS Team Walkie-Talkies",
+      "course": "half",
+      "channel": "sponsor",
+      "firstSeen": "2026-09-17T15:30:34.709954+09:00"
     }
   }
 }
